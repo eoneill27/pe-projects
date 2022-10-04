@@ -1,0 +1,21 @@
+#Emily's Daily Journal
+
+##October 3, 2022
+
+Started on HTML today. It's a review for me, but fun to do, fun to be working on a bit of code. 
+- <h1>, <h2>, <p>, <ul>, <ol>
+
+I watched the video about the problems with VSCode [The Biggest Threat to Innovation of Our Time] (https://youtu.be/mjY5qND8c7U) and wrote this down - "A fair market ensures that innovation takes place." When a giant corporation makes something free, they are not doing it out of a charitable impulse, and they are making sure that they've cornered the market. Of course, we still use Gmail, Google Fonts, and Github. But I thought the point made in the video was a good one, and it definitely makes me think twice about blindly choosing the free option.
+
+File types - the extension tells the parser or the program opening the file which rules to follow
+- JPEG, PNG
+- SVG
+- plain text 
+- Rich Text (RTF)
+- HTML
+
+UTF-8 - widely accepted, make sure your code works everywhere. 
+
+Looking forward to getting the license for Affinity Designer!
+
+Git seems to be working for me. I'll commit this to a new repository that I've created on my Desktop - I'll have to check in to see if I should be saving this journal somewhere else. 
