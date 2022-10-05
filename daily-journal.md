@@ -1,5 +1,24 @@
 #Emily's Daily Journal
 
+##October 5, 2022
+
+###Standup
+Yesterday I configured my iTerm, got it to open directly in my pe-projects directory, and also set it up to be able to open files in Sublime Text, which I think is really cool. I also changed some settings in Sublime Text and installed Emmet. 
+
+One thing I'm confused about in Sublime - what is the difference between having "Indent using spaces" selected and not having it selected? If you hit tab either way, the cursor indents whatever number of spaces you have set the tab width at - right? I don't think I see a difference in how the text editor behaves when this setting is selected or unselected, but I am certain I am missing something! 
+
+I'm enjoying the HTML reinforcements and practice. I see that we're heading in a slightly different direction today, but it's all related to the overarching goal of creating a personal business card website. 
+
+A blocker yesterday was looking at the Milestones page and feeling a little overwhelmed. I know that we're not necessarily expected to get through everything on the Milestones page every day, but I want to - I have to accept that it's not always going to be possible, but it is going to be there for me to return to when I have time.
+
+###Today's lesson - Networking
+I get a little nervous when it comes to networking. I think it's due to some imposter syndrome. Really putting myself out there and having confidence in this thing that I've barely begun makes me feel uncomfortable. I also haven't told anyone at work that I'm doing this - I need to get on that, pronto. It's real, it's what I want, so I need to own it even though it is a little hard.
+
+###To-dos
+[x] create Substack account
+[x] write an article and publish it (30 minute limit)
+[x] network flow chart in Whimsical
+
 ##October 4, 2022
 
 ###Standup
