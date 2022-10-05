@@ -1,5 +1,31 @@
 #Emily's Daily Journal
 
+##October 4, 2022
+
+###Standup
+Yesterday I learned about some different file types. I hadn't realized that SVG files took up so little space relative to JPEG and PNG files - that's pretty awesome. Also, really neat that the code can be modified so easily after the fact - I'm looking forward to learning how to do that.
+
+I also learned that Macs with M1 and M2 chips restart the PRAM by default when you shut down the computer and turn it back on. 
+
+HTML was a bit of a review for me yesterday, but I had fun doing the exercise - I like HTML.
+
+And I set up a git repository in my pe-projects folder and got my daily journal going.
+
+More HTML today! I'd like to poke around MDN a bit - I've dipped in before, but only for really specific questions and I'd like to get a better overview of the site.
+
+No blockers!
+
+###Questions
+- how do I change preferences/settings in Sublime? Specifically, how do I make the tab size stick? (note - I watched Derek's video and figured it out)
+- what is the difference between "indent using spaces" and "indent using tab?"
+
+###To-Dos
+[x] review HTML doc structure
+[x] create 4-page website
+[] browsing with a keyboard challenge
+[] check out MDN
+
+
 ##October 3, 2022
 
 Started on HTML today. It's a review for me, but fun to do, fun to be working on a bit of code. 
