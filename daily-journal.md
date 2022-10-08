@@ -1,5 +1,39 @@
 # Emily's Daily Journal
 
+## October 7, 2022
+
+### Standup 
+
+Yesterday I worked on my web portal, which was really fun. It definitely needs some refinement - I want to include the sites that I access every day at the top. And I want it to look nicer! It will be an ongoing work in progress. 
+
+Going through yesterday's lesson, I was struck by a couple of things:
+- Get used to leaving your ego out of it and following the requirements as a first priority. This is a great piece of advice.
+- I had no idea that "target" can be set to something other than _blank, _self, _parent, or _top. I don't know how often I'll do it, but I like knowing that I can make links open up in the same tab.
+- I really want to watch Halt and Catch Fire.
+
+Today, more HTML - I'm pumped to add some styling to my web pages! 
+
+Personal side note - it's the first day of the MLB playoffs and the first time the Mariners have been in the post season since 2001. I am prepared to have my heart broken again, but I am also so hopeful and excited! Go Mariners!
+
+### Today's lesson
+
+HTML display types
+Block elements stack
+Inline elements go in a line and wrap
+
+Default display types can be changed with style attribute
+
+Don't forget that Headings are not about styling - they are about describing the hierarchy of importance
+
+p and h elements should not have lists inside - but lists can include both of those things
+
+### To-dos 
+
+- [x] discover new HTML elements
+- [x] break down printed material
+- [x] improve project websites
+
+
 ## October 6, 2022
 
 ### Standup
@@ -30,12 +64,12 @@ Alina recommended The Jealous Curator
 
 ### To-dos
 
-[x] research 40 minutes. Find great websites & put them into groups.
-[x] write about your research process for 10 minutes.
-[x] research business card websites. Find 5 examples
-[x] create Google Doc for those - take screenshots of each. Write down what you think the goals of the site are and how successful they are.
-[x] build web portal
-[x] set web portal to be home page
+- [x] research 40 minutes. Find great websites & put them into groups.
+- [x] write about your research process for 10 minutes.
+- [x] research business card websites. Find 5 examples
+- [x] create Google Doc for those - take screenshots of each. Write down what you think the goals of the site are and how successful they are.
+- [x] build web portal
+- [x] set web portal to be home page
 
 ### Questions
 
@@ -60,9 +94,9 @@ I get a little nervous when it comes to networking. I think it's due to some imp
 
 ### To-dos
 
-[x] create Substack account
-[x] write an article and publish it (30 minute limit)
-[x] network flow chart in Whimsical
+- [x] create Substack account
+- [x] write an article and publish it (30 minute limit)
+- [x] network flow chart in Whimsical
 
 ## October 4, 2022
 
@@ -87,16 +121,16 @@ No blockers!
 
 ### To-Dos
 
-[x] review HTML doc structure
-[x] create 4-page website
-[] browsing with a keyboard challenge
-[] check out MDN
+- [x] review HTML doc structure
+- [x] create 4-page website
+- [] browsing with a keyboard challenge
+- [] check out MDN
 
 
 ## October 3, 2022
 
 Started on HTML today. It's a review for me, but fun to do, fun to be working on a bit of code. 
-- <h1>, <h2>, <p>, <ul>, <ol>
+- h1, h2, p, ul, ol
 
 I watched the video about the problems with VSCode [The Biggest Threat to Innovation of Our Time] (https://youtu.be/mjY5qND8c7U) and wrote this down - "A fair market ensures that innovation takes place." When a giant corporation makes something free, they are not doing it out of a charitable impulse, and they are making sure that they've cornered the market. Of course, we still use Gmail, Google Fonts, and Github. But I thought the point made in the video was a good one, and it definitely makes me think twice about blindly choosing the free option.
 
