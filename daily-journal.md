@@ -1,5 +1,40 @@
 # Emily's Daily Journal
 
+## October 8, 2022
+
+### Standup
+
+Yesterday I explored some additional HTML tags and played around with them in my 4-page website. I understand block and inline display better than I did before - the visuals in the lesson were very helpful. 
+
+This weekend I want to spend some extra time going back over Milestones, working on sprucing up my 4-page site and my portal, and tackling the choose your own adventure exercise. I'm feeling like I'm on top of the lessons, but I haven't had much time to do anything extra. Monday is a holiday here and I have Tuesday off, so I've got four days coming up where I'll have considerably more time to devote to the extra stuff.
+
+I started reading The Design of Everyday Things last night. I saw an instance of very bad design in a Paris hotel - I'll post it today. I was reminded of it when he was talking about doors at the very beginning of the book. 
+
+### Today's lesson
+
+Take a breather. Things are going really well! 
+
+Inline styles
+text-transform
+background-color
+margin
+padding
+
+FTP - downloaded Cyberduck, got it set up, added files to the alpha-net.
+FTP client opens a connection to the server and gives you an interface to drag your files over to that server. 
+
+Chatted with Derek. He reassured me that the Milestones are nothing to worry about. Look at them if you're interested and/or have time. The pink ones are the only ones that are more immediately actionable. The course should feel bite size. He said everyone in the class is doing really well - the group is notable for its positivity, support and high level of engagement.
+
+Derek has an idea to create a map of books for the course - recommended readings but linked to prerequisite readings, maybe linked to author videos/talks/podcasts. If you're thinking about reading this book, watch this video first. Interactive collections. What books in what order? Might be a good project for me to work on. Would learn about relational databaes. 
+
+### To-dos
+
+- [x] get FTP set up
+- [x] put a file up on the alpha-net
+- [] work on inline styles 
+- [] choose your own adventure
+
+
 ## October 7, 2022
 
 ### Standup 
