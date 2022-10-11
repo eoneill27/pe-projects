@@ -1,5 +1,57 @@
 # Emily's Daily Journal
 
+## October 10, 2022
+
+### Standup
+
+Today is Canadian Thanksgiving here and also Indigenous Peoples' Day in the US. I've been streaming KEXP radio and their morning show is playing a pretty great Indigenous Peoples' Day program right now. You can check it out at kexp.org.
+
+I thought I would do some work yesterday, but I pretty much took the day off and that was good. On Saturday, I got Cyberduck set up and moved my project files over to the PE Projects server. I think it all went pretty smoothly for me. 
+
+Today I'm glad we have what seems to be kind of a catch up day. Apart from the exercises, I want to take a look at Divvy and get that going. My windows tend to not be well-arranged and it will be nice to have a way to manage that. I also want to collect some helpful design-related links in my portal, like the Sorted CSS Colors and Safe Web Fonts pages - I'd like to to have resources like that all in one place. 
+
+No blockers!
+
+### Today's lesson
+
+Rubber duck debugging - a method of debugging code by articulating a problem in spoken or written natural language. Teaching someone or explaining to someone who knows nothign about programming forces evaluation of the problem from different perspectives and can provide a deeper understanding. Explaining to an inanimate object is fine!
+
+If you run into a problem - go back to the last bit you are sure of. Start there and write out each of the steps/thoughts until you get to the point where you are stuck. Say it out loud as you write and think. Sometimes you'll answer your own question. If not, you'll have a clear thought process outlined so when someone else is ready to help  you, the context is clear.
+
+Pair programming - 2 programmers work together at one workstation. 1 driver writes the code, 1 navigator/observer reviews each line of code as it is typed in. Switch roles frequently. 
+
+We create better software if we work in a series of small steps.
+Frequent small commits
+But don't really want to commit code without review.
+Pair programming allows for continuous review.
+
+Programmers don't know everything - but they do know how to look everything up.
+
+Listen carefully to other people's questions.
+
+### Git Tower
+
+Got the Tower license from Derek. Seems really easy to navigate - friendly interface that makes it simple to stage files and then commit them. Lots of space for a detailed commit message. Notes from the intro documentation - 
+
+- when crafting a commit, it's important to only include changes that belong together. Never mix up changes from multiple, different topics in a single commit. Fixing 2 different bugs should produce at least 2 separate commits. 
+- When developing a larger feature, every small aspect of it might be worth its own commit.
+- Small commits that contain one topic make it easier for members of your team to understand the changes - and to possibly undo them if something went wrong.
+- But often you will work on multiple aspects in parallel - can't always guarantee that you make changes for one and only one topic. This is where the staging area comes in - allows you to determine which of your local changes shall be committed. Changes that were added to the staging area will be included in the next commit.
+- Write good commit messags. Begin with a short summary of your changes. The body of the message should provide detailed answers to the following questions: what was the motivation for the change? How does it differ from the previous version?
+- Never commit something that is half done
+- Don't commit code that you "think" is working - test it well before you commit it to the repository
+- Commit often - make it a habit
+
+### To-dos
+
+- [x] Divvy
+- [x] Add design links to portal
+- [] Add to visual inspiration folder
+- [x] Work on inline styles
+- [] Choose your own adventure
+- [x] Go for a long walk
+
+
 ## October 8, 2022
 
 ### Standup
