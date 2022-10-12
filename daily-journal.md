@@ -1,5 +1,47 @@
 # Emily's Daily Journal
 
+## October 11, 2022
+
+### Standup
+
+Yesterday was a good day of getting things organized and feeling comfortable in where I'm at in the class. I got a start with Tower for Git, which is a much more user-friendly interface than the command line. I want to keep practicing with the command line to commit files just so I don't forget how to do it, but Tower makes things really simple. They have a good resource on their website for total git newbies, which we obviously are not but it's still helpful to take a look at it! Lots of other useful learning materials on there too.
+
+I definitely need to work on prioritizing my visual inspiration folder. Having this task as a constant in the back of my brain is a new habit that I need to develop. I'm going to try to make a point today of taking some screenshots and building that muscle memory.
+
+No blockers today, go Mariners!
+
+### Today's lesson - 030: viewing source, site metadata, intro to Dev Tools
+
+A web crawler is a software application/bot that runs automated tasks to download webpages for the purpose of recording their content and how they are connected. A search engine can then search that evolving set of data. 
+
+CMD + OPT + i to open Chrome Dev tools.
+
+It is very hard and expensive to fix a huge mess once it's made - much easier to just do things well in the first place
+
+Thoughtful metadata in your html means services like social media and text messaging applications can display a richer set of information for the viewer.
+
+### First group meeting 
+
+We had our first group meeting at noon - me, Jake, Drew, Alina, Jess and eventually Derek. I don't think we talked about much that was course-related, but it was really nice to chat with everyone! 
+
+### Stuff I need to continue to work on
+
+html practice - get your websites doing what you want them to do. 
+- [] I need to figure out spacing and responsiveness. 
+- [] Why are the dots above your 4-pager nav bar going off the page? Do they do this in every browser?
+- [] responsive nav bar
+- [] add some divs? or sections? Don't want the text to stretch all the way across the page if the screen is big. 
+- [] file structure?
+
+### To-dos 
+
+- [] visual inspiration
+- [x] rich metadata exploration
+- [x] Lighthouse experiments
+- [x] looking at other people's code
+- [x] working on file structure
+
+
 ## October 10, 2022
 
 ### Standup
@@ -12,7 +54,7 @@ Today I'm glad we have what seems to be kind of a catch up day. Apart from the e
 
 No blockers!
 
-### Today's lesson
+### Today's lesson - 029: Being accountable for breaking more things more often
 
 Rubber duck debugging - a method of debugging code by articulating a problem in spoken or written natural language. Teaching someone or explaining to someone who knows nothign about programming forces evaluation of the problem from different perspectives and can provide a deeper understanding. Explaining to an inanimate object is fine!
 
@@ -62,7 +104,7 @@ This weekend I want to spend some extra time going back over Milestones, working
 
 I started reading The Design of Everyday Things last night. I saw an instance of very bad design in a Paris hotel - I'll post it today. I was reminded of it when he was talking about doors at the very beginning of the book. 
 
-### Today's lesson
+### Today's lesson - 027: FTP, style like it's 1992
 
 Take a breather. Things are going really well! 
 
@@ -102,7 +144,7 @@ Today, more HTML - I'm pumped to add some styling to my web pages!
 
 Personal side note - it's the first day of the MLB playoffs and the first time the Mariners have been in the post season since 2001. I am prepared to have my heart broken again, but I am also so hopeful and excited! Go Mariners!
 
-### Today's lesson
+### Today's lesson - 026: More HTML/display types & hierarchy
 
 HTML display types
 Block elements stack
@@ -131,7 +173,7 @@ I've really enjoyed reading everyone's Substack posts. A huge part of why I want
 
 No blockers today. 
 
-### Today's lesson - Research & Web Portals
+### Today's lesson - 025: Research & Web Portals
 
 Get used to leaving your ego out of it and following the requirements as a first priority.
 
@@ -175,7 +217,7 @@ I'm enjoying the HTML reinforcements and practice. I see that we're heading in a
 
 A blocker yesterday was looking at the Milestones page and feeling a little overwhelmed. I know that we're not necessarily expected to get through everything on the Milestones page every day, but I want to - I have to accept that it's not always going to be possible, but it is going to be there for me to return to when I have time.
 
-### Today's lesson - Networking
+### Today's lesson - 024: Networking
 
 I get a little nervous when it comes to networking. I think it's due to some imposter syndrome. Really putting myself out there and having confidence in this thing that I've barely begun makes me feel uncomfortable. I also haven't told anyone at work that I'm doing this - I need to get on that, pronto. It's real, it's what I want, so I need to own it even though it is a little hard.
 
