@@ -1,5 +1,40 @@
 # Emily's Daily Journal
 
+## October 12, 2022
+
+### Standup
+
+Yesterday was a lot of time spent digging into source code, learning about rich metadata, and working on my file structure. I added a "projects" folder to my root "pe-projects folder," which meant I had to update all of my website links, but I think I have that sorted out now. 
+
+With peprojects.dev and the file structure - I'm wondering if we are supposed to transfer everything in "pe-projects" (or whatever we end up calling the root folder) to the server - or just the "projects" folder and the index? Does the journal need to be in there, or the "goals" folder? Also curious about the "images" folder. Will we have separate "images" folders in each project folder, as well? 
+
+Looks like we're getting into Affinity Designer today! I have essentially zero experience with programs like this, so I am nervous and excited. No blockers!
+
+### Today's lesson - 031: Affinity
+
+Digital assets
+
+HTML meta - charset, viewport, name=description content="..."
+
+Open Graph meta data - meta tags for social media sharing graphics
+
+Meta descriptions - Google generally truncates these to 155-160 characters. There is no technical limit.
+
+Test updated site with Facebook Debugger, Twitter Card Validator, Linked Ins Post Inspector, www.opengraph.xyz 
+
+Standard-ish meta image size = 1200 x 630 px
+72 DPI
+It's for the web, so it's RGB
+can't use SVG for Open Graph
+
+### To-dos
+
+- [] VISUAL INSPIRATION!
+- [x] Affinity - create 1 of each type of image: JPG, PNG, SVG (40 mins) 
+- [x] Affinity - create a metadata share image (20 mins) 
+- [x] add new site meta & image [30 mins, don't overthink] 
+
+
 ## October 11, 2022
 
 ### Standup
