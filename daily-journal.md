@@ -1,5 +1,33 @@
 # Emily's Daily Journal
 
+## October 13, 2022
+
+### Standup
+
+Yesterday we got our hands on Affinity Designer. I didn't have any time to test it out until after work, and I have a swim bootcamp at 8pm on Wednesdays (this is the one scheduled extracurricular activity that I haven't quit in favor of PE), so I was militant about my use of the timeboxing guidelines for the exercises. This sort of program is almost totally new to me - apart from the much smaller toolboxes in programs like CleanShot and Paint, the only thing that comes close is Photo Shop - and I haven't used that since 2001. I'm looking forward to getting more comfortable with the Affinity tools and different modes, and just understanding what all of the terminology means.
+
+I was worried that I would open the program up and not be able to think of anything to create, but I just took a stream of consciousness approach, tested out different tools and played with the colors, and ended up making a few things that I wouldn't have thought to plan out on paper beforehand. I liked how one thing kind of led to another and how it's so easy to manipulate each layer - so if you're not happy with one element you can just change it or toss it and start again without pitching the entire thing.
+
+Today I have no plans after work, so I feel better about how the lesson and exercises are going to fit in today. I'm looking forward to spending more time in Affinity! 
+
+### Today's lesson - 032: Gradients
+
+In Affinity, use fill tool to click and drag to make a gradient. Click G as a shortcut. Hold shift while dragging it to lock at a 90 degree angle. Click on the circles at the end of the fill tool line to change the fill color.
+
+PNG vs. JPEG - when there are lots of tiny dots of color, JPEG will be smaller.
+
+Design is just a thought process.
+Be a designer, not just a coder.
+
+### To-dos
+
+- [] goals
+- [x] visual inspiration
+- [x] make some gradients
+- [x] revisit your project ideas
+- [x] bonus - try to recreate the Big Sur desktop background
+
+
 ## October 12, 2022
 
 ### Standup
