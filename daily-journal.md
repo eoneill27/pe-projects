@@ -1,5 +1,51 @@
 # Emily's Daily Journal
 
+## October 14, 2022
+
+### Standup
+
+Yesterday I had fun playing with gradients and I spent some time attempting a Big Sur recreation. My first try was really rough, my second was a bit better. It needs some major work! And I had to go to bed before I figured out how to blur the edges of my layers, but I did get some practice with the selection brush tool. I added my 2 attempts to the 032 channel. I'd be very curious to know what tools and techniques other people use to approach this. I will keep working on it!
+
+I've decided to try to make a point of going to the library once a week to flip through some magazines and make that part of my visual inspiration collection habits. 
+
+Today I need to get to the Goals milestone. It's been on my mind but it keeps getting pushed aside in favor of the lessons and exercises and now noodling around with Affinity. 
+
+No blockers today!
+
+
+### Today's lesson - 033: CSS intro
+
+CSS is a declarative programming language. Allows us to write the CSS rules and "strongly suggest" how our content is presented visually.
+
+Fundamentally - key:value pairs
+
+CSS is how you separate your content from its presentation. 
+selector - property:value = style declaration
+
+font-size - should be at least 16px
+
+line-height - relative to font size - no units - 1.2, 1.3, 1.4, etc.
+
+letter-spacing - ems - also relative to font size - 0.03 em, for ex. - sets distance between characters, not just letters
+
+max-width: 960px for body is pretty typical
+
+horizontally center an element by setting margin-right and margin-left to auto
+
+can set max-width on individual elements - can set a limit on how many characters are in a line - 82ch for P, for ex. 
+
+ch unit relative to font size and to the size of a zero
+
+Remember that display: block elements are naturally 100% of the width of their parent element. Setting a max-width gives you some control
+
+### To-dos
+
+- [x] goals
+- [x] strip out inline style attributes in HTML & replace with CSS in head
+- [x] double check file structure, HTML, FTP, and metadata understanding
+- [] get together with the group
+
+
 ## October 13, 2022
 
 ### Standup
@@ -18,7 +64,7 @@ PNG vs. JPEG - when there are lots of tiny dots of color, JPEG will be smaller.
 
 Design is just a thought process.
 Be a designer, not just a coder.
-
+ 
 ### To-dos
 
 - [] goals
