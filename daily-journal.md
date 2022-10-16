@@ -1,5 +1,25 @@
 # Emily's Daily Journal
 
+## October 15, 2022
+
+### Standup
+
+Yesterday I updated the sites I had already styled with inline styles (portal & 4-page website) - removed the inline styles and included a CSS style sheet in the <head>. I think I've got my head wrapped around file structure, FTP, and html. I have a couple of git questions that I'll ask Derek today - mostly around the idea of meaningful commits and timing in the context of this course. I'll report back! 
+
+Yesterday I also started sketching out today's challenge. Is this meant to be the true start of our personal portfolio page? That's how I'm approaching it at the moment.
+
+Today I'm looking forward to really digging into the challenge. I think the key for me will be to not get too wrapped up in spending a lot of time styling at the outset - get the fundamentals in there, add some basic styling, and then do more if time allows. I'm sure this is a project that I'll continue to update in the coming weeks.
+
+### Today's lesson - 034: CSS challenge
+
+No lesson per se - just the challenge! Combine everything you've learned so far into one project.
+
+### To-dos
+
+- [x] challenge-1
+- [] ask Derek some git questions
+
+
 ## October 14, 2022
 
 ### Standup
