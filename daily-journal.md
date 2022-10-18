@@ -1,5 +1,27 @@
 # Emily's Daily Journal
 
+## October 17, 2022
+
+### Standup
+
+Yesterday I took a break from school. I actually got on another plane and flew to Monterey, California for a conference - I'll be here until Thursday. It's the Internet Librarian Conference - I'm going to be really interested to find out what I make of the sessions when I'm looking at them through my new web designer lens. 
+
+I enjoyed Saturday's challenge - even though my site needs a bunch of work, it still felt really good to be able to build something cohesive and relatively complete in such a short period of time. I loved seeing everyone else's sites - I think we all did a really good job. 
+
+I see that there is a pen theme in today's lesson, and I love pens so I'm here for it. I've taken a quick look at the Bezier Game - I'm on the car and it's really hard! But I like the challenge. I definitely need to watch some more tutorials to understand what's going on with the pen tool.
+
+No blockers today.
+
+### Today's lesson - 036: Pen tool & Code Pen
+
+
+### To-Dos
+
+- [x] make something with the pen tool
+- [x] make a Pen showing an image in some text
+- [x] make a Pen that uses the 'float' property
+- [x] create your first day of 30 graphics
+
 ## October 15, 2022
 
 ### Standup
@@ -17,7 +39,7 @@ No lesson per se - just the challenge! Combine everything you've learned so far 
 ### To-dos
 
 - [x] challenge-1
-- [] ask Derek some git questions
+- [x] ask Derek some git questions
 
 
 ## October 14, 2022
