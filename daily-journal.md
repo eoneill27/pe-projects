@@ -1,5 +1,47 @@
 # Emily's Daily Journal
 
+## October 18, 2022
+
+### Standup
+
+Yesterday I tried to wrap my head around the pen tool in Affinity. Derek gave me some good tips and watched me painstakingly outline a cloud shape, which was really nice of him! I'm so impressed by what everyone else is doing with the pen tool - it really inspires me to keep practicing. 
+
+I also played around with CodePen and image alignment. I'm still a little confused as to why my inline and inline-block images are behaving in the same way. I can see a clear difference when I use inline vs. inline-block for a span, but I'm not seeing the same thing happen with an img.
+
+Today, aside from the lesson, I want to do some more experiments in CodePen with the different display options, float, and so on. The instant feedback of CodePen is really nice. No blockers today, just a lot to learn!
+
+### Today's lesson - 037: iFrames and hash links
+
+iframe is a way to put some other website in your website in a little frame. You embed the frame in your site.
+Styling is out of your hands
+Inside the iframe is an entire other HTML document
+
+SEO - Search Engine Optimization. Annoying buzzword - but it is what people think of as optimizing your website so that search engines will pay more attention to it.
+
+iframes are not crawlable - not going to be indexed, not optimized for search engines. Don't build a website around iframes. But they are useful for some things (video, social media badges, newsletter signups). 
+
+people navigating with assistive technology such as a screen reader can use the title attribute on an iframe to label its content. The title should concisely describe the embedded content.
+
+iframe is inline. Set it to display: block if you want to give it shape. If you do that, set width to 100%
+
+don't forget about min-height, max-height, min-width, max-width
+
+header, main, section, footer - all block level elements that span the width of the page and can contain other elements. They have semantic meaning - can provide crawler or assistive technology with important information about where they are on the page, what the content might be.
+
+Asterisk is wildcard/global selector
+
+ID is unique identifier - #
+
+
+### To-dos
+
+- [x] get substack sign up on a page
+- [x] 1-page website with 4 links
+- [x] blog post
+- [x] smooth scrolling
+- [x] thing a day
+
+
 ## October 17, 2022
 
 ### Standup
@@ -14,6 +56,14 @@ No blockers today.
 
 ### Today's lesson - 036: Pen tool & Code Pen
 
+img src="" - can set width="" and height=""
+
+inline elements share a lot of the same rules as block elements, but certain things can't be done - you can't tell an inline element what size to be.
+
+display: inline-block
+
+float: left or right
+kind of like saying, allow the image to be on the left and let everything else float around it
 
 ### To-Dos
 
@@ -26,7 +76,7 @@ No blockers today.
 
 ### Standup
 
-Yesterday I updated the sites I had already styled with inline styles (portal & 4-page website) - removed the inline styles and included a CSS style sheet in the <head>. I think I've got my head wrapped around file structure, FTP, and html. I have a couple of git questions that I'll ask Derek today - mostly around the idea of meaningful commits and timing in the context of this course. I'll report back! 
+Yesterday I updated the sites I had already styled with inline styles (portal & 4-page website) - removed the inline styles and included a CSS style sheet in the head. I think I've got my head wrapped around file structure, FTP, and html. I have a couple of git questions that I'll ask Derek today - mostly around the idea of meaningful commits and timing in the context of this course. I'll report back! 
 
 Yesterday I also started sketching out today's challenge. Is this meant to be the true start of our personal portfolio page? That's how I'm approaching it at the moment.
 
