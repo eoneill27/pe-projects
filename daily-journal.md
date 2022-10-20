@@ -1,5 +1,52 @@
 # Emily's Daily Journal
 
+## October 19, 2022
+
+### Standup
+
+Yesterday I wrote my 1-page website from scratch in Submlime to reinforce my knowledge of HTML structure. I'd like to play around with smooth scrolling a little more today, because I didn't fully understand the MDN code for that yesterday. I don't think we need to understand the MDN code to implement smooth scrolling - but I'd like to try to wrap my head around it anyway!
+
+Today I'd like to spend some more time in Affinity Designer to practice with the pen tool and some of the other functions. I do like the thing-a-day for giving me a reason to open Affinity - I might not do it every day otherwise.
+
+No blockers today! 
+
+### Today's lesson - 038: Styling text and resets
+
+#### Units of measurement
+- ems
+- rems - root em - font size of the root element of the document. Unlike the em, which may be different for each element, the rem is constant throughout the document.
+- ch - character - the advance measure (width) of the glyph 0 of the element's font
+- px - pixels - 1/96th of an inch
+
+#### Styling 
+
+- font-family
+- font-size (px)
+- font-weight - can be ultra-light, light, medium, normal, bold, etc. - more officially, a number. 400 is normal, 700 is pretty standard bold. Goes up to 900.
+- line-height - might be referred to as leading - the space between each line of text (vertically) - no units - relative to the size of the font
+- letter-spacing - may be referred to as tracking - spaces things out in a uniform position - use ems
+- max-width - avg. human would prefer to see 12-14 words in a run of text. Use ch unit. 
+
+
+Web browsers have default styles that get applied to an HTMl page - User Agent Stylesheet (the browser is the user agent)
+
+CSS reset - set of CSS rules that seek to remove or unset the browser styling
+
+Adjacent sibling combinator - write a rule that only applies when two elements are next to each other 
+h2 + p {...} - any p that immediately follows an h2
+
+read CSS selectors right to left
+
+### To dos
+
+- [x] play with text settings in Affinity
+- [x] reset and then style an article (maybe your favorite things)
+- [] resume page
+- [] choose your own adventure
+- [] check milestones
+- [x] thing a day
+
+
 ## October 18, 2022
 
 ### Standup
