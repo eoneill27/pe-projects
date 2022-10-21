@@ -1,5 +1,37 @@
 # Emily's Daily Journal
 
+## October 20, 2022
+
+### Standup
+
+Yesterday I enjoyed the CSS reset exercise and learning a bit about fonts and some of the different tools we have at our disposal to make our work more readable and beautiful. I see that we'll be learning a lot about printing. Even though I want to quit my job, I think deep down at my core I'll always be a librarian who really loves books - so I think I'll be doing some geeking out today.
+
+I've been reading The Design of Everyday Things and Don Norman talks about how humans process thoughts and emotions at three different levels - visceral, behavioral, and reflective. Visceral responses are fast and automatic - precursors to emotion - and they are all about immediate perception. So when you see a nice font on a page or some other beautiful thing out in the world (or some ugly thing), you have an immediate, uncontrollable visceral reaction. He goes on to say, "Engineers and other logical people tend to dismiss the visceral response as irrelevant. Engineers are proud of the inherent quality of their work and dismayed when inferior products sell better 'just because they look better.' But all of us make these kinds of judgments, even those very logical engineers. That's why they love some of their tools and dislike others. Visceral responses matter." 
+
+All that is to say, this is one of the things I most appreciate about this course - we're learning how to add beauty to the useful things we make, which will in turn make our useful things more likely to be appreciated out in the world. 
+
+Today is movie day! Is it the last week of class? Is tomorrow summer vacation? I started the CSS milestones last night - I'd like to finish going through those today. No blockers at the moment.
+
+### Today's lesson - 039: Printing
+
+Some great videos. Linotype = "line of type." Other terms from printing: stereotype, type casting
+
+Linotype machine made it possible for books to be produced cheaply, for newspapers to get bigger
+
+Invention of Gutenberg's press in 1440s turned books into commodities instead of works of art
+
+Technology didn't change much until the 19th century. Typesetter had to place each letter by hand. Daily newspapers limited to 8 pages. 
+
+1886 - Mergenthaler invented linotype machine
+printing industry exploded in size
+
+### To dos
+
+- [x] watch videos
+- [] CSS milestones
+- [x] thing a day
+
+
 ## October 19, 2022
 
 ### Standup
