@@ -1,5 +1,65 @@
 # Emily's Daily Journal
 
+## October 21, 2022
+
+### Standup
+
+Yesterday I got through some of the CSS selectors milestones. I had no idea you could create a custom HTML elements, like inner-column. They are treated like spans and displayed inline, but you can change them to display: block so they are treated like divs. I'd like to learn more about best practice for using these. 
+
+I'm also reading about ::before and ::after, as well as :is, after taking a look at Jess and Derek's Pen from yesterday. :is seems pretty powerful as far as making your CSS easy to read and write goes. I definitely want to spend some more time understanding all of these.
+
+Today, it's more CSS practice for me! I want to make sure to get through the second CSS selectors milestone by the end of the day. No blockers at the moment!
+
+### Today's lesson - 040: More about resets, old positioning techniques, and box-sizing
+
+A reset is not really a reset - it's some kind of normalized decision that someone made about what the reset should mean.
+
+HTML kitchen-sink - allows you to toggle different resets
+Pen made by Chris Coyier
+Derek like the Meyer Reset
+
+It is good to be in charge of the text
+Resets might seem overwhelming, but do it - you will like it!
+
+Maybe should be called a "set up" instead of a "reset"
+
+div stands for "generic divider"
+a way to divide text
+can be further defined with class
+
+box model 
+
+div class= "child left"
+.child
+.left
+- this applies both classes to the element
+
+box-sizing: content-box - default
+
+USE - box-sizing: border-box
+tells the browser to acount for any border and padding in the values you specify for an element's width and height.
+If you set an element's width to 100px, the 100px will include any border or padding you added and the content box will shrink to absorb the extra width
+
+USE - display: flex
+New type of display property - so much easier than the old way! 
+flex-direction: row - this is the default - side by side
+flex-direction: column - stacked
+justify-content: flex-end
+	- flex-start
+	- space-between
+align-items: center
+	- flex-start
+
+use flex to align all containers
+
+### To dos
+
+- [x] style a robust article - make it as readable and as legitimate as possible with just some text
+- [] provide feedback to classmates
+- [x] thing a day
+- [x] CSS milestone
+
+
 ## October 20, 2022
 
 ### Standup
