@@ -1,5 +1,64 @@
 # Emily's Daily Journal
 
+## October 22, 2022
+
+### Standup
+
+Yesterday I felt good about the article exercise. I want to work on my Font Book to collect some of my favourites. I am getting a lot of satisfaction from making text look nice with CSS - line-height is a particular favourite at the moment! 
+
+Today I have my lesson to-do list to tackle, but I have a longer and more overarching to-do list that I would like to chip away at. I definitely want to tune up some of my existing work on the peprojects server, especially in light of what we've been learning in the last week. I have so many more tools to deploy to make those sites look good. I need to put my resume together. I want to do lots of CSS practice. I'm glad it's the weekend - I find it hard to get to my broader to-do list during the work week. It's rainy and cold here in Vancouver, so I don't mind staying cozy and warm inside while I work on all of this :)
+
+No blockers today, just feeling really happy to be getting deeper into CSS! 
+
+### Today's lesson - 041: Transition to semantic markup & CSS classes
+
+Before HTML5, no semantic dividing elements like header, section, footer - so people used div for everything. This is useful, but it makes code ugly.
+
+Most people still ignore the proper elements - so there are still tons of divs
+
+Div is a pure container with no inherent meaning - used to group content so it can be easily styled
+
+*use the best element for the job* 
+if there isn't anything meaningful to use, you can use a div - in this case, it will have a meaning because it will signify that it is only for layout
+
+some very popular CSS frameworks are drowning in divitis and classitis
+
+li.spacious {...} - all li elements with class = "spacious"
+li.spacious.elegant {...} - all li elements with a class list that includes both "spacious" and "elegant" - for ex., class="elegant retro spacious"
+
+.page-section h2 {...} any h2 inside class="page-section"
+
+Try and describe the content with as much rich meaning as possible
+This is more fun, gets you ranked higher for SEO, and is just the right way to do it
+
+_keep things as organized and as simple as possible_
+
+Never use IDs for styling
+
+sections help describe the content structure to the computer
+crawler is not using classes to understand the page, but they help us a lot
+you can have more than one heading
+
+can make gradient in background - background-image: linear-gradient(90deg, red, blue)
+
+border-radius in pixels
+top-left, top-right, bottom-right, bottom-left
+
+### To dos
+
+- [x] thing a day
+- [] CSS milestone 2
+- [x] make a site for Uncle Bill
+
+### Bigger to dos
+
+- [] choose your own adventure (card for Ann?)
+- [x] tune up existing projects (screenshot old versions) - portal, 4-page
+- [x] revise goals
+- [] create resume 
+- [] Affinity tutorials
+
+
 ## October 21, 2022
 
 ### Standup
