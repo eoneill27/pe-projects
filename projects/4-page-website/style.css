@@ -1,6 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 	background-color: #9b87a0;
-	box-sizing: border-box;
 }
 
 body {
