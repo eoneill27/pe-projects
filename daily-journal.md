@@ -1,5 +1,34 @@
 # Emily's Daily Journal
 
+## October 24, 2022
+
+### Standup
+
+I felt like I had a really productive weekend. On Saturday I worked through the first version of Uncle Bill's website and also made it through the first two CSS selectors milestones. I worked on tuning up my existing projects - my 4-page-website and my project index. Next up is the portal! Yesterday I spent some time making my choose your own adventure birthday card, which I loved doing. I am really enjoying CSS and I'm looking forward to learning more.
+
+Today I want to get through the third CSS selectors milestone and continue noodling around with my existing projects if I have time after the lesson.
+
+No blockers today!
+
+### Today's lesson - 043: Uncle Bill's site, part 2
+
+Before you start typing up a bunch of code, how will you design the workflow? 
+
+Open mockup in Skitch or ClearShot
+outline the elements and sections
+
+get structure built first - section by section - add placeholder styling
+
+### To dos
+
+- [x] take notes on video and share thoughts
+- [x] revise Uncle Bill's site
+- [x] writing exercise
+- [x] thing a day
+- [] blog post
+- [] resume
+
+
 ## October 22, 2022
 
 ### Standup
@@ -47,12 +76,12 @@ top-left, top-right, bottom-right, bottom-left
 ### To dos
 
 - [x] thing a day
-- [] CSS milestone 2
+- [x] CSS milestone 2
 - [x] make a site for Uncle Bill
 
 ### Bigger to dos
 
-- [] choose your own adventure (card for Ann?)
+- [x] choose your own adventure (card for Ann?)
 - [x] tune up existing projects (screenshot old versions) - portal, 4-page
 - [x] revise goals
 - [] create resume 
