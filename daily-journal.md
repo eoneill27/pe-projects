@@ -1,5 +1,49 @@
 # Emily's Daily Journal
 
+## October 25, 2022
+
+### Standup
+
+Yesterday after working on Uncle Bill's site, I got started on my resume. It still needs a lot of work, but the basics are down. I noticed this site on the --portfolio-sites channel - it has a whole resume section, which I want to look through to get design ideas.
+
+Today I would like to think about another blog post if I have time. It's a work day, but I have no other plans this evening, so it should be totally doable. I see that today's lesson is more on typography, which I love. I definitely want to work on building up my FontBook with favourites - that's a long-term project that I haven't put a lot of effort into yet.
+
+No blockers today!
+
+### Today's lesson - 043: Lists and links and more
+
+CMD + / - with Emmet - allows you to comment and uncomment out a line of code
+
+ul>li(asterisk)5>a will create a list with 5 list items, all with links inside
+
+in sublime, place cursor, then hold OPT and drag vertically to place many cursors
+
+Most lists do not have bullets
+
+2 primary programming data structure:
+- objects: for describing concepts
+- lists: for putting things in some order
+
+The whole point of visual design is to make you feel good about the page 
+and to organize the situation for you to read the content, in most cases
+
+Can create base styles that never really change - fundamental architecture of the site, with line height, spacing, etc.
+
+and can then add more specific themes on top of that
+
+Rules that are more specific override less specific rules
+Start from a broad scope and get more specific
+
+Typewolf
+
+### To dos
+
+- [x] revisit/update portal and tune up the CSS
+- [x] typography research
+- [x] thing-a-day
+- [x] blog post
+
+
 ## October 24, 2022
 
 ### Standup
