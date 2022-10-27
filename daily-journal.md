@@ -1,5 +1,63 @@
 # Emily's Daily Journal
 
+## October 26, 2022
+
+### Standup
+
+Yesterday I stayed up later than I meant to. It was pouring rain for my evening bike commute, so I was drenched and had to hop right in the shower when I got home. By the time I was showered and had dinner made, it was about 6:30, definitely a later start than I hoped for. Then I got really into my portal but still had to finish my typography research and my thing a day, plus I had started a blog post earlier in the day and wanted to finish that. I'm a little short on sleep this week. I'm going to make it a priority - soon! Probably not tonight because of swim class. But I am going to sleep in on Saturday, for crying out loud.
+
+I don't think I'm going to have time for anything beyond the lesson today, but it looks like a fun one. I'm really excited to learn more layout techniques and get a bit more control over where we're placing things on the page. 
+
+No blockers, tired but happy!
+
+### Today's lesson - 045: Big picture layout concerns
+
+Most websites are in a column format. 
+You already know how to make a column - set max width and trick it to center with auto margins
+
+All block level elements are just boxes - HTML, body, div, section, nav, main, footer
+If you can align the body inside HTML, then you can align any element in another element
+
+Section helps you group your content into sections
+Div is for purely visual layout purposes
+
+Div with class="inner-column" is a convention we'll use in this course, but you can use the concept in any way you can think of. Up to you to organize things in a way that is useful for your goal.
+
+If you don't set width on body - but you have a div inside the header - 
+Div max width and auto margins
+header has background color and padding
+The background color will stretch all the way across the screen and the content inside the div will be centered in that 
+This happens because the header is a block level element with no max-width assigned, so it just keeps going
+
+Inner-columns are kind of like mini websites
+
+You can put any box inside of another box and center it
+
+Put borders around everything for a little while until you get comfortable
+
+Content is different from the grouping mechanisms that we use to put the content in different places on the page
+
+Grouping mechanisms:
+- divs
+- header
+- footer
+- nav
+- main
+- article
+- aside
+- section 
+(and a few more) 
+
+use the semantic grouping mechanisms instead of divs if at all possible
+
+### To dos
+
+- [x] Uncle Bill's code
+- [x] Uncle Bill's website update
+- [x] find inner-columns in the wild
+- [x] thing a day
+
+
 ## October 25, 2022
 
 ### Standup
@@ -10,7 +68,7 @@ Today I would like to think about another blog post if I have time. It's a work 
 
 No blockers today!
 
-### Today's lesson - 043: Lists and links and more
+### Today's lesson - 044: Lists and links and more
 
 CMD + / - with Emmet - allows you to comment and uncomment out a line of code
 
