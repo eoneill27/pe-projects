@@ -119,11 +119,13 @@ a {
 	display: inline-block;
 	margin-right: 20px;
 	padding: 5px;
+	transition: all .2s ease-in-out;
 }
 
 a:hover {
 	background-color: lightpink;
 	border-radius: 5px;
+	transform: scale(1.1);
 }
 
 ul, ol {
@@ -138,6 +140,8 @@ ul {
 li {
 	
 }
+
+/* classes */
 
 .welcome {
 	background-color: #ffffa4;
