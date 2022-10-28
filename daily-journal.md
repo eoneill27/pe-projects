@@ -1,5 +1,41 @@
 # Emily's Daily Journal
 
+## October 27, 2022
+
+### Standup
+
+Yesterday I think I got my head around the concept of inner-column specifically, and of using boxes inside other boxes to position things more generally. This makes sense to me - I think Derek's use of the body centered in html parallel is really helpful for my understanding. Putting borders around everything as you're writing code is also a great trick. I don't always do it, but when I do I have a much better concept of why things are behaving the way they are on the screen. I will make this part of my normal practice for a little while! 
+
+Today I might be a little crunched for time again, so I might not do much extra beyond the lesson. I did wake up thinking that I would like to take another look at Minnie's CSS to see how it's ordered - the order made a lot of sense to me yesterday, and I would like to put it side-by-side my own CSS to see where I can improve things.
+
+No blockers!
+
+### Today's lesson - 046: External stylesheets
+
+technical debt (tech debt) = computer science term - the implied cost of additional rework caused by choosing an easy (limited) solution now instead of using a better approach that would take longer
+
+separation of concerns (computer science) - a design principle for separating a computer program into distinct sections. Each section addresses a separate concern, a set of inforamton that affects the code of a computer program.
+
+There are sometimes important reasons why we'll write CSS "inline" or in the style information element - still good to know!
+
+link rel="stylesheet" href="style.css"
+
+in Derek's CSS - 
+@import 'meyer-reset.css'
+@import 'setup.css'
+
+universal selector has a specificity of 0
+a rule that uses the universal selector can be overriden by a single eleemnt, class or id selector
+
+
+### To dos
+
+- [x] investigate sample code
+- [x] practice using .css file
+- [x] figure out what projects you want to flesh out and use for a portfolio piece. Connect this project to a .css file and share progress.
+- [] compare Minnie's CSS to your CSS - order and groupings
+
+
 ## October 26, 2022
 
 ### Standup
