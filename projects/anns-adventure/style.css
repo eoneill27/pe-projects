@@ -99,7 +99,16 @@ p + p {
 	color: hotpink;
 }
 
+.restart a {
+	background-color: lightyellow;
+	border: 3px solid black;
+	border-radius: 50px;
+	margin-top: 30px;
+	padding: 25px;
+}
+
 .love {
+	display: inline-block;
 	font-size: 28px;
 	font-weight: 700;
 	color: tomato;
@@ -117,18 +126,21 @@ a {
 	font-size: 30px;
 	font-weight: 600;
 	padding-right: 40px;
+	transition: all .2s ease-in-out;
 }
 
 main a:hover {
 	color: salmon;
 	background-color: honeydew;
+	transform: scale(1.1);
 }
 
 choices a {
 	border: 4px solid black;
 	border-radius: 10px;
 	padding: 10px;
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top: 10px;
+	margin-right: 15px;
 }
+
 
