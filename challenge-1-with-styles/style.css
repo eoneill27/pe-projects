@@ -1,0 +1,92 @@
+body {
+	max-width: 960px;
+	background-color: lavender;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	min-height: 100vh;
+}
+
+.home {
+	background-color: lavender;
+}
+
+.about {
+	background-color: lightyellow;
+}
+
+.contact {
+	background-color: lightcyan;
+}
+
+.destinations {
+	background-color: honeydew;
+}
+
+.england {
+	background-color: lightpink;
+}
+
+.portugal {
+	background-color: navajowhite;
+}
+
+.planning {
+	background-color: peachpuff;
+}
+
+nav {
+	background-color: snow;
+	padding: 40px 20px 0px 33px;
+}
+
+nav a {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: monospace;
+	font-size: 22px;
+}
+
+main {
+	background-color: snow;
+	padding: 40px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	float: left;
+	padding: 20px 12px;
+	max-width: 960px;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: mediumvioletred;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 26px;
+	color: sandybrown;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: royalblue;
+}
+
+a:hover {
+	color: coral;
+}
+			
