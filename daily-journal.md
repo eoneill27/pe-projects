@@ -1,5 +1,36 @@
 # Emily's Daily Journal
 
+## October 28, 2022
+
+### Standup
+
+I continued to feel pretty good about the concepts yesterday. I investigated the example portal code and got my challenge-1 site switched over to an external style sheet. I'm looking forward to spending some time refining that CSS and also implementing what we've learned about inner-column and layout in all of my work.
+
+I worked through the article layout exercise in the Milestones - I think I covered all the bases? It's certainly very colorful!
+https://codepen.io/eoneill27/pen/XWYbNXo
+
+This morning, reading Jess' 046 write-up from yesterday made me realize that I had skipped over some of the easter eggs in the example code. I saw the links to the box-sizing article and the CodePens, but I moved on from them without actually digging into them. I'm doing the digging in this morning and, like Jess, am happy to be putting this stuff in my brain. 
+
+Question for Derek - is it best to keep this setup.css file as a separate file and import it into our stylesheet along with the meyer-reset.css file? Or is there a reason to keep the content of setup.css fully written out in the main stylesheet?
+
+### Today's lesson - 047: Building a kitchen sink, part A
+
+The web is made up of rectangles
+They can shift and wrap to the next line
+The window that the site is viewed in can change size, and so must the design
+
+Everything is a rectangle!
+
+Everything is a box! 
+
+### To dos 
+
+- [x] write down every HTML element you've learned about so far
+- [x] write down every CSS property you've learned about so far
+- [] add inner-column concept to old work
+- [] add reset code to old work
+
+
 ## October 27, 2022
 
 ### Standup
