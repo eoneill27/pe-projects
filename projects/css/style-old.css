@@ -1,0 +1,96 @@
+html {
+	background-color: #f6b64d;
+}
+
+body {
+	background-color: white;
+	max-width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 40px;
+	min-height: 100vh;
+	height: auto;
+}
+
+nav {
+	font-family: Gill sans, sans-serif;
+	padding-bottom: 20px;
+}
+
+nav a {
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Gill sans, sans-serif;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+}
+
+p, li, address {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	font-style: normal;
+}
+
+p {
+	max-width: 80ch;
+}
+
+li {
+	max-width: 65ch;
+}
+
+a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a:hover {
+	color: coral;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.subscribe {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.subscribe h2 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+iframe {
+	border: none;
+}

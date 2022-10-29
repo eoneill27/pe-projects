@@ -1,0 +1,122 @@
+@import 'meyer-reset.css';
+@import 'setup.css';
+
+/* fonts and sizes */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Marcellus', 'Georgia', serif;
+}
+
+h1 {
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 1.25;
+	padding-top: 52px;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 48px;
+	font-weight: 600;
+}
+
+h1 + h2 {
+	margin-top: 50px;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+p, a {
+	font-family: 'Montserrat', 'Gill Sans', sans-serif;
+	font-size: 24px;
+}
+
+p {
+	padding: 10px;
+	line-height: 1.6;
+}
+
+h3 + p {
+	margin-top: 30px;
+}
+
+p a { 
+	color: coral;
+}
+
+/* structure */
+
+body {
+	background-color: floralwhite;
+}
+
+.inner-column {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.name-box {
+	border: none;
+	text-align: center;
+	padding: 20px;
+}
+
+.site-nav {
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+a {
+	padding: 15px;
+}
+
+a:hover {
+	background-color: black;
+	color: floralwhite;
+	border-radius: 5px;
+}
+
+.about h3{
+	padding: 20px;
+	text-align: center;
+	margin-top: 600px;
+}
+
+.contact h3 {
+	padding: 20px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.projects nav {
+	padding-top: 30px;
+}
+
+.projects nav a {
+	padding-right: 20px;
+}
+
+.projects h1 {
+	padding-left: 20px;
+}
+
+.projects ul {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding-left: 20px;
+	list-style: disc;
+
+}
+
+.projects li {
+	padding-top: 10px;
+}
+
+footer {
+	margin-top: 100px;
+}
