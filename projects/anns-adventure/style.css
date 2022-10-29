@@ -3,6 +3,8 @@
 	font: unset;
 	color: black;
 	margin: 0;
+	
+
 }
 
 body {
@@ -10,8 +12,8 @@ body {
 	padding: 20px;
 }
 
-main, footer {
-	max-width: 720px;
+.inner-column {
+	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -19,29 +21,29 @@ main, footer {
 header {
 	background-color: gold;
 	background-color: #fde358;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	border: 4px black solid;
+	border: 5px black solid;
 	border-radius: 10px;
-	width: 700px;
 }
 
 .header-link {
-	padding; 20px;
+	max-width: 700px;
 }
 
 .header-link a {
-	display: flex;
+	display: block;
 	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 700px;
+	padding: 1px;
 }
 
 main {
 	background-color: ivory;
-	padding: 20px;
+	padding-top: 20px;
+
+
 }
 
 h1, h2, h3, h4, h5, h6, a{
@@ -99,11 +101,16 @@ p + p {
 	color: hotpink;
 }
 
+.restart {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .restart a {
 	background-color: lightyellow;
-	border: 3px solid black;
+	border: 4px solid black;
 	border-radius: 50px;
-	margin-top: 30px;
+	margin-top: 60px;
 	padding: 25px;
 }
 
@@ -114,7 +121,7 @@ p + p {
 	color: tomato;
 }
 
-choices {
+choice-buttons {
 	display: block;
 	padding-top: 50px;
 	padding-bottom: 100px;
@@ -135,12 +142,12 @@ main a:hover {
 	transform: scale(1.1);
 }
 
-choices a {
+choice-buttons a {
 	border: 4px solid black;
 	border-radius: 10px;
 	padding: 10px;
-	margin-top: 10px;
-	margin-right: 15px;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 
