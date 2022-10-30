@@ -1,5 +1,69 @@
 # Emily's Daily Journal
 
+## October 29, 2022
+
+### Standup
+
+Yesterday I spent some time thinking about all of the HTML and CSS elements and properties we've learned, and about how even if we only have ten of each, we can still make some pretty great websites. 
+
+I also spent some more time reworking my peprojects.dev landing page and my projects page, and I also tweaked Ann's birthday card to include inner-column. I had some wonky stuff going on in the header before because I was trying to make that whole thing a big link and also centered over the body text, and my code without inner-column got pretty messy. It is vastly simplified now. Using the universal selector and putting a border around everything while I was working on this was super helpful.
+
+I installed the Pesticide extension, too - another great tool that I think I'm going to find really instructive.
+
+I'm very excited for today's lesson. I can see myself getting sucked down a typography rabbit hole, but at least I'll be happy down there. Also on the agenda today - wrestling with the 046 article milestone. 
+
+No blockers today!
+
+### Today's lesson - 048: Intro to typography
+
+Type is the power to express words and ideas visually
+
+Serif - most serif typefaces fit into one of three categories
+- old style - thick serifs, a higher contrast between thick and thin strokes
+- transitional - thinner serifs, a higher contrast between thick and thin strokes
+- modern - very thin serifs, extreme contrast between thick and thin strokes
+
+sans-serif
+- geometric sans - Future is an example - based on simple, geometric shapes
+- Humanist sans - Gill Sans is an example - gentler, more natural curves
+
+Helvetica - next major innovation in sans serif - simple curves, available in many different weights
+
+For long form reading - 
+ideal line length is 50-75 chracters
+font size should feel about the same as a well-printed book held at reading distance - typically 17-23 px
+longer lines need mnore line height
+letters shouldn't collide - but don't want too much line height either
+paragraph spacing - more than zero, but less than a full line height
+accent text - SLUB pattern - smaller, lighter, uppercase, bold (a size or 2 smaller than body text, opacity/weight 70-90% of original)
+space between any related elements should be greater than the space within the group
+
+Helvetica documentary
+It is the space between the black that really makes typography (Massimo Vignelli) - the white space matters a lot
+
+1957 - Helvetica - need felt for rational typefaces - underpinned by idealism felt by many designers at the time
+
+Helvetica - neutral - the meaning is in the content of the text and not in the typeface, which is why the modernists loved it
+
+Erik Spiekerman - typomaniac - "an incurable, if not mortal, disease"
+why is helvetica still so popular - "I don't know, why is bad taste ubiquitous?"
+
+typefaces are a brand
+
+1970s - reaction against Helvetica
+started to seem dull, conforming
+
+Sagmeiseter - why limit yourself to 3 or 4 typefaces? Boring! 
+
+Don't confuse legibility with communication - just because it is legible doesn't mean it communicates 
+
+### To dos
+
+- [x] watch Helvetica film
+- [x] find examples of each type of typeface (old style, transitional, modern, geometric sans, humanist sans, etc.) and share with group
+- [] 046 article milestone
+
+
 ## October 28, 2022
 
 ### Standup
