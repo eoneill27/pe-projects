@@ -1,5 +1,18 @@
 # Emily's Daily Journal
 
+## October 31, 2022
+
+### Standup
+
+Yesterday I took a break from the computer for the first time in a couple weeks, which was nice. On Saturday I really enjoyed the typography lesson and I had all sorts of fun things to tell people about Helvetica at the party I went to on Saturday night. 
+
+Today looks like it's going to be a fun day. I have to go into work today, so I'll do what I can this morning and then I'll get back to it in the evening. 
+
+No blockers today.
+
+### Today's lesson - 050: Research and destroy
+
+
 ## October 29, 2022
 
 ### Standup
