@@ -1,5 +1,83 @@
 # Emily's Daily Journal
 
+## November 2, 2022
+
+### Standup
+
+The review yesterday was a nice breather after Monday's challenge. I spent a while going through the Pens and taking notes, really trying to make sure I have these concepts down. I think I do. I had a good huddle with Drew, Alina and Miguel where we talked some things through, which also helped. 
+
+"Everything is a box." I might get it tattooed on my arm. Something I highlighted from yesterday's lesson is that the relationship of the parent and its direct children is what we can use to most efficiently orchestrate the layout. When you're looking at a page of code, I think it's easy to get distracted from these relationships, or muddled about where they begin and end. But this makes so much conceptual sense to me - just have to be deliberate in paying attention to it and practicing it. 
+
+Really looking forward to getting started on this client project. I have taken the day off work - I was feeling pretty exhausted yesterday and was looking ahead to a really busy day and another late night tonight (thanks swim class), so I just said, "forget it!" and slept in a little. I'll be in and out today - Ann had her surgery yesterday and it's her birthday today. She's feeling pretty rough, so I'm not sure if I'll be stopping by her house, but I'll see how she feels later on. I'll definitely be around for a large part of the day, though, and free to chat.
+
+### Today's lesson - 052: Small business part 1
+
+Who is the client? What do they want? What is the simplest thing we can do to get them one step closer to their goal?
+
+**Think about what the client wants and not how other websites look**
+stick to the core design methodology
+
+Who would use this business? Who are the clients?
+
+Assess the project - if you needed this service, what would you need to know?
+
+Market research - check out other similar businesses
+What is effective or useful?
+
+Client is happy if their clients are happy
+
+### To dos 
+
+- [x] talk to Derek re: Github
+- [x] figure out what you need to ask the client - who are they? what do they want? how do you get them closer to their goal?
+- [x] what content do you need? what media assets? 
+- [x] what story do you/they need to tell?
+- [x] make a plan
+
+
+## November 1, 2022
+
+### Standup
+
+Yesterday all of my PE work was consumed by the Research & Destroy challenge. Before I left for work, I chose a site and sketched out the elements that I would need to recreate. After work, I got to building it. On the one hand, I managed to get the general structure laid out and I feel good about that. On the other hand, all of my deficiencies were revealed! This is great, though - I am really happy to have gone through the exercise and to kind of be able to catalogue what still needs to be learned in order to make a site that will cut the mustard in this day and age. It was a tough challenge, but it was fun and very enlightening.
+
+Today I want to continue to get a grip on what I know and don't know. I think I'll end up with a lot of notes and a big list of questions. 
+
+No blockers at the moment! 
+
+### Today's lesson - 051: The next pieces, part A
+
+Any two elements can have a parent/child relationship
+
+All elements are presented visually by the browser as a rectanble/box
+A child is a box inside another box
+
+Lists are boxes
+List items are boxes within the list box
+List items are children of the list
+
+**The relationship of the parent and its direct children is how we can most efficiently orchestrate the layout**
+
+If you control the width of the body element, you can control the width of its children
+
+It is sensible to break up the content into meaningful sections
+It also really helps so you can style those sections differently
+
+Instead of centering the whole body, you can center things inside each respective section
+
+Focus on the right parent-child relationship
+Break it down and compartmentalize
+
+Almost everything is a box with some other boxes in it
+
+### To dos
+
+- [x] check back in with display types
+- [x] double check your big-picture layout
+- [x] get those images under control
+- [x] get those link elements in gear
+
+
 ## October 31, 2022
 
 ### Standup
