@@ -9,13 +9,14 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: monospace;
+	font-family: 'Roboto Slab', monospace;
 	color: white;
 }
 
 h2 {
-	font-size: clamp(14px, 5vw, 38px);
+	font-size: clamp(14px, 8vw, 38px);
 	color: white;
+	font-weight: 600;
 	max-width: 65ch;
 }
 
@@ -25,7 +26,7 @@ h3 {
 }
 
 p, a, li, address {
-	font-family: sans-serif;
+	font-family: 'Red Hat Display', Helvetica, sans-serif;
 	color: white;
 }
 
@@ -47,10 +48,6 @@ h2 + p {
 	margin-top: 40px;
 }
 
-h3 + p {
-	margin-top: 20px;
-}
-
 inner-column {
 	display: block;
 	max-width: 800px;
@@ -70,12 +67,38 @@ inner-column {
 	margin-top: 20px;
 }
 
+.main-header inner-column {
+	max-width: 1000px;
+}
 .main-header h1 { 
-	font-size: clamp(40px, 10vw, 90px);
-	font-family: monospace; 
+	font-size: clamp(30px, 8.5vw, 90px);
+	font-family: 'Russo One', monospace; 
 	color: white;
+	letter-spacing: 0.04em;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.main-header h1::before {
+	content: url(images/lightning-smaller.png);
+}
+
+.main-header h1::after {
+	content: url(images/lightning-smaller.png);
+}
+
+.main-header h1:hover {
+	color: yellow;
+}
+
+@media (min-width: 825px) {
+	.main-header h1::before {
+		content: url(images/lightning-small.png);
+	}
+
+	.main-header h1::after {
+		content: url(images/lightning-small.png);
+	}
 }
 
 .main-nav {
@@ -100,7 +123,7 @@ inner-column {
 	background-color: lightgray;
 	margin-top: 30px;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 
 .welcome h2, .welcome p {
@@ -114,6 +137,18 @@ inner-column {
 
 .boxes {
 	margin-top: 20px;
+	padding-top: 30px;
+}
+
+.box-position {
+	display: inline-block;
+	position: relative;
+}
+
+.box-position h3 {
+	position: absolute;
+	top: 10px;
+	left: 55px;
 }
 
 .services, .contact {
@@ -132,6 +167,11 @@ inner-column {
 .services p + p {
 	margin-top: 15px;
 }
+
+.services h3 + p {
+	margin-top: 10px;
+}
+
 .contact {
 	max-width: 300px;
 	margin-left: 35px;
@@ -146,6 +186,10 @@ inner-column {
 }
 
 .contact p + p {
+	margin-top: 15px;
+}
+
+.contact h3 + p {
 	margin-top: 20px;
 }
 
