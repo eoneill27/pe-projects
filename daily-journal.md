@@ -1,5 +1,20 @@
 # Emily's Daily Journal
 
+## November 3, 2022
+
+### Standup
+
+Yesterday I spent a while imagining Beth Electric's back story, coming up with questions to ask, and sketching out some ideas for her site. I sent an email with some of my questions to Reputable Agency but am still waiting to hear back from them. In the meantime, I am going to get started on a prototype so I have something to share and test out with users. 
+
+I want to take a note from Derek and beware of scope creep. Definitely want to try to keep things simple in the interest of delivering something that hits all of the client's goals without getting bogged down in a bunch of extraneous stuff that impinges on my limited time. 
+
+Back to the office today. No blockers apart from having a full time job! I'd much rather spend my day on Beth Electric.
+
+### To dos 
+
+- [x] continue to work on client project
+- [x] huddle with Ivy
+
 ## November 2, 2022
 
 ### Standup
