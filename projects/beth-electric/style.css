@@ -109,11 +109,11 @@ inner-column {
 	}
 
 	.main-header h1:hover::before {
-	content: url(images/lightning-small-white.png);
+		content: url(images/lightning-small-white.png);
 	}
 
-.main-header h1:hover::after {
-	content: url(images/lightning-small-white.png);
+	.main-header h1:hover::after {
+		content: url(images/lightning-small-white.png);
 	}
 }
 
@@ -133,10 +133,9 @@ inner-column {
 }
 
 .welcome {
-	/* background-image: url("images/woman-stock01.jpeg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.howtogeek.com/wp-content/uploads/2021/07/shutterstock_265715363.jpg?height=200p&trim=2,2,2,2");
 	background-repeat: no-repeat;
-	background-size: cover; */
-	background-color: lightgray;
+	background-size: cover;
 	margin-top: 30px;
 	padding-top: 30px;
 	padding-bottom: 40px;
@@ -145,10 +144,8 @@ inner-column {
 .welcome h2, .welcome p {
 	padding-left: 30px;
 	padding-right: 15px;
-}
-
-.welcome h2, .welcome p {
-	color: black;
+	color: white;
+	font-weight: 700;
 }
 
 .services-contact inner-column {
