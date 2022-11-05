@@ -14,8 +14,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-	font-size: clamp(14px, 8vw, 38px);
+	font-size: clamp(14px, 8vw, 34px);
 	color: white;
+	line-height: 1.2;
 	font-weight: 600;
 	max-width: 65ch;
 }
@@ -25,7 +26,7 @@ h3 {
 	text-decoration: underline;
 }
 
-p, a, li, address {
+p, a, li, address, details, summary {
 	font-family: 'Red Hat Display', Helvetica, sans-serif;
 	color: white;
 }
@@ -37,7 +38,7 @@ p {
 }
 
 p + p {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 h2 + h2 {
@@ -46,6 +47,14 @@ h2 + h2 {
 
 h2 + p {
 	margin-top: 40px;
+}
+
+a:hover {
+	color: cyan;
+}
+
+.box-color {
+	color: orange;
 }
 
 inner-column {
@@ -58,10 +67,7 @@ inner-column {
 	position: relative;
 }
 
-.center {
-	margin-left: auto;
-	margin-right: auto;
-}
+/* header stuff */
 
 .main-header {
 	margin-top: 20px;
@@ -70,8 +76,10 @@ inner-column {
 .main-header inner-column {
 	max-width: 1000px;
 }
+
 .main-header h1 { 
-	font-size: clamp(30px, 8.5vw, 90px);
+	display: inline-block;
+	font-size: clamp(32px, 8.5vw, 90px);
 	font-family: 'Russo One', monospace; 
 	color: white;
 	letter-spacing: 0.04em;
@@ -79,60 +87,43 @@ inner-column {
 	text-transform: uppercase;
 }
 
-.main-header h1::before {
-	content: url(images/lightning-smaller.png);
+.main-column {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+} 
+
+.picture {
+	max-width: 60px;
 }
 
-.main-header h1::after {
-	content: url(images/lightning-smaller.png);
+.main-column img:last-child, .main-column img:last-child {
+	display: none;
+}
+
+.main-column:hover img:last-child {
+	display: block;
+}
+
+.main-column:hover img:first-child {
+	display: none;
 }
 
 .main-header h1:hover {
-	color: yellow;
+	color: gold;
 }
 
-.main-header h1:hover::before {
-	content: url(images/lightning-smaller-white.png);
+
+/* mobile */
+
+large-view {
+	display: none;
+	display: block;
+	visibility: hidden;
 }
 
-.main-header h1:hover::after {
-	content: url(images/lightning-smaller-white.png);
-}
-
-@media (min-width: 825px) {
-	.main-header h1::before {
-		content: url(images/lightning-small.png);
-	}
-
-	.main-header h1::after {
-		content: url(images/lightning-small.png);
-	}
-
-	.main-header h1:hover::before {
-		content: url(images/lightning-small-white.png);
-	}
-
-	.main-header h1:hover::after {
-		content: url(images/lightning-small-white.png);
-	}
-}
-
-.main-nav {
-	text-align: center;
-	margin-top: 40px;
-}
-
-.main-nav a {
-	font-size: clamp(14px, 5vw, 38px);
-	font-family: monospace;
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	padding-left: 20px;
-	padding-right: 20px;
-}
-
-.welcome {
+.welcome-small, .welcome-large {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.howtogeek.com/wp-content/uploads/2021/07/shutterstock_265715363.jpg?height=200p&trim=2,2,2,2");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -141,7 +132,7 @@ inner-column {
 	padding-bottom: 40px;
 }
 
-.welcome h2, .welcome p {
+.welcome-small h2, .welcome-large h2, .welcome-small p, .welcome-large p {
 	padding-left: 30px;
 	padding-right: 15px;
 	color: white;
@@ -153,59 +144,76 @@ inner-column {
 	flex-direction: column;
 }
 
-.services-box, .contact-box {
-	border: 4px solid yellow;
-	padding: 20px;
-	width: 300px;
-	height: 320px;
-	margin-top: 40px;
+details {
+	margin-top: 20px;
+	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+details summary {
+	cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+	list-style-type: none;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	border: 4px solid gold;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+p + p {
+	margin-top: 15px;
+}
+
+
+/* larger screens */
+
 @media (min-width: 680px) {
+
+	small-view {
+		display: none;
+	}
+
+	large-view {
+		visibility: visible;
+	}
+
 	.services-contact inner-column {
 		display: flex;
 		flex-direction: row;
 	}
 
 	.services-box, .contact-box {
-	border: 4px solid yellow;
-	padding: 15px;
-	width: 300px;
-	height: 320px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	margin-left: 35px;
+		border: 4px solid gold;
+		border-radius: 10px;
+		padding: 15px;
+		width: 340px;
+		height: 320px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-left: 35px;
+	}
+
+	.services-box p + p, .contact-box p + p {
+	margin-top: 15px;
+	}
+
+	.services-box h3 + p, .contact-box h3 + p {
+	margin-top: 30px;
 	}
 }
 
-.services-box p + p, .contact-box p + p {
-	margin-top: 15px;
-}
 
-.services-box h3 + p, .contact-box h3 + p {
-	margin-top: 30px;
-}
 
-.box-color {
-	color: orange;
-}
 
-a .box-color:hover {
-	color: cyan;
-}
 
-/*
-.welcome-photo {
-	max-width: 50rem;
-	margin-left: auto;
-	margin-right: auto;
-}
 
-.full-bleed {
-	width: 100vw;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-*/
