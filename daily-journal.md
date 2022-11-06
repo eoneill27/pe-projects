@@ -1,5 +1,45 @@
 # Emily's Daily Journal
 
+## November 5, 2022
+
+### Standup
+
+Yesterday I refined my design, chose fonts, and had a real breakthrough with the alignment of those boxes but then switched them over to display: flex anyway (so much easier). Lots of little tweaks and experiments were happening yesterday.
+
+This morning I woke up wondering if I'd made a huge mistake with respect to the design. Lots of second-guessing going on here at the moment. Is this what Beth would want? Should I have stuck with a more traditional vibe? Why won't she return my calls? I'm going to send the site to some friends today to get feedback.
+
+But then as I take another look at it, I think - it's really nothing too wild. It is still very normal and basic. Maybe it's fine! This is a good lesson in living with uncertainty.
+
+Today I want to figure out a solution for the contact info being too far down on the mobile site. Maybe it is as simple as switching the welcome copy and the boxes. I also need to get my open graph image together.
+
+### Today's lesson
+
+Document the process - 
+
+My ultimate goal was to create an inaugural web presence for Beth. When I started, I was thinking in a very traditional 4-page website frame of mind. I was working along these lines as I still labored under the delusion that Beth would be responding to my long list of questions. My four pages required details that were not forthcoming. 
+
+After talking to Reputable/Ivy, I changed tacks and started focusing on the essential information that Beth needs to convey in order to bring in customers. I wanted to refer to her family history, her qualifications, her broad range of skills, and make sure her contact information was readily available, all without getting too deep in the weeds of too much detail. 
+
+The look of the site changed a lot - I would love for users to be able to "turn on the lights!" once we learn dark mode capabilities. There is an argument to be made for staid tradition here, but Beth is young, and in my imagination she has a few tattoos and she's a badass lady electrician, so the color scheme makes sense to me. If I ever hear from her, she can tell me to go jump in a lake.
+
+I had so much fun working on this. I'm pretty happy with how it turned out. A few small details can be tuned up, and I can definitely imagine an expansion of the site in the future.
+
+### To dos
+
+- [x] finish Beth Electric 
+- [x] document the process
+
+## November 4, 2022
+
+### Standup
+
+Yesterday - Beth Electric. Today - Beth Electric!
+
+I had a good chat with Ivy yesterday evening and got some clarity on the project. I started working on my second prototype and continued on that this morning - playing around with fonts and trying to make it look good on my phone. Still wish I had a photo of Beth and her dad! But I'll get over it.
+
+No blockers today. Again wish I didn't have to go to work, also we're in the middle of an atmospheric river right now and I really don't want to face my bike commute this morning. I guess I do have some blockers, at least when it comes to leaving my apartment!
+
+
 ## November 3, 2022
 
 ### Standup
