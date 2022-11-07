@@ -3,8 +3,12 @@
 
 /* fonts and sizes */
 
+html {
+	scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Marcellus', serif;
+	font-family: 'Marcellus', 'Georgia', serif;
 }
 
 h1 {
@@ -12,7 +16,7 @@ h1 {
 	font-weight: 600;
 	line-height: 1.25;
 	padding-top: 52px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 h2 {
@@ -27,15 +31,17 @@ h1 + h2 {
 h3 {
 	font-size: 36px;
 	font-weight: 600;
+	text-decoration: underline;
 }
 
 p, a {
-	font-family: 'Montserrat', Gill Sans, sans-serif;
+	font-family: 'Montserrat', 'Gill Sans', sans-serif;
 	font-size: 24px;
 }
 
 p {
 	padding: 10px;
+	line-height: 1.6;
 }
 
 h3 + p {
@@ -46,14 +52,19 @@ p a {
 	color: coral;
 }
 
-/* structure */
-
-body {
-	background-color: floralwhite;
+p a:hover {
+	color: blue;
 }
 
+li a {
+	padding: 10px;
+}
+/* structure */
+
+
+
 .inner-column {
-	max-width: 500px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -64,17 +75,17 @@ body {
 	padding: 20px;
 }
 
-.site-nav {
+nav {
 	padding: 20px;
 	margin-top: 30px;
 	text-align: center;
 }
 
-.site-nav a {
+nav a {
 	padding: 15px;
 }
 
-.site-nav a:hover {
+nav a:hover, li a:hover {
 	background-color: black;
 	color: floralwhite;
 	border-radius: 5px;
@@ -86,10 +97,22 @@ body {
 	margin-top: 600px;
 }
 
-.contact h3 {
+.projects h3, .contact h3 {
 	padding: 20px;
 	text-align: center;
 	margin-top: 80px;
+}
+
+.projects ul {
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-left: 20px;
+	list-style: disc;
+
+}
+
+.projects li {
+	padding-top: 10px;
 }
 
 footer {
