@@ -81,7 +81,7 @@ inner-column {
 	display: inline-block;
 	font-size: clamp(32px, 8.5vw, 90px);
 	font-family: 'Russo One', monospace; 
-	color: white;
+	color: gold;
 	letter-spacing: 0.04em;
 	text-align: center;
 	text-transform: uppercase;
@@ -98,22 +98,21 @@ inner-column {
 	max-width: 60px;
 }
 
-.main-column img:last-child, .main-column img:last-child {
+.main-column img:first-child, .main-column img:first-child {
 	display: none;
-}
-
-.main-column:hover img:last-child {
-	display: block;
 }
 
 .main-column:hover img:first-child {
+	display: block;
+}
+
+.main-column:hover img:last-child {
 	display: none;
 }
 
-.main-header h1:hover {
-	color: gold;
+.main-column:hover h1 {
+	color: white;
 }
-
 
 /* mobile */
 
