@@ -1,0 +1,141 @@
+
+* {
+	box-sizing: border-box;
+	font: unset;
+	color: black;
+	margin: 0;
+}
+
+/* biggest picture element */
+
+html {
+	background-color: lightblue;
+}
+
+/* next biggest picture element */
+
+body {
+	background-color: lightpink;
+	color: coral;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	font-size: 16px;
+}
+
+header {
+	background-color: lightgreen;
+}
+
+inner-column, my-cool-practice {
+	display: block;
+	border: 3px solid yellow;
+}
+
+nav {
+	background-color: wheat;
+	color: dodgerblue;
+	padding: 20px;
+} 
+
+img, svg {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+p a, li a {
+	display: inline-block; 
+	text-decoration: underline;
+	color: blue;
+}
+
+h1 {
+	font-weight: bold;
+	color: darkblue;
+	font-size: 24px;
+	font-family: monospace;
+}
+
+section + h1 {
+	color: red;
+}
+
+header, footer {
+	background-color: limegreen;
+}
+
+header inner-column > a {
+	fill: red;
+	max-width: 60px;
+}
+header nav {
+	margin-top: 10px;
+}
+
+header nav a {
+	display: inline-block;
+	padding: 10px;
+	background-color: rgba(0,0,0,.1);
+}
+
+nav > a {
+	color: yellow;
+}
+
+footer nav {
+	background-color: darkgrey;
+	color: white;
+}
+
+footer a {
+	color: red;
+}
+
+inner-column {
+	display: block;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+section {
+	background-color: lightgray;
+}
+
+my-cool-practice {
+	display: block;
+}
+
+my-cool-practice h1 {
+	font-family: Gill sans, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+
+article {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+article h1 {
+	font-family: Gill sans, sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 1.1;
+	color: purple;
+}
+
+article h1 + p {
+	color: red;
+	margin-top: 20px;
+}
