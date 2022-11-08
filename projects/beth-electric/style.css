@@ -102,18 +102,6 @@ inner-column {
 	display: none;
 }
 
-.main-column:hover img:first-child {
-	display: block;
-}
-
-.main-column:hover img:last-child {
-	display: none;
-}
-
-.main-column:hover h1 {
-	color: white;
-}
-
 /* mobile */
 
 large-view {
@@ -201,6 +189,22 @@ p + p {
 
 	large-view {
 		visibility: visible;
+	}
+
+	.main-column img:first-child, .main-column img:first-child {
+		display: none;
+	}
+
+	.main-column:hover img:first-child {
+		display: block;
+	}
+
+	.main-column:hover img:last-child {
+		display: none;
+	}
+
+	.main-column:hover h1 {
+		color: white;
 	}
 
 	.services-contact inner-column {
