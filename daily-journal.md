@@ -1,5 +1,56 @@
 # Emily's Daily Journal
 
+## November 7, 2022
+
+### Standup
+
+Yesterday I took a nice break from the computer and hung out with some friends. It snowed a bunch here in the middle of the day, which was crazy - it is way too early for snow in Vancouver. But it didn't stick, fortunately. I'm kind of a drag when it comes to snow - all I can think about is what a mess the roads will be and how hard it will be to get to work. It's hard for me to enjoy snow unless I don't have anywhere to go. Vancouverites are terrible about shoveling sidewalks and there aren't enough snowplows in the city. Anyway.
+
+The challenge last week was great, and it was exciting to dip my toes into flexbox. I'd like to get a blog post up about the second half of the challenge - I'll try to work on that today. 
+
+I just watched the first part of today's lesson and I really appreciated the pep talk. I have been having so much fun doing this and I really do wish I could be in this class for 8 hours a day instead of in my office at my job. I came into this class knowing that I wouldn't have a ton of spare time to hang out and read books and go for drinks after work, that my social life would take a hit for six months or so - but I am trying to switch out my job at age almost 40, which is a big undertaking and something that requires some really focused effort. I just feel really motivated to make it happen. It was nice and encouraging to hear Derek saying these things to me in the video and to affirm for myself that I am enjoying this and that I feel like I'm making a good decision by doing this.
+
+No blockers today! 
+
+### Today's lesson - 057: Tools & habits (gathering)
+
+Use the right vocabulary
+Ask good qusetions
+
+create a file in the finder - drag it into Sublime in the dock to start a project and have folder open in sidebar - very handy!
+
+Don't forget about cmd + opt + 2 (or 3 or 1 or 4...) in Sublime
+
+Browser Refresh package in Sublime - allows you to refresh browser from Sublime by clicking cmd + shift + R - SO GREAT!
+
+Self-closing tags - closing forward slash is optional
+Maybe it's nice to use? Tells you that the tag ends.
+
+HTML - element, attribute, value
+CSS - selector, property, value - style declaration, CSS rule
+
+Github history milestone - 
+GitHub is a social network for version control
+Allows you to publicly develop code and share that code
+It is not the only option (GitLab, Beanstalk, Bitbucket, etc)
+Git can be used for any text-based file, not just code
+
+Bootstrap - premade UL library
+
+Package managers
+NPM - back end
+Bower - front end
+
+GitHub profile - tells a bit of a story
+recruiters will probably look at this - but don't freak out about it
+Interact with the community
+
+### To dos
+- [x] tune up folder structure - what do you actually want to keep?
+- [x] create boilerplate - folder w/ starting point docs
+- [] blog post
+- [] add links to portal - W3C, OG, 
+
 ## November 5, 2022
 
 ### Standup
