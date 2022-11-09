@@ -57,6 +57,10 @@ a:hover {
 	color: orange;
 }
 
+.box-color:hover {
+	color: cyan;
+}
+
 inner-column {
 	display: block;
 	max-width: 800px;
@@ -224,11 +228,11 @@ p + p {
 	}
 
 	.services-box p + p, .contact-box p + p {
-	margin-top: 15px;
+		margin-top: 15px;
 	}
 
 	.services-box h3 + p, .contact-box h3 + p {
-	margin-top: 30px;
+		margin-top: 30px;
 	}
 }
 
