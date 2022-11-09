@@ -1,5 +1,32 @@
 # Emily's Daily Journal
 
+## November 8, 2022
+
+### Standup
+
+Yesterday felt like a bit of a breather. I got Browser Refresh installed and made my boilerplate. I also got through the "tending your garden" milestone and the GitHub history milestone.
+
+Today sounds like a good day to get my blog post written. I will do my best! 
+
+No blockers today. 
+
+### Today's lesson - 058: Reviews and case studies
+
+Point of the project was not to tunnel vision make a website
+What do they really need?
+
+Think about what experience of "viewing" the site is for someone who is not looking at it with their eyes
+This comes down to data structure 
+How are you organizing your HTML?
+What structures do you have in place? 
+What is the most important thing for people to hear/see when they get to your site?
+
+Details of the typography will win over all background colors and images.
+
+### To dos
+- [x] blog post
+
+
 ## November 7, 2022
 
 ### Standup
