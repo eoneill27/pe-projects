@@ -1,5 +1,46 @@
 # Emily's Daily Journal
 
+## November 9, 2022
+
+### Standup
+
+Yesterday I wrangled a blog post out of the latter 3 days of my mock client experience. It felt good to get that off my plate. I might edit it a little today.
+
+Today I'm glad to have some more review and also to learn something new in Affinity and CSS with the blend modes. 
+
+I want to think more about my handles and domain name - I really struggle to think of anything clever and I don't want to force the issue because I don't want to end up with something that feels inauthentic to me. But I'll let it percolate a bit and see if anything comes up. If nothing does, my name is just fine!
+
+No blockers today!
+
+### Today's lesson - 059: Cascade and blend modes intro
+
+Lots of different resets
+They don't fully reset things because you can't have zero properties - the intention is to remove styles added by the various browsers
+
+Our own custom PE setup includes box sizing, squishy images, links that can wrap other elements
+We do this just to make our lives easier
+Make sure you understand these
+
+CSS cascade
+Declarations lower down of same specificity take precedence
+A more specific declaration will take precedence over a less specific one
+
+Can override a style sheet in a specific html document by using style tag after link to stylesheet
+Can be useful for page-specific overrides
+
+Blend modes
+Can drag images into Affinity
+In layers - image is one layer. Make a new one, fill it with a color. Put image on top of color layer. Different blend modes - next to opacity.
+use artboard tool to make the canvas the size you want
+Create some texture by adjusting the opacity of the image
+
+### To dos 
+- [x] review squishy images and wrapping links pens
+- [x] set up Github
+- [x] make some blended background images in both Affinity and CSS
+- [] update Goals CSS
+- [] resume
+
 ## November 8, 2022
 
 ### Standup
