@@ -1,5 +1,47 @@
 # Emily's Daily Journal
 
+## November 10, 2022
+
+### Standup
+
+Yesterday I had fun with the blend modes but need to spend more time playing with those. I ended up registering the emilyoneill.dev domain, just so all those other Emily O'Neills out there don't beat me to it! I like .dev - feels more professional to me than .net, and cooler than .com, but still easy for people to remember (I hope). My name is often misspelled - plenty of people want to spell O'Neill with 1 L instead of 2. Maybe I should also register emilyoneil.dev. 
+
+I'm excited to get into SVGs today. I'll be switching out Beth Electric's lightning bolts this weekend, I think! Time has felt short this week outside of work - I'm looking forward to the holiday tomorrow and the weekend ahead to dig into blend modes and SVGs more in depth. 
+
+### Today's lesson - 060: Creating SVGs and preparing images
+
+SVG - scalable vector graphic
+an image defined by numbers as opposed to bitmap images (.jpg & .png) which are made up of little squares.
+vector graphics can be scaled up infinitely without degrading quality
+
+name and nest your layers
+everything should be labeled
+
+in HTML - change IDs to Class
+SVG html is giving file styles with style tag - this will override CSS - take all that out
+
+set SVG to display: block, width 100%, height 100%
+fill its parent (picture)
+set picture to display block, set max-width
+
+image file preparation - what is the biggest size it will be shown?
+double that and drop the quality as far as you think you can get away with
+it will be super crisp because it is double the size
+
+in theory, nice if images are around 150kb
+
+making images smaller, or having fewer images, is the easiest thing you can do to make the website faster
+
+For a big background fill image - 2400 px wide is pretty good
+
+60 on the quality scale is usually pretty good
+
+### To dos
+- [x] draw an SVG - try and use a few fills and a few strokes
+- [x] prepare the SVG code - tune it up so you can use CSS to style it
+- [] practice preparing bitmap images
+- [] work on alpha-6 mood board
+
 ## November 9, 2022
 
 ### Standup
