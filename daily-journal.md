@@ -1,5 +1,49 @@
 # Emily's Daily Journal
 
+## November 11, 2022
+
+### Standup
+
+Yesterday I dipped my toes into the SVG waters, and they are warm and inviting. I would like to get weird bear to walk or wave - I'll try to figure that out today! The image prep part of the lesson was also really helpful - I had no systematic way for thinking about that before, and it's nice to now have some rules in place.
+
+Today is a holiday and I can feel everything slowing down - it is so nice to be at the beginning of a three-day weekend. I'm going to make a point of going for a long walk every day.
+
+No blockers today!
+
+### Today's lesson - 061: Further SVG exploration
+
+Pablo Stanley - The Faker You Are, the More Successful You Can Be
+Love this. A tthe core, arguing for focus on functionality. Aesthetics are nice, but not if it doesn't work.
+Use solutions that work for your goal.
+Don't copy Amazon if you don't have an e-commerce site.
+Have empathy for your users.
+Inclusive design
+Users are not a monolith. You are not representative of all your users.
+Don't isolate yourself
+Don't be afraid of criticism
+
+Designers are just human beings who put in the time and who care about the outcome
+
+SVG code - delete XML stuff at the beginning, doctype, version, space, link serif
+
+g tag - SVG version of a div - way to collect things into groups
+
+transform attribute indicates where the group is on the x/y axis
+
+path tag - a shape
+
+don't forget to name your layers
+
+Bitmap images - a "map" of pixels. A series of tiny boxes.
+Vector graphics - a series of points plotted out with math. Drawing instructions that get drawn in the browser
+
+### To dos
+
+- [x] watch Pablo's talk
+- [x] create your SVG kitchen sink
+- [x] take the SVG code and prep it
+
+
 ## November 10, 2022
 
 ### Standup
