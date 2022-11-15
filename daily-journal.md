@@ -1,5 +1,75 @@
 # Emily's Daily Journal
 
+## November 14, 2022
+
+### Standup
+
+On Saturday I thought about some of the gaps in my knowledge so far, and made a plan to set aside time each week to go through Affinity Designer tutorials. I also spent some time cleaning up my desktop and closing windows. I feel like things are much tidier now, which feels good. Yesterday I went through a couple of the milestones. I had started reading Hello Design World - I finished that and took notes - I thought that was a good resource, and a helpful system for thinking about the process of web design. I also watched Chris Coyier's talk on how to think like a front-end developer. It's interesting to think about how broad that term has become, maybe to the point that it doesn't make much sense anymore as a stand-alone phrase. Maybe we have to be much more specific about what we're calling ourselves if we do fall under the umbrella of front-end developer.
+
+Today I've started going through the lesson and am really enjoying it so far. I like the refresher, and I like getting back to the code. I have to head to work - I am late! But I'll finish it up this evening. If I have time tonight, I do want to get started on a redo of my Challenge 1.
+
+No blockers today!
+
+### Today's lesson - 064: Planning layout work-through
+
+When we link CSS doc to HTML doc, we're making a relational connection - HTML doc knows to load and apply stylesheet
+@import - still makes a network request
+imagine it as cutting out the Meyer-Reset and just gluing it directly into the CSS doc right when the browser is ready to load the page
+
+[&nbsp Non-breaking space (no bracket at beginning - starts with ampersand) - puts a space between two things that won't break. If you don't want two words to break away from each other over two lines, use this between them in the HTML
+
+CMD + /  - comment out
+
+header can go inside main
+
+add background color to selector with background image using RGBA to make text on top more legible
+
+text-shadow
+box-shadow (x-axis, y-axis, blur, distance, color)
+box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);
+
+sticky header
+position: sticky;
+top: 0;
+
+.site-header .inner-column {} - targets only the inner-column class in the site-header class
+
+flex display allows all children to be flexible
+
+make whole body display: flex - a flex container
+flex-direction: column; min-height: 100vh;
+then page-content flex-grow: 1 (1 = true, 0 = false)
+This stretches the page content section so it fills the page and pushes footer down - keeps footer at bottom
+
+### To dos:
+
+- [x] video tutorial
+
+## November 12, 2022
+
+### Standup
+
+Yesterday I also had fun continuing to play with SVGs. This is an area that I want to spend a lot more time with - it would be nice to have a few reliable SVG tricks up my sleeve.
+
+Today I'm going to think about gaps and make a plan. I'm also thinking about redoing Challenge 1 in light of everything we've learned since then.
+
+No blockers!
+
+### Today's lesson - 062: Fill in the gaps
+
+### To dos:
+
+- [x] identify gaps in knowledge, think about big picture of where you're at
+- [] revisit your personal reflection/marketing plan
+- [] update Goals CSS
+- [] resume
+- [] milestones
+
+### Stuff to read:
+
+- [] Modern fluid typography using CSS clamp (Adrian Bece)
+- [] Creating a full bleed CSS utility (hankchizljaw)
+
 ## November 11, 2022
 
 ### Standup
