@@ -1,5 +1,40 @@
 # Emily's Daily Journal
 
+## November 15, 2022
+
+### Standup
+
+Yesterday I finished the lesson and got started on today's. I was pretty zonked by 8:30 or so, so I shut things down around then.
+
+Today, very excited to get into the flex challenges. I like the challenge model - I enjoy testing my knowledge in this way. This is a fun week so far! 
+
+No blockers today. I keep running late to work because I have a hard time leaving the lessons behind in the mornings.
+
+### Today's lesson - 065: The Flexbox Layout (Flexible Box) Module
+
+Flexbox allows things to be flexible and change size
+Also helps align things
+
+The CSS cascade doesn't impact display
+
+Flexbox creates new layout context between parent element - "Flex container" - and the direct children - "flex item"
+
+flex-direction - row, row-reverse, column, column-reverse
+
+justify-content - center, flex-start, flex-end, space-between, space-around, space-evenly
+defines alignment along the main axis
+
+align-items - center, stretch, flex-start, flex-end, baseline
+defines alignment along the cross axis (perpendicuular to main axis)
+
+with Emmet - div.orange>div.yellow makes div with class "yellow" inside div with class "orange"
+
+:nth-of-type(1)
+:first-of-type
+
+flex-wrap: wrap
+
+
 ## November 14, 2022
 
 ### Standup
