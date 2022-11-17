@@ -1,5 +1,53 @@
 # Emily's Daily Journal
 
+## November 16, 2022
+
+### Stand up
+
+Yesterday I spent a lot of time working through the flexbox exercises, which I thought were really fun. My first attempt at the challenge in Flexbox Part 1 ended up looking fine, but there was a lot of extra code in there - I had a feeling there was an easier way! And it was so illuminating to see Derek's solution. I had forgotten about/never used nth-of-type. Now it's burned into my brain! 
+
+I got through 2 of the 4 variants of the first bigger challenge in Flexbox Part 2 - would like to finish that today, if possible. I have been trying to blog on Wednesdays but don't know if I'll have time for that today - I'll try to write up an outline, though. 
+
+No blockers! Working towards Sandals.
+
+### Today's class - 066: Flexible layouts, modules and components
+
+Start thinking in modules and components
+Start thinking in "break points"
+Start thinking about the smallest screen as the main stage
+
+component = a thing that you compose to build bigger things (special button, form, small collection of elements)
+module = a collection of components
+reusable
+
+When planning out a module/component, need to think it through on all screen sizes
+If you write the HTML as cleanly as possible, in the classic style for the smallest screens, then you can usually just make a few adjustments as screens allow for more layout possibilities and it all falls into place (with practice)
+
+Some websites have completely separate mobile site - if/then statement when you visit their site that sends you to the right place
+Some have one codebase - this is what we're doing
+Good reasons to do both
+
+In Affinity - you can lock a layer so you can work on top of it without accidentally dragging things around.
+
+For an actual grid - there are a few lines of CSS that you can use to make it really easy
+
+Custom elements are default inline
+
+Flex-basis: 50% - will ask the content to try to take up 50% of the container
+It will try to achieve the size, but if it can't, it won't break
+Can also just use width:50%
+
+Adjacent selector - any element that includes the specified class
+element.class
+
+Modules are like skeltons - plug it in, fill in the data
+
+### To dos
+
+- [x] find examples of responsive modules in the wild - good layout patterns (30 mins)
+- [x] mock up some ideas for responsive layouts (20 mins)
+- [x] write up a module in CodePen (40 mins)
+
 ## November 15, 2022
 
 ### Standup
