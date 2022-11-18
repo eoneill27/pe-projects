@@ -1,5 +1,94 @@
 # Emily's Daily Journal
 
+## November 17, 2022
+
+### Stand up
+
+Yesterday I observed flexbox and responsive design in the wild. It is definitely something I'm attuned to now - if someone were to walk by my desk at work at the moment I arrive at a new website, they would probably think it pretty strange that I keep making the screen big and small and big again. I am going to try to continue to pay attention to this and make note of interesting layouts. 
+
+Today is another typography day! I'm excited about that. I had no extra time yesterday but I hope to have a bit today, so I will try to get a blog post sketched out after I finish the lesson.
+
+No blockers today.
+
+### Today's lesson - 067: Exploring typography
+
+Think about your goal when you're choosing a font
+
+Ellen Lupton - Thinking With Type (book) 
+
+When you work on your business card - don't just pick a font
+First, pick a feeling
+What feeling do you want to convey?
+Can you visually align it with what you're interested in?
+
+Ellen Lupton - Typography That Works
+
+Sans serif - Futura, Gill Sans, News Gothic, Franklin Gothic, Helvetica, Univers, Gotham
+Gill Sans was a deliberate counterpoint to Futura - a more humanistic version of sans serif 
+
+Find a nice big family that has all the weights you want
+
+Graphic design is all about alignment
+
+We use a grid so we have a system for objects on the page to be anchored to one another
+Creates a mix of uniformity and variety
+
+centered - you're not dead yet
+justified - can be full of holes - "rivers" have to work hard to make justified type beautiful
+flush left - organic - be aware of what the ragged edge looks like
+flush right - more unusual - gives it a real dynamism
+
+centering all your elements can be static and dull
+
+Elements floating toward edge of the page - not aligned to anything - not such a good idea
+
+Elements aligned to one another - creates an internal structure that comes from the content and not just the margins of the page
+
+line spacing is important
+creates texture
+
+If you use too many types of emphasis or if you emphasize too much, nothing ends up looking important
+
+A business card is a typographic portrait
+
+Align text to the top of the x-height, not the cap height
+
+Serif - Garamond, Baskerville, Mr. & Mrs. Eaves, Didot, Bodoni
+
+Tracking - often nice when added to caps
+less nice when added to lowercase letters, especially italics, which are designed to sit rather closely together
+
+Kerning adjusts the space between a pair of letters
+
+small caps - same height as lowercase letters - only use when they are officially included with the type family 
+Pseudo small caps are a type crime - "an abomination against nature"
+
+non-lining numerals integrate well with text - they have ascenders and descenders
+lining numerals don't break the line
+
+Drop cap - enlarged letter at the beginning of a line
+
+Slab typefaces - lend themselves to decorative variation
+merge of sans and modern serif 
+
+Not all slab faces are decorative - Clarendon, Century Expanded, Thesis Serif
+
+Trilogy combines sans, serif and slab
+
+Slab serifs love the web - Adelle, Kultura, Museo Slab 
+
+www.typography.com - How to Mix Typefaces - Hoefler and Frere-Jones
+
+
+
+### To dos
+
+- [x] watch Ellen's series, take notes, write down font names
+- [] business card exercises with sans-serif
+- [] business card exercises with serif
+- [x] make some type patterns in CSS - names for classes, add to css
+- [x] try to move module into skeleton for practice
+
 ## November 16, 2022
 
 ### Stand up
