@@ -1,0 +1,147 @@
+@import 'meyer-setup.css';
+@import 'smashing-module.css';
+
+html {
+	background-color: wheat;
+}
+
+/* SITE STRUCTURE */
+
+body {
+	min-height: 100vh;
+}
+
+.inner-column {
+	max-width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 14px;
+}
+
+/* TYPOGRAPHY */
+
+.heyyou-voice {
+	font-family: Didot, serif;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.welcome-voice {
+	font-family: Didot, serif;
+	font-size: 38px;
+	font-weight: 600;
+}
+
+.reading-voice {
+	font-family: Gill sans, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: 0.01em;
+	max-width: 72ch;
+}
+
+.moving-voice {
+	font-family: Gill sans, sans-serif;
+	font-size: 18px;
+}
+
+.list-voice {
+	font-family: Didot, serif;
+	font-size: 18px;
+	font-weight: 800px;
+}
+
+.small-voice {
+	font-family: Gill sans, sans-serif;
+	font-size: 16px;
+}
+
+/* PRESENTATION */
+
+p + p {
+	margin-top: 16px;
+}
+
+h1 + p {
+	margin-top: 26px;
+}
+
+h2 + p {
+	margin-top: 26px;
+}
+
+nav a {
+	background-color: lightpink;
+	text-decoration: none;
+	padding: 5px 30px;
+	margin-left: 70px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+a:hover {
+	color: coral;
+}
+
+/* SITE SECTIONS */
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.page-content {
+	/*background-image: url('https://images.unsplash.com/photo-1465220183275-1faa863377e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');*/
+	background-size: cover;
+	background-position: center center;
+	flex-grow: 1; /* TRUE */
+}
+
+.site-header {
+	background-color: lightblue;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 2px 5px 0px rgba(0,0,0,.4);
+	padding: 30px 40px 30px 30px;
+}
+
+.page-header {
+	background-color: transparent;
+	padding: 30px;
+}
+
+.welcome {
+	background-color: lightblue;
+	padding: 30px;
+}
+
+.about {
+	background-color: transparent;
+	color: black;
+	padding: 30px;
+}
+
+.site-footer {
+	background-color: #333;
+	color: white;
+	padding: 30px;
+}
+
+@media (min-width: 620px) {
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+smashing-module, .main, .posts, .signup, .resources {
+	display: flex;
+	gap: 10px;
+}
+
+smashing-module {
+	padding: 30px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.main {
+	padding: 30px;
+	margin-top: 30px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-basis: 100%;
+}
+
+.posts {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.story {
+	background-color: lightgray;
+	border: 5px solid black;
+	padding: 20px;
+}
+
+.signup {
+	background-color: lightblue;
+	border: 5px solid black;
+	padding: 20px;
+	margin-top: 50px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.newsletter {
+	background-color: lightblue;
+	padding: 20px;
+}
+
+.newsletter-button {
+	padding: 20px;
+	width: 92%;
+}
+
+.newsletter-button a {
+	background-color: lightpink;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.resources {
+	padding: 0 30px;
+	margin-top: 30px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.guide {
+	background-color: gold;
+	border: 5px solid black;
+	padding: 20px;	
+}
+
+/* SMALL */
+
+@media (min-width: 600px) {
+	smashing-module {
+		align-items: center;
+	}
+	
+	.main {
+		margin-top: 30px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.signup {
+		margin-top: 0;
+	}
+	
+	.newsletter-button {
+		padding: 5px 5px 5px 15px;
+		width: 70%;
+	}
+
+	.resources {
+		margin-top: 30px;
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	
+	.guide {
+		padding: 30px;
+		width: 48%;
+	}
+}
+
+/* MEDIUM */
+
+@media (min-width:800px) {
+	smashing-module {
+		align-items: center;
+	}
+	
+	.main {
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
+	
+	.posts {
+		flex-basis: 60%;
+	}
+	
+	.signup {
+		flex-basis: 30%;
+	}
+
+	.newsletter-button {
+		padding: 5px;
+		width: 100%;
+	}
+	
+	.resources {
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	
+	.guide {
+		width: 48%;
+	}
+}
+
+/* LARGE */
+
+@media (min-width:1200px) {
+	smashing-module {
+		align-items: center;
+	}
+	
+	.main {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	.posts {
+		flex-basis: 60%;
+	}
+	
+	.signup {
+		flex-basis: 30%;
+	}
+	.resources {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.guide {
+		width: 30%;
+	}
+}
