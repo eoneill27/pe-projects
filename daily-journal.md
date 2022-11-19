@@ -1,5 +1,52 @@
 # Emily's Daily Journal
 
+## November 18, 2022
+
+### Stand up
+
+Yesterday I watched Ellen's typography class and took some notes. I also worked on creating CSS type classes in my practice boilerplate and got my module inserted into that. It's nice to see how the module concept works - I had to spend some time tuning it up once it was in the boilerplate, but it's certainly a lot faster and easier than writing all of that code from scratch every time. 
+
+Today I will absorb the lesson on CSS positioning and hopefully complete the challenge relatively early on in the day. I want to continue to practice flexbox and to think about tomorrow's challenge.
+
+I'm buying a desk from Craigslist after work today, so the next time you see me I will not be working on my kitchen table. My apartment is so small that my "dining room" is really just a small space between my sofa and my kitchen. There's a tiny little sun room off my tiny little living room, which is where I will put the desk. It requires finding some other place for the record cabinet and the chair I have in the sun room - that other place doesn't really exist, but I think it will be nice to have a real desk! 
+
+### Today's lesson - 068: CSS Positioning
+
+By default, everything is position: static
+Each element flows based on its display type and doesn't have any position settings
+
+Sticky - great for site headers
+
+Fixed - based on the browser window (the viewport)
+Bottom:0 and left:0 will be at the bottom left of the window no matter what - fixed to that position even if you scroll or resize
+Can't use it to fix something in a section because sections change
+Sits on top of the content and is fixed in that position all of the time - not usually a desirable outcome
+Great for full screen takeovers or unique/artsy layouts
+Elements with this positioning leave the document flow
+Thing of them as being on a new "layer" 
+You can visually stack things
+Old spot in the document flow collapses
+Mostly used for pop ups and full screen mobile menus
+
+Relative - positions element based on its natural place in the document flow
+Will hold its place in the flow, but visually will move a little away from there
+Your coordinates will be relative to where it is expected to be
+Ends up feeling a lot like margin
+You are moving it away from a position instead of aligning it to a boundary
+Rarely used - prefer transforms
+
+Absolute - depends on the closest parent element with position relative
+You can position the element anywhere depdning on that context
+Will align to the body element by default
+Similar to fixed except you are choosing what element context you want it to be fixed to - instead of the browser window edges
+Old spot in the document flow collapses 
+
+
+### To dos
+
+- [x] positioning exercise
+- [] supplementary exercises from Derek
+
 ## November 17, 2022
 
 ### Stand up
