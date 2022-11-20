@@ -310,6 +310,7 @@ p + p {
 		position: absolute;
 		right: -100px;
 		bottom: -100px;
+		z-index: -1;
 	}
 
 	.article {
