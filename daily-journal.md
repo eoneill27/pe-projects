@@ -1,5 +1,35 @@
 # Emily's Daily Journal
 
+## November 19, 2022
+
+### Stand up
+
+Yesterday I zipped through the exercise pretty quickly, then finished the flexbox exercises and started sketching out the elements of today's challenge. The desk is operational! The photos show the set up before and after, including my table restored to its usual smaller size.
+
+Today I actually have to go into the office to do a first aid shift - I am on the first aid team, and if there are more than 20 people in the building we need to have a first aid attendant on site. There is some committtee meeting happening today, so in I go. That's ok, though, because my only job is to wait around in case someone needs a bandaid, so I'll be able to continue working on the challenge. I'm having fun with it so far - we have come a long way!
+
+No blockers today.
+
+### Today's lesson - 069: Super responsive layout challenge
+
+Various modules inside inner column
+
+There is no perfect breakpoint - depends on the layout
+
+One color for background
+use RGBA to create transluscent layer over header
+Footer has some black 
+This allows you to change just the color of the background to make a pretty significant visual change
+
+Display: none - at certain breakpoints, might want to hide or show an element
+
+Overflow: scroll
+Overflow: hidden - might want to use this
+
+### To dos
+
+- [x] Super responsive layout challenge
+
 ## November 18, 2022
 
 ### Stand up
