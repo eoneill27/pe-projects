@@ -1,0 +1,310 @@
+@import 'meyer-setup.css';
+
+body * {
+/*	border: 4px solid red;*/
+}
+
+body {
+	background-color: #f1cdb5;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.inner-column {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+/* TYPOGRAPHY */
+
+.heyyou-voice {
+	font-family: Krona One, Helvetica, sans-serif;
+	font-size: clamp(26px, 3vw, 32px);
+}
+
+.attention-voice {
+	font-family: Belleza, Georgia, serif;
+	font-size: clamp(26px, 4vw, 48px);
+}
+
+.listen-voice {
+	font-family: Belleza, Georgia, serif;
+	font-size: clamp(18px, 3vw, 30px);
+	font-weight: 600;
+}
+
+.reading-voice {
+	font-family: Georgia, serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.moving-voice {
+	font-family: monospace;
+	font-size: 18px;
+}
+
+/* HEADER */
+
+.site-header {
+	background-color: #fdd85d;
+	padding: 15px;
+}
+
+.site-header .inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+
+.logo {
+	max-width: 60px;
+	border-radius: 50%;
+	margin-left: 10px;
+	padding: 5px 0;
+}
+
+/* WELCOME */
+
+.welcome {
+	background-color: #ebc631;
+/*	padding: 50px 10px;*/
+	/**position: relative;
+	overflow: hidden;*/
+}
+
+/*.welcome .inner-column .welcome-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+*/
+.welcome-circle {
+	max-width: 30%;
+	filter: opacity(10%);
+	position: absolute;
+	top: -105px;
+	left: -20px;
+}
+
+.welcome-landscape {
+
+	z-index: 2;
+}
+
+.header-button a {
+	padding: 10px 40px;
+	width: 80%;
+	background-color: #ff0166; 
+	color: #f0cad9;
+	border-radius: 30px;
+}
+
+.hours {
+	border: 4px solid black;
+	border-radius: 10px;
+	box-shadow: ;
+	padding: 20px;
+}
+
+h2 + a {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+.secret {
+	display: none;
+}
+
+/* STORIES */
+
+.stories {
+	background-color: #7db5d5;
+	padding: 50px 10px;
+}
+
+.stories .inner-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.story-box {
+	background-color: #e94f28;
+	padding: 20px;
+}
+
+.story1-pic, .story2-pic {
+	max-width: 400px;
+	margin-bottom: 15px;
+}
+
+.stories-circle {
+	display: none;
+}
+
+.separate-box {
+	display: none;
+}
+
+/* FOOTER */
+
+.site-footer {
+	background-color: #BBDCC1;
+	padding-bottom: 100px;
+}
+
+.site-footer .logo {
+	padding-top: 50px;
+}
+
+/* SMALL SCREEN */
+
+@media (min-width: 550px) {
+
+	.stories .inner-column {
+		align-items: stretch;
+	}
+
+	.story-box {
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		padding: 10px;
+	}
+
+	.story1-pic, .story2-pic {
+		max-width: 250px;
+		margin: 0;
+	}
+
+	.welcome-landscape {
+		min-width: 100vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* MEDIUM SCREEN */
+
+@media (min-width: 750px) {
+
+	.inner-column {
+		max-width: 900px;
+	}
+
+	/*.welcome .inner-column .welcome-content {
+		flex-direction: row-reverse;
+		align-items: center;
+		gap: 15px;
+	}*/
+
+	.welcome-landscape {
+		min-width: 100vw;
+	}
+	/*.welcome-landscape {
+		max-width: 600px;
+	}*/
+
+	.secret {
+		display: flex;
+		background-color: lightyellow;
+		color: coral;
+		font-family: Georgia, serif;
+		font-size: 22px;
+		border: 5px solid gold;
+		padding: 30px;
+		width: 40%;
+	}
+
+	.stories {
+		padding-bottom: 250px;
+		position: relative;
+	}
+
+	.stories .inner-column {
+		flex-direction: row;
+	}
+
+	.story-box {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.story1-pic, .story2-pic {
+		max-width: 500px;
+	}
+}
+
+/* LARGE SCREEN */
+
+@media (min-width: 950px) {
+
+	/*.welcome .inner-column .welcome-content {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 20px;
+	}*/
+
+	.welcome-circle {
+		bottom: 0;
+		left: -20px;
+	}
+
+	.welcome-landscape {
+		min-width: 100vw;
+	}
+
+	.secret {
+		display: none;
+	}
+
+	.story-box {
+		display: none;
+	}
+
+	.separate-box {
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+	}
+
+	.separate-box h3 {
+		background-color: #e94f28;
+		padding: 10px 10px 10px 10px;
+		max-width: 300px;
+	}
+
+	.story1-pic, .story2-pic {
+		max-width: 350px;
+		margin: 0;
+	}
+
+	.stories-circle {
+		display: block;
+		max-width: 40%;
+		filter: opacity(10%);
+		position: absolute;
+		top: -150px;
+		right: -200px;
+	}
+}
+
+/* VERY LARGE SCREEN */
+
+
+
