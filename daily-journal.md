@@ -1,5 +1,37 @@
 # Emily's Daily Journal
 
+## November 28, 2022
+
+### Stand up
+
+On the break, I didn't do quite as much work as I thought I would - but I did do the second responsive layout challenge and I got started on my brother's website. I went down to Washington to stay with my family for Thanksgiving, and he and I talked about the site a bit. He gave me a few sites that he likes the look of, so I'm going to work with his ideas to hopefully make something that makes him happy. He also gave me a nice office chair, so I am much more comfortable at my desk.
+
+I watched the layout challenge walkthroughs this morning - I hadn't watched them all the way through yet, so this was good. I made note of a few tips and updated my CSS reset files with the visually-hidden class. I'm going to spend some more time on my brother's site this evening.
+
+No blockers!
+
+### Today's lesson - 078: Layout challenge walkthrough
+
+custom elements are default display inline - need to change them to display: block
+
+inner-column { display: block; width: 100%; max-width: 1200px; margin-right: auto; margin-left: auto;} - don't need to keep changing the inner-column width at breakpoints
+
+sometimes might want to hide content for accessibility. Section should have a heading for accessibility, but don't necessarily want the heading to be visible. Can create .visually-hidden class in setup.css for things that you want to have read by a screen reader but not appear on page visually
+Google "hide content a11y"
+
+pictures that are purely for decoration don't need alt text
+
+take screenshots of your desktop for placeholder images
+
+In Affinity - copy whatever - then go File > New from clipboard - this will give you a canvas that is exactly the size of your thing
+
+In HTML - anything you put lower in the doc structure is going to take precedence as far as layering goes
+
+CSS positioning - can use percentages
+top: 70%
+left: 70%
+The thing will move around a little when resizing the page. Use px for more precision.
+
 ## November 19, 2022
 
 ### Stand up
