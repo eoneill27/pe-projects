@@ -1,5 +1,56 @@
 # Emily's Daily Journal
 
+## November 29, 2022
+
+### Stand up
+
+Yesterday I watched the first set of responsive layout challenge walkthroughs. It's good to have the refresher after a week off, and I'm also making notes of little tips and tricks. I always find it really interesting to see how Derek approaches these challenges. One thing I realized I had been doing was changing the inner-column width for each breakpoint - and while watching the first video I quickly realized how unnecessary that is. The visually-hidden class was another big takeaway for me. I also didn't know about the "New from clipboard" trick in Affinity - nice to have a canvas that is the same size as your thing!
+
+I took the opportunity provided by the low-key day yesterday to visit Ann and her family after work - I used to be over there for dinner a few times a week, but not anymore! On top of everything else that's going on, she's had a tough recovery from her gallbladder surgery and is just starting to get back to normal. Last night was the first time in almost two months that we had a normal family dinner, and that was very restorative. 
+
+Today I'll watch the next two walkthrough videos and should have time for some extra stuff this evening. It's supposed to snow quite a bit this afternoon, so I might be walking home from work, but I should be available by 6:45! 
+
+No blockers today.
+
+### Today's lesson - 079: Layout challenge walkthrough part 2
+
+Background image on div
+
+If you make module inside inner-column, it's totally transferrable
+section - inner-column - plan-grid - plan
+
+Can also create a module with inner-column included
+
+Sometimes you need to wrap something in a div. That's ok!
+
+If you put @media with the relevant section instead of everything at the end, then you have a reusable component.
+
+display: grid;
+grid-template-columns: repeat (auto-fill, minmax(200px, 1fr));
+grid-grap: 1em;
+
+fr = fraction
+
+background-image:
+background-size: cover - tries its best to cover the background of the container
+
+transition: opacity 1s; (fade in)
+
+pointer-events: none; - makes element invisible to mouse
+
+@media (min-width: 480px) and (max-width: 799px)
+This is possible but can get confusing
+
+Can have more than one inner-column
+
+Can search Sublime Text with cmd + F
+
+even if you're a gung-ho grid person, there are still great uses for flex
+
+section-plans:hover .cog {} - any cog inside section-plans, do this to it when you hover over section-plans
+
+Sometimes position: absolute makes things forget what width they're supposed to be. Give them width: 100%, and max-width: whatever number of pixels
+
 ## November 28, 2022
 
 ### Stand up
