@@ -1,5 +1,113 @@
 # Emily's Daily Journal
 
+## November 30, 2022
+
+### Stand up
+
+Yesterday I finished watching the responsive layout challenge walkthroughs, worked a little on my brother's site, and then had to call it a day. I feel like I'm fighting off a cold and I have been very tired.
+
+Today I'll be reading lots about how to ask good questions. I'd like to get to the business card exercise, if not today then definitely tomorrow. 
+
+No blockers! Just drinking lots of tea and trying really hard not to get sick.
+
+
+### Today's lesson - 080: How to ask a question
+
+You know a lot of stuff
+You know a lot more than you did 2 months ago!
+
+If you want people to show you empathy, you need to take the time to show that you care to compose yourself
+
+Our brains can feel like we totally get it even when we totally don't
+
+Use CodePen to tell a story
+Create a really simple version of what you're trying to do
+Create the tiniest version of the situtation you possibly can
+Strip it down to the amount of code you need
+Same goes for graphics program questions
+
+What do you want?
+What have you tried so far? 
+Maybe draw a picture
+Don't ask without trying
+
+Where should you ask?
+CSS Discord - very fast - also for HTML
+Stack Overflow - just about code - for big questions
+Dev.to & CodeNewbie - open-ended questions
+
+"vertically align children of parent div" is better than "vertically align menu items"
+
+Brace yourself
+THe help you'll get (and the time saved) will be worth the crabby banter
+
+#### Stack Overflow article - "How do I ask a good question?"
+
+search & research - keep track of what you find, even if it doesn't help
+If you aren't able to find the answer somewhere else on the site, including links to related questions and explanations of why they didn't help in your specific case will help prevent your question from being marked as a duplicate
+
+write a title that summarizes the specific problem 
+
+Introduce the problem before you post any code
+
+Help others reproduce the problem with just enough code
+Don't post images of code - copy or type the text into the question
+Reserve the use of images for things that are impossible to describe accurately via text
+
+Include all relevant tags - language, library, specific API(s) 
+If you use a version-specific tag, also include the main non-version specific tag
+
+Proofread before posting
+
+Respond to feedback after posting
+
+#### Stack Overflow article - "How to create a minimal, reproducible example"
+
+People are better bale to help if you provide code that they can easily undrstand and use to reproduce the problem
+
+Community memners refer to this as:
+reprex - minimal, reproducible example
+meve - minimal, complete and verifiable example
+mwe - minimal, workable example
+
+Minimal - use as little code as possible that still produces the same problem
+Complete - provide all parts someone else needs to reproduce your problem in the question itself
+Reproducible - test the code to make sure it reproduces the problem
+
+If you're not sure what the source of the problem is, start removing code a bit at a time until the problem disappears - then add the last part back
+
+The problem might not be in the code you think it's in - include all of the relevant code (html, css, javascript)
+
+Use individual code blocks for each file or snippet you include. Provide a description for the purpose of each block. - See "markdown help"
+
+Use stack snippets to include runnable HTML, JS or CSS
+
+Validate your code
+
+#### The XY Problem
+
+Problem occurs when people get stuck on what they believe is the solution and are unable to step back and explain the problem in full
+
+Always include info about a broader picture along with any attempted solution
+
+If there are other solutions you've ruled out, share why you ruled them out.
+
+#### CSS Discord
+
+October 12 comment from webstrand - "The point of CSS is to override the display of elements while keeping their semantics."
+
+Display: contents makes the children of the element display in the parent, as if they were children of their grandparent instead.
+This allows you to take something like [code]table[/code] and lay out its rows and columns using display: grid
+
+Learn about negative margins
+
+### To dos
+
+- [x] Get a stackoverflow account
+- [x] read posts
+- [x] check out CSS Discord - what do you notice about the question asking style?
+- [x] spend some time digging around on stackoverflow - what can you do? what can't you do? how do you feel about that? Check out CSS tag. takeaways?
+
 ## November 29, 2022
 
 ### Stand up
@@ -50,6 +158,7 @@ even if you're a gung-ho grid person, there are still great uses for flex
 section-plans:hover .cog {} - any cog inside section-plans, do this to it when you hover over section-plans
 
 Sometimes position: absolute makes things forget what width they're supposed to be. Give them width: 100%, and max-width: whatever number of pixels
+
 
 ## November 28, 2022
 
