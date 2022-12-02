@@ -1,5 +1,65 @@
 # Emily's Daily Journal
 
+## December 1, 2022
+
+### Stand up
+
+I can't believe it's December already! Yesterday I read the lesson, read the articles from the lesson and checked out CSS Discord and Stack Overflow. I found it helpful to think about how to ask good questions because what it really boils down to is how to think through a problem. What steps should I take if I'm running into trouble? I like having a method to follow. Research is always my instinctive first step, and thinking through the question is very helpful for successful searching. Knowing that there is a whole huge community out there that is happy to help answer a well-thought-out and well-crafted question is very comforting! 
+
+Today - MAMP. I don't know what this is! This is exciting. I did not do my business cards yesterday - I am going to try to do them today, but I am also going to go to work and then try to wrap my head around MAMP and PHP, so we'll see how it goes.
+
+No blockers today. I continue to triumph over this nascent cold.
+
+### Today's lesson - 081: Setting up MAMP
+
+MAMP = Mac Apache MySQL PHP
+(linux version = LAMP, windows version = WAMP)
+
+Apache HTTP web server
+Apache is the software that works out the exchange when you send an HTTP request to some distant computer - the computer has to decide if it should send back the file you requested. Is it safe? Is it allowed?
+
+MySQL - a database management system
+Stores structured data and allows you to retrieve it
+SQL - Structured Query Language
+Very widely used database system
+
+PHP - server-side scripting language
+Script = a list of directions to help automate tasks so the computer can run them
+The server is the computer you're requesting things from
+When you ask for something, the server runs some tasks and prepares a document to send back to you. PHP is the type of file you'd write to author those scripts. Mostly used to generate HTML.
+
+When you request a file from the server, it will look for a PHP file. If there isn't one, it will look for an HTML file.
+If PHP file - it will read it and follow directions - the usual end result is a complete HTML page
+
+We use "partial" .php files to break the HTML file into manageable pieces. Then the server stitches them together on the fly.
+
+One master index.php file that includes other smaller parts of the project - all into a final complete HTML doc
+
+Can't select "view in browser" for a PHP file
+Need to view files on local server
+Tell MAMP what you want it to consider your server's root folder, turn MAMP on, then navigate to localhost:8888 to see your files "served" up
+
+MAMP is a GUI that helps you administer the Apache, MySQL, & PHP areas of your computer 
+
+<?php
+	?>
+Inside of this - write your PHP
+
+similar to style tags - inside of those, you write CSS in an HTML doc (a different language inside an HTML doc) 
+Same principle with PHP
+
+<?php include(''); ?>
+
+include() is a function
+very similar to @import in CSS
+
+QUESTION - why is it a PHP file when it is primarily HTML, just with one small section where you've written some PHP? When we include CSS in a style tag, it's still an HTML document.
+
+### To dos 
+
+- [x] Get MAMP downloaded and running
+- [x] Try out PHP partials
+
 ## November 30, 2022
 
 ### Stand up
