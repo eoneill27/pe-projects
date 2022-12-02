@@ -8,8 +8,9 @@ html {
 }
 
 body {
-	background-color: #FFFBEE;
-	display: flex;
+	/*	background-color: #FFFBEE;*/
+	background-color: #feb7bf;
+
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Marcellus', 'Georgia', serif;
@@ -19,7 +20,7 @@ h1 {
 	font-size: 64px;
 	font-weight: 600;
 	line-height: 1.25;
-	padding-top: 52px;
+/*	padding-top: 52px;*/
 	text-decoration: none;
 }
 
@@ -53,11 +54,11 @@ h3 + p {
 }
 
 p a { 
-	color: coral;
+	color: #c11927;
 }
 
 p a:hover {
-	color: blue;
+	color: #ff7e3b;
 }
 
 li a {
@@ -65,12 +66,70 @@ li a {
 }
 /* structure */
 
-
+body * {
+/*	border: 2px solid red;*/
+}
 
 .inner-column {
-	max-width: 700px;
+	max-width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.square-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+@media (min-width: 700px) {
+	.square-container {
+	  display: grid;
+	  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+	  grid-gap: 10px;
+	}
+}
+
+@media (min-width: 900px) {
+	.square-container {
+	  max-width: 1300px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  display: grid;
+	  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+	  grid-gap: 10px;
+	}
+}
+
+.box {
+	background-color: #FFFBEE;
+	border: 7px solid black;
+	padding: 20px;
+/*	border-radius: 10px;*/
+}
+
+.color-box1, .color-box2, .color-box3 {
+	opacity: 0;
+}
+
+@media (min-width: 700px) {
+
+	.color-box1, .color-box2, .color-box3 {
+		opacity: 100%;
+	}
+	.color-box1 {
+		background-color: #facc38;
+	}
+
+	.color-box2 {
+		background-color: #c6cc53;
+	}
+
+	.color-box3 {
+		background-color: #ace2d0;
+	}
 }
 
 .name-box {
@@ -90,7 +149,7 @@ nav a {
 }
 
 nav a:hover, li a:hover {
-	background-color: black;
+	background-color: #e36b62;
 	color: floralwhite;
 	border-radius: 5px;
 }
@@ -98,25 +157,25 @@ nav a:hover, li a:hover {
 .about h3{
 	padding: 20px;
 	text-align: center;
-	margin-top: 600px;
+/*	margin-top: 600px;*/
 }
 
 .projects h3, .contact h3 {
 	padding: 20px;
 	text-align: center;
-	margin-top: 80px;
+/*	margin-top: 80px;*/
 }
 
 .projects ul {
-	margin-top: 20px;
+/*	margin-top: 20px;*/
 	margin-left: 20px;
 	padding-left: 20px;
 	list-style: disc;
-
 }
 
 .projects li {
 	padding-top: 10px;
+	text-decoration: none;
 }
 
 footer {
