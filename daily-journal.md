@@ -1,5 +1,25 @@
 # Emily's Daily Journal
 
+## December 2, 2022
+
+### Stand up
+
+Yesterday I got MAMP set up and converted an early project from HTML files to PHP files. I also worked on my personal page a bit - I added a grid and some fun colors. I'm not totally sure where I'm going with it yet - that will be a good thing to talk to Derek and Ivy about.
+
+Today I want to think about which projects to flesh out and tune up. I also want to think about how to display them on my personal site. I keep saying I'm going to get to my business cards and I keep not doing it. That is a good project for this weekend. 
+
+No blockers today - happy to take a few days to assess and consolidate.
+
+### Today's lesson - 082: Consolidation weekend, part 1
+
+### To dos 
+
+- [x] Set up consolidation meeting
+- [] Check in on your projects and files
+- [] Identify any blockers
+- [] Organize your visual inspo folder
+- [] Check in with your goals
+
 ## December 1, 2022
 
 ### Stand up
