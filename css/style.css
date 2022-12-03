@@ -22,7 +22,6 @@ h1 {
 	font-size: 64px;
 	font-weight: 600;
 	line-height: 1.25;
-/*	padding-top: 52px;*/
 	text-decoration: none;
 }
 
@@ -72,6 +71,10 @@ footer a:hover {
 	color: #FFFBEE;
 }
 
+.smaller-voice {
+	font-size: 20px;
+}
+
 /* structure */
 
 body * {
@@ -84,16 +87,15 @@ body * {
 	margin-right: auto;
 }
 
-.square-container {
+.box-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   grid-gap: 10px;
   padding: 10px;
-
 }
 
 @media (min-width: 700px) {
-	.square-container {
+	.box-container {
 	  display: grid;
 	  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
 	  grid-gap: 10px;
@@ -101,7 +103,7 @@ body * {
 }
 
 @media (min-width: 900px) {
-	.square-container {
+	.box-container {
 	  max-width: 1300px;
 	  margin-left: auto;
 	  margin-right: auto;
@@ -124,20 +126,48 @@ body * {
 	justify-content: center;
 	align-items: center;
 	background-color: #e2929f;
-/*	opacity: 0;*/
 	color: #FFFBEE;
 }
 
-.color-box1, .color-box2, .color-box3 {
+.about {
+	background-color: #facc38;
+	padding: 0;
+}
+
+.projects {
+	background-color: #c6cc53;
+	padding: 0;
+}
+
+.contact {
+	background-color: #ace2d0;
+	padding: 0;
+}
+
+.about, .projects, .contact {
+	padding: 20px 5px;
+}
+
+.color-box1, .color-box2, .color-box3, .color-box4 {
 	display: none;
 }
 
 @media (min-width: 700px) {
 
-	.nav-box {
-		opacity: 100%;
+	.about, .projects, .contact {
+		background-color: #FFFBEE;
 	}
-	.color-box1, .color-box2, .color-box3 {
+
+	.nav-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		background-color: #e2929f;
+		color: #FFFBEE;
+	}
+
+	.color-box1, .color-box2, .color-box3, .color-box4 {
 		display: grid;
 	}
 
@@ -152,21 +182,24 @@ body * {
 	.color-box3 {
 		background-color: #ace2d0;
 	}
+
+	.color-box4 {
+		background-color: #ff9700;
+	}
 }
 
 .name-box {
-	border: none;
 	text-align: center;
 	padding: 20px;
 }
 
 nav {
 	padding: 20px;
-/*	margin-top: 30px;*/
 	text-align: center;
 }
 
 nav a {
+	font-weight: 600;
 	padding: 15px;
 }
 
@@ -174,22 +207,20 @@ nav a:hover, li a:hover {
 	background-color: #e36b62;
 	color: floralwhite;
 	border-radius: 5px;
+	padding: 0 4px;
 }
 
 .about h3{
 	padding: 20px;
 	text-align: center;
-/*	margin-top: 600px;*/
 }
 
 .projects h3, .contact h3 {
 	padding: 20px;
 	text-align: center;
-/*	margin-top: 80px;*/
 }
 
 .projects ul {
-/*	margin-top: 20px;*/
 	margin-left: 20px;
 	padding-left: 20px;
 	list-style: disc;
@@ -207,3 +238,86 @@ footer {
 	margin-top: 60px;
 	padding-left: 8px;
 }
+
+
+/* GOALS PAGE */
+
+.goals-box h2 {
+	text-align: center;
+}
+
+.goals-box h3 {
+	text-align: center;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	list-style-type: disc;
+	font-family: font-family: 'Montserrat', 'Gill Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.3;
+	padding: 5px;
+}
+
+/* RESUME PAGE */
+
+.resume-box h2 {
+	text-align: center;
+}
+
+.resume-box h3 {
+	text-align: center;
+}
+
+address {
+	font-family: 'Montserrat', 'Gill Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.7;
+	padding: 5px;
+}
+
+address a:hover {
+	background-color: #e36b62;
+	color: floralwhite;
+	border-radius: 5px;
+	padding: 0 4px;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	list-style-type: disc;
+	font-family: 'Montserrat', 'Gill Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.3;
+	padding: 5px;
+}
+
+h2 + h3 {
+	margin-top: 30px;
+}
+
+h3 + p {
+	margin-top: 20px;
+}
+
+p + h3 {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
