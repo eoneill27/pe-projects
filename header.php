@@ -20,13 +20,15 @@
 	</head>
 
 	<body>
-		<div class="box-container">
-			<div class="box">
-				<header class="name-box" id="top">
-					<h1>Emily O'Neill</h1>
-					<h2>Web Design</h2>
-				</header>
-			</div>
+		<div class="page-content box-container">
+			<a href="index.php">
+				<div class="box">
+					<header class="name-box" id="top">
+						<h1>Emily O'Neill</h1>
+						<h2>Web Design</h2>
+					</header>
+				</div>
+			</a>
 
 			<div class="box nav-box">
 				<nav>

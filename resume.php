@@ -2,7 +2,6 @@
 
 		<div class="box contact-box">
 			<address>
-				(778)232-7327 <br>
 				<a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a>
 			</address>
 		</div>

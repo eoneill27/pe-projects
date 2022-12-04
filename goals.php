@@ -9,7 +9,7 @@
 			</div>
 
 			<div class="box goals-box">
-				<h3>End of the Month</h3>
+				<h3>End of the Month (October 2022)</h3>
 					<ul>
 						<li>have a really good handle on HTML and CSS</li>
 						<li>be able to create a functioning, not ugly website without having to labor over it</li>
@@ -39,7 +39,7 @@
 					<ul>
 						<li>self-employed</li>
 						<li>owner & operator of web design business</li>
-						<li>making $125,000 annually</li>
+						<li>making $125,000+ annually</li>
 						<li>flexible schedule - able to take long vacations, or work 4-day weeks
 		work when and where I want to</li>
 						<li>engaging, interesting work that I enjoy - something that I don't mind devoting long days to, especially when long days mean shorter work weeks</li>
