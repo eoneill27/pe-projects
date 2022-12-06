@@ -1,5 +1,74 @@
 # Emily's Daily Journal
 
+## December 5, 2022
+
+### Stand up
+
+This weekend, I spent a fair bit of time reflecting and consolidating. I moved some stuff into my archive and deleted a few things, cleaned up my visual inspiration folder, worked on my personal site and my brother's shop site, revisited my goals, and started working on a responsive layout garden.
+
+I'm meeting with Derek and Ivy this afternoon, which I'm looking forward to. I've started getting a couple of mood boards together, which I will keep working on today. I'm glad we'll be focusing more on visual design for a bit because this feels like a gap for me. 
+
+No blockers today.xs
+
+### Today's lesson - 085: Gathering, exploring and sharing visual inspiration
+
+You can decide to think more about visual design and learn more about it
+
+Graphic Design Annual - recommended book
+
+Collect a bunch of things - they don't all have to make sense
+What sorts of lines do you like?
+What sorts of colors
+
+### Consolidation meeting with Derek
+
+Resume page - excuse to get into more complex/different HTML (address, name, etc)
+
+@media print - separate CSS stylesheet for print only - could be good for resume
+
+SVG - Cassie Evans workshop
+SVGs are the only things on web sites that aren't boxes!
+
+Thing-a-day - pick something small
+Set a time limit
+Give yourself constraints
+Kids' drawings?
+
+DeployBot - next step for Git
+When you push your code to GitHub, it sends a signal and moves your files to FTP
+
+Let Derek know if there's anything in a lesson that works well or doesn't
+
+Recommended books for information architecture - 
+- Everyday Information Architecture (ordered)
+- Just Enough Research (own)
+
+### To dos 
+
+- [x] make a few mood boards - share screen shots
+- [x] check back in with your code - your site, alpha-net - consider making a plan in whimsical
+
+## December 3, 2022
+
+### Stand up
+
+Yesterday I started thinking about our consolidation weekend to-dos and spent some more time on my personal site, which emilyoneill.dev now redirects you to.
+
+I'm in the office doing another first aid shift today, so I have a lot of uninterrupted time to think about things. I've been cleaning up my visual inspiration folder and checking in with my goals. I still need to take a look at my projects and files and figure out what to keep and what to relegate to the trash or the archive.
+
+I also watched the custom properties videos and the responsive layout garden video - I'd like to get started on my responsive layout garden today.
+
+No blockers today! 
+
+### Today's lesson - 083: Consolidation weekend, part 2
+
+### To dos
+
+- [x] chelayock in on your projects and files
+- [] identify any blockers
+- [x] organize your visual inspo folder
+- [x] check in with your goals
+
 ## December 2, 2022
 
 ### Stand up
