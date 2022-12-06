@@ -363,7 +363,6 @@ h2 + p {
 	}
 }
 
-/* VERY LARGE SCREEN */
 
 /* CONTACT PAGE */
 
@@ -380,7 +379,7 @@ address + h2 {
 }
 
 .contact-hours .reading-voice {
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 1.5;
 }
 
@@ -402,6 +401,8 @@ address + h2 {
 	background-color: #f3ede2;
 	border: 4px solid #6c8685;
 	padding: 40px;
+	min-width: 320px;
+	max-width: 500px;
 }
 
 @media (min-width: 550px) {
