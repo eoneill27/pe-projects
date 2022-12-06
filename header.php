@@ -20,23 +20,24 @@
 	</head>
 
 	<body>
-		<div class="page-content box-container">
-			<a href="index.php">
-				<div class="box">
-					<header class="name-box" id="top">
-						<h1>Emily O'Neill</h1>
-						<h2>Web Design</h2>
-					</header>
-				</div>
-			</a>
+		<main class="page-content">
+			<div class="box-container">
+				<a href="index.php">
+					<div class="box">
+						<header class="name-box" id="top">
+							<h1>Emily O'Neill</h1>
+							<h2>Web Design</h2>
+						</header>
+					</div>
+				</a>
 
-			<div class="box nav-box">
-				<nav>
-					<a href="index.php#about">About</a>
-					<a href="index.php#projects">Projects</a>
-					<a href="https://oneillemily.substack.com" target="_blank">Writing</a>
-					<a href="goals.php">Goals</a>
-					<a href="resume.php">Resume</a>
-					<a href="#contact">Contact</a>
-				</nav>
-			</div>
+				<div class="box nav-box">
+					<nav>
+						<a href="index.php#about">About</a>
+						<a href="index.php#projects">Projects</a>
+						<a href="https://oneillemily.substack.com" target="_blank">Writing</a>
+						<a href="goals.php">Goals</a>
+						<a href="resume.php">Resume</a>
+						<a href="#contact">Contact</a>
+					</nav>
+				</div>

@@ -143,20 +143,23 @@ footer a:hover {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: #e2929f;
-	color: #FFFBEE;
+/*	background-color: #e2929f;*/
+/*	color: #FFFBEE;*/
+/*	color: #e2929f;*/
+	color: #c11927;
+	font-weight: 600;
 }
 
 .about {
-	background-color: #facc38;
+/*	background-color: #facc38;*/
 }
 
 .projects {
-	background-color: #c6cc53;
+/*	background-color: #c6cc53;*/
 }
 
 .contact {
-	background-color: #ace2d0;
+/*	background-color: #ace2d0;*/
 }
 
 .about, .projects, .contact {
@@ -169,6 +172,11 @@ footer a:hover {
 
 @media (min-width: 700px) {
 
+	.nav-box {
+		background-color: #e2929f;
+		color: #FFFBEE;
+	}
+	
 	.about, .projects, .contact {
 		background-color: #FFFBEE;
 	}
