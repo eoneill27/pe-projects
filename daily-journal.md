@@ -1,5 +1,62 @@
 # Emily's Daily Journal
 
+## December 7, 2022
+
+### Stand up
+
+### Today's lesson - 087: 
+
+### To dos
+
+- [] thing a day
+- [] DeployBot
+
+## December 6, 2022
+
+### Stand up
+
+Yesterday I used my visual inspiration folder to make some mood boards. I also had my consolidation meeting with Derek, which was really great. It's nice to reflect on how far we've come in such a short period of time.
+
+Last night I was carrying Ann's under-the-weather 5-year-old up to her bed, got to the top of the stairs, and was promptly vomited on. Twice! There is a bathroom right at the top of the stairs, fortunately, otherwise it would have been much worse. Hoping this is not a harbinger of doom. Two of the four people I work closely with in the office are out sick today. It's all over the place, but I am determined to stay healthy.
+
+I will tackle the exercises when I get home from work this evening, and I will also get back into thing a day!
+
+### Today's lesson - 086: Color day (actually, B&W and grayscale day!)
+
+HSL - Hue Saturation Lightness
+
+Can choose grayscale from color slider in Affinity
+
+Use option + pointer to copy something
+CMD + J - power duplicate
+Can use shift to move things 10px instead of 1px
+
+Expand stroke - turn lines into shapes
+Can add gradient over shapes
+
+White and black don't need to be all the way white or black
+
+Affinity guides
+cmd + R - hide and show ruler
+drag from sides/top/bottom to get guides
+toggle on and off with CMD + ;
+
+Dominant color
+Subordinate color
+Accent color
+
+start with subtleties and neutral tones
+use color as a nice thing to help it pop
+
+CSS filters - grayscale
+
+### To dos
+
+- [x] create a graphic or layout with only black & white
+- [x] create a graphic or layout with grayscale
+- [] thing a day
+- [] set up DeployBot?
+
 ## December 5, 2022
 
 ### Stand up
