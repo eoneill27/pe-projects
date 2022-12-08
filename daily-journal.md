@@ -4,12 +4,59 @@
 
 ### Stand up
 
-### Today's lesson - 087: 
+Yesterday Miguel and I tossed around some ideas for the Alpha-net - he's been noodlin', and it's cool! I didn't quite finish the video in the morning, so I finished that up when I got home from work and then got to some exercises in black & white and grayscale. 
 
+Today I think I've extrapolated some exercises from the Space videos, so I'll get to those this evening. Maybe at lunch, too - we'll see. 
+
+No blockers today!
+
+### Today's lesson - 087: Space
+
+mood boards - consider juxtaposition
+try different sizes to get different feels
+
+make a mood board thinking about size, space, juxtaposition
+big areas of color, space, to contrast depth and detail
+size things appropriately - don't lose the details
+don't be afraid to make some things giant, some things tiny
+
+contrast of size, shape, space to develop ideas and extract some magic
+
+take note any time you see text work well with images
+
+CMD + square brackets - make something go on top or behind
+
+negative space inside a glyph = "counter"
+
+not a bad idea to set some rules for yourself when it comes to spacing
+might have to repeat the same spacing over and over again in different parts of the website
+plan ahead
+
+make grids with guides in Affinity
+try to have a reason for where you're placing things
+
+check out Athelas serif font in Affinity
+
+For the web - we're often using big slabs
+
+The eye likes consistency
+
+Can use blocks that you draw in Affinity to keep consistent spacing
+can also use a stroke - 10px stroke to represent padding
+
+Can also turn on the actual grid in Affinity
+use that to give things a reason and maintain consistency
+
+think about padding, spacing, font sizes
+If one font is 15px, maybe larger one should be 30px
 ### To dos
 
+- [x] mood board
+- [x] card
 - [] thing a day
 - [] DeployBot
+- [] responsive layout garden
+- [] business cards
 
 ## December 6, 2022
 
