@@ -1,5 +1,125 @@
 # Emily's Daily Journal
 
+## December 8, 2022
+
+### Stand up
+
+Yesterday I worked on a couple of mood boards and a business card layout. I didn't have time for anything beyond the lesson, and I'm looking forward to getting to some of the side projects/extra stuff this weekend. (read: Responsive Layout Garden)
+
+Today I've read Chris Do's typography rules and have started watching the typography critique and now I want to go back and change the typography on everything I've made so far! I'm finding this all very helpful. I hope to get close to finishing the video on my lunch break so I can move on to tweaking some things tonight. 
+
+No blockers today. This will be my first day back to biking to work after it snowed here early last week. The roads are clear and it's warmed up a little bit - hooray! 
+
+### Today's lesson - 088: Contrast
+
+#### Chris Do - Typography Manual 
+01 - Flush left - when in doubt, use it
+	- easy for the eye to find the edge and read copy when type is justified left
+	- avoid indenting first line of paragraph for this reason
+
+02 - Use one typeface
+	- avoid using 2 typefaces of the same classification (serif, sans) - Contrast
+	- stay with one typeface until you have achieved mastery
+	- using 2 successfully requires an understanding of the chosen typefaces in order to be confident they are complementary
+
+03 - Skip a weight
+	- The key to great design is contrast
+	- slight changes in weight make it harder for the audience to notice the difference
+
+04 - Double point size
+	- Rule of thumb - double or half the point size you are using (30pt for headline - 15 pt for body)
+	- For other uses, try 3x or 4x for something more dramatic
+
+05 - Align to one axis 
+
+06 - Pick any typeface (as long as it's one of the following):
+	- Akzidenz Grotesk, Avenir, Avant Garde, Baskerville, Bembo, Bodoni, Bookman, Caslon, Century, Clarendon, Courier, DIN, Franklin Gothic, Frutiger, Futura, Garamond, Gill Sans, Gotham, Helvetica, Letter Gothic, Memphis, Meta, Mrs. Eaves, OCRB, Rockwell, Sabon, Times New Roman, Trade Gothic, Trajan, Univers
+
+07 - Group by using rules
+	- Use rules/lines to group related blocks of information
+	- this will also make dissimilar objects appear more orderly
+
+08 - Avoid the corners
+	- Don't place elements along the ege or corners of the page unless to deliberately cut elements off
+	- negative space is a good thing
+
+09 - Mind the gap
+	- Typography is all about spacing
+	- avoid having a single word on the last line of a paragraph (widow)
+	- don't allow a new page or column to begin with the final word or line from the previous paragraph (orphan)
+	- pay attention to the shape the rag creates to avoid undesired shapes/angles
+	- the closer things are together, the more the reader will assume a relationship exists
+
+10 - Relax - it's just type!
+
+#### Chris Do & Milka Broukhim - Graphic poster critique - Two weights, one pt size (YouTube)
+
+Hierarchy - 1st read, 2nd read, 3rd read
+What's the first thing your eye goes to?
+Usually the darkest element is what stands out first
+
+What if there is no dark or light, or no difference in size?
+How else can I create a hierarchy?
+
+Large, medium, small
+Dark, medium, light
+Long, medium, short
+Tall, medium, short
+
+Resist designing on an angle
+Difficult to keep things aligned
+Get a solid understanding of horizontal and vertical alignment first
+
+Don't want your rag to have a shape
+The shape competes with everything else
+
+Never break someone's name - keep the full name on one line
+
+Don't stretch type - leave the integrity of the letterforms intact
+
+In Chris' opinion, the stronger alignment is almost always on the baseline of the text
+
+Don't use too many tricks
+Maybe only one trick
+Your eye needs a focal point
+
+Readability is important
+
+More variables make things more difficult
+Use constraints
+Master the fundamentals
+
+Rag should be evenly uneven
+Undulates
+Doesn't create story lines
+3 will make a pattern - on the 3rd, if you can make a paragraph or a line break, do it
+Change the width of the column or the paragraph
+
+A little bit of a spice or a rich ingredient, an accent, expressive unique typography - use it sparingly. It will go a long way.
+
+Make it really legible. Use negative space well
+Make it really boring - and then try one thing.
+
+Strong foundation
+Then do some interesting tile work
+
+Cropping
+Making things bigger or smaller
+
+Trapped space - avoid
+
+Relationships
+Want your elements to feel like they're related (not distant cousins who don't talk to each other)
+
+### To dos
+
+- [x] readings
+- [x] typography critique video
+- [] thing a day
+- [] DeployBot
+- [] responsive layout garden
+- [] business cards
+
 ## December 7, 2022
 
 ### Stand up
@@ -49,6 +169,7 @@ use that to give things a reason and maintain consistency
 
 think about padding, spacing, font sizes
 If one font is 15px, maybe larger one should be 30px
+
 ### To dos
 
 - [x] mood board
