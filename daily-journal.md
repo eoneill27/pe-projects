@@ -1,5 +1,36 @@
 # Emily's Daily Journal
 
+## December 9, 2022
+
+### Stand up
+
+Yesterday I learned Chris Do's typography rules and watched him and Milka critique student work. I think I learned a lot from this - I'm with Jess, I think I'll print out the rules and keep it at my desk. 
+
+I'm looking forward to really digging into today's exercise. I've chosen a site and have started making guide lines all over Affinity. It's really interesting to think about why certain choices were made, and then to contemplate that perhaps there was no mathematical reason at all. Some design decisions are surely more instinctive? I like trying to figure it out. 
+
+No blockers today. But - it is hailing here? I don't want to go to work, I want to stay cozy in my apartment and work on this! 
+
+### Today's lesson - 089: Research & Employ
+
+40 minutes research - find an interesting layout or interesting graphic post with meaningful spacing and ratios
+
+40 minutes - break it down, set it to B&W, use Affinity to create guides, boxes, whatever you're comfortable with to figure out the reasoning for the spacing
+
+then mock something out in HTML & CSS
+
+what spacing and size contrast for text did they use?
+How did they decide margins or line-height?
+What about the color contrast?
+
+Dominant, subdominant, accent?
+Size, color value, space, fonts?
+
+### To dos
+
+- [x] research - find an interesting site
+- [x] break it down
+- [x] mock something up in HTML & CSS
+
 ## December 8, 2022
 
 ### Stand up
