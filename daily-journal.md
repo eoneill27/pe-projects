@@ -1,5 +1,97 @@
 # Emily's Daily Journal
 
+## December 10, 2022
+
+### Stand up
+
+Yesterday I spent a lot of time looking through Site Inspire for sites that would work well for the Research & Employ exercise. I ended up going with a site that I had already known about, but the whole exercise was great. I found some cool stuff and some inspiration that I think I can draw on today.
+
+I also found some other sites that I'd like to try to mimic. I really enjoyed this exercise - I'm always happy when I end up with a relatively complete final product. Trying to recreate other people's sites feels like really useful (and fun) practice.
+
+Today I'm looking forward to getting into style tiles and refining my business card site. I also can't wait to see what everyone else comes up with, because I know it's going to be exciting and amazing! 
+
+No blockers today. I'm taking my 6-year-old friend Aurora to a play this afternoon, but I should be home all evening if anyone needs a huddle or a code check.
+
+### Today's lesson - 090.072: Visual language intro
+
+Style tiles - framework for visual design
+- a deliverable consisiting of fonts, colors and interface elements that communicate the essence of a visual brand for the web
+- a way to convey your visual ideas without being attached to any final implementation
+
+https://styletil.es
+
+Help form a common visual language between the designers and the stakeholders to provide a catalyst for discusions around the preferences and goals of the client
+- presents clients with interface choices without making the investment in multiple photoshop mockups
+
+Use when a mood board is too vague and a mockup is too literal
+
+Establish a direction connection with actual interface wlements without defining layout
+
+Works well for clients who have established brands and need them to translate smoothly to the web
+
+How to do it - 
+
+Listen - to your client
+	- have a design kickoff meeting
+	- be prepared. Have stakeholders complete a survey before the meeting or have everyone answer questions together
+	- ask questions
+
+Interpret - 
+	- aggregate adjectives from the answer process, identify themes and sort similarities
+	- break down client feedback. Interpret how the adjectives and themes you discovered translate into design principles such as balance and emphasis
+	- the final goal is to provide the right subtle visual cues that guide humans' subconscious assumptions towards the desired adjectives and themes
+
+Define a visual language
+	- the actual process of composing the style tile
+	- determine themes from the aggregated adjectives and start to match them up with styles
+	- gives client a point of reference to make sure you are both on the same page
+
+Iterate 
+	- presenting multiple tiles gives you information to work with that can influence the evolution of a tile
+
+In addition to style tiles, "component style guides" can help with carrying a particular style through specific functionality without designing full web pages.
+	- these guides are very helpful for responsive designs across a wide number of devices and for implementing design systems for a CMS platform
+	- see cognition.happycog.com/article/sweet-systes
+
+let the content speak for itself
+and work on a visual language to help house that content and create a feeling
+
+style tiles help you get buy in
+also, they save time and needless work
+
+maybe start with font
+pick one - max 2 
+make a few tiles with different fonts
+
+colors
+words/adjectives you want to relay
+
+what elements do you ne4ed on your site?
+what do you want to tell people? What are the actual words?
+
+images?
+links?
+will things need to be grouped visually?
+
+start with a feeling
+what do you want your visitor to feel?
+what type of work do you want to do? what type of client?
+think of some words you feel connected to
+consider the inverse of what you come up with
+what don't you want?
+this will be your guide in choosing the visual tricks
+
+### To dos
+
+- [x] gather a bunch of stuff together
+- [x] what type of stuff might be on your website? write it down
+- [x] style tiles (2 or 3)
+- [] thing a day
+- [] DeployBot
+- [] responsive layout garden
+- [] business cards
+- [] blog 
+
 ## December 9, 2022
 
 ### Stand up
