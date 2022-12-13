@@ -1,5 +1,23 @@
 # Emily's Daily Journal
 
+## December 11, 2022
+
+### Stand up
+
+On Saturday I worked on my style tiles and imagined I would continue to work on them yesterday, but I didn't end up doing that.
+
+Today, I'm looking forward to learning about Santa Fe. I've never been to New Mexico, but I would love to go someday. I'm home from work today and I want to work on some other things once I'm done with my postcard - namely, my responsive layout garden, which was neglected last week. It's a beautiful day here, so I also need to get out for a nice long walk. 
+
+### Today's lesson - 092.073: City postcard exercise
+
+### To dos
+
+- [x] city postcard
+- [] thing a day
+- [] DeployBot
+- [] responsive layout garden
+- [] business cards
+
 ## December 10, 2022
 
 ### Stand up
@@ -90,7 +108,7 @@ this will be your guide in choosing the visual tricks
 - [] DeployBot
 - [] responsive layout garden
 - [] business cards
-- [] blog 
+- [x] blog 
 
 ## December 9, 2022
 
