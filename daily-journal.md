@@ -1,6 +1,25 @@
 # Emily's Daily Journal
 
-## December 11, 2022
+## December 13, 2022
+
+### Stand up
+
+Yesterday I was challenged by the city postcard challenge, but I enjoyed the process and I really liked seeing what Jess and Miguel came up with. I broke up my two 40 minute Affinity sessions with a beer and my book at a local brewery followed by a nice hour-long walk in the sunshine. I'm trying to get back to reading more - before all this, I would average a book a week, but I just haven't been reading much at all lately. I think my brain is too full. 
+
+Today I am looking forward to getting my secret word and getting started on this exercise. I love mysteries! 
+
+No blockers today.
+
+### Today's lesson - 093.074: Constraint: Secret word graphic
+
+### To dos
+
+- [x] secret word poster
+- [] DeployBot
+- [] responsive layout garden
+- [] business card theme aerobics
+
+## December 12, 2022
 
 ### Stand up
 
