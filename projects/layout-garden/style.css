@@ -1,14 +1,13 @@
 @import "../../css/meyer-setup.css";
 
  body * {
-	border: 4px solid red;
+/*	border: 4px solid red;*/
 } 
 
 body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
 }
 
 inner-column {
@@ -19,8 +18,17 @@ inner-column {
 	margin-right: auto;
 }
 
+section + h2 {
+	margin-top: 40px;
+}
+
 .garden-header {
 	margin-bottom: 70px;
+	padding: 20px;
+}
+
+.section-header {
+	padding: 20px;
 }
 
 /* TYPOGRAPHY */
@@ -122,6 +130,7 @@ inner-column {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		gap: 20px;
 	}
 
 	.header1 .site-nav inner-column .nav-box1 {
@@ -134,7 +143,7 @@ inner-column {
 	.nav-box2 {
 		display: block;
 	}
-	
+
 	.nav-link {
 		display: none;
 	}
@@ -212,7 +221,19 @@ inner-column {
 
 /* CONTENT MODULES */
 
+/* CONTENT MODULE 1 */
 
+.full-bleed {
+	width: 100vw;
+	margin-left: calc(50% - 50vw);
+}
+
+.content-module1 .module1-image {
+	background-image: url("https://peprojects.dev/images/landscape.png");
+	position: absolute;
+	z-index: 100;
+	opacity: .6;
+}
 
 
 /* FOOTERS */
