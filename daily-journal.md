@@ -1,5 +1,22 @@
 # Emily's Daily Journal
 
+## December 14, 2022
+
+### Stand up
+
+I thought the secret word challenge was really fun yesterday. It is not easy to guess those words! Everyone made such cool stuff. 
+
+Today I'm excited to work on the store style tile! 
+
+No blockers today, and nothing much to say really :)
+
+### Today's lesson - 094.075: Store style tile
+
+### To dos
+
+- [] store style tile
+- [] DeployBot
+
 ## December 13, 2022
 
 ### Stand up
