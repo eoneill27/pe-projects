@@ -1,5 +1,38 @@
 # Emily's Daily Journal
 
+## December 15, 2022
+
+### Stand up
+
+Yesterday I spent a few hours working on the store style tile. I'd like to revisit this project because I'm not totally satisfied with where I ended up. It was useful to think about and list all of the elements that you need for an online store - there are a lot of things! I made a list and checked them off as I went, which really helped to keep me organized.
+
+I think today's challenge is going to be really fun. My only blocker at the moment is time, but I am looking forward to the weekend and next week, which will be much less busy than this week has been. Tonight I have a work function that I helped organize, so I kind of have to go! The goal is to not stay too late. I need to work on my Irish goodbye.
+
+### Today's lesson - 095.076: Symbols and icon exploration
+
+Symbol = a markk, sign or word that indicates, signifies or is understood as representing an idea, object or relationship
+- they allow people to go beyond what is known or seen by creating linkages between otherwise very different concepts or experiences
+- they take the form of words, sounds, gestures, ideas, visual images, and are used to convey other ideas and beliefs
+- semiotics = the academic study of symbols
+
+Icon = in computing, a pictogram or ideogram displayed on a computer screen in order to help the user navigate a computer system.
+- a quickly comprehensible symbol of a software tool, function or data file, accessible on the system
+- more like a traffic sign than a detailed illustration of the actual entity it represents
+
+Peter Javorkai - Practical tips to create a digital icon set
+- consistent stroke widths
+	- more about ratio than pixels - try to stick to 0.5:1:2
+	- can introduce new stroke weights to create hierarchy within the shape
+- border radius 
+	- rounded corners make the design friendly, but use the chosen radius consistently and in a balanced way
+- key shapes
+	- certain shapes will be used progressively within multiple icons
+	- embrace this because the similar shapes will provide a coherent look and feel
+
+### To dos
+
+- [x] symbol/icon grid
+
 ## December 14, 2022
 
 ### Stand up
@@ -12,9 +45,20 @@ No blockers today, and nothing much to say really :)
 
 ### Today's lesson - 094.075: Store style tile
 
+Begin to consider interface beyond text and typography
+
+Goal-driven visual language design
+You have to base your choices on what will help the customer
+
+What are the goals for the site?
+
+Goal is to identify and explore the must-have pieces of content
+Create a visual language at that level
+Layout comes later
+
 ### To dos
 
-- [] store style tile
+- [x] store style tile
 - [] DeployBot
 
 ## December 13, 2022
