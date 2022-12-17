@@ -1,5 +1,37 @@
 # Emily's Daily Journal
 
+## December 16, 2022
+
+### Stand up
+
+Yesterday I had fun with the symbol challenge. I read the Wikipedia article about symbols and was very interested in how broad the definition of "symbol" actually is. A symbol can be a word, a sound, a gesture, an idea, or an image. Our names are symbols! 
+
+I took a course in college called "Consciousness and Symbols," and I remember not having any idea what was going on in that course until the day of the final exam - I was talking to a classmate about it and everything all of a sudden fell into place. It's one of those classes that I wish I could take now with the last 20 years under my belt. Even though I was confused, I know I found it really intriguing.
+
+Today I will make some style tiles and ask for feedback! Looking forward to spending a couple of days on my site.
+
+No blockers today.
+
+### Today's lesson - 096.077: Personal site, part 1 - Visual language
+
+Visual style should align with your goals
+
+What mood are you going for and why?
+
+Think about project links taking you to a details page about that project
+
+Your site should tell people what you can do
+I can do ____
+Here is the proof.
+
+### To dos
+
+- [x] watch the video
+- [x] explore visual language - who are you? what do you want to say? 
+- [x] Plan out the visual styles in a graphics program or on paper (style tiles)
+- [x] Ask for feedback
+
+
 ## December 15, 2022
 
 ### Stand up
