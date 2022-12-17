@@ -92,6 +92,14 @@ inner-column {
 	margin-top: 40px;
 }
 
+.button:hover {
+	background-color: var(--site-blue);
+	color: white;
+	transform: translateX(-13px) translateY(13px);
+	transition: 0.5s;
+	box-shadow: none;
+}
+
 /* HEADER */
 
 .site-header {
@@ -113,7 +121,7 @@ inner-column {
 
 /* PAGE CONTENT */
 
-.emily {
+.emily, .projects-title, .about-title, .contact-title {
 	background-color: var(--site-pink);
 	color: var(--site-yellow);
 	text-align: center;
@@ -134,7 +142,7 @@ inner-column {
 
 .hello h2 {
 	color: var(--site-blue);
-	text-shadow: var(--site-gray) 1.1px 1.1px;
+/*	text-shadow: var(--site-gray) 1.1px 1.1px;*/
 }
 
 .hello p {
@@ -181,7 +189,7 @@ inner-column {
 
 .contact h2 {
 	color: var(--site-blue);
-	text-shadow: var(--site-gray) 1.1px 1.1px;
+/*	text-shadow: var(--site-gray) 1.1px 1.1px;*/
 	text-align: center;
 }
 
