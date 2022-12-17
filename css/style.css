@@ -54,7 +54,8 @@ inner-column {
 
 .nav-voice {
 	font-family: 'Gill Sans', sans-serif;
-	font-size: clamp(16px, 4vw, 30px);
+	font-size: clamp(20px, 4vw, 30px);
+	font-weight: 600;
 /*	text-shadow: #656565 1.1px 1.1px;*/
 
 }
@@ -93,6 +94,14 @@ inner-column {
 }
 
 .button:hover {
+	background-color: var(--site-blue);
+	color: white;
+	transform: translateX(-13px) translateY(13px);
+	transition: 0.5s;
+	box-shadow: none;
+}
+
+.button:active {
 	background-color: var(--site-blue);
 	color: white;
 	transform: translateX(-13px) translateY(13px);
@@ -159,7 +168,7 @@ inner-column {
 
 .selected-work h2 {
 	color: var(--site-wheat);
-	text-shadow: var(--site-gray) 1.1px 1.1px;
+/*	text-shadow: var(--site-gray) 1.1px 1.1px;*/
 }
 
 .selected-work inner-column {
