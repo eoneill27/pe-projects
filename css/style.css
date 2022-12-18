@@ -37,23 +37,23 @@ inner-column {
 /* TYPOGRAPHY */
 
 .heyyou-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 	font-size: clamp(80px, 9vw, 150px);
 }
 
 .attention-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 	font-size: 50px;
 
 }
 
 .info-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 
 }
 
 .nav-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 	font-size: clamp(20px, 4vw, 30px);
 	font-weight: 600;
 /*	text-shadow: #656565 1.1px 1.1px;*/
@@ -61,7 +61,7 @@ inner-column {
 }
 
 .reading-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 1.4;
@@ -69,18 +69,18 @@ inner-column {
 }
 
 .moving-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 
 }
 
 .button-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 	font-size: 40px;
 	font-weight: 200;
 }
 
 .quiet-voice {
-	font-family: 'Gill Sans', sans-serif;
+	font-family: 'Avenir', 'Gill Sans', sans-serif;
 
 }
 
@@ -131,6 +131,10 @@ inner-column {
 
 .site-nav a:nth-of-type(3) {
 	display: none;
+}
+
+.site-nav a:hover {
+	color: var(--site-wheat);
 }
 
 @media (min-width: 600px) {
