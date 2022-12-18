@@ -232,6 +232,10 @@ inner-column {
 	align-items: center;
 }
 
+address a:hover {
+	color: var(--site-pink);
+}
+
 /* PROJECTS PAGE */
 
 
