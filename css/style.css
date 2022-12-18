@@ -54,7 +54,7 @@ inner-column {
 
 .nav-voice {
 	font-family: 'Gill Sans', sans-serif;
-	font-size: clamp(16px, 4vw, 30px);
+	font-size: clamp(20px, 4vw, 30px);
 	font-weight: 600;
 /*	text-shadow: #656565 1.1px 1.1px;*/
 
@@ -126,6 +126,16 @@ inner-column {
 .site-nav a {
 	color: var(--site-pink);
 	padding: 10px;
+}
+
+.site-nav a:nth-of-type(3) {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.site-nav a:nth-of-type(3) {
+		display: inline-block;
+	}
 }
 
 /* PAGE CONTENT */
