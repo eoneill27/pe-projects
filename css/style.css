@@ -91,13 +91,14 @@ inner-column {
 	padding: 10px 15px;
 	box-shadow: var(--site-pink) -13px 13px;
 	margin-top: 40px;
+	transition: ease-in-out 0.5s;
 }
 
 .button:hover {
 	background-color: var(--site-blue);
 	color: white;
 	transform: translateX(-13px) translateY(13px);
-	transition: 0.5s;
+	transition: ease-in-out 0.5s;
 	box-shadow: none;
 }
 
@@ -105,7 +106,7 @@ inner-column {
 	background-color: var(--site-blue);
 	color: white;
 	transform: translateX(-13px) translateY(13px);
-	transition: 0.5s;
+	transition: ease-in-out 0.5s;
 	box-shadow: none;
 }
 
