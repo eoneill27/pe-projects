@@ -1,5 +1,32 @@
 # Emily's Daily Journal
 
+## December 17, 2022
+
+### Stand up
+
+### Today's lesson - 097.078: Personal site, part 2 - Write the code
+
+#### Plan for now until December 28
+- continue to get the daily lessons done (break starts Wednesday)
+- Responsive Layout Garden 
+	- revisit naming - come up with a simple system, cut out excess, keep it organized
+	- 2 things in each section by December 28 (header, page content, footer)
+- Practice CSS
+	- placing text over images
+	- positioning background images
+	- repositioning images as size changes
+	- understanding overflow
+	- practice grid/read about grid
+- Finish Don Norman design book
+
+### To dos
+
+- [x] make a plan
+- [x] Code portfolio site based on yesterday's work
+- [x] set up DeployBot
+- [] responsive layout garden
+- [] think about Alpha-6 page
+
 ## December 16, 2022
 
 ### Stand up
