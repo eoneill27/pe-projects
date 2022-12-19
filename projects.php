@@ -7,7 +7,7 @@
 <section class="projects-grid">
 	<inner-column>
 		<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+				<img src="images/be-tile.jpg" alt="">
 			</picture>
 
 			<picture class="project">

@@ -19,19 +19,30 @@
 <section class="selected-work">
 	<inner-column>
 		<h2 class="attention-voice">Selected work</h2>
+		
 		<div class="project-tiles">
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
+			<a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
+				<picture class="beth-tile project">
+					<img src="images/be-tile.jpg" alt="">
+				</picture>
+				<!-- <p class="reading-voice">Mock client project: Beth Electric</p> -->
+			</a>
 
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
+			<a href="https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/" target="_blank">
+				<picture class="project">
+					<img src="images/koala-tile.jpg" alt="">
+				</picture>
+				<!-- <p class="reading-voice">Super Responsive Layout Challenge</p> -->
+			</a>
 
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
+			<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
+				<picture class="project">
+					<img src="images/employ-tile.jpg" alt="">
+				</picture>
+				<!-- <p class="reading-voice">Research and Employ</p> -->
+			</a>
 		</div>
+
 		<div class="button">
 			<a class="button-voice" href="projects.php">Find out more</a>
 		</div>
