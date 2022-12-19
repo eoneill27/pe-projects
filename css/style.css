@@ -200,31 +200,32 @@ a.project {
 	max-width: 350px;
 }
 
-/*.project-tiles a {
+.project-tiles a {
 	position: relative;
-}*/
-
-.project:hover {
-	opacity: 0.2;
 }
 
-/*.project + p {
-	position: absolute;
-	top: 100px;
-	left: 20px;
-	opacity: 0;
-	text-align: center;
-   font-weight: 700;
-   margin: auto;
-}*/
+.project-tiles a:hover {
+	z-index: 1;
+}
 
-/*.project:hover + p {
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    opacity: 1;
-    
-}*/
+.tile-words {
+	position: absolute;
+	background-color: var(--site-wheat);
+	border: 4px solid black;
+   font-weight: 300;
+   max-width: 20ch;
+   text-align: center;
+   display: none;
+}
+
+a:hover .tile-words {
+	position: absolute;
+	top: 40%;
+	left: 2vw;
+	z-index: 2;
+	padding: 20px;
+	display: block;     
+}
 
 @media (min-width: 600px) {
 	.project-tiles {

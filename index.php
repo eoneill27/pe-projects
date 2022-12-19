@@ -19,27 +19,27 @@
 <section class="selected-work">
 	<inner-column>
 		<h2 class="attention-voice">Selected work</h2>
-		
+
 		<div class="project-tiles">
 			<a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
+				<p class="tile-words reading-voice">Mock client project: Beth Electric</p>
 				<picture class="beth-tile project">
 					<img src="images/be-tile.jpg" alt="">
 				</picture>
-				<!-- <p class="reading-voice">Mock client project: Beth Electric</p> -->
 			</a>
 
 			<a href="https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/" target="_blank">
+				<p class="tile-words reading-voice">Super Responsive Layout Challenge</p>
 				<picture class="project">
 					<img src="images/koala-tile.jpg" alt="">
 				</picture>
-				<!-- <p class="reading-voice">Super Responsive Layout Challenge</p> -->
 			</a>
 
 			<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
+				<p class="tile-words reading-voice">Research and Employ</p>
 				<picture class="project">
 					<img src="images/employ-tile.jpg" alt="">
 				</picture>
-				<!-- <p class="reading-voice">Research and Employ</p> -->
 			</a>
 		</div>
 
