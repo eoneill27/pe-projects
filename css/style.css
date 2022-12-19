@@ -301,6 +301,30 @@ address a:hover {
 	padding: 60px 0;
 }
 
+.site-footer a {
+	color: var(--site-pink);
+	font-weight: 800;
+	padding: 20px;
+}
+
+.site-footer a:hover {
+	color: var(--site-wheat);
+}
+
+.site-footer inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+@media (min-width: 650px) {
+
+	.site-footer a {
+		font-size: 22px;
+	}
+}
+
+
 
 
 
