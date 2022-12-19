@@ -130,6 +130,8 @@ address + p {
 
 .site-header {
 	background-color: var(--site-yellow);
+	position: sticky;
+	top: 0;
 }
 
 .site-nav {
