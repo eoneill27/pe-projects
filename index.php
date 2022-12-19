@@ -22,23 +22,30 @@
 
 		<div class="project-tiles">
 			<a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
-				<p class="tile-words reading-voice">Mock client project: Beth Electric</p>
-				<picture class="beth-tile project">
+				<picture class="tile-img project">
 					<img src="images/be-tile.jpg" alt="">
+				</picture>
+				<picture class="overlay project">
+					<img src="images/be-tile-over.jpg" alt="">
 				</picture>
 			</a>
 
+
 			<a href="https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/" target="_blank">
-				<p class="tile-words reading-voice">Super Responsive Layout Challenge</p>
-				<picture class="project">
+				<picture class="tile-img project">
 					<img src="images/koala-tile.jpg" alt="">
+				</picture>
+				<picture class="overlay project">
+					<img src="images/koala-tile-over.jpg" alt="">
 				</picture>
 			</a>
 
 			<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
-				<p class="tile-words reading-voice">Research and Employ</p>
-				<picture class="project">
+				<picture class="tile-img project">
 					<img src="images/employ-tile.jpg" alt="">
+				</picture>
+				<picture class="overlay project">
+					<img src="images/employ-tile-over.jpg" alt="">
 				</picture>
 			</a>
 		</div>

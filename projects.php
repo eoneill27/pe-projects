@@ -5,30 +5,34 @@
 </section>
 
 <section class="projects-grid">
-	<inner-column>
-		<picture class="project">
+	<inner-column class="project-tiles">
+		<a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
+			<picture class="tile-img project">
 				<img src="images/be-tile.jpg" alt="">
 			</picture>
-
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<picture class="overlay project">
+				<img src="images/be-tile-over.jpg" alt="">
 			</picture>
+		</a>
 
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-			</picture>
 
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+		<a href="https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/" target="_blank">
+			<picture class="tile-img project">
+				<img src="images/koala-tile.jpg" alt="">
 			</picture>
+			<picture class="overlay project">
+				<img src="images/koala-tile-over.jpg" alt="">
+			</picture>
+		</a>
 
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+		<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
+			<picture class="tile-img project">
+				<img src="images/employ-tile.jpg" alt="">
 			</picture>
-
-			<picture class="project">
-				<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<picture class="overlay project">
+				<img src="images/employ-tile-over.jpg" alt="">
 			</picture>
+		</a>
 
 	</inner-column>
 </section>
