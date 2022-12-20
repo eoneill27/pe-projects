@@ -95,7 +95,7 @@
 		<p>Sincerely,</p>
 		<p>Mrs. <span class="capitalize"><?=$adjectiveThree?></span></p>
 
-		<p>P.S. Please remember to pay us back for all of the <span><?=$nounPluralTwo?></span> that <span class="capitalize"><?=$sillyWordOne?></span> has taken from the school supply room. The total comes to 4 dollars multiplied by <span><?=$number?></span>, or <span><?php echo 4 * $number; ?></span>.</p>
+		<p>P.S. Rest assured, we haven't forgotten that we need to pay you back for all of the <span><?=$nounPluralTwo?></span> that <span class="capitalize"><?=$sillyWordOne?></span> has taken from the school supply room. If I am not mistaken, the total comes to 4 dollars multiplied by <span><?=$number?></span>, or <span><?php echo 4 * $number; ?></span>.</p>
 
 
 	</div>
