@@ -1,5 +1,89 @@
 # Emily's Daily Journal
 
+## December 19, 2022
+
+### Stand up
+
+This weekend I spent a lot of time working on my portfolio site, but I don't feel quite satisfied with it. I want to spend some more time on the design and layout today. I might go back to some ideas I had for the previous version, with some outlined boxes and color blocks. It's definitely a work in progress, and I'm sure it will continue to be a work in progress for many months to come!
+
+Today I'm happy to get more into PHP. I will finish the exercises, do the extra challenges when I get them, and continue to work on my portfolio site.
+
+No blockers today!
+
+### Today's lesson - 099.079:
+
+Delimiter = a character that marks the beginning or end of a unit of data
+			= a sequence of one or more characters for specifying the boundary between separate, independent regions in plain text, mathematical expressions, or other data streams
+	in PHP - delimiters are <?php and ?>
+
+Concatenation - combining, joining together
+in PHP, you often have to join strings together
+
+Echo - will print whatever it is to the page
+<?php echo "Hello Emily"; ?>
+
+"Hello Emily" is a string
+String is denoted by quotation marks
+
+Use double quotes in case you need an apostrophe in the string
+
+```
+echo "<h2>" . (257 + 312) . "</h2>";
+```
+
+The period is concatenation
+The numbers are not strings
+The periods/concatenation are gluing the numbers to the beginning and the end
+This lets the computer know that it needs to treat the numbers differently - do math
+
+Concatenation is like glue
+
+$name = "Emily";
+
+$name is a reference/variable
+The equal sign assigns the string to that variable
+Can then use that reference/variable anywhere in the document and it will point to the string 
+
+```
+<?php 
+	$name = "Emily";
+
+	echo "Hello," . $name . " Emily.";
+?>
+```
+
+HTML written inside PHP - 
+```
+<?php 
+	echo "<p>" . $personOne . " went to the..."</p>";
+?>
+```
+
+But you can also write PHP inside HTML
+```
+<p>During the scariest part of the movie a <?php echo $bug;?> landed...</p>
+```
+
+can also write this as ``` <?=$bug?> ```
+= is shorthand for echo
+
+``` 
+<?php
+	$personOne = "Emily";
+	$personTwo = "Ann";
+?>
+```
+Parser comes down and stores these strings into memory
+
+PHP allows you to build out HTML with dynamic data - this is historically what it was used for
+More uses now
+
+### To dos
+
+- [x] build up to Mad Lib challenge
+- [x] make a 3-sentence Mad Lib - try out each way to echo the text to the screen
+- [x] put your code on your website and share the link
+
 ## December 17, 2022
 
 ### Stand up
