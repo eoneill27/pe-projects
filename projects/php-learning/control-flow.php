@@ -82,11 +82,14 @@
 
 			<span class="echo-voice">
 				<?php 
-					
-					$time = 1646;
-					$am = (0500 <= $time) && ($time <= 1159);
-					$pm = (1200 <= $time) && ($time <= 1659);
-					$eve = (1700 <= $time) && ($time <=1959);
+
+					date_default_timezone_set ('America/Vancouver');
+
+					$time = date("H:i:s");
+
+					$am = ("05:00:00" <= $time) && ($time <= "11:59:00");
+					$pm = ("12:00:00" <= $time) && ($time <= "16:59:00");
+					$eve = ("17:00:00" <= $time) && ($time <="19:59:00");
 
 					if ($am) {
 						echo "Good morning!";
@@ -118,8 +121,6 @@
 					} else {
 						echo "$" . $subtotal * .15;
 					}
-
-
 				?>
 
 			</span>
@@ -170,6 +171,8 @@
 						echo "It's not Christmas yet.";
 					}
 				?>
+
+				<?php echo "Hello world!"; ?>
 				
 			</span>
 
