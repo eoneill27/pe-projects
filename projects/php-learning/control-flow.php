@@ -56,7 +56,7 @@
 				font-weight: 600;
 				color: var(--span-color);
 			}
-			
+
 		</style>
 	</head>
 	<body>
@@ -90,22 +90,22 @@
 		</span>
 
 		<p class="reading-voice">
-		If the service was great, calculate a 20% tip on the subtotal. If the service was good, calculate an 18% tip on the subtotal. Otherwise, calculate a $15% tip on the subtotal.
+		If the service was great, calculate a 20% tip on the subtotal. If the service was good, calculate an 18% tip on the subtotal. Otherwise, calculate a 15% tip on the subtotal.
 		</p>
 
 		<span class="echo-voice">
 
 			<?php
 
-				$serviceQuality = "great";
+				$serviceQuality = "good";
 				$subtotal = "45.55";
 
 				if ($serviceQuality == "great") {
-					echo $subtotal * .2; 
+					echo "$" . $subtotal * .2; 
 				} else if ($serviceQuality == "good") {
-					echo $subtotal * .18;
+					echo "$" . $subtotal * .18;
 				} else {
-					echo $subtotal * .15;
+					echo "$" . $subtotal * .15;
 				}
 
 
@@ -144,7 +144,23 @@
 
 			?>
 
-		</spam>
+		</span>
+
+		<p class="reading-voice">A quick test to determine if today is Christmas.</p>
+
+		<span class="echo-voice">
+
+			<?php
+				$dec25 = false;
+
+				if ($dec25) {
+					echo "Today is Christmas!";
+				} else {
+					echo "It's not Christmas yet.";
+				}
+			?>
+			
+		</span>
 
 
 
