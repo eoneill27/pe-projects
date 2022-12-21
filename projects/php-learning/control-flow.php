@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Control Flow</title>
+
+		<style>
+			body {
+				background-color: #FFFBEE;
+				padding: 20px;
+				--main-color: #ebdf66;
+				--highlight: #c3f0fe;
+				--heading-color: #EE270E;
+				--p-color: black;
+				--span-color: salmon;
+			}
+
+			@media (prefers-color-scheme: dark) {
+				body {  
+					background-color: #31487c;
+					--main-color: #6F087E;
+					--highlight: #de01ff;
+					--heading-color: lightpink;
+					--p-color: #FFFBEE;
+					--span-color: gold;
+				}
+			}
+
+			inner-column {
+				display: block;
+				max-width: 1000px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			h1 {
+				background-color: var(--highlight);
+				font-size: 32px;
+				font-family: Avenir, sans-serif;
+				color: var(--heading-color);
+				text-align: center;
+				margin: 20px;
+				padding: 20px;
+				box-shadow: -10px 10px var(--main-color);
+			}
+
+			p {
+				color: var(--p-color);
+				font-family: Georgia, serif;
+				font-size: 22px;
+				line-height: 1.4;
+			}
+
+			span {
+				font-family: Rockwell, Courier, serif;
+				font-size: 26px;
+				font-weight: 600;
+				color: var(--span-color);
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<h1>Control Flow</h1>
+
+		<!-- if/else statements -->
+
+		<p class="reading-voice">
+		If it is between 5am and 11:59am, say "Good morning!" If it is after noon but before 5, say "Good afternoon!" If is 5pm or later and before 8pm, say "Good evening!" Otherwise, say "Good night!" Enter time on the 24-hour clock/military time.
+		</p>
+
+		<span class="echo-voice">
+			<?php 
+				
+				$time = 1201;
+				$am = (0500 <= $time) && ($time <= 1159);
+				$pm = (1200 <= $time) && ($time <= 1659);
+				$eve = (1700 <= $time) && ($time <=1959);
+
+				if ($time == $am) {
+					echo "Good morning!";
+				} elseif ($time == $pm) {
+					echo "Good afternoon!";
+				} elseif ($time == $eve) {
+					echo "Good evening!";
+				} else {
+					echo "Good night!";
+				}
+			?>
+		</span>
+
+		<p class="reading-voice">
+		If the service was great, calculate a 20% tip on the subtotal. If the service was good, calculate an 18% tip on the subtotal. Otherwise, calculate a $15% tip on the subtotal.
+		</p>
+
+		<span class="echo-voice">
+
+			<?php
+
+				$serviceQuality = "great";
+				$subtotal = "45.55";
+
+				if ($serviceQuality == "great") {
+					echo $subtotal * .2; 
+				} else if ($serviceQuality == "good") {
+					echo $subtotal * .18;
+				} else {
+					echo $subtotal * .15;
+				}
+
+
+			?>
+
+		</span>
+
+		<p class="reading-voice">
+		Depending on the temperature, tell me what I should bring when I go outside.
+		</p>
+
+		<span class="echo-voice">
+			<?php
+
+				$temperature = 39;
+				$freezing = $temperature < 40;
+				$cold = (41 < $temperature) && ($temperature < 65);
+				$warm = (66 < $temperature) && ($temperature < 80);
+				$hot = $temperature > 80;
+
+				if ($freezing) {
+					echo "Bring your gloves!";
+				} 
+
+				if ($cold) {
+					echo "Don't forget a coat!";
+				}
+
+				if ($warm) {
+					echo "It's warm outside.";
+				}
+
+				if ($hot) {
+					echo "It's hot! You should bring a water bottle!";
+				}
+
+			?>
+
+		</spam>
+
+
+
+	</body>
+</html>
