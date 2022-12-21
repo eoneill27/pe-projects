@@ -113,7 +113,7 @@
 
 					if ($serviceQuality == "great") {
 						echo "$" . $subtotal * .2; 
-					} else if ($serviceQuality == "good") {
+					} elseif ($serviceQuality == "good") {
 						echo "$" . $subtotal * .18;
 					} else {
 						echo "$" . $subtotal * .15;
