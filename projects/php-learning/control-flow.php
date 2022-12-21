@@ -83,16 +83,16 @@
 			<span class="echo-voice">
 				<?php 
 					
-					$time = 1201;
+					$time = 1646;
 					$am = (0500 <= $time) && ($time <= 1159);
 					$pm = (1200 <= $time) && ($time <= 1659);
 					$eve = (1700 <= $time) && ($time <=1959);
 
-					if ($time == $am) {
+					if ($am) {
 						echo "Good morning!";
-					} elseif ($time == $pm) {
+					} elseif ($pm) {
 						echo "Good afternoon!";
-					} elseif ($time == $eve) {
+					} elseif ($eve) {
 						echo "Good evening!";
 					} else {
 						echo "Good night!";
