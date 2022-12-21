@@ -172,7 +172,25 @@
 					}
 				?>
 
-				<?php echo "Hello world!"; ?>
+				
+			</span>
+
+			<p class="reading-voice">Another version of the Christmas test. This one does not require user input.</p>
+
+			<span class="echo-voice">
+
+				<?php
+
+					$date = date("m.d");
+					$christmas = "12.25";
+				
+
+					if ($date == $christmas) {
+						echo "Today is Christmas!";
+					} else {
+						echo "It's not Christmas yet.";
+					}
+				?>
 				
 			</span>
 
