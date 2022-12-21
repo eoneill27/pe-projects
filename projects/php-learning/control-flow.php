@@ -57,6 +57,17 @@
 				color: var(--span-color);
 			}
 
+			.main {
+				margin: 20px;
+				padding: 20px;
+				background-color: var(--main-color);
+				box-shadow: -10px 10px var(--highlight);
+			}
+
+			h1 + .main {
+				margin-top: 40px;
+			}
+
 		</style>
 	</head>
 	<body>
@@ -64,105 +75,105 @@
 		<h1>Control Flow</h1>
 
 		<!-- if/else statements -->
+		<div class="main">
+			<p class="reading-voice">
+			If it is between 5am and 11:59am, say "Good morning!" If it is after noon but before 5, say "Good afternoon!" If is 5pm or later and before 8pm, say "Good evening!" Otherwise, say "Good night!" Enter time on the 24-hour clock/military time.
+			</p>
 
-		<p class="reading-voice">
-		If it is between 5am and 11:59am, say "Good morning!" If it is after noon but before 5, say "Good afternoon!" If is 5pm or later and before 8pm, say "Good evening!" Otherwise, say "Good night!" Enter time on the 24-hour clock/military time.
-		</p>
+			<span class="echo-voice">
+				<?php 
+					
+					$time = 1201;
+					$am = (0500 <= $time) && ($time <= 1159);
+					$pm = (1200 <= $time) && ($time <= 1659);
+					$eve = (1700 <= $time) && ($time <=1959);
 
-		<span class="echo-voice">
-			<?php 
+					if ($time == $am) {
+						echo "Good morning!";
+					} elseif ($time == $pm) {
+						echo "Good afternoon!";
+					} elseif ($time == $eve) {
+						echo "Good evening!";
+					} else {
+						echo "Good night!";
+					}
+				?>
+			</span>
+
+			<p class="reading-voice">
+			If the service was great, calculate a 20% tip on the subtotal. If the service was good, calculate an 18% tip on the subtotal. Otherwise, calculate a 15% tip on the subtotal.
+			</p>
+
+			<span class="echo-voice">
+
+				<?php
+
+					$serviceQuality = "good";
+					$subtotal = "45.55";
+
+					if ($serviceQuality == "great") {
+						echo "$" . $subtotal * .2; 
+					} else if ($serviceQuality == "good") {
+						echo "$" . $subtotal * .18;
+					} else {
+						echo "$" . $subtotal * .15;
+					}
+
+
+				?>
+
+			</span>
+
+			<p class="reading-voice">
+			Depending on the temperature, tell me what I should bring when I go outside.
+			</p>
+
+			<span class="echo-voice">
+				<?php
+
+					$temperature = 39;
+					$freezing = $temperature < 40;
+					$cold = (41 < $temperature) && ($temperature < 65);
+					$warm = (66 < $temperature) && ($temperature < 80);
+					$hot = $temperature > 80;
+
+					if ($freezing) {
+						echo "Bring your gloves!";
+					} 
+
+					if ($cold) {
+						echo "Don't forget a coat!";
+					}
+
+					if ($warm) {
+						echo "It's warm outside.";
+					}
+
+					if ($hot) {
+						echo "It's hot! You should bring a water bottle!";
+					}
+
+				?>
+
+			</span>
+
+			<p class="reading-voice">A quick test to determine if today is Christmas.</p>
+
+			<span class="echo-voice">
+
+				<?php
+					$dec25 = false;
+
+					if ($dec25) {
+						echo "Today is Christmas!";
+					} else {
+						echo "It's not Christmas yet.";
+					}
+				?>
 				
-				$time = 1201;
-				$am = (0500 <= $time) && ($time <= 1159);
-				$pm = (1200 <= $time) && ($time <= 1659);
-				$eve = (1700 <= $time) && ($time <=1959);
+			</span>
 
-				if ($time == $am) {
-					echo "Good morning!";
-				} elseif ($time == $pm) {
-					echo "Good afternoon!";
-				} elseif ($time == $eve) {
-					echo "Good evening!";
-				} else {
-					echo "Good night!";
-				}
-			?>
-		</span>
-
-		<p class="reading-voice">
-		If the service was great, calculate a 20% tip on the subtotal. If the service was good, calculate an 18% tip on the subtotal. Otherwise, calculate a 15% tip on the subtotal.
-		</p>
-
-		<span class="echo-voice">
-
-			<?php
-
-				$serviceQuality = "good";
-				$subtotal = "45.55";
-
-				if ($serviceQuality == "great") {
-					echo "$" . $subtotal * .2; 
-				} else if ($serviceQuality == "good") {
-					echo "$" . $subtotal * .18;
-				} else {
-					echo "$" . $subtotal * .15;
-				}
-
-
-			?>
-
-		</span>
-
-		<p class="reading-voice">
-		Depending on the temperature, tell me what I should bring when I go outside.
-		</p>
-
-		<span class="echo-voice">
-			<?php
-
-				$temperature = 39;
-				$freezing = $temperature < 40;
-				$cold = (41 < $temperature) && ($temperature < 65);
-				$warm = (66 < $temperature) && ($temperature < 80);
-				$hot = $temperature > 80;
-
-				if ($freezing) {
-					echo "Bring your gloves!";
-				} 
-
-				if ($cold) {
-					echo "Don't forget a coat!";
-				}
-
-				if ($warm) {
-					echo "It's warm outside.";
-				}
-
-				if ($hot) {
-					echo "It's hot! You should bring a water bottle!";
-				}
-
-			?>
-
-		</span>
-
-		<p class="reading-voice">A quick test to determine if today is Christmas.</p>
-
-		<span class="echo-voice">
-
-			<?php
-				$dec25 = false;
-
-				if ($dec25) {
-					echo "Today is Christmas!";
-				} else {
-					echo "It's not Christmas yet.";
-				}
-			?>
-			
-		</span>
-
-
+		</div>
 
 	</body>
 </html>
