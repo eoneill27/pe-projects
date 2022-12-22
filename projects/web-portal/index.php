@@ -31,12 +31,16 @@
 				$pm = ("12:00:00" <= $time) && ($time <= "16:59:00");
 				$eve = ("17:00:00" <= $time) && ($time <="21:59:00");
 
-				?>
-
-				<?php
-
-				echo $am;
-
+				if ($am) {
+						echo "<h1>Good morning, Emily!</h1>";
+					} elseif ($pm) {
+						echo "<h1>Good afternoon, Emily!</h1>";
+					} elseif ($eve) {
+						echo "<h1>Good evening, Emily!</h1>";
+					} else {
+						echo "<h1>Go to bed, Emily!!</h1>";
+					}
+		
 				?>
 			<nav>
 				<a href="https://www.gmail.com">Gmail</a>
