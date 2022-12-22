@@ -1,5 +1,80 @@
 # Emily's Daily Journal
 
+## December 20, 2022
+
+### Stand up
+
+Yesterday I worked on PHP and finished an extra Mad Libs challenge. I am so pleasantly surprised to discover that I am not totally baffled by PHP (yet). I was worried about the programming part of the course, and I know it is very very early - but so far I'm enjoying it. 
+
+I also worked a little on my portfolio site. I'm going to listen to Derek's advice and not throw the baby out with the bathwater. It is perfectly serviceable for now, though I still have to add some content.
+
+This morning I went through the lesson and started on the exercise. I have to head to work now and it snowed a whole bunch last night - I think I'm going to walk because I am sure the buses and the roads are going to be a nightmare. It might take me a little while to get home tonight, but I hope to be back by 6pm. I'll check in throughout the day from work, too. 
+
+### Today's lesson - 100.080: Control flow
+
+tags = delimiters
+quotes around strings = delimiters
+parentheses, curly braces = delimiters
+
+keyword = reserved word that the language and the interpreter have already defined
+	in this lesson, 'if' is the keyword
+
+statement = explicit instruction
+	a command that you write
+	in PHP, it usually ends in a semicolon
+
+operator = a symbol that tells the PHP interpreter to perform certain actions
+	= is assignment operator	
+	there are arithmetic operators, logical operators, comparison operators
+
+boolean - a boolean value is true or false. In the case of an 'if' statement, the instruction in the code block will be carried out if the condition evaluates to true
+
+$ indicates a variable
+= is assignment operator
+" " indicates a string
+; tells you that a command is done
+
+== is Equal Operator
+Accepts two inputs to compare and returns true value if both of the values are the same, returns false value if both of the values are not the same
+Compares only the value of the variable, not data types
+Tests for equality and returns true or false as the result
+
+Conditional logic - also called Control Flow
+
+```
+if ($first) {
+
+	} else {
+
+	}
+```
+If $first doesn't exist, do this
+
+True and false are their own types of value
+They are not strings
+
+If something, then this
+Otherwise, then this
+
+if - elseif - else statement
+
+``` 
+if (condition) {
+	code to be executed if this condition is true;
+} elseif (condition) {
+	code to be executed if first condition is false and this condition is true;
+} else {
+	code to be executed if all conditions are false;
+}
+```
+
+### To dos
+
+- [x] practice with control flow. Use boolean, greater than/less than, double equal sign
+- [x] meet with Derek
+- [] work on personal site
+- [] meet with Miguel
+
 ## December 19, 2022
 
 ### Stand up
@@ -10,7 +85,7 @@ Today I'm happy to get more into PHP. I will finish the exercises, do the extra 
 
 No blockers today!
 
-### Today's lesson - 099.079:
+### Today's lesson - 099.079: PHP templates
 
 Delimiter = a character that marks the beginning or end of a unit of data
 			= a sequence of one or more characters for specifying the boundary between separate, independent regions in plain text, mathematical expressions, or other data streams
