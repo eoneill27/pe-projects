@@ -21,7 +21,23 @@
 
 	<body>
 		<section class="welcome">
-			<h1>Good Morning!</h1>
+			<?php 
+
+				date_default_timezone_set ('America/Vancouver');
+
+				$time = date("H:i:s");
+
+				$am = ("05:00:00" <= $time) && ($time <= "11:59:00");
+				$pm = ("12:00:00" <= $time) && ($time <= "16:59:00");
+				$eve = ("17:00:00" <= $time) && ($time <="21:59:00");
+
+				?>
+
+				<?php
+
+				echo $am;
+
+				?>
 			<nav>
 				<a href="https://www.gmail.com">Gmail</a>
 				<a href="https://perpetual.education/design-for-the-web/">PE Lessons</a>
