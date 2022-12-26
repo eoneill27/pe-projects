@@ -7,9 +7,11 @@
 <section class="hello">
 	<inner-column>
 		<h2 class="attention-voice">Hello!</h2>
+		<div class="hello-text">
+			<p class="reading-voice">I am a budding web designer and developer, currently enrolled in a mentorship program with <strong><a href="https://perpetual.education" target="_blank">Perpetual Education</a></strong>. In my first career, I spent 15 years working as a professional librarian. I draw on that experience and expertise in my web design work to fine-tune the information architecture supporting your website, making your content easily findable and accessible to all of your users.</p>
 
-		<p class="reading-voice">I am a budding web designer and developer currently enrolled in a mentorship program through Perpetual Education. I hope to focus on helping small businesses build beautiful, functional, accessible web sites. Whether you need a site built from scratch or you have an existing site that needs a bit of TLC, I can help you achieve your goals and build your business.</p>
-
+			<p class="reading-voice">In my second career, I hope to focus on helping small businesses build beautiful, functional, accessible web sites. Whether you need a site built from scratch or you have an existing site that needs a bit of TLC, I can help you achieve your goals and build your business.</p>
+		</div>
 		<div class="button">
 			<a class="button-voice" href="about.php">Find out more</a>
 		</div>
