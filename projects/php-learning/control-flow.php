@@ -194,6 +194,60 @@
 				
 			</span>
 
+			<p class="reading-voice">Astrology stuff - for Jess.</p>
+
+			<span class="echo-voice">
+				
+				<?php
+
+					$birthday = date("07.27");
+
+					$aries = ("03.21" <= $birthday) && ($birthday <= "04.19");
+					$taurus = ("04.20" <= $birthday) && ($birthday <= "05.20");
+					$gemini = ("05.21" <= $birthday) && ($birthday <= "06.21");
+					$cancer = ("06.22" <= $birthday) && ($birthday <= "07.22");
+					$leo = ("07.23" <= $birthday) && ($birthday <= "08.22");
+					$virgo = ("08.23" <= $birthday) && ($birthday <= "09.22");
+					$libra = ("09.23" <= $birthday) && ($birthday <= "10.23");
+					$scorpio = ("10.24" <= $birthday) && ($birthday <= "11.21");
+					$sagittarius = ("11.22" <= $birthday) && ($birthday <= "12.21"); 
+					$capricorn = ("12.22" <= $birthday) && ($birthday <= "01.19");
+					$aquarius = ("01.20" <= $birthday) && ($birthday <= "02.18");
+					$pisces = ("02.19" <= $birthday) && ($birthday <= "03.20");
+
+					echo "Your birthday is " . $birthday . ".";
+
+					echo "<br/>";
+
+					if ($aries) {
+						echo "Your star sign is Aries."; 
+					} elseif ($taurus) {
+						echo "Your star sign is Taurus.";
+					} elseif ($gemini) {
+						echo "Your star sign is Gemini.";
+					} elseif ($cancer) {
+						echo "Your star sign is Cancer.";
+					} elseif ($leo){
+						echo "Your star sign is Leo.";
+					} elseif ($virgo) {
+						echo "Your star sign is Virgo.";
+					} elseif ($libra) {
+						echo "Your star sign is Libra.";
+					} elseif ($scorpio) {
+						echo "Your star sign is Scorpio.";
+					} elseif ($sagittarius) {
+						echo "Your star sign is Sagittarius.";
+					} elseif ($capricorn) {
+						echo "Your star sign is Capricorn.";
+					} elseif ($aquarius) {
+						echo "Your star sign is Aquarius.";
+					} elseif ($pisces) {
+						echo "Your star sign is Pisces.";
+					}
+
+				?>
+			</span>
+
 		</div>
 
 	</body>

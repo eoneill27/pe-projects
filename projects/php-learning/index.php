@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHP practice</title>
+</head>
+<body>
+
 <?php
 	echo "Emily!";
 ?>
@@ -6,7 +13,7 @@
 	$firstName = "Emily";
 	$lastName = "O'Neill";
 
-	echo "$firstName $lastName"
+	echo "$firstName $lastName";
 ?>
 
 <p>
@@ -85,3 +92,14 @@
 <p><?php echo $myVariable; ?></p>
 
 <p><?=$myVariable?></p>
+
+<hr>
+
+
+
+
+
+
+
+</body>
+</html>
