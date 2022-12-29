@@ -1,5 +1,77 @@
 # Emily's Daily Journal
 
+## December 28, 2022
+
+### Stand up
+
+Over the break I did some tinkering on my portfolio site and my responsive layout garden. I also did a lot of sleeping in - I always sleep well at my parents' house, and I think I pretty much caught up on the past three months of not sleeping as much as usual.  
+
+Today I'm driving back up to Vancouver from Washington, with a stop to see an old friend on the way. I'm looking forward to having a few quiet days at home before work starts up again. I really meant to sketch out a blog post over the holiday, but did not - that's for the next few days. 
+
+### Today's lesson - 108.081: PHP arrays & objects & some HSL color
+
+Array = data structure to organize lists of things
+	Has an intrinsic order
+
+``
+<?php
+	$exampleArray = ["Some string", 23, false];
+
+	echo $exampleArray[0];
+	//Returns "Some string"
+
+?>
+``
+
+The first thing in the list is 0 instead of 1
+
+Associative arrays (aka Objects) = An array of associated key:value pairs
+	Each key in the object has an associated value
+
+``
+<?php
+	$exampleObject = [
+		"key" => "value",
+		"age" => 39,
+		"happy" => true,
+		"name" => "Emily",
+		"favorite colors" => ["blue", "green"]
+	]
+
+	$name = $exampleObject["name"];
+
+	echo $name; 
+	//returns "Emily"
+?>
+``
+
+If a page has nothing on it but PHP, you don't need a closing ?> tag
+
+You can put HTML in PHP and it will work
+`` echo "<h1>" . $___ . "</h1>" ``
+
+can reassign variables
+so could start with $total = $price + $tax;
+then later, could have $total = $total + $tip;
+
+HSL = Hue, Saturation, Lightness
+1st number is hue - 0 to 360 (either end is red)
+2nd & 3rd numbers are percentages
+Saturation = how pure the color is
+Lightness = how light or dark the color is
+
+hsla - a=alpha layer (opacity)
+
+color: hsla(0, 30%, 50%, .5);
+
+Check your contrast!
+
+### To dos
+
+- [x] practice PHP - arrays and objects
+- [x] test your personal site color contrast - post results
+- [x] play around with HSL color in CSS
+
 ## December 20, 2022
 
 ### Stand up
