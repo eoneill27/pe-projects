@@ -85,7 +85,6 @@ ul {
 	ul {
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-start;
 		gap: 20px;
 		flex-wrap: wrap;
 	}
@@ -102,10 +101,18 @@ ul {
 	height: 250px;*/
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.monster {
 		width: 550px;
 		height: 350px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.monster {
+		max-width: 45%;
+		/*width: 550px;
+		height: 350px;*/
 	}
 }
 
@@ -149,7 +156,7 @@ ul {
 /*PICTURES*/
 
 .portrait {
-	max-width: 200px;
+	max-width: 300px;
 }
 
 img {
