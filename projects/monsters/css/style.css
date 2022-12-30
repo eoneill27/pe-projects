@@ -1,0 +1,173 @@
+@import 'meyer-setup.css';
+
+body * {
+/*	border: 4px solid red;*/
+}
+
+body {
+	background-color: #ffec9c;
+	display: flex;
+}
+
+inner-column {
+	display: block;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+/*TYPOGRAPHY*/
+
+.heyyou-voice {
+	font-family: "Avenir black oblique", sans-serif;
+	font-size: 62px;
+	color: #fd6089;
+}
+
+.name-voice {
+	font-family: "Avenir black oblique", sans-serif;
+	font-size: 30px;
+	color: #9cffd5;
+	text-shadow: -2px 2px black;
+}
+
+.story-voice {
+	font-family: "Avenir medium", sans-serif;
+	font-size: 16px;
+}
+
+.list-voice {
+	font-family: "Avenir medium", sans-serif;
+	font-size: 14px;
+}
+
+.button-voice {
+	font-family: "Avenir black oblique", sans-serif;
+	font-size: 16px;
+}
+
+@media (min-width: 600px) {
+	.story-voice {
+		font-size: 22px;
+	}
+
+	.list-voice {
+		font-family: "Avenir medium", sans-serif;
+		font-size: 20px;
+	}
+
+	.button-voice {
+		font-family: "Avenir black oblique", sans-serif;
+		font-size: 20px;
+	}
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+/*MONSTER CARDS*/
+
+ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: none;
+}
+
+@media (min-width: 600px) {
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+}
+
+.monster {
+	background-color: #d99cff;
+	border: 4px solid black;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 15px;
+	list-style-type: none;
+	width: 350px;
+	height: 250px;
+}
+
+@media (min-width: 600px) {
+	.monster {
+		width: 550px;
+		height: 350px;
+	}
+}
+
+.monster-card {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.pic-button {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 45%;
+}
+
+.name-story {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;
+	max-width: 50%;
+}
+
+.favorites {
+	display: flex;
+	flex-direction: column;
+	list-style-type: circle;
+	margin-top: 15px;
+	margin-left: 20px;
+	line-height: 1.4;
+}
+
+@media (min-width: 600px) {
+	.favorites {
+		margin-top: 20px;
+		line-height: .5;
+	}
+}
+
+/*PICTURES*/
+
+.portrait {
+	max-width: 200px;
+}
+
+img {
+	border: 4px solid black;
+	border-radius: 10px;
+}
+
+/*BUTTON*/
+
+.status {
+	background-color: #9cffd5;
+	border: 4px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+	max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
