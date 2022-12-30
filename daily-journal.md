@@ -1,5 +1,61 @@
 # Emily's Daily Journal
 
+## December 29, 2022
+
+### Stand up
+
+Yesterday was a slightly disordered day of travel. I ended up doing most of my PHP on a ferry boat. Today I am home and rooted, ready to wade back into everything from the comfort and solidity of my desk!
+
+Today's exercises look fun. I'd like to finish those and get a blog post going. I'm still reading **The Design of Everyday Things** - I absolutely must finish that before the end of December, just to satisfy my own persnickitiness. I've been dragging it out for far too long. I started reading **Everyday Information Architecture** over the break, which breaks my rule of only one book at a time, but it almost feels like a beach read compared to **The Design of Everyday Things**. Lisa Maria Martin is very funny - I didn't expect to laugh while reading a book about information architecture, but she knows how to make it fun! 
+
+No blockers today!
+
+### Today's lesson - 109.082: "Looping" through arrays and more tiles
+
+Create objects - put them into an Array - then loop through them
+
+foreach loops - foreach statement will look at array and run a block of code "for each" item in the array
+
+"for each $item in the array: do this" is the upshot - 
+But - it's expressed like this:
+"For each item in this $array (now referenced as $item): do this"
+
+Many ways to compose PHP
+
+take the data in the objects
+Use loops to fill out a template to repeat the HTMl over and over again
+
+In an associative array/object - 
+need to assign values to keys with => (fat arrow)
+
+print_r( ); - displays information about a variable in a way that's readable by humans
+
+``<pre>`` - defines preformatted text. To be presented exactly as written in the HTML file.
+
+### PHP - Switch
+
+Switch statement is similar to a series of IF statements on the same expression
+
+For instances when you want to compare the same variable (or expression) with many different values, and execute a different piece of code depending on which value it equals to.
+
+Switch statement executes statement by statement
+PHP begins to execute the statements when a case statement is found whose expression evaluates to a value that matches the value of the switch expression
+PHP continues to execute the statements until the end of the switch block, or until the first time it sees a BREAK statement
+
+In a switch statement, the condition is evaluated only once and the result is compared to each case statement
+In an elseif statement, the condition is evaluated again. If your condition is more complicated than a simple compare and/or is in a tight loop, a switch may be faster.
+
+Statement list for a case can be empty
+
+Default case matches anything that wasn't matched by the other cases
+
+
+### To dos
+
+- [x] make style tile for monster adoption site - what needs to be included?
+- [x] get your style tile into code
+- [] blog post
+
 ## December 28, 2022
 
 ### Stand up
