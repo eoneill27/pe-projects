@@ -114,3 +114,50 @@
 </table>
 
 <!-- <p>Wondering - how do I combine these things? If I have two variables called $book, the second one takes precedence. I'm sure I'm getting ahead of myself, but can I start to make a database with PHP? Is it possible to have multiple $books, or do I need to differentiate the variables in some way? Can I echo particular values from multiple variables?</p> -->
+
+<?php 
+
+	$bookArray = ["book0001", "book0002", "book0003"];
+
+	foreach ($bookArray as $book) {
+		echo "<li>" . $book . "</li>";
+	}
+
+	foreach ($titles as $title) {
+		echo "<li>" . $title . "</li>";
+	}
+
+?>
+
+<?php foreach ($authors as $author) { ?>
+	<li><?=$author?></li>
+<?php } ?>
+
+<?php
+	$cocktail = [
+		"name" => "Negroni",
+		"ingredients" => [
+			[
+				"name" => "gin",
+				"ratio" => "1/3",
+			],
+			[
+				"name" => "vermouth",
+				"ratio" => "1/3", 
+			],
+			[
+				"name" => "Campari",
+				"ratio" => "1/3",
+			],
+		],
+	];
+
+	echo "<pre>";
+	echo "<code>";
+	print_r($cocktail);
+	echo "</code>";
+	echo "</pre>";
+
+	echo $cocktail["ingredients"][0]["name"];
+
+?>
