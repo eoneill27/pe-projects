@@ -27,7 +27,7 @@ inner-column {
 
 .name-voice {
 	font-family: "Avenir black oblique", sans-serif;
-	font-size: 30px;
+	font-size: 24px;
 	color: #9cffd5;
 	text-shadow: -2px 2px black;
 }
@@ -48,6 +48,11 @@ inner-column {
 }
 
 @media (min-width: 600px) {
+
+	.name-voice {
+		font-size: 32px;
+	}
+
 	.story-voice {
 		font-size: 22px;
 	}
