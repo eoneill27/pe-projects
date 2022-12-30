@@ -8,8 +8,14 @@
 	</head>
 
 	<body>
-		<inner-column>
-			<h1 class="heyyou-voice">Adopt-a-Monster</h1>
+		<header>
+			<inner-column>
+				<h1 class="heyyou-voice">Adopt-a-Monster</h1>
+			</inner-column>
+		</header>
+
+		<main>
+			<inner-column>
 
 			<?php
 
@@ -17,7 +23,7 @@
 					"id" => "101",
 					"name" => "Codey",
 					"favoriteFood" => "pizza",
-					"favoriteToy" => "slinky",
+					"favoriteToy" => "Slinky",
 					"favoriteAnimal" => "lions",
 					"age" => 7,
 					"adopted" => true,
@@ -28,8 +34,8 @@
 					"id" => "102",
 					"name" => "Fragoo",
 					"favoriteFood" => "pork chops",
-					"favoriteToy" => "slinky",
-					"favoriteAnimal" => "lions",
+					"favoriteToy" => "Legos",
+					"favoriteAnimal" => "tigers",
 					"age" => 8,
 					"adopted" => false,
 					"portrait" => "images/fragoo.jpg",
@@ -39,8 +45,8 @@
 					"id" => "103",
 					"name" => "Limabean",
 					"favoriteFood" => "marzipan",
-					"favoriteToy" => "slinky",
-					"favoriteAnimal" => "lions",
+					"favoriteToy" => "marbles",
+					"favoriteAnimal" => "puppies",
 					"age" => 4,
 					"adopted" => false,
 					"portrait" => "images/limabean.jpg",
@@ -49,9 +55,9 @@
 				$reads = [
 					"id" => "104",
 					"name" => "Miss Reads-a-Lot",
-					"favoriteFood" => "marzipan",
-					"favoriteToy" => "slinky",
-					"favoriteAnimal" => "lions",
+					"favoriteFood" => "fondue",
+					"favoriteToy" => "Scrabble",
+					"favoriteAnimal" => "bookworms",
 					"age" => 4,
 					"adopted" => false,
 					"portrait" => "images/miss-reads-a-lot.jpg",
@@ -60,9 +66,9 @@
 				$banana = [
 					"id" => "105",
 					"name" => "Mr. Banana",
-					"favoriteFood" => "marzipan",
-					"favoriteToy" => "Slinky",
-					"favoriteAnimal" => "lions",
+					"favoriteFood" => "pineapple upsidedown cake",
+					"favoriteToy" => "Game Boy",
+					"favoriteAnimal" => "cats",
 					"age" => 4,
 					"adopted" => false,
 					"portrait" => "images/mr-banana.jpg",
@@ -71,9 +77,9 @@
 				$orangina = [
 					"id" => "106",
 					"name" => "Orangina",
-					"favoriteFood" => "marzipan",
-					"favoriteToy" => "slinky",
-					"favoriteAnimal" => "lions",
+					"favoriteFood" => "buttered toast",
+					"favoriteToy" => "Polly Pocket",
+					"favoriteAnimal" => "sloths",
 					"age" => 4,
 					"adopted" => false,
 					"portrait" => "images/orangina.jpg",
@@ -82,9 +88,9 @@
 				$shadow = [
 					"id" => "107",
 					"name" => "Shadow",
-					"favoriteFood" => "marzipan",
-					"favoriteToy" => "slinky",
-					"favoriteAnimal" => "lions",
+					"favoriteFood" => "chocolate pudding",
+					"favoriteToy" => "dressup clothes",
+					"favoriteAnimal" => "snakes",
 					"age" => 4,
 					"adopted" => false,
 					"portrait" => "images/shadow.jpg",
