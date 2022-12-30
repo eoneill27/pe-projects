@@ -90,12 +90,16 @@ header h1 {
 
 /*MONSTER CARDS*/
 
-ul {
+/*ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
 	flex-wrap: none;
+}*/
+
+.monster {
+	list-style-type: none;
 }
 
 .monster-card {
@@ -104,11 +108,8 @@ ul {
 	border-radius: 10px;
 	margin-top: 20px;
 	padding: 20px;
-	list-style-type: none;
 	display: flex;
 	flex-direction: column;	
-	/*width: 375px;
-	height: 250px;*/
 }
 
 .pic-button {
@@ -117,7 +118,6 @@ ul {
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
-/*	max-width: 45%;*/
 }
 
 .name-story {
@@ -125,7 +125,6 @@ ul {
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 20px;
-/*	max-width: 50%;*/
 }
 
 .favorites {
@@ -146,6 +145,7 @@ ul {
 	ul {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
 		gap: 20px;
 		flex-wrap: wrap;
 	}
@@ -157,10 +157,6 @@ ul {
 }
 
 @media (min-width: 800px) {
-	.monster {
-		/*width: 550px;
-		height: 350px;*/
-	}
 
 	.monster-card {
 		display: flex;
@@ -171,7 +167,7 @@ ul {
 
 @media (min-width: 1100px) {
 	.monster {
-		max-width: 45%;
+		max-width: 49%;
 	}
 
 	.monster-card {
@@ -192,6 +188,7 @@ ul {
 
 .portrait {
 	width: 350px;
+	max-width: 350px;
 }
 
 @media (min-width: 600px) {
