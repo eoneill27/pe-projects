@@ -35,11 +35,12 @@ inner-column {
 .story-voice {
 	font-family: "Avenir medium", sans-serif;
 	font-size: 16px;
+	line-height: 1.2;
 }
 
 .list-voice {
 	font-family: "Avenir medium", sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .button-voice {
