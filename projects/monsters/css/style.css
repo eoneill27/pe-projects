@@ -21,13 +21,13 @@ inner-column {
 /*TYPOGRAPHY*/
 
 .heyyou-voice {
-	font-family: "Avenir black oblique", "Helvetica bold oblique", sans-serif;
+	font-family: "Avenir black oblique", "Helvetica", sans-serif;
 	font-size: 62px;
 	color: #fd6089;
 }
 
 .name-voice {
-	font-family: "Avenir black oblique", "Helvetica bold oblique", sans-serif;
+	font-family: "Avenir black oblique", "Helvetica", sans-serif;
 	font-size: 30px;
 	color: #9cffd5;
 	text-shadow: -2px 2px black;
@@ -148,10 +148,6 @@ ul {
 		flex-direction: row;
 		gap: 20px;
 		flex-wrap: wrap;
-	}
-
-	.monster-card {
-		flex-direction: row;
 	}
 
 	.favorites {
