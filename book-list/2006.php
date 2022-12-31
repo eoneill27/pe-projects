@@ -1,4 +1,19 @@
+<?php include('header.php'); ?>
+
 <?php
+
+function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
+		$book = [
+			"id" => $id,
+			"title" => $title,
+			"author" => $author,
+			"genre" => $genre,
+			"yearRead" => $yearRead,
+			"recommended" => $recommended,
+		];
+
+		return $book;
+	}
 
 	$A0001 = bookForm(10001, "Take the Cannoli", "Sarah Vowell", "non-fiction", 2006, false);
 	$A0002 = bookForm(10002, "The Partly Cloudy Patriot", "Sarah Vowell", "non-fiction--American history", 2006, true);
@@ -27,3 +42,35 @@
 
 	$books = [$A0001, $A0002, $A0003, $A0004, $A0005, $A0006, $A0007, $A0008, $A0009, $A0010, $A0011, $A0012, $A0013, $A0014, $A0015, $A0016, $A0017, $A0018, $A0019, $A0020, $A0021, $A0022, $A0023];
 ?>
+
+<inner-column>
+
+	<h2 class="attention-voice">Books read in 2006</h2>
+
+	<ul class="book-cards">
+
+	<?php foreach ($books as $book) { 
+
+		if ($book["recommended"] == 1) {
+				$book["recommended"] = "Recommended!";
+		} else {
+				$book["recommended"] = ""; 
+		}
+	?>
+
+		<li class="book">
+			<book-card>
+				<h3 class="title-voice"><?=$book["title"];?></h3>
+				<h4 class="author-voice">by <?=$book["author"];?></h4>
+				<p class="genre-voice"><?=$book["genre"];?></p>
+				<p class="review-voice"><?=$book["recommended"];?></p>
+
+			</book-card>
+		</li>
+
+
+	<?php } ?>
+
+</inner-column>
+
+<?php include('footer.php'); ?>
