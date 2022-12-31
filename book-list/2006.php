@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 	$A0001 = bookForm(10001, "Take the Cannoli", "Sarah Vowell", "non-fiction", 2006, false);
 	$A0002 = bookForm(10002, "The Partly Cloudy Patriot", "Sarah Vowell", "non-fiction--American history", 2006, true);

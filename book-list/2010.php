@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 	$E0001 = bookForm(10208, "A Walk in the Woods", "Bill Bryson", "non-fiction--travel", 2010, false);
 	$E0002 = bookForm(10209, "Goddess of the Market: Ayn Rand and the American Right", "Jennifer Burns", "non-fiction", 2010, false);

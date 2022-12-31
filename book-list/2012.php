@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 	$G0001 = bookForm(10298, "The Tiger's Wife", "Tea Obreht", "fiction", 2012, true);
 	$G0002 = bookForm(10299, "A Clash of Kings", "George R.R. Martin", "fiction--fantasy", 2012, false); 

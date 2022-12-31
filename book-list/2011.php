@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 	$F0001 = bookForm(10254, "Cleopatra: A Life", "Stacy Schiff", "non-fiction--biography", 2011, false);
 	$F0002 = bookForm(10255, "Catching Fire", "Suzanne Collins", "fiction--young adult fantasy", 2011, false);

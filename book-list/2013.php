@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 	$H0001 = bookForm(10298, "Ender's Game", "Orson Scott Card", "fiction--young adult fantasy", 2013, false); 
 	$H0002 = bookForm(10299, "How Should a Person Be?", "Sheila Heti", "fiction", 2013, false);

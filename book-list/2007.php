@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 $B0001 = bookForm(10024, "The Rebel Angels", "Robertson Davies", "fiction", 2007, false);
 $B0002 = bookForm(10025, "Launching History: The Saga of the Burrard Dry Dock", "Francis Mansbridge", "non-fiction--Canadian history", 2007, false);

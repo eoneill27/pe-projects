@@ -1,19 +1,7 @@
 <?php include('header.php'); ?>
+<?php include('book-form.php'); ?>
 
 <?php
-
-function bookForm($id, $title, $author, $genre, $yearRead, $recommended) {
-		$book = [
-			"id" => $id,
-			"title" => $title,
-			"author" => $author,
-			"genre" => $genre,
-			"yearRead" => $yearRead,
-			"recommended" => $recommended,
-		];
-
-		return $book;
-	}
 
 	$C0001 = bookForm(10100, "The Audacity of Hope", "Barack Obama", "non-fiction--memoir", 2008, true);
 	$C0002 = bookForm(10101, "The Kite Runner", "Khaled Hosseini", "fiction", 2008, false);
