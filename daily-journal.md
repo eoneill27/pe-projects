@@ -1,5 +1,80 @@
 # Emily's Daily Journal
 
+## December 31, 2022
+
+### Stand up
+
+### Today's lesson - 110:084: Generic work day
+
+### To dos
+
+- [] blog post
+- [] read more about loops & functions
+- [] work on book list site
+
+## December 30, 2022
+
+### Stand up
+
+Yesterday I watched the video and followed along, made my monster adoption style tiles, and then spent a while building the monster adoption website. I see now that I slipped on HTML-101 and left out the meta viewport tag - then I couldn't figure out why my site wasn't working on my phone. Lots of frustrated muttering to myself happening over here last night! It's a good reminder not to skip the fundamentals - and to use your boilerplate. (I used my boilerplate CSS, but not my boilerplate index.html. Strange.) I don't want to become too reliant on my boilerplate, though. It would be a good test to build a site totally from scratch and see if I remember all the stuff that needs to go in there - I think I'll do that this weekend.
+
+Today I will go through the lesson as usual! I wrote notes for a blog post last night, and I hope to have time to write it all out today. This evening I'm going to dinner with Ann's dad and uncle, who are in town from Edmonton, while she and her husband are at a party - then after dinner, I'm going to take over from the babysitter and put her kids to bed. It's kind of like I'm babysitting her entire family tonight. I'm looking forward to it! But I'll probably be wrapping up my computer time around 5pm today.
+
+No blockers!
+
+### Today's lesson - 110.083: PHP functions
+
+Functions are little recipes
+They need a name
+Define a function using the function keyword, then assign it a name
+
+Functions are predefined sets of encapsulated instructions
+
+``<?php
+		function myFunctionName() {
+			$coffee = 3;
+			$muffin = 4;
+
+			echo $coffee + $muffin;
+
+			//include some list of instructions inside the curly braces
+		}
+
+		//then "call" "run" "invoke" the function
+
+		myFunctionName();
+
+		//this produces 7
+	?> ``
+
+Scope - 
+Variables have a limited scope, or places from which they are accessible. A variable has a certain scope within which it is valid and only code in the same scope has access to the variable.
+
+PHP has function scope - this is the only kind of scope separator that exists in PHP. Variables inside a function are only available inside that function. Variables outside of functions are available anywhere outside of functions, but not inside any function.
+
+Any variable declared outside of any function is within the Global Scope of PHP.
+
+If you include a PHP file in another PHP file, the variables from the first are available in the 2nd.
+
+But if you include a PHP file in a function, variables from the file are only available in the function.
+
+Limited variable scope is essential to writing complex applications.
+There are only so many sensible names to give to variables, and you will probably want to reuse some.
+
+With function scope, you can focus on one part of the problem without worrying about how it will affect the rest of the code.
+
+Function terminology - 
+Inside the parentheses = Parameters - the various things you need when planning out your function. They can be sets of data, configuration settings, other functions, etc.
+
+Arguments = the values you Pass into those parameter slots when you go to Call and actually run the function.
+
+### To dos
+
+- [x] watch the video & follow along
+- [x] where can you use PHP? which of your projects would benefit from partials, variables, arrays, objects, loops and functions?
+- [] look for some use cases in the wild - identify some places where PHP would be useful. take some screenshots and report back
+- [] blog post
+
 ## December 29, 2022
 
 ### Stand up
