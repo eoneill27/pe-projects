@@ -1,0 +1,116 @@
+@import 'meyer-setup.css';
+
+
+body {
+	background-color: #f6f8fa;
+}
+inner-column {
+	display: block;
+	background-color: white;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+
+}
+/* TYPOGRAPHY */
+
+.heyyou-voice {
+	font-family: Arial, sans-serif;
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.reading-voice {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	font-weight: 300;
+}
+
+.vid-title-voice {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	font-weight: 600;
+	color: #2638c4;
+	margin-top: 15px;
+}
+
+.vid-meta-voice {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+/* SITE HEADER */
+
+.site-header {
+	background-color: #2638c4;
+	color: white;
+	padding: 20px;
+}
+
+/* MAIN */
+
+main inner-column h1 {
+	color: #0f1e8c;
+	margin-top: 20px;
+}
+
+main inner-column p {
+	max-width: 75ch;
+}
+.crash-link {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #2638c4;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+h1 + p {
+	margin-top: 20px;
+}
+
+/* VIDEO GRID */
+
+.video-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.vid-thumb {
+	max-width: 448px;
+	margin-top: 20px;
+}
+
+.vid-thumb:hover {
+	opacity: 50%;
+}
+
+@media (min-width: 760px) {
+
+	.video-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		grid-gap: 1em;
+		margin-top: 20px;
+	}
+
+}
+
+@media (min-width: 1260px) {
+
+	.video-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+		grid-gap: 1em;
+	}
+
+}
+
+
+
