@@ -52,6 +52,14 @@ inner-column {
 	padding: 20px;
 }
 
+.site-header a {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.05rem;
+	color: white;
+}
+
 /* MAIN */
 
 main inner-column h1 {
