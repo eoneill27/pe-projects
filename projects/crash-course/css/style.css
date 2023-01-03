@@ -87,7 +87,7 @@ h1 + p {
 	margin-top: 20px;
 }
 
-p + p {
+.sort-text {
 	margin-top: 20px;
 }
 
