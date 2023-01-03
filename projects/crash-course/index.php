@@ -32,31 +32,15 @@
 
 				<p class="reading-voice">Starting February 22nd, Carrie Anne Philbin will be hosting Crash Course Computer Science! In this series, we're going to trace the origins of our modern computers, take a closer look at the ideas that gave us our current hardware and software, discuss how and why our smart devices just keep getting smarter, and even look towards the future!</p>
 				
-				<a href="https://http://localhost:8888/projects/crash-course/?order=descending">Click here to view in descending order</a>
-
 				
 
-				<?php include("videoCardMaker.php");?>
 
-				<?php
+				<a href='https://http://localhost:8888/projects/crash-course/?order=descending'>Click here to view in descending order </a>
 
-				function sortFunction() {
+			
+				
+				<?php include("videoCardMaker.php"); ?>
 
-						$_GET['order'];
-
-						$check = isset($_GET['order']);
-
-						if ($check != true) {
-							sort($videos);
- 						} else {
- 							rsort($videos);
- 						}	
-
- 						print_r($videos);
-					}
- 						
- 				?>
-		
 			</inner-column>
 		</main>
 
