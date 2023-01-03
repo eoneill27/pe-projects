@@ -1,16 +1,41 @@
 # Emily's Daily Journal
 
+## January 2, 2023
+
+### Stand up
+
+On Saturday I worked on a function challenge that Derek sent me. This went pretty well except for one conceptual stumbling block that I think I am wrapping my head around now. There's a part two to his challenge, which I would like to get to today. Yesterday I finally wrote that blog post.
+
+Today I just want to keep practicing with PHP. 
+
+I don't think I have any real blockers. Just working on positive self-talk. You can do this, Emily! You have a good brain and you can understand programming languages! 
+
+### Today's lesson - 112:085: Catch up day
+
+No lesson today
+
+### To dos
+
+- [] practice functions - create your own (Derek's challenge)
+- [] practice with JSON data set - convert to PHP, do something with it
+
 ## December 31, 2022
 
 ### Stand up
 
-### Today's lesson - 110:084: Generic work day
+Yesterday I spent a while going through the video and thinking about functions. I started working on my book list site, which I'm now obsessing over a little. It would probably be good for me to stop and work on something else for a while.
+
+Today I want to get some practice in with loops and functions using some of the data sets that Derek found for us. And for god's sake, I want to get this blog post written.
+
+Happy New Year's Eve!
+
+### Today's lesson - 111:084: Generic work day
 
 ### To dos
 
-- [] blog post
+- [x] blog post
 - [] read more about loops & functions
-- [] work on book list site
+- [x] work on book list site
 
 ## December 30, 2022
 
