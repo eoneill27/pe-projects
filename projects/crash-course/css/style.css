@@ -44,7 +44,7 @@ inner-column {
 	margin-top: 10px;
 }
 
-.sort-link:active {
+.sort-link:hover {
 	color: dodgerblue;
 }
 
@@ -84,6 +84,10 @@ main inner-column p {
 }
 
 h1 + p {
+	margin-top: 20px;
+}
+
+p + p {
 	margin-top: 20px;
 }
 
