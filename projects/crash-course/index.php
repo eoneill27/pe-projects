@@ -35,7 +35,7 @@
 				
 
 
-				<a href='https://peprojects.dev/alpha-6/emily/projects/crash-course/?order=descending'>Click here to view in descending order </a>
+				<p class="reading-voice">View in <a class="sort-link" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/">ascending order</a>&nbsp<span>&#124;</span>&nbsp<a class="sort-link" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/?order=descending">descending order</a>
 
 
 				

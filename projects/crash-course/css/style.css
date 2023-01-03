@@ -44,6 +44,10 @@ inner-column {
 	margin-top: 10px;
 }
 
+.sort-link:active {
+	color: dodgerblue;
+}
+
 /* SITE HEADER */
 
 .site-header {
