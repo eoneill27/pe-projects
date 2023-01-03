@@ -34,15 +34,17 @@
 				
 				<a href="https://http://localhost:8888/projects/crash-course/?order=descending">Click here to view in descending order</a>
 
+				
+
+				<?php include("videoCardMaker.php");?>
+
 				<?php
 
-					function sortFunction() {
+				function sortFunction() {
 
-						include("videoData.php");
+						$_GET['order'];
 
-						$videos = [$video001, $video002, $video003, $video004, $video005, $video006, $video007, $video008, $video009, $video010, $video011, $video012, $video014, $video015, $video016, $video017, $video018, $video019, $video020, $video021, $video022, $video023, $video024, $video025, $video026, $video027, $video028, $video029, $video030, $video031, $video032, $video033, $video034, $video035, $video036, $video037, $video038, $video039, $video040];
-
-						$check = isset($_GET['descending']);
+						$check = isset($_GET['order']);
 
 						if ($check != true) {
 							sort($videos);
@@ -52,10 +54,8 @@
 
  						print_r($videos);
 					}
-				?>
-
-				<?php include("videoCardMaker.php");?>
- 						}
+ 						
+ 				?>
 		
 			</inner-column>
 		</main>
