@@ -32,9 +32,22 @@
 
 				<p class="reading-voice">Starting February 22nd, Carrie Anne Philbin will be hosting Crash Course Computer Science! In this series, we're going to trace the origins of our modern computers, take a closer look at the ideas that gave us our current hardware and software, discuss how and why our smart devices just keep getting smarter, and even look towards the future!</p>
 
-				<?php include("videoCardMaker.php"); ?>
+				<form method="post">
+					<input class="sort-choice" type="checkbox" name="sort-choice" value="1">Sort in descending order</input>
+				</form>
 
-			
+				<?php include("videoCardMaker.php");?>
+				<?php
+					$sort = "sort-choice";
+
+					if(isset($_POST["sort-choice"]) && !empty($_POST["sort-choice"]) && in_array($sort, $_POST["sort-choice"])) {
+						arsort($videos);
+					} else {
+						asort($videos);
+					}
+				?>
+
+		
 			</inner-column>
 		</main>
 
