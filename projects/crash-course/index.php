@@ -35,7 +35,7 @@
 				
 
 
-				<p class="sort-text reading-voice">View<a class="sort-link" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/"> oldest videos first</a>&nbsp<span>&#124;</span>&nbsp<a class="sort-link" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/?order=descending">newest videos first</a></p>
+				<p class="sort-text reading-voice">View <a class="sort-link reading-voice" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/"> oldest videos first</a>&nbsp<span>&#124;</span>&nbsp<a class="sort-link" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/?order=descending">newest videos first</a></p>
 
 
 				
