@@ -44,10 +44,6 @@ inner-column {
 	margin-top: 10px;
 }
 
-.sort-link:hover {
-	color: dodgerblue;
-}
-
 /* SITE HEADER */
 
 .site-header {
@@ -89,6 +85,18 @@ h1 + p {
 
 .sort-text {
 	margin-top: 20px;
+}
+
+.sort-link: {
+	font-weight: 500;
+}
+
+.sort-link:hover {
+	color: #2638c4;
+}
+
+.sort-link:visited {
+	color: #2638c4;
 }
 
 /* VIDEO GRID */
