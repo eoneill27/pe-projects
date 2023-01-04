@@ -2,15 +2,15 @@
 
 			<div class="box goals-box">
 
-				<h2>My Goals</h2>
+				<h1 class="heyyou-voice">My Goals</h1>
 			</div>
 
 			<div class="box color-box1">
 			</div>
 
 			<div class="box goals-box">
-				<h3>End of the Month (October 2022)</h3>
-					<ul>
+				<h2 class="attention-voice">End of the Month (October 2022)</h2>
+					<ul class="reading-voice">
 						<li>have a really good handle on HTML and CSS</li>
 						<li>be able to create a functioning, not ugly website without having to labor over it</li>
 						<li>be really good at centering HTML elements using CSS</li>
@@ -22,8 +22,8 @@
 			</div>
 
 			<div class="box goals-box">
-				<h3>End of the Course</h3>
-					<ul>
+				<h2 class="attention-voice">End of the Course</h2>
+					<ul class="reading-voice">
 						<li>confidence in my skills as a designer and a developer</li>
 						<li>a beautiful personal website that showcases who I am and what I can do - something that will market me well to potential clients</li>
 						<li>some experience with real-world projects</li>
@@ -35,8 +35,8 @@
 			</div>
 
 			<div class="box goals-box">
-				<h3>5-year vision</h3>
-					<ul>
+				<h2 class="attention-voice">5-year vision</h2>
+					<ul class="reading-voice">
 						<li>self-employed</li>
 						<li>owner & operator of web design business</li>
 						<li>making $125,000+ annually</li>
