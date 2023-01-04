@@ -23,7 +23,7 @@
 			
 		</header>
 
-		<main>
+		<main class="page-content">
 			<inner-column>
 
 				<a class="crash-link" href="https://www.pbs.org/show/crash-course-computer-science/">Crash Course Computer Science</a> 
@@ -33,10 +33,7 @@
 				<p class="reading-voice">Starting February 22nd, Carrie Anne Philbin will be hosting Crash Course Computer Science! In this series, we're going to trace the origins of our modern computers, take a closer look at the ideas that gave us our current hardware and software, discuss how and why our smart devices just keep getting smarter, and even look towards the future!</p>
 				
 				
-
-
 				<p class="sort-text reading-voice">View <a class="vid-title-voice sort-link asc" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/"> oldest videos first</a>&nbsp<span>&#124;</span>&nbsp<a class=" vid-title-voice sort-link desc" href="https://peprojects.dev/alpha-6/emily/projects/crash-course/?order=descending">newest videos first</a></p>
-
 
 				
 				<?php include("videoCardMaker.php"); ?>
@@ -44,6 +41,26 @@
 			</inner-column>
 		</main>
 
+		<footer class="site-footer">
+			<section class="top-footer">
+				<inner-column>
+
+				</inner-column>
+			</section>
+
+			<section class="bottom-footer">
+				<inner-column>
+					<div class="copyright">
+						<p>Copyright 2023 Public Broadcasting Service (PBS), all rights reserved. PBS is a 501(c)(3) not-for-profit organization.</p>
+					</div>
+					<div class="terms">
+						<a href="">Privacy Policy</a>
+						<a href="">Terms of Use</a>
+						<a href="">Marketing Preferences</a>
+					</div>
+				</inner-column>
+			</section>
+		</footer>
 
 	</body>
 
