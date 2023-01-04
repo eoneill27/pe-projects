@@ -84,7 +84,7 @@ h1 + p {
 }
 
 .sort-text {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .sort-link: {
@@ -112,13 +112,16 @@ h1 + p {
 	opacity: 50%;
 }
 
+.video-grid {
+	margin-top: 10px;
+}
 @media (min-width: 760px) {
 
 	.video-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 		grid-gap: 1em;
-		margin-top: 20px;
+		margin-top: 15px;
 	}
 
 }
