@@ -1,5 +1,22 @@
 # Emily's Daily Journal
 
+## January 3, 2023
+
+### Stand up
+
+Yesterday I worked on recreating the PBS Crash Course - Computer Science page but in ascending order and with more legible video titles. I used a PHP "video card generator" to get the videos and associated information into the grid. I also solved a few more function challenges from Derek and worked on my book list site.
+
+Today, more practice! 
+
+No blockers, except that it's my first day back at work since December 22. Ugh! 
+
+### Today's lesson - 113:086: Catch up day
+
+### To dos
+
+- [x] practice functions - create your own
+- [] practice with JSON data set
+
 ## January 2, 2023
 
 ### Stand up
