@@ -91,7 +91,7 @@ h1 + p {
 	font-weight: 500;
 }
 
-.asc:link {
+a.asc:link {
 	color: salmon;
 }
 
