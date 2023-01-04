@@ -91,7 +91,11 @@ h1 + p {
 	font-weight: 500;
 }
 
-a.asc:link {
+a.asc:visited {
+	color: salmon;
+}
+
+a.desc:visited {
 	color: salmon;
 }
 
