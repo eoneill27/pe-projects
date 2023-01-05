@@ -277,7 +277,7 @@ a:hover .overlay {
 	margin-top: 40px;
 }
 
-/* GOALS */
+/* GOALS & RESUME */
 
 h1 + h2 {
 	margin-top: 30px;
@@ -290,18 +290,22 @@ ul + h2 {
 	margin-top: 30px;
 }
 
-.goals ul {
+.goals ul, .resume ul {
 	list-style-type: disc;
 	padding-left: 20px;
 }
 
-.goals li {
+.goals li, .resume li {
 	line-height: 1.5;
 	max-width: 70ch;
 }
 
-.goals li + li {
+.goals li + li, .resume li + li {
 	margin-top: 5px;
+}
+
+.resume h3 {
+	font-weight: 700;
 }
 
 /* SITE FOOTER */
