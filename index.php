@@ -26,20 +26,20 @@
 
 							<a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
 								<picture class="tile-img project">
-									<img src="images/be-tile.jpg" alt="">
+									<img src="images/be-tile.jpg" alt="https://peprojects.dev/alpha-6/emily/projects/beth-electric/">
 								</picture>
 								<picture class="overlay project">
-									<img src="images/be-tile-over.jpg" alt="">
+									<img src="images/be-tile-over.jpg" alt="https://peprojects.dev/alpha-6/emily/projects/beth-electric/">
 								</picture>
 							</a>
 
 
 							<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
 								<picture class="tile-img project">
-									<img src="images/employ-tile.jpg" alt="">
+									<img src="images/employ-tile.jpg" alt="Screenshot of the project Research & Employ.">
 								</picture>
 								<picture class="overlay project">
-									<img src="images/employ-tile-over.jpg" alt="">
+									<img src="images/employ-tile-over.jpg" alt="Screenshot of the project Research & Employ.">
 								</picture>
 							</a>
 			
