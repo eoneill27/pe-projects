@@ -16,6 +16,10 @@
 
 			<p class="reading-voice">I bring a strong background in information retrieval and organization to my web development work, and I create accessible, responsive websites. I have a strong attention to detail, excellent communication skills, a doggedness when it comes to problem-solving, and a commitment to honest, up-front business dealings. I look forward to meeting you and learning about your project!</p>
 
+			<div class="button">
+				<a class="info-voice" href="resume.php">See my resume</a>
+			</div>
+
 		</section>
 	</section>
 </inner-column>
