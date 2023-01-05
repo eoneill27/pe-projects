@@ -1,5 +1,14 @@
 # Emily's Daily Journal
 
+## January 4, 2023
+
+### Stand up
+
+Yesterday I learned about the $_GET variable and used it to make a sort option on my PBS Crash Course page, which was pretty exciting. I'm going to do the same to make a dark mode toggle today. 
+https://peprojects.dev/alpha-6/emily/projects/crash-course/
+
+### Today's lesson - 114:087: Catch up day
+
 ## January 3, 2023
 
 ### Stand up
