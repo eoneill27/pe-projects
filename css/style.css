@@ -233,11 +233,11 @@ a.project {
 	max-width: 500px;
 }
 
-.tile-img {
+.home-projects .tile-img {
 	display: block;
 }
 
-.overlay {
+.home-projects .overlay {
 	display: none;
 }
 

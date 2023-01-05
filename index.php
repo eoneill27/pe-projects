@@ -35,12 +35,12 @@
 							</a>
 
 
-							<a href="https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/" target="_blank">
+							<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
 								<picture class="tile-img project">
-									<img src="images/koala-tile.jpg" alt="">
+									<img src="images/employ-tile.jpg" alt="">
 								</picture>
 								<picture class="overlay project">
-									<img src="images/koala-tile-over.jpg" alt="">
+									<img src="images/employ-tile-over.jpg" alt="">
 								</picture>
 							</a>
 				
