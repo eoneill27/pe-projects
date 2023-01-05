@@ -2,12 +2,19 @@
 
 		<footer class="site-footer">
 			<inner-column>
-				<a class="quiet-voice" href="https://github.com/eoneill27" target="_blank">GitHub</a>
-				<a class="quiet-voice" href="https://oneillemily.substack.com/" target="_blank">Substack</a>
-				<a class="quiet-voice" href="https://codepen.io/eoneill27" target="_blank">CodePen</a>
-			</inner-column>
 
+				<address class="info-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address>
+
+				<nav class="footer-nav nav-voice">
+					<a href="">Github</a>
+					<a href="">Substack</a>
+					<a href="">Codepen</a>
+				</nav>
+
+
+			</inner-column>
 		</footer>
 
 	</body>
+
 </html>
