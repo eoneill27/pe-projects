@@ -2,7 +2,7 @@
 
 <inner-column>
 	<section class="contact" id="contact">
-		<h2 class="attention-voice">Contact Emily</h2>
+		<h1 class="attention-voice">Contact Emily</h1>
 		<div class="contact-text">
 			<span class="reading-voice">You can always reach me at
 			<address class="reading-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address></span>
