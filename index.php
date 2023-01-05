@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>	
-
+		<section class="home-grid">
 			<inner-column>
 
 				<section class="home-intro">
@@ -20,20 +20,43 @@
 				</section>
 
 				<section class="home-projects">
-					<h2 class="attention-voice">Projects</h2>
-					<ul>
-						<li class="reading-voice">
-							<picture class="project-tile">
-								<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-							</picture>
-						</li>
-						<li class="reading-voice">
-							<picture class="project-tile">
-								<img src="https://peprojects.dev/images/landscape.jpg" alt="">
-							</picture>
-						</li>
-					</ul>
 
+					<h2 class="attention-voice">Projects</h2>
+
+					
+
+							<a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
+								<picture class="tile-img project">
+									<img src="images/be-tile.jpg" alt="">
+								</picture>
+								<picture class="overlay project">
+									<img src="images/be-tile-over.jpg" alt="">
+								</picture>
+							</a>
+
+
+							<a href="https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/" target="_blank">
+								<picture class="tile-img project">
+									<img src="images/koala-tile.jpg" alt="">
+								</picture>
+								<picture class="overlay project">
+									<img src="images/koala-tile-over.jpg" alt="">
+								</picture>
+							</a>
+				
+						<!-- <ul>
+						<li class="reading-voice">
+							<picture class="project-tile">
+								<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+							</picture>
+						</li>
+						<li class="reading-voice">
+							<picture class="project-tile">
+								<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+							</picture>
+						</li>
+						</ul> -->
+		
 					<div class="button">
 						<a class="info-voice" href="about.php">Find out more</a>
 					</div>
@@ -45,5 +68,6 @@
 					</div>
 				</section> -->
 			</inner-column>
+		</section>
 
 <?php include('footer.php'); ?>
