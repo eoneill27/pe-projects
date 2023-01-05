@@ -233,11 +233,11 @@ a.project {
 	max-width: 500px;
 }
 
-.home-projects .tile-img {
+.home-projects .tile-img, .home-projects .tile-img {
 	display: block;
 }
 
-.home-projects .overlay {
+.home-projects .overlay, .projects .overlay {
 	display: none;
 }
 
@@ -247,6 +247,15 @@ a:hover .tile-img {
 
 a:hover .overlay {
 	display: block;
+}
+
+@media (min-width: 650px) {
+	.project-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+	}
+
 }
 
 /* CONTACT */
