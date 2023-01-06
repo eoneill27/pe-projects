@@ -15,7 +15,7 @@
 
 		<?php if(isset($_GET['mode'])) {
 			echo "<style>
-						*, html, body, inner-column, header, main, footer, .site-header, .site-footer, .top-footer, .bottom-footer.top-footer inner-column, .bottom-footer,  inner-column, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li, .crash-link, .footer-list {
+						*, html, body, inner-column, header, main, footer, .site-header, .site-footer, .top-footer, .bottom-footer, .top-footer inner-column, .bottom-footer inner-column, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li, .crash-link, .footer-list {
 								background-color: black;
 								color: white;
 						}
