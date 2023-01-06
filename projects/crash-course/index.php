@@ -15,7 +15,7 @@
 
 		<?php if(isset($_GET['mode'])) {
 		echo "<style>
-					html, body *, .site-header, .top-footer, .bottom-footer, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li {
+					html, body *, header, main, footer, .site-header, .top-footer, .bottom-footer, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li {
 						background-color: black;
 						color: white;
 					}
@@ -43,7 +43,7 @@
 
 		<main class="page-content">
 			<inner-column>
-
+				<p>sanity check</p>
 				<a class="crash-link" href="https://www.pbs.org/show/crash-course-computer-science/">Crash Course Computer Science</a> 
 
 				<h1 class="heyyou-voice">Season 1</h1>
