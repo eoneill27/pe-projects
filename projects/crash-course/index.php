@@ -15,9 +15,12 @@
 
 		<?php if(isset($_GET['mode'])) {
 		echo "<style>
-					body, inner-column, .site-header, .site-footer {
+					body, inner-column, .site-header, .site-footer, h1, h2, h3, h4, h5, h6, p, ul, li, a {
 						background-color: black;
-						color: white
+						color: white;
+					}
+					a:hover {
+						color: salmon;
 					}
 
 				</style>";
