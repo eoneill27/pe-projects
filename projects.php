@@ -7,6 +7,7 @@
 		<div class="project-grid">
 
 			<?php include('projectData.php'); ?>
+			<?php include('projectGenerator.php'); ?>
 
 		</div>
 		
