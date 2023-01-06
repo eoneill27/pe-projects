@@ -25,6 +25,11 @@ inner-column {
 	flex-grow: 1;
 }
 
+.dark-mode {
+	background-color: black;
+	color: white;
+}
+
 /* TYPOGRAPHY */
 
 .heyyou-voice {
@@ -112,6 +117,10 @@ h1 + p {
 	flex-direction: column;
 }
 
+.video-card h2 {
+	max-width: 448px;
+}
+
 .vid-thumb {
 	max-width: 448px;
 	margin-top: 20px;
@@ -152,16 +161,56 @@ h1 + p {
 	margin-top: 100px;
 	padding: 40px 0;
 	position: relative;
-
 }
 
 .site-footer inner-column {
 	background-color: white;
+/*	display: flex;*/
+}
+
+.site-footer p, .site-footer a {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 1.4;
 }
 
 .top-footer {
 	padding-top: 20px;
 	padding-bottom: 90px;
+}
+
+.top-footer h2, .top-footer li {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.top-footer h2 {
+	text-transform: uppercase;
+}
+
+.top-footer ul {
+	margin-top: 10px;
+}
+
+.top-footer li {
+	color: #2638c4;
+	line-height: 1.8;
+}
+
+.top-footer inner-column {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer2, .footer3, .footer4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 100px;
 }
 
 .bottom-footer {
@@ -180,13 +229,6 @@ h1 + p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.bottom-footer p, .bottom-footer a {
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-	font-weight: 200;
-	line-height: 1.4;
 }
 
 .copyright {
