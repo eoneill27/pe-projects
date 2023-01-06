@@ -1,5 +1,22 @@
 # Emily's Daily Journal
 
+## January 5, 2023
+
+### Stand up
+
+Yesterday I redid my website. I also had a little catnap on the couch around 9pm, which was a sure sign that I should have gone straight to bed (I did not do that). I was pretty wiped yesterday.
+
+I think I feel better today - more awake right now than I probably ought to feel. Today my goals are to get back to PHP $_GET and dark mode and to learn about APIs.
+
+No blockers!
+
+### Today's lesson - 115:088: Catch up day
+
+### To dos 
+
+- [] PHP $_GET dark mode
+- [] what are APIs
+
 ## January 4, 2023
 
 ### Stand up
