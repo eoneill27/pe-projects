@@ -15,7 +15,7 @@
 	</head>
 
 	<?php if(isset($_GET['mode'])) {
-						echo "<body class='dark-mode'>"; 
+						echo "<body style='background-color: black; color: white'>"; 
 					} else echo "<body>";
 			?>
 
