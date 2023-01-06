@@ -7,14 +7,14 @@
 		<h2 class="info-voice">Education</h2>
 		<ul class="reading-voice">
 			<li>Perpetual Education, Design for the Web - September 2022-present</li>
-			<li>University of British Columbia - Master of Librarya nd Information Studies and Master of Archival Studies, joint degree - 2005-2008</li>
+			<li>University of British Columbia - Master of Library and Information Studies and Master of Archival Studies, joint degree - 2005-2008</li>
 			<li>University of North Carolina at Chapel Hill, BA in History - 2001-2005</li>
 		</ul>
 		
 		<h2 class="info-voice">Work Experience</h2>
 		<ul class="reading-voice">
 			<li><h3>Information Specialist</h3>
-				September 2009-Present<br/>
+				September 2009-present<br/>
 				British Columbia Teachers' Federation<br/>
 				Vancouver, British Columbia<br/>
 			</li>
@@ -50,7 +50,8 @@
 		<ul class="reading-voice">
 			<li>Coach for the Canadian Girls Baseball development league since 2020</li>
 			<li>Ten-time Canadian champion at the American Crossword Puzzle Tournament</li>
-			<li>Executive member of the Teachers' Federation Employees' Union since 2011 - currently in the role of Secretary, Vice President from 2018-2021</li>
+			<li>Executive member of the Teachers' Federation Employees' Union since 2015 - currently in the role of Secretary. Served as Vice President from 2018-2021</li>
+			<li>Level 2 occupational first aid attendant since 2014</li>
 			<li>Member of two recreational softball teams - one orthodox and one very, very slo-pitch</li>
 			<li>Member of a ukulele trio (but don't ask - we only perform for our book club)</li>
 			<li>Templeton Swim Boot Camp team member since 2015</li>
