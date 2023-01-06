@@ -1,7 +1,7 @@
 @import 'meyer-setup.css';
 
 
-/* SET UP */
+/* SITE SET UP */
 
 body * {
 /*	border: 3px solid red;*/
@@ -25,11 +25,18 @@ inner-column {
 	padding: 15px;
 }
 
+@media (min-width: 860px) {
+
+	inner-column {
+		padding: 20px;
+	}
+}
+
 .page-content {
 	flex-grow: 1;
 }
 
-/* TYPOGRAPHY */
+/* TYPOGRAPHY & SITE-WIDE SPACING */
 
 .heyyou-voice {
 	font-family: Avenir, sans-serif;
@@ -40,6 +47,7 @@ inner-column {
 .attention-voice {
 	font-family: Avenir, sans-serif;
 	font-size: 40px;
+	margin-bottom: 40px;
 }
 
 .nav-voice {
@@ -69,6 +77,36 @@ inner-column {
 
 .site-header a:hover, .site-footer a:hover {
 	color: salmon;
+}
+
+h1 + p, h2 + p, h2 + ul {
+	margin-top: 20px;
+}
+
+p + p {
+	margin-top: 20px;
+}
+
+h1 + h2 {
+	margin-top: 30px;
+}
+h2 + ul {
+	margin-top: 30px;
+}
+
+ul + h2 {
+	margin-top: 30px;
+}
+
+section + section {
+	margin-top: 30px;
+}
+
+@media (min-width: 860px) {
+
+	section + section {
+		margin-top: 0;
+	}
 }
 
 /* SITE HEADER */
@@ -111,24 +149,6 @@ inner-column {
 
 /* HOME PAGE CONTENT */ 
 
-.page-content inner-column {
-	background-color: white;
-	padding-top: 30px;
-	padding-bottom: 40px;
-}
-
-h1 + p, h2 + p, h2 + ul {
-	margin-top: 20px;
-}
-
-p + p {
-	margin-top: 20px;
-}
-
-section + section {
-	margin-top: 30px;
-}
-
 .home-intro p {
 	max-width: 60ch;
 }
@@ -151,30 +171,12 @@ section + section {
 	margin-right: auto;
 }
 
-/*.home-contact {
-	margin-top: 60px;
-	text-align: center;
-}
-
-.home-contact-box {
-	padding: 40px;
-}*/
-
 @media (min-width: 860px) {
-
-	inner-column {
-		padding: 20px;
-	}
-	section + section {
-		margin-top: 0;
-	}
 
 	.home-grid inner-column {
 		display: grid;
 		grid-template-columns: 35% 10% 55%;
 		grid-template-rows: auto;
-/*		grid-gap: 40px;*/
-
 	}
 
 	.home-intro {
@@ -195,11 +197,9 @@ section + section {
 
 	.home-contact {
 		display: flex;
-/*		align-items: center;*/
 		justify-content: center;
 		grid-column: 3;
 		grid-row: 9;
-/*		justify-self: end;*/
 	}
 
 	.project-tile {
@@ -225,8 +225,6 @@ section + section {
 
 .project {
 	margin-top: 20px;
-	/*border: 5px solid black;
-	border-radius: 8px;*/
 }
 
 a.project {
@@ -279,17 +277,6 @@ a:hover .overlay {
 
 /* GOALS & RESUME */
 
-h1 + h2 {
-	margin-top: 30px;
-}
-h2 + ul {
-	margin-top: 30px;
-}
-
-ul + h2 {
-	margin-top: 30px;
-}
-
 .goals ul, .resume ul {
 	list-style-type: disc;
 	padding-left: 20px;
@@ -312,7 +299,6 @@ ul + h2 {
 
 .site-footer {
 	background-color: var(--site-yellow);
-/*	padding-top: 60px;*/
 	padding-bottom: 30px;
 	margin-top: 40px;
 }
@@ -321,7 +307,6 @@ ul + h2 {
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
-
 }
 
 .footer-nav {
