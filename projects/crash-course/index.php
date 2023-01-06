@@ -12,12 +12,21 @@
 		<link rel="icon" href="[[insert favicon source]]">
 
 		<link rel="stylesheet" href="css/style.css">
+
+		<?php if(isset($_GET['mode'])) {
+		echo "<style>
+					body, inner-column, .site-header, .site-footer {
+						background-color: black;
+						color: white
+					}
+
+				</style>";
+
+	} else echo "<body>";
+	?>
 	</head>
 
-	<?php if(isset($_GET['mode'])) {
-						echo "<body style='background-color: black; color: white'>"; 
-					} else echo "<body>";
-			?>
+
 
 		<header class="site-header">
 			<a href="https://www.pbs.org" class="logo">PBS</a>
