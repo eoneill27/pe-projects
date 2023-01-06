@@ -141,7 +141,7 @@ section + section {
 
 @media (min-width: 600px) {
 	.header-nav {
-		width: 48%;
+		width: 49%;
 		display: flex;
 		justify-content: space-between;
 	}

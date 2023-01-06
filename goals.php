@@ -21,7 +21,7 @@
 work when and where I want to</li>
 			<li>engaging, interesting work that I enjoy - something that I don't mind devoting long days to, especially when long days mean shorter work weeks</li>
 			<li>owner of 2-bedroom condo with a view in my neighbourhood</li>
-			<li>owner of a wirehaired dachsund named Little Joey Cora</li>
+			<li>owner of a wirehaired dachshund named Little Joey Cora</li>
 			<li>flourishing work-life balance - lots of walks, lots of time with my friends and their kids, healthy meals at home</li>
 		</ul>
 		
