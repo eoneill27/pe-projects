@@ -24,7 +24,15 @@ $researchEmploy = [
 	"alt" => "Screenshot of the project Research & Employ.",
 ];
 
-$projectsArray = [$bethElectric, $koalas, $researchEmploy];
+$layoutGarden = [
+	"id" => "garden",
+	"img" => "images/garden-tile.jpg",
+	"imgOver" => "images/garden-tile-over.jpg",
+	"link" => "https://peprojects.dev/alpha-6/emily/projects/layout-garden/",
+	"alt" => "Screenshot of the responsive layout garden project.",
+];
+
+$projectsArray = [$bethElectric, $koalas, $researchEmploy, $layoutGarden];
 
 echo "<ul >";
 
