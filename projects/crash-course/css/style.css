@@ -25,10 +25,10 @@ inner-column {
 	flex-grow: 1;
 }
 
-.dark-mode {
+/*.dark-mode {
 	background-color: black;
 	color: white;
-}
+}*/
 
 /* TYPOGRAPHY */
 
@@ -51,7 +51,6 @@ inner-column {
 	line-height: 1.4;
 	font-weight: 600;
 	color: #2638c4;
-	margin-top: 15px;
 }
 
 .vid-meta-voice {
@@ -69,6 +68,8 @@ inner-column {
 	padding: 20px;
 	position: sticky;
 	top: 0;
+	display: flex;
+	justify-content: space-between;
 }
 
 .site-header a {
@@ -89,6 +90,11 @@ main inner-column h1 {
 main inner-column p {
 	max-width: 75ch;
 }
+
+.dark-toggle {
+	display: flex;
+}
+
 .crash-link {
 	font-family: Arial, sans-serif;
 	font-size: 20px;
@@ -133,6 +139,11 @@ h1 + p {
 .video-grid {
 	margin-top: 10px;
 }
+
+.video-grid .vid-title-voice {
+	margin-top: 15px;
+}
+
 @media (min-width: 760px) {
 
 	.video-grid {

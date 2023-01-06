@@ -15,7 +15,7 @@
 
 		<?php if(isset($_GET['mode'])) {
 		echo "<style>
-					*, html, body, inner-column, header, main, footer, .site-header, .site-footer, .top-footer, .bottom-footer, .top-footer inner-column, .bottom-footer inner-column, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li {
+					*, html, body, inner-column, header, main, footer, .site-header, .site-footer, .top-footer, .bottom-footer, .top-footer inner-column, .bottom-footer inner-column, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li, .crash-link, .footer-list {
 						background-color: black;
 						color: white;
 					}
@@ -35,15 +35,12 @@
 			<a href="https://www.pbs.org" class="logo">PBS</a>
 			<!-- <span>&#124;</span> -->
 
-			<a href="http://peprojects.dev/alpha-6/emily/projects/crash-course/?mode=dark" class="dark-mode">dark</a>/<a href="http://peprojects.dev/alpha-6/emily/projects/crash-course">light</a>
+			<span class="dark-toggle logo"><a class="dark-mode logo" href="http://peprojects.dev/alpha-6/emily/projects/crash-course/?mode=dark">dark</a>&nbsp&nbsp<span>&bull;</span>&nbsp&nbsp<a class="logo" href="http://peprojects.dev/alpha-6/emily/projects/crash-course">light</a></span>
 
-			
-			
 		</header>
 
 		<main class="page-content">
 			<inner-column>
-				<p>check </p>
 				<a class="crash-link" href="https://www.pbs.org/show/crash-course-computer-science/">Crash Course Computer Science</a> 
 
 				<h1 class="heyyou-voice">Season 1</h1>
