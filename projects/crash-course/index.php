@@ -15,7 +15,7 @@
 
 		<?php if(isset($_GET['mode'])) {
 		echo "<style>
-					body, inner-column, .site-header, .site-footer, .top-footer, .bottom-footer, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+					body * {
 						background-color: black;
 						color: white;
 					}
