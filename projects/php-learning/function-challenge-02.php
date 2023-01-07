@@ -177,10 +177,7 @@ function double($number=NULL) {
 		return $number * 2;
 	}
 
-
-	// 
 }
-
 
 
 
@@ -191,3 +188,57 @@ test( double(-4) == -8, "Double with negative number");
 test( double("hi") == "You must input an integer", "If given a string, returns message");
 test( double() == "You haven't supplied a value", "If no value supplied, returns message");
 test( double(1, 2) == "You may only supply 1 value", "If more than one value supplied, returns message");
+
+
+
+
+// my own function
+
+// create a function that sorts an array if all of the variables in the array are "set".
+
+function sortFunction() {
+
+	$a = array (1, 2, 3, 4, 5);
+
+	$check = $a[4] == 10;
+
+	if($check != true) {
+		rsort($a);
+	} else {
+		sort($a);
+	}
+
+	print_r($a);
+}
+
+sortFunction();
+
+
+function sortaSort() {
+
+	$a = "unchecked";
+
+	$array = array (1, 2, 3, 4, 5);
+
+	$check = $a == 'checked';
+
+	if($check != true) {
+		rsort($array);
+	} else {
+		sort($array);
+	}
+
+	print_r($array);
+}
+
+sortaSort();
+
+
+
+
+
+	
+
+
+
+
