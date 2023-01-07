@@ -8,7 +8,7 @@
 		<title>Emily O'Neill • Web Design</title>
 		<meta name="description" content="My name is Emily O'Neill and I am a web designer and developer. Take a look at my site to see my past work and to get in touch about your project.">
 
-		<meta property="og: image" content="https://peprojects.dev/alpha-6/emily/images/meta-share1.png">
+		<meta property="og: image" content="https://peprojects.dev/alpha-6/emily/images/meta-share1.jpg">
 		<link rel="icon" href="https://peprojects.dev/alpha-6/emily/images/favicon.png">
 
 		<link rel="stylesheet" href="css/style.css">
