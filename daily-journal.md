@@ -1,5 +1,39 @@
 # Emily's Daily Journal
 
+## January 7, 2023
+
+### Stand up
+
+### Today's lesson - 117:090: Catch up day
+
+### To dos
+
+- [] try cleaner dark mode method
+- [] learn about APIs
+- [] PHP/function practice
+- [] Crash Course site UX
+- [] PHP cookies
+- [x] clean up desktop
+- [] clean up files
+- [x] transfer notes
+
+## January 6, 2023
+
+### Stand up
+
+Yesterday I spent some time refining my site and then reviewing a couple of other people's sites at the end of the day. I was afraid I jumped the gun on one of them - I know everyone is working on them, and something might look very different even a couple hours after I review it. I think the data will be skewed based on when these reviews get done.
+
+Today I want to get to my to-dos from yesterday - PHP $_GET dark mode, and what are APIs. 
+
+### Today's lesson - 116:089: Catch up day
+
+Notes on cookies
+
+### To dos 
+
+- [] PHP $_GET dark mode
+- [] what are APIs
+
 ## January 5, 2023
 
 ### Stand up
@@ -26,6 +60,8 @@ https://peprojects.dev/alpha-6/emily/projects/crash-course/
 
 ### Today's lesson - 114:087: Catch up day
 
+Notes on $_GET
+
 ## January 3, 2023
 
 ### Stand up
@@ -37,6 +73,55 @@ Today, more practice!
 No blockers, except that it's my first day back at work since December 22. Ugh! 
 
 ### Today's lesson - 113:086: Catch up day
+
+### isset()
+
+isset()
+Determine if a variable is declared and is different than null
+
+If a variable has been unset with the unset() function, it is no longer considered set
+
+isset() will return false when checking a variable that has been assigned to null
+
+note - a null character ("/0") is not equivalent to PHP null constant
+
+If multiple parameters are supplied then isset() will return true only if all the parameters are considered set - evaluation goes left to right and stops as soon as an unset variable is encountered
+
+Returns true if var exists and has any value other than null
+False otherwise
+
+### var_dump()
+
+Dumps information about a variable - displays structured information about one or more expressions that includes its type and value
+
+$a = array(...)
+
+var_dump($a)
+
+var_dump(isset($a['test']));  //true
+
+### $_GET
+
+request via URL
+yoursite.com?key=value1&key2=value2
+
+yoursite.com?order=ascending
+
+In code - $_GET['order']'
+
+You are sending a little datat along with a request for the page - then that data is getting added to the $_GET[] "superglobal" array and can be used in your program
+
+Will probably need isset() function to ensure that it's actually set
+
+from manual - 
+
+$_GET[] is an associative array of variables passed to the current script via the URL parameters (aka query string)
+
+	<?php
+		echo 'Hello' . htmlspecialchars($_GET['name']) . '!';
+	?>
+
+	Assuming the user entered http://example.com/?name=Hannes, they would see "Hello Hannes!"
 
 ### To dos
 
@@ -57,6 +142,113 @@ I don't think I have any real blockers. Just working on positive self-talk. You 
 
 No lesson today
 
+A loop is a way to repeat a block of code many times
+Each language is different, but loops are often named "each" or "while"
+They make repetitive tasks easy
+
+To access a value inside an array - 
+$myArray[0]
+You can chain them - $myArray[0][3][1]
+
+To access a value inside an object - 
+$myArray["keyName"]
+$myArray["keyName"]["otherThing"][3]
+
+foreach($arrayName as $item) {
+	//code to repeat
+}
+
+can also use an "Array Literal" (not a variable) - 
+foreach(["apple", "banana", "carrot"] as $fruit) {
+	//code to repeat
+}
+
+A function defines a set of instructions that can be run at a later time
+You could create a function to encapsulate a set of instructions that you find yourself using many times
+
+Functions have optional inputs and have the ability to result in an output
+
+### MILESTONE - Intro to tables
+
+Tables are used for tabular data - data that is structured in rows
+Each row contains the same number of cells, though some cells may be empty
+
+Row header is different from row data
+``
+	<table>
+		<thead>
+			<tr>
+				<th>
+		<tbody>
+			<tr>
+				<td>
+``
+table {
+	boder-collapse: collapse;
+}
+This combines the table and td borders so you don't get a space between the 2
+
+:is CSS pseudo-class
+	Takes a selector list as its argument and selects any element that can be selected by one of the selectors in that list
+
+	Useful for writing large selectors in a more compact form
+	Particularly useful when dealing with HTML sections and headings
+
+	:is(section, article, aside, nav) :is(section, article, aside, nav) h1 {
+		font-size: 20px;
+	}
+
+	table :is(td, th) {
+		font-size:
+		border:
+		padding:
+	}
+
+colgroup span
+
+Tables with PHP
+``
+	<?php 
+		include("dataSet.php");
+
+	$totalShown = 10;
+	$monsters = array_slice($pocket_monsters, 0, $totalShown);
+``
+array_slice is a special array method that takes a small part of an aray
+- looking at the pocket_monsters array - going to the first one - then looking at the limit set by $totalShown (Grabbing everything from 0 to 10)
+
+array_slice(
+	array $array,
+	int $offset,
+	?int $length = null,
+	bool $preserve_keys = false
+):
+
+``
+	<table>
+		<?php
+			foreach($monsters as $monster) {
+				$name = $monster["name"]["english"];
+				$type = $monster["type"][0];
+		?>
+		<tr>
+			<td><?=$name?></td>
+			<td><?=$type?></td>
+		</tr>
+		<?php } ?>
+	</table>
+``
+
+strtolower($type)
+function that makes string lowercase
+
+	$type1Class = strtolower($type1);
+	<td class='<?=$type1class?>'><?=$type1?></td>
+
+	If the type is Grass, it is now included as a CSS class - and you can style it that way
+
+dl - description list
+
 ### To dos
 
 - [] practice functions - create your own (Derek's challenge)
@@ -73,6 +265,99 @@ Today I want to get some practice in with loops and functions using some of the 
 Happy New Year's Eve!
 
 ### Today's lesson - 111:084: Generic work day
+
+### MILESTONE - Using JSON data in PHP
+
+JSON = JavaScript Object Notation
+
+["Emily", "Ann", "Ellie"] - array
+
+Object - 
+[
+{
+	"name": "Emily",
+	"favoriteCity": "San Francisco"
+},
+{ 
+	"name": "Ann",
+	"favoriteCity": "Paris"
+}
+]
+
+Object with some data and a sub array - 
+{
+	"dataSetName" = "People and Places",
+	"description" = "This is a set of data",
+	"people": [
+		{
+			"name": "Emily",
+			"favoriteCity": "San Francisco"
+		},
+		{ 
+			"name": "Ann",
+			"favoriteCity": "Paris"
+		}
+	]
+}
+
+**QUESTION - why do you use = sometimes and : other times?
+
+JSON is the way data is stored these days
+But when we're using PHP - we still need the data to be written in PHP style arrays, associative arrays, and multidimensional associative arrays
+
+[
+{
+	"name": "Emily",
+	"favoriteCity": "San Francisco"
+},
+{ 
+	"name": "Ann",
+	"favoriteCity": "Paris"
+}
+] 
+TO PHP:
+	<?php 
+		$people = [
+			[
+				"name" => "Emily",
+				"favoriteCity" => "San Francisco",
+			],
+			[
+				"name" => "Ann",
+				"favoriteCity" => "Paris",
+			],
+		];
+
+		foreach($people as $person) {
+			echo $person["favoriteCity"];
+		}
+	?>
+
+JSON is also a file format
+You can get a file's contents with the function file_get_contents()
+
+Then you can take that JSON data and decode it and turn it into PHP with a function called json_decode()
+
+$json = file_get_contents("people.json");
+$people = json_decode($json, true);
+				[true specifies that the PHP is an associative array]
+foreach($people as person) {
+	echo $person["favoriteCity"];
+}
+
+There are online tools to convert JSON to PHP array
+wtools.io/convert-json-to-php-array
+
+paste the PHP data in a file (don't forget the PHP delimiters)
+make sure there is a semicolon at the end
+and make sure you point it to something - $parksData = [....]
+
+in Sublime - CMD + SHIFT + P - JSON validate
+
+No trailing commas allowed in JSON
+
+Pretty JSON formatting in Sublime
+Not really pretty - but better than a bunch of random formatting
 
 ### To dos
 
