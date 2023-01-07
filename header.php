@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Emily O'Neill • Web Design</title>
-		<meta name="description" content="[[insert description]]">
+		<meta name="description" content="My name is Emily O'Neill and I am a web designer and developer. Take a look at my site to see my past work and to get in touch about your project.">
 
 		<meta property="og: image" content="[[meta image source]]">
 		<link rel="icon" href="[[insert favicon source]]">

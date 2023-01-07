@@ -78,14 +78,14 @@
 					<div class="button">
 						<a class="info-voice" href="projects.php">Find out more</a>
 					</div>
+
 				</section>
-				
-				<!-- <section class="home-contact">
-					<div class="home-contact-box">
-						<address class="info-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address>
-					</div>
-				</section> -->
+
 			</inner-column>
 		</section>
 
 <?php include('footer.php'); ?>
+
+
+
+
