@@ -4,12 +4,20 @@
 
 ### Stand up
 
+Yesterday, I got dark mode going on my Crash Course site, finished looking at everybody else's main sites and filled out all the forms.
+
+Today I've got a bit of a list going for myself - I'm going to try different ways of achieving dark mode, learn about cookies & PHP, read about APIs (finally), maybe make some tables with some JSON data, and continue to work on the design and UX for the Crash Course site.
+
+And I need to go for a run.
+
+No blockers!
+
 ### Today's lesson - 117:090: Catch up day
 
 ### To dos
 
 - [] try cleaner dark mode method
-- [] learn about APIs
+- [x] learn about APIs
 - [] PHP/function practice
 - [] Crash Course site UX
 - [] PHP cookies
