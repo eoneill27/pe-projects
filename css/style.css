@@ -90,6 +90,7 @@ p + p {
 h1 + h2 {
 	margin-top: 30px;
 }
+
 h2 + ul {
 	margin-top: 30px;
 }

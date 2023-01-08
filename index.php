@@ -23,15 +23,12 @@
 
 					<h2 class="attention-voice">Projects</h2>
 
-						<?php include('projectData.php'); ?>
+						<?php include('data/projects.php'); 
 
-						<?php
+							$totalShown = 2;
+							$projects = array_slice($projectsArray, 0, $totalShown);
 
-							$projectsArray = [$bethElectric, $researchEmploy];
-
-							echo "<ul >";
-
-							foreach($projectsArray as $project) {
+							foreach($projects as $project) {
 								$id = $project["id"];
 								$img = $project["img"];
 								$imgOver = $project["imgOver"];
@@ -40,20 +37,23 @@
 
 
 		 					echo "<li id='" . $id . "' style='list-style-type: none'>
-								<a href='" . $link . "' target='_blank'>
-								<picture class='tile-img project'>
-									<img src='" . $img . "' alt='" . $alt . "'>
-								</picture>
+									<a href='" . $link . "' target='_blank'>
+										<picture class='tile-img project'>
+											<img src='" . $img . "' alt='" . $alt . "'>
+										</picture>
 
-								<picture class='overlay project'>
-									<img src='" . $imgOver. "' alt='" . $alt . "'>
-								</picture>";
+										<picture class='overlay project'>
+											<img src='" . $imgOver. "' alt='" . $alt . "'>
+										</picture>";
 
 							echo "</a> </li>";
 							}
-							
+
 							echo "</ul>";
 						?>
+		
+
+						
 							<!-- <a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
 								<picture class="tile-img project">
 									<img src="images/be-tile.jpg" alt="https://peprojects.dev/alpha-6/emily/projects/beth-electric/">
