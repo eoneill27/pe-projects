@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>	
+<?php include('../header.php'); ?>	
 
 <inner-column>
 	<section class="goals">
