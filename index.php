@@ -50,10 +50,9 @@
 								</picture>";
 
 							echo "</a> </li>";
-
-							echo "</ul>";
-
 							}
+							
+							echo "</ul>";
 						?>
 							<!-- <a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
 								<picture class="tile-img project">
