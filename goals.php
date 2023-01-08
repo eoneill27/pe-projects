@@ -10,11 +10,10 @@
 				echo "<h2 class='info-voice'>" . $goal["heading"] . "</h2>
 					<ul class='reading-voice'>";
 
-				foreach($goal["items"] as $item) {
-					echo "<li class='reading-voice'>" . $item . "</li> </ul>"; 
-				};
-	
-			
+					foreach($goal["items"] as $item) {
+						echo "<li class='reading-voice'>" . $item . "</li>";
+					};
+				echo "</ul>";
 			};
 
 		?>
