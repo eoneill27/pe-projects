@@ -54,12 +54,6 @@
 		<?php }; ?>
 
 		</ul>
-
-
-			<li>Member of a ukulele trio (but don't ask - we only perform for our book club)</li>
-			<li>Templeton Swim Boot Camp team member since 2015</li>
-			<li>UBC sprint triathlon finisher seven years running</li>
-		</ul> -->
 		
 	</section>
 </inner-column>
