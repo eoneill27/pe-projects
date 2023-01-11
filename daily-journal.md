@@ -1,5 +1,46 @@
 # Emily's Daily Journal
 
+## January 10, 2023
+
+### Stand up
+
+Yesterday I went through the first chapter of Exercises for Programmers, did what I could on the tip calculator (jumped the gun a little), and had some good huddles with Drew, Jess and Alina.
+
+Today I will be writing my pseudocode for chapter 2 and hopefully will have some time to get my crash course site into a more finished state. I’d like to turn that into a portfolio piece and a blog post.
+
+No blockers!
+
+### Today's lesson - 121:092: Thinking through problems with pseudocode
+
+Pseudocode = informal language that helps designers organize their thoughts and plan out the process - without the specific programming language.
+
+So far, we've basically been doing publishing.
+Now we're moving into programming
+- interactive elements
+Can be much more than a website - can be anything you like
+
+"Gathering requirements" - figuring out what features the program needs to have.
+Ask questions!
+
+Problem statement
+Inputs - nouns
+Processes - verbs
+Outputs - nouns
+
+Exercises for Programmers, Chapter 2
+
+Getting input from the user and converting it to something meaningful is one of the fundamental pieces of programming.
+
+Input/data can come from the keyboard, a mouse, a touch, a swipe, a game controller...
+
+The computer has to react to it, process it, and do something useful.
+
+### To dos
+
+- [x] read chapter 2 intro - Exercises for Programmers
+- [x] practice writing psudeo code for the chapter 2 exercises
+- [] Crash Course site
+
 ## January 9, 2023
 
 ### Stand up
