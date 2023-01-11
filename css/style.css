@@ -39,27 +39,27 @@ inner-column {
 /* TYPOGRAPHY & SITE-WIDE SPACING */
 
 .heyyou-voice {
-	font-family: Avenir, sans-serif;
+	font-family: "Poppins", Avenir, sans-serif;
 	font-size: 50px;
 
 }
 
 .attention-voice {
-	font-family: Avenir, sans-serif;
+	font-family: "Poppins", Avenir, sans-serif;
 	font-size: 40px;
 	margin-bottom: 40px;
 }
 
 .nav-voice {
-	font-family: Avenir, sans-serif;
+	font-family: "Poppins", Avenir, sans-serif;
 	font-size: 16px;
-	font-weight: 800;
+	font-weight: 500;
 }
 
 .info-voice {
-	font-family: Avenir, sans-serif;
+	font-family: "Poppins", Avenir, sans-serif;
 	font-size: clamp(18px, 25px, 25px);
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .reading-voice {
@@ -69,9 +69,9 @@ inner-column {
 }
 
 .logo {
-	font-family: Avenir, sans-serif;
+	font-family: "Poppins", Avenir, sans-serif;
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
