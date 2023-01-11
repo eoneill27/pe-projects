@@ -68,6 +68,7 @@ inner-column {
 	padding: 20px;
 	position: sticky;
 	top: 0;
+	z-index: 99;
 	display: flex;
 	justify-content: space-between;
 }
@@ -178,6 +179,15 @@ h1 + p {
 	background-color: white;
 /*	display: flex;*/
 }
+
+.site-footer .logo {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.05rem;
+	color: #2638c4;
+}
+
 
 .site-footer p, .site-footer a {
 	font-family: Arial, sans-serif;

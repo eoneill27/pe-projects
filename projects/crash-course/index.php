@@ -15,7 +15,7 @@
 
 		<?php if(isset($_GET['mode'])) {
 			echo "<style>
-						*, html, body, inner-column, header, main, footer, .site-header, .site-footer, .top-footer, .bottom-footer, .top-footer inner-column, .bottom-footer inner-column, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li, .crash-link, .footer-list {
+						*, html, body, inner-column, header, main, footer, .site-header, .site-footer, .top-footer, .bottom-footer, .top-footer inner-column, .bottom-footer inner-column, .heyyou-voice, .reading-voice, .vid-title-voice, .vid-meta-voice, a, li, .crash-link, .footer-list, .logo {
 								background-color: black;
 								color: white;
 						}
@@ -60,7 +60,7 @@
 			<section class="top-footer">
 				<inner-column>
 					<div class="footer1">
-						<h1>LOGO</h1>
+						<a href="https://www.pbs.org" class="logo">PBS</a>
 					</div>
 					<div class="footer2">
 						<div class="footer2-1">
