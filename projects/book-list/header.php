@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Emily's Book List</title>
-		<meta name="description" content="[[insert description]]">
+		<meta name="description" content="A list of all the books that I've read since I began obsessively recording this data halfway through 2006.">
 
 		<meta property="og: image" content="[[meta image source]]">
 		<link rel="icon" href="[[insert favicon source]]">
