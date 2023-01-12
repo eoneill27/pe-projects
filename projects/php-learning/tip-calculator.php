@@ -57,6 +57,11 @@
 		height: 30px;
 	}
 
+	input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+	}
+
 	button {
 		margin-top: 20px;
 		padding: 5px 20px;
@@ -131,10 +136,10 @@ $total = floatval($tip) + floatval($subtotal);
 	<div class="form-fields reading-voice">
 
 		<label for="">Enter the subtotal of your bill:</label>
-		<input name = "subtotal" type="float">
+		<input name = "subtotal" type="number" step="0.01" />
 
 		<label for="">Enter the tip percentage you'd like to leave:</label>
-		<input name = "tipRate" type="float">
+		<input name = "tipRate" type="number" step="0.01" />
 
 		<button name="entered" type="submit" class="reading-voice">
 			Enter
