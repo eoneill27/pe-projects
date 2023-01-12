@@ -57,9 +57,13 @@
 	}
 
 	.form-fields input {
+		font-family: Courier, monospace;
+		font-size: 16px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		height: 30px;
+		max-width: 8ch;
+		text-align: center;
 	}
 
 	input::-webkit-inner-spin-button {
@@ -88,9 +92,9 @@
 
 	.gentle-reminder {
 		font-family: Courier, monospace;
-		font-size: clamp(16px, 9vw, 32px);
+		font-size: 16px;
 		color: orange;
-		text-align: center;
+/*		text-align: center;*/
 	}
 
 </style>
@@ -117,11 +121,15 @@ if (isset($_POST["entered"])) {
 	}
 
 	if ($_POST["subtotal"] == NULL) {
-		echo "<p class='gentle-reminder'>Please enter your subtotal.</p>";
+		$validateSub = "<p class='gentle-reminder'>Please enter your subtotal.</p>";
+	} else {
+		$validateSub = NULL;
 	}
 
 	if ($_POST["tipRate"] == NULL) {
-		echo "<p class='gentle-reminder'>Please enter your tip percentage.</p>";
+		$validateTip = "<p class='gentle-reminder'>Please enter your tip percentage.</p>";
+	} else {
+		$validateTip = NULL;
 	}
 
 };
@@ -139,11 +147,23 @@ $total = floatval($tip) + floatval($subtotal);
 	
 	<div class="form-fields reading-voice">
 
-		<label for="">Enter the subtotal of your bill:</label>
-		<input name = "subtotal" type="number" step="0.01" />
+		<div class="sub-fields">
+			<label for="">Enter the subtotal of your bill:</label>
+			<div class="input-fields">
+				<span>$</span>
+				<input name = "subtotal" type="number" step="0.01" value="<?=$subtotal?>" />
+				<p><?=$validateSub?></p>
+			</div>
+		</div>
 
-		<label for="">Enter the tip percentage you'd like to leave:</label>
-		<input name = "tipRate" type="number" step="0.01" />
+		<div class="tip-fields">
+			<label for="">Enter the tip percentage you'd like to leave:</label>
+			<div class="input-fields">
+				<input name = "tipRate" type="number" step="0.01" value="<?=$tipRate?>"/>
+				<span>%</span>
+				<p><?=$validateTip?></p>
+			</div>
+		</div>
 
 		<button name="entered" type="submit" class="reading-voice">
 			Enter
