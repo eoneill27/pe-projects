@@ -25,6 +25,11 @@
 		line-height: 1.3;
 	}
 
+	.result {
+		color: orange;
+		font-size: 18px;
+	}
+
 	.tip-heading {
 		font-family: Courier, monospace;
 		font-size: clamp(20px, 10vw, 45px);
@@ -86,7 +91,6 @@
 		font-size: clamp(16px, 9vw, 32px);
 		color: orange;
 		text-align: center;
-
 	}
 
 </style>
@@ -148,10 +152,10 @@ $total = floatval($tip) + floatval($subtotal);
 	</div>
 
 	<div class="form-output reading-voice">
-		<p>Your subtotal was $<?=$subtotal?></p>
-		<p>You left a <?=$tipRate?>% tip</p>
-		<p>Your tip is $<?=$tip?></p>
-		<p>Your total, incuding the tip, is $<?=$total?></p>
+		<p>Your subtotal was <span class="result">$<?=$subtotal?></span>.</p>
+		<p>You left a <span class="result"><?=$tipRate?>%</span> tip.</span><p>
+		<p>Your tip is <span class="result">$<?=$tip?></span>.</p>
+		<p>Your total, incuding the tip, is <span class="result">$<?=$total?></span>.</p>
 	</div>
 
 
