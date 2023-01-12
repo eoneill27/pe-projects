@@ -72,7 +72,7 @@ $bookArray = [$title, $author, $genre, $year, $recommend];
 		</div>
 	</form>
 
-<p class="author-voice output-array">Here's what you just entered:<br/> <span class="genre-voice"><?=var_dump($bookArray)?> </span></p>
+<p class="author-voice output-array">Here's what you just entered:<br/> <span class="genre-voice"><?=print_r($bookArray)?> </span></p>
 
 </inner-column>
 
