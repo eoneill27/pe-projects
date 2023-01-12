@@ -1,8 +1,22 @@
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Tip Calculator</title>
+	<meta name="description" content="A tip calculator for HTML form and PHP practice." />
+
+</head>
 <style>
 
 	body {
 		background-color: #6638f0;
-		padding: 100px;
+		padding: 30px 10px;
+	}
+
+	@media (min-width: 500px) {
+		body {
+			padding: 100px;
+		}
 	}
 
 	.reading-voice {
@@ -13,7 +27,7 @@
 
 	.tip-heading {
 		font-family: Courier, monospace;
-		font-size: 40px;
+		font-size: clamp(20px, 10vw, 45px);
 		color: white;
 		text-align: center;
 		margin-bottom: 50px;
@@ -27,8 +41,14 @@
 		margin-left: auto;
 		margin-right: auto;
 		padding: 40px;
-		max-width: 400px;
+		max-width: 300px;
 		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	}
+
+	@media (min-width: 500px) {
+		.form-fields {
+			max-width: 400px;
+		}
 	}
 
 	.form-fields input {
@@ -54,9 +74,19 @@
 		padding: 40px;
 		max-width: 400px;
 		box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+	}
+
+	.gentle-reminder {
+		font-family: Courier, monospace;
+		font-size: clamp(16px, 9vw, 32px);
+		color: orange;
+		text-align: center;
 
 	}
+
 </style>
+
+<h1 class="tip-heading heyyou-voice">Tip Calculator!</h1>
 
 <?php
 
@@ -78,8 +108,13 @@ if (isset($_POST["entered"])) {
 	}
 
 	if ($_POST["subtotal"] == NULL) {
-		echo "please enter your subtotal.";
+		echo "<p class='gentle-reminder'>Please enter your subtotal.</p>";
 	}
+
+	if ($_POST["tipRate"] == NULL) {
+		echo "<p class='gentle-reminder'>Please enter your tip percentage.</p>";
+	}
+
 };
 
 $tipPercent = $tipRate/100;
@@ -90,7 +125,7 @@ $total = floatval($tip) + floatval($subtotal);
 
 ?>
 
-<h1 class="tip-heading heyyou-voice">Tip Calculator!</h1>
+
 <form method="POST">
 	
 	<div class="form-fields reading-voice">
@@ -109,7 +144,7 @@ $total = floatval($tip) + floatval($subtotal);
 
 	<div class="form-output reading-voice">
 		<p>Your subtotal was $<?=$subtotal?></p>
-		<p>Your left a <?=$tipRate?>% tip.</p>
+		<p>You left a <?=$tipRate?>% tip.</p>
 		<p>Your tip is $<?=$tip?>.</p>
 		<p>Your total, incuding the tip, is $<?=$total?>.</p>
 	</div>
