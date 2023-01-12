@@ -149,9 +149,9 @@ $total = floatval($tip) + floatval($subtotal);
 
 	<div class="form-output reading-voice">
 		<p>Your subtotal was $<?=$subtotal?></p>
-		<p>You left a <?=$tipRate?>% tip.</p>
-		<p>Your tip is $<?=$tip?>.</p>
-		<p>Your total, incuding the tip, is $<?=$total?>.</p>
+		<p>You left a <?=$tipRate?>% tip</p>
+		<p>Your tip is $<?=$tip?></p>
+		<p>Your total, incuding the tip, is $<?=$total?></p>
 	</div>
 
 
