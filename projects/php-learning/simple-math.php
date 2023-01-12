@@ -90,7 +90,7 @@ $multiply = $number1 * $number2;
 
 if ($number2 == 0) {
 	$divide = NULL;
-	$validateDivide = "You can't divide by 0. Please enter a number greater than 0.";
+	$validateDivide = "You can't divide by 0. Please enter a number other than 0.";
 } else {
 	$divide = $number1 / $number2;
 	$validateDivide = NULL;
