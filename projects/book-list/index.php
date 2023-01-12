@@ -5,22 +5,28 @@
 $title = "";
 $author = "";
 $genre = "";
-$year = "";
+$year = 0;
 $recommend = null;
 
 if (isset($_POST["submitted"])) {
 	if (isset($_POST["title"])) {
 		$title = $_POST["title"];
-	}
+	} 
+
 	if (isset($_POST["author"])) {
 		$author = $_POST["author"];
 	}
+
 	if (isset($_POST["genre"])) {
 		$genre = $_POST["genre"];
-	}
+	} 
+
 	if (isset($_POST["year"])) {
 		$year = $_POST["year"];
+	} else {
+		echo "Please enter the year.";
 	}
+
 	if (isset($_POST["title"])) {
 		$title = $_POST["title"];
 	}
@@ -51,7 +57,7 @@ $bookArray = [$title, $author, $genre, $year, $recommend];
 			<input name="genre" type="text" size="30ch" />
 
 			<label for="">Year read</label>
-			<input name="year" type="text" max="4" />
+			<input name="year" type="number" maxlength="4" />
 
 			<div class="recommend-check">
 				<legend>Do you recommend this book?</legend>
