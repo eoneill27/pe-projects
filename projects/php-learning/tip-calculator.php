@@ -131,7 +131,7 @@ $total = floatval($tip) + floatval($subtotal);
 	<div class="form-fields reading-voice">
 
 		<label for="">Enter the subtotal of your bill:</label>
-		<input name = "subtotal" type="float" minlength="0">
+		<input name = "subtotal" type="float">
 
 		<label for="">Enter the tip percentage you'd like to leave:</label>
 		<input name = "tipRate" type="float">
