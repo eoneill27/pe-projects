@@ -1,5 +1,91 @@
 # Emily's Daily Journal
 
+## January 11, 2023
+
+### Stand up
+
+Yesterday I didn't end up doing much more than the lesson and the pseudocode exercise. I decided to go for the bare minimum and take a little break.
+
+Today I am really excited to get to forms - already thinking about how to incorporate this into my book list project. I am hoping to have a bit more energy this evening to do more than the bare minimum. I'll bring my laptop to work today, so I'll probably be checking in over my lunch break (12pm west coast time).
+
+No blockers today!
+
+### Today's lesson - 122:093: Intro to server-side forms
+
+"POST" means you are sending data to the server rather than requesting it
+
+For PHP-style forms - each input gets a name, and that is used as the key in the submitted array of content
+
+The value attribute represents data - but also visual content in the case of many inputs.
+
+``
+	<?php
+		if (isset($_POST["submitted"])) {
+			echo "The form was sent.";
+		}
+	?>
+``
+PHP is read top-down - if the form was submitted, re-request the page and it will run the code again
+If you put this check at the top of the page, you can do some logic based on what the form submitted
+
+isset() - a way to tell if the variable has been assigned
+
+After you submit the form, the data becomes an associative array and hangs around for you to use on the subsequent page visit.
+
+HTML inputs end up with "strings" for values - you won't be able to do math on them until they are converted to numbers
+Use floatval() - turns the string into a float, or "floating-point integer"
+
+Integer is a whole number that can be either postiive or negative
+Floats have decimals - can be positive or negative
+[use integer for integers - float mathematics is less precise]
+
+Basically - a form is a basic text program that is being read from top to bottom
+The unique part is that the server can store some temporary data in memory that can be referenced within this program
+
+Input can have many different types - text is default - number, email, password, submit, range, etc. 
+
+Give the input a label
+
+These elements are all inline-block by default (label, input, button)
+
+You can target element attributes in CSS
+button[type="submit"] { }
+
+You can also leave out the element - 
+[type="submit"] { }
+(target anything with type="submit")
+
+Input doesn't inherit the same font as the rest of the page - need to change that
+
+GET request usually means you're trying to retrieve something
+
+POST request usually means you're trying to send something to the server
+
+Have to give inputs names so the POST method knows what exactly you're posting
+
+Buttons also need names
+
+Before you tell the form a specific place to submit, it's almost like it's submitting to itself
+The form goes into "Super Global Object" (basically an associative array)
+A behind the scenes variable that holds all of the data that is being sent to the server
+
+$_POST and $_GET are Super Global Variables
+
+print_r($stuff)
+var_dump($stuff)
+2 ways to see what's in an array
+Different formats
+
+Be aware of what happens if a user doesn't enter a value - it could break everything - so make sure you account for that
+
+Input can have min and max values
+
+### To dos
+
+- [x] form lesson - watch video
+- [x] create your own form (book list form)
+- [] crash course
+
 ## January 10, 2023
 
 ### Stand up
