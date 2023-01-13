@@ -7,7 +7,7 @@
 	a {
 		text-decoration: none;
 	}
-	
+
 	h1 {
 		font-family: Courier, monospace;
 		font-size: clamp(16px, 10vw, 40px);
@@ -108,10 +108,10 @@ if ($number2 == 0) {
 <form method="POST" action="">
 	<div class="form-fields reading-voice">
 		<label for="">Number 1</label>
-		<input name="number1" type="number" step="0.0000001"/>
+		<input name="number1" type="number" value="<?=$number1?>" step="0.0000001"/>
 
 		<label for="">Number 2</label>
-		<input name="number2" type="number" step="0.0000001"/>
+		<input name="number2" type="number" value="<?=$number2?>" step="0.0000001"/>
 
 		<button name="submitted" type="submit">
 			Submit
