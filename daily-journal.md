@@ -1,16 +1,35 @@
 # Emily's Daily Journal
 
+## January 13, 2023
+
+### Stand up
+
+Yesterday I managed to squeeze in a couple of practice rounds with the simple math and the retirement calculator.
+
+Today - some reading, some more practice. I'd like to get started on a form index for my portfolio site. 
+
+No blockers!
+
+### Today's lesson - 124:095: 
+
 ## January 12, 2023
 
 ### Stand up
 
+Yesterday I went through the lesson, finished the video up on my lunch break, and then spent the evening working on my book list form and the tip calculator.
+
+Today I hammered out one exercise already this morning - it needs some more attention, but I know I will be crunched for time this evening, so I wanted to get it done now. I will continue tweaking it and will work on another exercise after work/around swim.
+
+No blockers today! 
+
 ### Today's lesson - 123:094: Practice, Practice, Practice
+
 
 ### To dos 
 
-- [] plan out an exercise from EFP
-- [] write the code
-- [] do another one
+- [x] plan out an exercise from EFP
+- [x] write the code
+- [x] do another one
 
 ## January 11, 2023
 
