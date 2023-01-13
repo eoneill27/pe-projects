@@ -106,8 +106,6 @@
 				}
 			};
 
-
-
 			$year = date("Y");
 
 			$yearsLeft = $retirementAge - $age;
@@ -122,6 +120,7 @@
 		?>
 
 		<a href="?" class="heading-link"><h1 class="heyyou-voice">How many years until retirement?</h1></a>
+		
 		<form action="" method="POST">
 			<div class="form-fields reading-voice">
 		
