@@ -1,5 +1,17 @@
 # Emily's Daily Journal
 
+## January 12, 2023
+
+### Stand up
+
+### Today's lesson - 123:094: Practice, Practice, Practice
+
+### To dos 
+
+- [] plan out an exercise from EFP
+- [] write the code
+- [] do another one
+
 ## January 11, 2023
 
 ### Stand up
