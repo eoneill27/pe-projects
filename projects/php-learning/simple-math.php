@@ -4,6 +4,10 @@
 		background-color: black;
 	}
 
+	a {
+		text-decoration: none;
+	}
+	
 	h1 {
 		font-family: Courier, monospace;
 		font-size: clamp(16px, 10vw, 40px);
@@ -99,7 +103,7 @@ if ($number2 == 0) {
 
 ?>
 
-<h1>Simple calculator</h1>
+<a href="?"><h1>Simple calculator</h1></a>
 
 <form method="POST" action="">
 	<div class="form-fields reading-voice">
