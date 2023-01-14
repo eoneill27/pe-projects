@@ -1,5 +1,13 @@
 <?php
 
+$e4p = [
+	"id" => "e4p",
+	"img" => "https://peprojects.dev/images/landscape.jpg",
+	"imgOver" => "https://peprojects.dev/images/landscape.jpg",
+	"link" => "https://peprojects.dev/alpha-6/emily/projects/e4p/",
+	"alt" => "Card for the Exercises for Programmers page.",
+];
+
 $bethElectric = [
 	"id" => "beth",
 	"img" => "images/be-tile.jpg",
@@ -33,7 +41,7 @@ $layoutGarden = [
 ];
 
 
-$projectsArray = [$bethElectric, $koalas, $researchEmploy, $layoutGarden];
+$projectsArray = [$e4p, $bethElectric, $koalas, $researchEmploy, $layoutGarden];
 
 
 
