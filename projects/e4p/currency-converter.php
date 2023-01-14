@@ -39,6 +39,7 @@
 	$endAmount = round($endAmount, 2);
 ?>
 
+<a href="?"><h1 class="heyyou-voice" style="color: lime; margin-bottom: 30px; margin-top: 30px;text-align: center; ">Currency Converter</h1></a>
 
 <form action="" method="POST">
 	
