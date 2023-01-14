@@ -1,5 +1,7 @@
 <?php include("header.php"); ?>
 
+<style>@import "css/style1.css";</style>
+
 <?php
 
 	$startAmount = 0;
