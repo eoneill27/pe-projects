@@ -23,7 +23,7 @@
 
 		<header class="site-header">
 			<inner-column>
-				<h1 class="logo"><a href="index.php">EMILY O'Neill</a></h1>
+				<h1 class="logo"><a href="../../index.php">EMILY O'Neill</a></h1>
 
 				<nav class="header-nav nav-voice">
 					<a href="../../about.php">About</a>
@@ -62,12 +62,12 @@
 
 								<li class="form" style='list-style-type: none'>
 									<a href="<?=$url?>">
-										<picture class="form-tile">
-											<img src="<?=$img?>" alt="">
-										</picture>
+										<div class="form-tile">
+											<h3 class="info-voice"><?=$title?></h3>
+											<p class="reading-voice"><?=$description?></p>
+										</div>
 									</a>
-									<h3 class="info-voice"><?=$title?></h3>
-									<p class="reading-voice"><?=$description?></p>
+									
 								</li>
 
 							<?php } ?>

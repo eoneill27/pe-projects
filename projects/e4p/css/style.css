@@ -40,7 +40,7 @@ inner-column {
 
 .heyyou-voice {
 	font-family: "Poppins", Avenir, sans-serif;
-	font-size: 50px;
+	font-size: clamp(26px, 13vw, 50px);
 
 }
 
@@ -64,7 +64,7 @@ inner-column {
 
 .reading-voice {
 	font-family: Avenir, sans-serif;
-	font-size: 18px;
+	font-size: clamp(12px, 6vw, 18px);
 	line-height: 1.4;
 }
 
@@ -236,7 +236,14 @@ a.project {
 }
 
 .form-tile {
-	max-width: 400px;
+	height: 250px;
+	max-width: 500px;
+	border: 4px solid black;
+	padding: 10px 20px;
+}
+
+.form-tile:hover {
+	background-color: var(--site-green);
 }
 
 .form-grid h3 {
@@ -264,6 +271,12 @@ a.project {
 	color: salmon;
 }
 
+@media(min-width: 500px) {
+	.form-tile {
+		height: 200px;
+	}
+}
+
 @media (min-width: 650px) {
 	.project-grid {
 		display: grid;
@@ -277,8 +290,23 @@ a.project {
 		grid-gap: 20px;
 	}
 
+	.form-tile {
+		height: 250px;
+		max-width: 400px;
+		padding: 30px;
+	}
 }
 
+@media (min-width: 900px) {
+	.form-grid ul {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+	}
+
+	.form-tile {
+		max-width: 350px;
+	}
+}
 @media (min-width: 700px) {
 	.book-link {
 		display: inline-block;
