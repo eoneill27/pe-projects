@@ -7,6 +7,22 @@
 	$startAmount = 0;
 	$rate = 0;
 
+	$message = "";
+	$oppoMessage = "";
+
+	if (isset($_POST["currency"])) {
+
+		$currency = $_POST["currency"];
+
+		if ($currency == "usd") {
+			$message = "U.S. dollars"; 
+			$oppoMessage = "Canadian dollars";
+		} else {
+			$message = "Canadian dollars";
+			$oppoMessage = "U.S. dollars.";
+		}
+	}
+
 	if (isset($_POST["submitted"])) {
 
 		if (isset($_POST["startAmount"])) {
@@ -28,7 +44,20 @@
 	
 	<div class="form-fields reading-voice ">
 		
-		<label for="startAmount">How much money do you have in U.S. dollars?</label>
+		<fieldset>
+			<legend>Choose your conversion</legend>
+
+			<div>
+				<label for="usd">USD to CAD</label>
+		      <input type="radio" name="currency" id="usd" value="usd">
+    		</div>
+
+    		<div>
+    			<label for="cad">CAD to USD</label>
+		      <input type="radio" name="currency" id="cad" value="cad">
+    		</div>
+		</fieldset>
+		<label for="startAmount">How much money do you have in <?=$message?>?</label>
 		<input name="startAmount" class="reading-voice" type="number" step=".01" value="<?=$startAmount?>" required />
 
 		<label for="rate">What is the exchange rate?</label>
@@ -42,7 +71,7 @@
 	<div class="form-output">
 		<p class="reading-voice">You started with $<?=$startAmount?></p>
 		<p class="reading-voice">The exchange rate is <?=$rate?></p>
-		<p class="reading-voice"><?=$startAmount?> U.S. dollars at a rate of <?=$rate?> is <?=$endAmount?> Canadian dollars.</p>
+		<p class="reading-voice"><?=$startAmount?> <?=$message?> at a rate of <?=$rate?> is <?=$endAmount?> <?=$oppoMessage?>.</p>
 	</div>
 
 </form>
