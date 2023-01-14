@@ -10,7 +10,17 @@ Today - some reading, some more practice. I'd like to get started on a form inde
 
 No blockers!
 
-### Today's lesson - 124:095: 
+### Today's lesson - 124:095: Another Exercises for Programmers practice day!
+
+PHP documentation
+
+built-in functions
+
+### To dos 
+
+- [x] explore the built-in function documentation
+- [] add 2 more exercises
+
 
 ## January 12, 2023
 
