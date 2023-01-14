@@ -29,7 +29,16 @@ $tip = [
 	"img" => "https://peprojects.dev/images/landscape.jpg"
 ];
 
-$forms = [$currency, $retirement, $math, $tip];
+$madlib = [
+	"title" => "Mad Lib",
+	"description" => "This form asks you to enter a bunch of words so you can generate a funny Mad Lib.",
+	"url" => "mad-lib.php",
+	"img" => "https://peprojects.dev/images/madlib.jpg"
+];
+
+
+
+$forms = [$currency, $retirement, $math, $tip, $madlib];
 
 ?>
 
