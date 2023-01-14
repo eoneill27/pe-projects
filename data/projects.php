@@ -2,8 +2,8 @@
 
 $e4p = [
 	"id" => "e4p",
-	"img" => "https://peprojects.dev/images/landscape.jpg",
-	"imgOver" => "https://peprojects.dev/images/landscape.jpg",
+	"img" => "images/e4p-tile.jpg",
+	"imgOver" => "images/e4p-tile.jpg",
 	"link" => "https://peprojects.dev/alpha-6/emily/projects/e4p/",
 	"alt" => "Card for the Exercises for Programmers page.",
 ];
