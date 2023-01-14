@@ -1,0 +1,70 @@
+@import "meyer-setup.css";
+
+body {
+	padding: 30px;
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Courier, monospace;
+	font-size: clamp(16px, 10vw, 40px);
+	color: lime;
+	text-align: center;
+}
+
+.attention-voice {
+	font-family: Courier, monospace;
+	font-size: 24px;
+}
+.reading-voice {
+	font-family: Courier, monospace;
+	font-size: 16px;
+}
+
+.form-fields, .form-output {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.form-output {
+	margin-top: 30px;
+}
+
+.form-fields label {
+	margin-top: 15px;
+}
+.form-fields input {
+	max-width: 20ch;
+	margin-top: 5px;
+}
+
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0; 
+}
+
+
+@media (min-width: 500px) {
+
+	.form-fields, .form-output {
+		max-width: 450px;
+	}
+}
+
+
+
+button {
+	margin-top: 30px;
+	padding: 5px 30px;
+	max-width: 120px;
+}
