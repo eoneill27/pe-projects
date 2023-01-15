@@ -1,5 +1,26 @@
 # Emily's Daily Journal
 
+## January 14 2023
+
+### Stand up
+
+Yesterday I read through all of the documentation on the built-in functions that were highlighted in the lesson. It's definitely getting easier and easier to read and make sense of the PHP manual. Lots of cool built-in functions! I was surprised and delighted that strrev() truly reverses the string - letter by letter, not just word by word. I also created a currency converter yesterday, with radio buttons that kind of work - though I realized after I was already tucked in bed that I had forgotten to change the exchange rate when you use the radio buttons to switch currencies. Something to fix today.
+
+This morning I've been working on my e4p page and it's coming along. I've got a foreach loop in there so the forms will be easy to add as I continue to make them. Not totally sure if the layout I have currently is what I want to stick with, but that's a bigger site question that will affect my Projects page as well (I think).
+
+I also want to create at least two more forms. 
+
+There were a lot of posts in Slack that I didn't get to or have time to fully read and understand this week. I felt like my brain was a little squished by the end of the day yesterday. I am looking forward to having time this weekend to let things spread out and to figure out where I have questions or where I want to push farther. In particular - I need to re-read all of Drew's posts to see if I can understand them! 
+
+No blockers today.
+
+### Today's lesson - 125:096: Forms peer review
+
+### To dos 
+
+- [x] get e4p up and running
+- [] review everyone else's forms in form-interface-testing.md doc
+
 ## January 13, 2023
 
 ### Stand up
