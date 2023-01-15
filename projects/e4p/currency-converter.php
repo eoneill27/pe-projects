@@ -1,6 +1,6 @@
-<?php include("header.php"); ?>
+<?php include('header.php'); ?>
 
-<style>@import "css/style1.css";</style>
+<inner-column>
 
 <?php
 
@@ -39,14 +39,14 @@
 	$endAmount = round($endAmount, 2);
 ?>
 
-<a href="?"><h1 class="heyyou-voice" style="color: lime; margin-bottom: 30px; margin-top: 30px;text-align: center; ">Currency Converter</h1></a>
+<a href="?"><h1 class="attention-voice">Currency Converter</h1></a>
 
 <form action="" method="POST">
 	
 	<div class="form-fields reading-voice ">
 		
 		<fieldset>
-			<legend>Choose your conversion</legend>
+			<legend><h2 class="info-voice">Choose your conversion</h2></legend>
 
 			<div>
 				<label for="usd">USD to CAD</label>
@@ -77,8 +77,8 @@
 
 </form>
 
+</inner-column>
 
 
 
-
-<?php include("footer.php"); ?>
+<?php include('footer.php'); ?>
