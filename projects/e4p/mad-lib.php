@@ -61,6 +61,10 @@
 			if (isset($_POST["noun4"])) {
 				$noun4 = strtolower($_POST["noun4"]);
 			}
+
+				$message = "Our school cafeteria has really <span style='color: red';>" . $adjective1 . "</span> food. Just thinking about it makes my stomach <span style='color: red';>" . $verb1 . "</span>. The spaghetti is <span style='color: red';>" . $adjective2 . "</span> and tastes like <span style='color: red';>" . $noun1 . "</span>. One day, I swear one of my meatballs started to <span style='color: red';>" . $verb2 . "</span>! The turkey tacos are totally <span style='color: red';>" . $adjective3 . "</span> and look kind of like old <span style='color: red';>" . $noun2 . "</span>. My friend Dana actually likes the meatloaf, even though it's <span style='color: red';>" . $adjective4 . "</span> and <span style='color: red';>" . $adjective5 . "</span>. I call it 'mystery meatloaf' and think it's really made out of <span style='color: red';>" . $noun3 . "</span>. My dad said he'd make my lunches, but the first day, he made me a sandwich out of <span style='color: red';>" . $noun4 . "</span> and peanut butter! I think I'd rather take my chances with the cafeteria!";
+			} else {
+				$message = NULL;
 		}
 
 		if (isset($_POST["reset"])) {
@@ -123,7 +127,7 @@
 		<div class="form-output">
 			
 			<p class="reading-voice">
-				Our school cafeteria has really <span style="color: red";><?=$adjective1?></span> food. Just thinking about it makes my stomach <span style="color: red";><?=$verb1?></span>. The spaghetti is <span style="color: red";><?=$adjective2?></span> and tastes like <span style="color: red";><?=$noun1?></span>. One day, I swear one of my meatballs started to <span style="color: red";><?=$verb2?></span>! The turkey tacos are totally <span style="color: red";><?=$adjective3?></span> and look kind of like old <span style="color: red";><?=$noun2?></span>. My friend Dana actually likes the meatloaf, even though it's <span style="color: red";><?=$adjective4?></span> and <span style="color: red";><?=$adjective5?></span>. I call it "mystery meatloaf" and think it's really made out of <span style="color: red";><?=$noun3?></span>. My dad said he'd make my lunches, but the first day, he made me a sandwich out of <span style="color: red";><?=$noun4?></span> and peanut butter! I think I'd rather take my chances with the cafeteria! 
+				<?=$message?>
 			</p>
 		</div>
 

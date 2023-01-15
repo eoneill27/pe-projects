@@ -56,7 +56,7 @@
 				<label for="">Enter the subtotal of your bill:</label>
 				<div class="input-fields">
 					<span>$</span>
-					<input name = "subtotal" type="number" step="0.01" value="<?=$subtotal?>" />
+					<input class="reading-voice" name = "subtotal" type="number" step="0.01" value="<?=$subtotal?>" />
 					<p><?=$validateSub?></p>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 			<div class="tip-fields">
 				<label for="">Enter the tip percentage you'd like to leave:</label>
 				<div class="input-fields">
-					<input name = "tipRate" type="number" step="0.01" value="<?=$tipRate?>"/>
+					<input class="reading-voice" name = "tipRate" type="number" step="0.01" value="<?=$tipRate?>" />
 					<span>%</span>
 					<p><?=$validateTip?></p>
 				</div>

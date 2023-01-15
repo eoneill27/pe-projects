@@ -7,8 +7,8 @@
 	$startAmount = 0;
 	$rate = 0;
 
-	$message = "";
-	$oppoMessage = "";
+	$message = "U.S. dollars";
+	$oppoMessage = "Canadian dollars";
 
 	if (isset($_POST["currency"])) {
 
@@ -19,7 +19,7 @@
 			$oppoMessage = "Canadian dollars";
 		} else {
 			$message = "Canadian dollars";
-			$oppoMessage = "U.S. dollars.";
+			$oppoMessage = "U.S. dollars";
 		}
 	}
 
@@ -50,7 +50,7 @@
 
 			<div>
 				<label for="usd">USD to CAD</label>
-		      <input type="radio" name="currency" id="usd" value="usd">
+		      <input type="radio" name="currency" id="usd" value="usd" checked>
     		</div>
 
     		<div>
@@ -70,7 +70,7 @@
 	</div>
 
 	<div class="form-output">
-		<p class="reading-voice">You started with $<?=$startAmount?></p>
+		<p class="reading-voice">You started with $<?=$startAmount?> <?=$message?></p>
 		<p class="reading-voice">The exchange rate is <?=$rate?></p>
 		<p class="reading-voice"><?=$startAmount?> <?=$message?> at a rate of <?=$rate?> is <?=$endAmount?> <?=$oppoMessage?>.</p>
 	</div>
