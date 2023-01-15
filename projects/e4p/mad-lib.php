@@ -66,7 +66,7 @@
 	if (isset($_POST["reset"])) {
 		$_POST["input"] = NULL;
 	}
-	
+
 ?>
 
 <a href="?"><h1 class="heyyou-voice" style="color: lime; margin-bottom: 30px; margin-top: 30px;text-align: center; ">Mad Lib</h1></a>
