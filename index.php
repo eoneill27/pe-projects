@@ -3,7 +3,7 @@
 			<inner-column>
 
 				<section class="home-intro">
-					<h2 class="attention-voice">Hello!</h2>
+					<h1 class="heyyou-voice">Hello!</h1>
 					<p class="reading-voice">In my first career, I spent 15 years working as a professional librarian. In my second career, I hope to focus on helping small businesses build beautiful, functional, accessible web sites. Whether you need a site built from scratch or you have an existing site that needs a bit of TLC, I can help you achieve your goals and build your business.</p>
 
 					<p class="reading-voice">I draw on my experience as a librarian and my expertise in my web design work to fine-tune the information architecture supporting your website, making your content easily findable and accessible to all of your users.</p>
@@ -21,7 +21,9 @@
 
 				<section class="home-projects">
 
-					<h2 class="attention-voice">Projects</h2>
+					<h2 class="heyyou-voice">Projects</h2>
+
+					<ul>
 
 						<?php include('data/projects.php'); 
 
@@ -32,11 +34,24 @@
 								$id = $project["id"];
 								$img = $project["img"];
 								$imgOver = $project["imgOver"];
-								$link = $project["link"];
+								$url = $project["url"];
 								$alt = $project["alt"];
+								$title = $project["title"];
+								$description = $project["description"];
 
+						?>
 
-		 					echo "<li id='" . $id . "' style='list-style-type: none'>
+							<li class="project" style='list-style-type: none'>
+								<a href="<?=$url?>">
+								<div class="project-tile">
+									<h3 class="info-voice"><?=$title?></h3>
+									<p class="reading-voice"><?=$description?></p>
+								</div>
+								</a>
+				
+							</li>
+
+		 				<!-- 	echo "<li id='" . $id . "' style='list-style-type: none'>
 									<a href='" . $link . "' target='_blank'>
 										<picture class='tile-img project'>
 											<img src='" . $img . "' alt='" . $alt . "'>
@@ -46,11 +61,11 @@
 											<img src='" . $imgOver. "' alt='" . $alt . "'>
 										</picture>";
 
-							echo "</a> </li>";
-							}
+							echo "</a> </li>"; -->
+							<?php } ?>
 
-							echo "</ul>";
-						?>
+							</ul>
+					
 		
 
 						

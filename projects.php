@@ -2,7 +2,7 @@
 
 <inner-column>
 	<section class="projects">
-		<h2 class="attention-voice">Projects</h2>
+		<h1 class="heyyou-voice">Projects</h1>
 
 		<div class="project-grid">
 
@@ -14,11 +14,38 @@
 				$id = $project["id"];
 				$img = $project["img"];
 				$imgOver = $project["imgOver"];
-				$link = $project["link"];
+				$url = $project["url"];
 				$alt = $project["alt"];
+				$title = $project["title"];
+				$description = $project["description"];
+
+			?>
+
+			<li class="form" style='list-style-type: none'>
+				<a href="<?=$url?>">
+					<div class="project-tile">
+						<h3 class="info-voice"><?=$title?></h3>
+						<p class="reading-voice"><?=$description?></p>
+					</div>
+				</a>
+				
+			</li>
+
+		
 
 
-			 echo "<li id='" . $id . "' style='list-style-type: none'>
+			<?php }; ?>
+
+
+		</div>
+		
+	</section>
+</inner-column>
+
+
+<?php include('footer.php'); ?>
+
+	<!--  echo "<li id='" . $id . "' style='list-style-type: none'>
 						<a href='" . $link . "' target='_blank'>
 							<picture class='tile-img project'>
 								<img src='" . $img . "' alt='" . $alt . "'>
@@ -30,17 +57,4 @@
 
 			echo "</a> </li>";
 
-			echo "</ul>";
-
-			};
-
-			?>
-
-
-		</div>
-		
-	</section>
-</inner-column>
-
-
-<?php include('footer.php'); ?>
+			echo "</ul>"; -->

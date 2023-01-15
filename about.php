@@ -4,7 +4,7 @@
 	<section class="about-grid">
 		<section class="about-intro">
 
-			<h1 class="attention-voice">About Emily</h1>
+			<h1 class="heyyou-voice">About Emily</h1>
 
 			<p class="reading-voice">Born in San Francisco and raised in the wilds of Seattle suburbia, I've made Vancouver, BC my home since 2005.</p>
 
