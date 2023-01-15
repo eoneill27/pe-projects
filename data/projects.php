@@ -20,6 +20,36 @@ $bethElectric = [
 	"description" => "A website created for a small business",
 ];
 
+$crashCourse = [
+	"id" => "crash",
+	"img" => "",
+	"imgOver" => "",
+	"url" => "https://peprojects.dev/alpha-6/emily/projects/crash-course/",
+	"alt" => "",
+	"title" => "Crash Course Redo",
+	"description" => "Using PHP to reconfigure the PBS Crash Course Computer Science site",
+];
+
+$monsterAdoption = [
+	"id" => "monster",
+	"img" => "",
+	"imgOver" => "",
+	"url" => "https://peprojects.dev/alpha-6/emily/projects/monsters/",
+	"alt" => "",
+	"title" => "Adopt-A-Monster",
+	"description" => "A monster adoption site made with PHP arrays and loops",
+];
+
+$annsAdventure = [
+	"id" => "ann",
+	"img" => "",
+	"imgOver" => "",
+	"url" => "https://peprojects.dev/alpha-6/emily/projects/anns-adventure/",
+	"alt" => "",
+	"title" => "Choose Your Own Adventure",
+	"description" => "A 'choose your own adventure' birthday card",
+];
+
 $koalas = [
 	"id" => "koalas",
 	"img" => "images/koala-tile.jpg",
@@ -51,7 +81,7 @@ $layoutGarden = [
 ];
 
 
-$projectsArray = [$e4p, $bethElectric, $koalas, $researchEmploy, $layoutGarden];
+$projectsArray = [$e4p, $bethElectric, $crashCourse, $monsterAdoption, $annsAdventure, $koalas, $researchEmploy, $layoutGarden];
 
 
 
