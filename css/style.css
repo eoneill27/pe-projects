@@ -185,12 +185,27 @@ legend {
 	margin-right: auto;
 }
 
+@media (min-width: 630px) {
+	inner-column {
+		max-width: 600px;
+	}
+
+	.home-projects .project-tile {
+		max-width: 700px;
+		height: 215px;
+	}
+}
 @media (min-width: 860px) {
 
+	inner-column {
+		max-width: 1100px
+
+	}
 	.home-grid inner-column {
 		display: grid;
-		grid-template-columns: 35% 10% 55%;
+		grid-template-columns: 50% 10% 40%;
 		grid-template-rows: auto;
+		gap: 10px;
 	}
 
 	.home-intro {
@@ -223,6 +238,10 @@ legend {
 	.home-projects .button {
 		margin-top: 60px;
 	}
+
+}
+
+@media (min-width: 925px) {
 
 }
 
