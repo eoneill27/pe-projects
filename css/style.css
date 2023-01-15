@@ -299,6 +299,7 @@ legend {
 @media(min-width: 500px) {
 	.form-tile, .project-tile {
 		height: 200px;
+		margin-top: 25px;
 	}
 }
 
@@ -307,20 +308,20 @@ legend {
 	.form-grid ul, .project-grid ul {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 20px;
+		grid-gap: 15px 30px;
 	}
 
 	.form-tile, .project-tile {
 		height: 250px;
 		max-width: 400px;
 		padding: 30px;
+		margin-top: 0;
 	}
 }
 
 @media (min-width: 900px) {
 	.form-grid ul, .project-grid ul {
 		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 20px;
 	}
 
 	.form-tile, .project-tile {
