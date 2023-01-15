@@ -23,14 +23,14 @@
 
 		<header class="site-header">
 			<inner-column>
-				<h1 class="logo"><a href="index.php">EMILY O'Neill</a></h1>
+				<h1 class="logo"><a href="../../index.php">EMILY O'Neill</a></h1>
 
 				<nav class="header-nav nav-voice">
-					<a href="about.php">About</a>
-					<a href="projects.php">Projects</a>
+					<a href="../../about.php">About</a>
+					<a href="../../projects.php">Projects</a>
 					<a href="https://oneillemily.substack.com" target="_blank">
 					Writing</a>
-					<a href="contact.php">Contact</a>
+					<a href="../../contact.php">Contact</a>
 				</nav>
 			</inner-column>
 		</header>
