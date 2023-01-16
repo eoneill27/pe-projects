@@ -129,7 +129,7 @@
 						echo "<div class='monster-card' id='" . $id . "'>" . 
 									"<div class='pic-button'>" . 
 										"<picture class='portrait'>" . 
-											"<img src='" . $portrait . "' width='200'>" . 
+											"<img src='" . $portrait . "'>" .  
 										"</picture>" . 
 										$status .
 									"</div>" . 
