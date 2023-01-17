@@ -100,11 +100,17 @@ p + h2 {
 .next-meeting { 
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	margin-top: 60px;
 	padding: 50px;
 	max-width: 900px;
 	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+@media (min-width: 500px) {
+	.next-meeting {
+		align-items: center;
+	}
 }
 /* MEETING GRID */
 
