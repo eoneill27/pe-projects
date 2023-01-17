@@ -7,6 +7,7 @@ body * {
 body {
 	display: flex;
 	flex-direction: column;
+	height: 100vh;
 }
 
 inner-column {
@@ -15,6 +16,10 @@ inner-column {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
+}
+
+.page-content {
+	flex-grow: 1;
 }
 
 /* TYPOGRAPHY */
@@ -41,6 +46,14 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 .host-voice {
 	font-size: 20px;
 	font-weight: 600;
+}
+
+.author-voice {
+	font-size: 24px;
+}
+
+.reading-voice {
+	font-size: 18px;
 }
 
 .nav-voice {
@@ -74,6 +87,10 @@ h2 + p {
 
 p + h2 {
 	margin-top: 30px;
+}
+
+h4 + p {
+	margin-top: 25px;
 }
 
 /* SITE NAV */
@@ -123,8 +140,7 @@ p + h2 {
 }
 
 meeting-card {
-	display: flex;
-	flex-direction: column;
+	display: block;
 	width: 250px;
 	padding: 20px;
 	margin-top: 40px;
@@ -142,7 +158,7 @@ meeting-card .card-info {
 }
 
 meeting-card:hover .book-cover {
-	display: flex;
+	display: block;
 }
 
 meeting-card:hover .card-info {
@@ -200,6 +216,31 @@ meeting-card:hover .card-info {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 10px;
+	}
+}
+
+/* DETAIL PAGE */
+
+.detail-cover {
+	max-width: 225px;
+}
+
+@media (min-width: 600px) {
+
+	.detail-card {
+		display: flex;
+		gap: 20px;
+	}
+
+	.detail-data {
+		display: flex;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.detail-cover {
+		max-width: 500px;
+		margin-top: 30px;
 	}
 }
 /* IMAGES */

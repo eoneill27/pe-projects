@@ -2,12 +2,14 @@
 
 <?php
 
+	/* router */
+
 	$page = NULL;
 
 	if (isset($_GET["page"])) {
-		$page = $_GET["page"];
+		$page = $_GET["page"];  // url?page=string
 	} else {
-		$page = "empty";
+		$page = "home"; //default
 	}
 
 ?>
@@ -23,7 +25,7 @@
 		<meta property="og: image" content="[[meta image source]]">
 		<link rel="icon" href="[[insert favicon source]]">
 
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/site.css">
 	</head>
 
 	<body>

@@ -2,7 +2,7 @@
 
 $meetingArray = [
 
-	$m0001 = [
+	[
 		"id" => 10001,
 		"date" => "May 27, 2010",
 		"host" => "Jenn",
@@ -20,7 +20,7 @@ $meetingArray = [
 		"notes" => "Our inaugural meeting.",
 	],
 
-	$m0002 = [
+	[
 		"id" => 10002,
 		"date" => "June 22, 2010",
 		"host" => "Kimmy",
@@ -38,7 +38,7 @@ $meetingArray = [
 		"notes" => "Kimmy hosted, but Cindy chose the book.",
 	],
 
-	$m0003 = [
+	[
 		"id" => 10003,
 		"date" => "August 24, 2010",
 		"host" => "Ann",
@@ -56,7 +56,7 @@ $meetingArray = [
 		"notes" => "Ann hosted, but Kimmy chose the book. This was the meeting when the cake came out, the poison raisins were eaten, and we obtained our name.",
 	],
 
-	$m0004 = [
+	[
 		"id" => 10004,
 		"date" => "September 23, 2010",
 		"host" => "Allison",
@@ -74,7 +74,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0005 = [
+	[
 		"id" => 10005,
 		"date" => "November 4, 2010",
 		"host" => "Cindy",
@@ -92,7 +92,7 @@ $meetingArray = [
 		"notes" => "Cindy hosted, but Helen chose the book.",
 	],
 
-	$m0006 = [
+	[
 		"id" => 10006,
 		"date" => "December 11, 2010",
 		"host" => "Helen",
@@ -110,7 +110,7 @@ $meetingArray = [
 		"notes" => "Helen hosted, but Ann chose the book. Almost nobody read it.",
 	],
 
-	$m0007 = [
+	[
 		"id" => 10007,
 		"date" => "January 30, 2011",
 		"host" => "Dana",
@@ -128,7 +128,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0008 = [
+	[
 		"id" => 10008,
 		"date" => "March 6, 2011",
 		"host" => "Emily",
@@ -146,7 +146,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0009 = [
+	[
 		"id" => 10009,
 		"date" => "May 12, 2011",
 		"host" => "Jenn",
@@ -164,7 +164,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0010 = [
+	[
 		"id" => 10010,
 		"date" => "June 28, 2011",
 		"host" => "Kimmy",
@@ -182,7 +182,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0011 = [
+	[
 		"id" => 10011,
 		"date" => "October 23, 2011",
 		"host" => "Ann",
@@ -200,7 +200,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0012 = [
+	[
 		"id" => 10012,
 		"date" => "December 9, 2011",
 		"host" => "Helen",
@@ -218,7 +218,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0013 = [
+	[
 		"id" => 10013,
 		"date" => "February 2, 2012",
 		"host" => "Dana",
@@ -236,7 +236,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0014 = [
+	[
 		"id" => 10014,
 		"date" => "April 3, 2012",
 		"host" => "Emily",
@@ -254,7 +254,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0015 = [
+	[
 		"id" => 10015,
 		"date" => "May 31, 2012",
 		"host" => "Allison",
@@ -272,7 +272,7 @@ $meetingArray = [
 		"notes" => "First meeting for Magda and Alex.",
 	],
 
-	$m0016 = [
+	[
 		"id" => 10016,
 		"date" => "August 16, 2012",
 		"host" => "Magda",
@@ -290,7 +290,7 @@ $meetingArray = [
 		"notes" => "Picnic at Kits Beach. Joined by baby Matthew Korchinski, the first Raisin Baby.",
 	],
 
-	$m0017 = [
+	[
 		"id" => 10017,
 		"date" => "October 17, 2012",
 		"host" => "Alex",
@@ -308,7 +308,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0018 = [
+	[
 		"id" => 10018,
 		"date" => "December 15, 2012",
 		"host" => "Kimmy",
@@ -326,7 +326,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0019 = [
+	[
 		"id" => 10019,
 		"date" => "January 18, 2013",
 		"host" => "Michelle",
@@ -344,7 +344,7 @@ $meetingArray = [
 		"notes" => "Julia's first meeting. Held at Alli's condo.",
 	],
 
-	$m0020 = [
+	[
 		"id" => 10020,
 		"date" => "February 13, 2013",
 		"host" => "Ann",
@@ -362,7 +362,7 @@ $meetingArray = [
 		"notes" => "Robyn's first meeting.",
 	],
 
-	$m0021 = [
+	[
 		"id" => 10021,
 		"date" => "April 17, 2013",
 		"host" => "Jenn",
@@ -380,7 +380,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0022 = [
+	[
 		"id" => 10022,
 		"date" => "May 23, 2013",
 		"host" => "Dana",
@@ -398,7 +398,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0023 = [
+	[
 		"id" => 10023,
 		"date" => "July 10, 2013",
 		"host" => "Emily",
@@ -416,7 +416,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0024 = [
+	[
 		"id" => 10024,
 		"date" => "August 7, 2013",
 		"host" => "Julia",
@@ -434,7 +434,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0025 = [
+	[
 		"id" => 10025,
 		"date" => "September 18, 2013",
 		"host" => "Allison",
@@ -452,7 +452,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0026 = [
+	[
 		"id" => 10026,
 		"date" => "October 21, 2013",
 		"host" => "Robyn",
@@ -471,7 +471,7 @@ $meetingArray = [
 		"notes" => "Poem",
 	],
 
-	$m0027 = [
+	[
 		"id" => 10027,
 		"date" => "November 20, 2013",
 		"host" => "Magda",
@@ -490,7 +490,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0028 = [
+	[
 		"id" => 10028,
 		"date" => "February 1, 2014",
 		"host" => "Ann",
@@ -509,7 +509,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0029 = [
+	[
 		"id" => 10029,
 		"date" => "March 28, 2014",
 		"host" => "Alex",
@@ -528,7 +528,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0030 = [
+	[
 		"id" => 10030,
 		"date" => "May 8, 2014",
 		"host" => "Jenn",
@@ -546,7 +546,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0031 = [
+	[
 		"id" => 10031,
 		"date" => "June 19, 2014",
 		"host" => "Dana",
@@ -564,7 +564,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0032 = [
+	[
 		"id" => 10032,
 		"date" => "August 10, 2014",
 		"host" => "Emily",
@@ -582,7 +582,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0033 = [
+	[
 		"id" => 10033,
 		"date" => "September 28, 2014",
 		"host" => "Kimmy",
@@ -600,7 +600,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0034 = [
+	[
 		"id" => 10034,
 		"date" => "October 30, 2014",
 		"host" => "Julia",
@@ -618,7 +618,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0035 = [
+	[
 		"id" => 10035,
 		"date" => "December 6, 2014",
 		"host" => "Allison",
@@ -636,7 +636,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0036 = [
+	[
 		"id" => 10036,
 		"date" => "February 5, 2015",
 		"host" => "Robyn",
@@ -654,7 +654,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0037 = [
+	[
 		"id" => 10037,
 		"date" => "March 28, 2015",
 		"host" => "Magda",
@@ -672,7 +672,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0038 = [
+	[
 		"id" => 10038,
 		"date" => "May 9, 2015",
 		"host" => "Jenn",
@@ -690,7 +690,7 @@ $meetingArray = [
 		"notes" => "Fifth Anniversary Meeting!",
 	],
 
-	$m0039 = [
+	[
 		"id" => 10039,
 		"date" => "June 24, 2015",
 		"host" => "Julia",
@@ -708,7 +708,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0040 = [
+	[
 		"id" => 10040,
 		"date" => "August 11, 2015",
 		"host" => "Alex",
@@ -726,7 +726,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0041 = [
+	[
 		"id" => 10041,
 		"date" => "September 16, 2015",
 		"host" => "Dana",
@@ -744,7 +744,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0042 = [
+	[
 		"id" => 10042,
 		"date" => "October 28, 2015",
 		"host" => "Emily",
@@ -762,7 +762,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0043 = [
+	[
 		"id" => 10043,
 		"date" => "December 12, 2015",
 		"host" => "Kimmy",
@@ -780,7 +780,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0044 = [
+	[
 		"id" => 10044,
 		"date" => "January 25, 2016",
 		"host" => "Ann",
@@ -798,7 +798,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0045 = [
+	[
 		"id" => 10045,
 		"date" => "March 21, 2016",
 		"host" => "Allison",
@@ -816,7 +816,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0046 = [
+[
 		"id" => 10046,
 		"date" => "April 23, 2016",
 		"host" => "Magda",
@@ -834,7 +834,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0047 = [
+[
 		"id" => 10047,
 		"date" => "June 7, 2016",
 		"host" => "Robyn",
@@ -852,7 +852,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0048 = [
+[
 		"id" => 10048,
 		"date" => "July 7, 2016",
 		"host" => "Jenn",
@@ -870,7 +870,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0049 = [
+[
 		"id" => 10049,
 		"date" => "August 31, 2016",
 		"host" => "Alex",
@@ -888,7 +888,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0050 = [
+[
 		"id" => 10050,
 		"date" => "October 3, 2016",
 		"host" => "Julia",
@@ -906,7 +906,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0051 = [
+[
 		"id" => 10051,
 		"date" => "November 16, 2016",
 		"host" => "Dana",
@@ -924,7 +924,7 @@ $meetingArray = [
 		"notes" => "Angela's first meeting.",
 	],
 
-	$m0052 = [
+	[
 		"id" => 10052,
 		"date" => "January 14, 2017",
 		"host" => "Kimmy",
@@ -942,7 +942,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0053 = [
+	[
 		"id" => 10053,
 		"date" => "February 20, 2017",
 		"host" => "Emily",
@@ -960,7 +960,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0054 = [
+	[
 		"id" => 10054,
 		"date" => "April 5, 2017",
 		"host" => "Ang",
@@ -978,7 +978,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0055 = [
+	[
 		"id" => 10055,
 		"date" => "May 20, 2017",
 		"host" => "Ann",
@@ -996,7 +996,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0056 = [
+	[
 		"id" => 10056,
 		"date" => "July 26, 2017",
 		"host" => "Allison",
@@ -1014,7 +1014,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0057 = [
+	[
 		"id" => 10057,
 		"date" => "September 8, 2017",
 		"host" => "Robyn",
@@ -1032,7 +1032,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0058 = [
+	[
 		"id" => 10058,
 		"date" => "October 20, 2017",
 		"host" => "Jenn",
@@ -1050,7 +1050,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0059 = [
+	[
 		"id" => 10059,
 		"date" => "December 6, 2017",
 		"host" => "Alex",
@@ -1068,7 +1068,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0060 = [
+	[
 		"id" => 10060,
 		"date" => "January 27, 2018",
 		"host" => "Kimmy",
@@ -1086,7 +1086,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0061 = [
+	[
 		"id" => 10061,
 		"date" => "March 4, 2018",
 		"host" => "Magda",
@@ -1104,7 +1104,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0062 = [
+	[
 		"id" => 10062,
 		"date" => "April 11, 2018",
 		"host" => "Emily",
@@ -1122,7 +1122,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0063 = [
+	[
 		"id" => 10062,
 		"date" => "May 23, 2018",
 		"host" => "Ang",
@@ -1140,7 +1140,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0064 = [
+	[
 		"id" => 10064,
 		"date" => "June 24, 2018",
 		"host" => "Julia",
@@ -1158,7 +1158,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0065 = [
+	[
 		"id" => 10065,
 		"date" => "July 31, 2018",
 		"host" => "Dana",
@@ -1176,7 +1176,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0066 = [
+	[
 		"id" => 10066,
 		"date" => "September 14, 2018",
 		"host" => "Ann",
@@ -1194,7 +1194,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0067 = [
+	[
 		"id" => 10067,
 		"date" => "October 19, 2018",
 		"host" => "Allison",
@@ -1212,7 +1212,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0068 = [
+	[
 		"id" => 10068,
 		"date" => "November 16, 2018",
 		"host" => "Robyn",
@@ -1230,7 +1230,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0069 = [
+	[
 		"id" => 10069,
 		"date" => "January 12, 2019",
 		"host" => "Kimmy",
@@ -1248,7 +1248,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0070 = [
+	[
 		"id" => 10070,
 		"date" => "February 23, 2019",
 		"host" => "Jenn",
@@ -1266,7 +1266,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0071 = [
+	[
 		"id" => 10071,
 		"date" => "April 5, 2019",
 		"host" => "Alex",
@@ -1284,7 +1284,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0072 = [
+	[
 		"id" => 10072,
 		"date" => "May 15, 2019",
 		"host" => "Emily",
@@ -1302,7 +1302,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0073 = [
+	[
 		"id" => 10073,
 		"date" => "June 23, 2019",
 		"host" => "Ang",
@@ -1320,7 +1320,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0074 = [
+	[
 		"id" => 10074,
 		"date" => "July 31, 2019",
 		"host" => "Dana",
@@ -1338,7 +1338,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0075 = [
+	[
 		"id" => 10075,
 		"date" => "September 13, 2019",
 		"host" => "Ann",
@@ -1356,7 +1356,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0076 = [
+	[
 		"id" => 10076,
 		"date" => "October 21, 2019",
 		"host" => "Julia",
@@ -1374,7 +1374,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0077 = [
+	[
 		"id" => 10077,
 		"date" => "November 29, 2019",
 		"host" => "Allison",
@@ -1392,7 +1392,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0078 = [
+	[
 		"id" => 10078,
 		"date" => "January 17, 2020",
 		"host" => "Robyn",
@@ -1410,7 +1410,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0079 = [
+	[
 		"id" => 10079,
 		"date" => "February 22, 2020",
 		"host" => "Kimmy",
@@ -1428,7 +1428,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0080 = [
+	[
 		"id" => 10080,
 		"date" => "May 30, 2020",
 		"host" => "Jenn",
@@ -1446,7 +1446,7 @@ $meetingArray = [
 		"notes" => "Tenth Anniversary Meeting. Tarp city in Ann's backyard.",
 	],
 
-	$m0081 = [
+	[
 		"id" => 10081,
 		"date" => "August 31, 2020",
 		"host" => "Alex",
@@ -1464,7 +1464,7 @@ $meetingArray = [
 		"notes" => "Outdoor meeting on Alex's patio.",
 	],
 
-	$m0082 = [
+	[
 		"id" => 10082,
 		"date" => "October 3, 2020",
 		"host" => "Emily",
@@ -1482,7 +1482,7 @@ $meetingArray = [
 		"notes" => "Outdoor meeting in Ann's backyard.",
 	],
 
-	$m0083 = [
+	[
 		"id" => 10083,
 		"date" => "November 7, 2020",
 		"host" => "Ang",
@@ -1500,7 +1500,7 @@ $meetingArray = [
 		"notes" => "Virtual meeting",
 	],
 
-	$m0084 = [
+	[
 		"id" => 10084,
 		"date" => "December 10, 2020",
 		"host" => "Julia",
@@ -1518,7 +1518,7 @@ $meetingArray = [
 		"notes" => "Virtual meeting",
 	],
 
-	$m0085 = [
+	[
 		"id" => 10085,
 		"date" => "February 19, 2021",
 		"host" => "Dana",
@@ -1536,7 +1536,7 @@ $meetingArray = [
 		"notes" => "Virtual meeting",
 	],
 
-	$m0086 = [
+	[
 		"id" => 10086,
 		"date" => "May 15, 2021",
 		"host" => "Ann",
@@ -1554,7 +1554,7 @@ $meetingArray = [
 		"notes" => "Virtual meeting",
 	],
 
-	$m0087 = [
+	[
 		"id" => 10087,
 		"date" => "June 26, 2021",
 		"host" => "Robyn",
@@ -1572,7 +1572,7 @@ $meetingArray = [
 		"notes" => "Outdoor meeting in Robyn's backyard",
 	],
 
-	$m0088 = [
+	[
 		"id" => 10088,
 		"date" => "2021",
 		"host" => "Alex",
@@ -1590,7 +1590,7 @@ $meetingArray = [
 		"notes" => "No meeting",
 	],
 
-	$m0089 = [
+	[
 		"id" => 10089,
 		"date" => "September 25, 2021",
 		"host" => "Emily",
@@ -1608,7 +1608,7 @@ $meetingArray = [
 		"notes" => "Roof-top meeting",
 	],
 
-	$m0090 = [
+	[
 		"id" => 10090,
 		"date" => "November 13, 2021",
 		"host" => "Allison",
@@ -1626,7 +1626,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0091 = [
+	[
 		"id" => 10091,
 		"date" => "February 12, 2022",
 		"host" => "Kimmy",
@@ -1644,7 +1644,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0092 = [
+	[
 		"id" => 10092,
 		"date" => "April 9, 2022",
 		"host" => "Jenn",
@@ -1662,7 +1662,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0093 = [
+	[
 		"id" => 10093,
 		"date" => "May 28, 2022",
 		"host" => "Ang",
@@ -1680,7 +1680,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0094 = [
+	[
 		"id" => 10094,
 		"date" => "August 6, 2022",
 		"host" => "Dana",
@@ -1698,7 +1698,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0095 = [
+	[
 		"id" => 10095,
 		"date" => "November 19, 2022",
 		"host" => "Robyn",
@@ -1716,7 +1716,7 @@ $meetingArray = [
 		"notes" => NULL,
 	],
 
-	$m0096 = [
+	[
 		"id" => 10096,
 		"date" => "December 18, 2022",
 		"host" => "Ann",
@@ -1734,7 +1734,7 @@ $meetingArray = [
 		"notes" => "Graphic novel. Brunch meeting.",
 	],
 
-	$m0097 = [
+	[
 		"id" => 10097,
 		"date" => "February 3, 2013",
 		"host" => "Allison",
@@ -1755,3 +1755,5 @@ $meetingArray = [
 
 
 ?>
+
+<!-- book cover API https://github.com/w3slley/bookcover-api -->
