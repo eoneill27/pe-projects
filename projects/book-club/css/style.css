@@ -1,0 +1,161 @@
+@import 'meyer-setup.css';
+
+body * {
+/*	border: 2px solid red;*/
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+inner-column {
+	display: block;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: Avenir, sans-serif;
+}
+
+.heyyou-voice {
+	font-size: clamp(30px, 10vw, 50px);
+}
+
+.attention-voice {
+	font-size: clamp(20px, 8vw, 40px);
+}
+
+.info-voice {
+	font-size: clamp(18px, 7vw, 26px);
+	font-weight: 500;
+}
+
+.host-voice {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.nav-voice {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+h1 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+a {
+	margin-right: 25px;
+}
+
+h2 + h3 {
+	margin-top: 20px;
+}
+
+h3 + h4 {
+	margin-top: 20px;
+}
+
+
+/* SITE NAV */
+
+nav inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+/* MEETING GRID */
+
+.meeting-grid {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+meeting-card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 250px;
+	padding: 20px;
+	margin-top: 40px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+meeting-card .book-cover {
+	display: none;
+}
+
+meeting-card .card-info {
+	display: flex;
+	flex-direction: column;
+
+}
+
+meeting-card:hover .book-cover {
+	display: flex;
+}
+
+meeting-card:hover .card-info {
+	display: none;
+}
+
+
+@media (min-width: 420px) {
+	meeting-card {
+		width: 350px;
+	}
+}
+
+@media (min-width: 550px) {
+	meeting-card {
+		width: 400px;
+	}
+}
+
+@media (min-width: 650px) {
+	meeting-card {
+		width: 450px;
+		min-height: 200px;
+	}
+}
+
+@media (min-width: 800px) {
+	meeting-card {
+		width: 350px;
+		min-height: 250px;
+	}
+
+	.meeting-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+	}
+}
+
+@media (min-width: 900px) {
+	meeting-card {
+		width: 275px;
+		min-height: 300px;
+	}
+
+	.meeting-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
+	}
+}
+/* IMAGES */
+
+.meeting-photo {
+	max-width: 500px;
+}
+
