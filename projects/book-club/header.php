@@ -31,8 +31,8 @@
 		<nav class="site-nav">
 			<inner-column>
 				<a class="nav-voice" href="?page=home">Home</a>
-				<a class="nav-voice" href="?page=meetings">Past meetings</a>
-				<a class="nav-voice" href="?page=photos">Photo album</a>
+				<a class="nav-voice" href="?page=meetings">Meetings</a>
+				<a class="nav-voice" href="?page=photos">Photos</a>
 				<a class="nav-voice" href="?page=recipes">Recipes</a>
 			</inner-column>
 		</nav>
