@@ -3,26 +3,26 @@
 
 <?php include ("data/meeting-data.php"); ?>
 
-<section >
-	<ul class="meeting-grid">
-<?php 
 
-	foreach ($meetingArray as $meeting) { 
-		$meetingId = $meeting["id"];
-		$date = $meeting["date"];
-		$host = $meeting["host"];
-		$title = $meeting["title"];
-		$subtitle = $meeting["subtitle"];
-		$author = $meeting["author"];
-		$genre = $meeting["genre"];
-		$isbn = $meeting["isbn"];
-		$cover = $meeting["cover"];
-		$gala = $meeting["gala"];
-		$notes = $meeting["notes"];
+<ul class="meeting-grid">
+	<?php 
 
-		//what to do about adaptations, meetingPhotos, meal, attendees
+		foreach ($meetingArray as $meeting) { 
+			$meetingId = $meeting["id"];
+			$date = $meeting["date"];
+			$host = $meeting["host"];
+			$title = $meeting["title"];
+			$subtitle = $meeting["subtitle"];
+			$author = $meeting["author"];
+			$genre = $meeting["genre"];
+			$isbn = $meeting["isbn"];
+			$cover = $meeting["cover"];
+			$gala = $meeting["gala"];
+			$notes = $meeting["notes"];
 
-?>
+			//what to do about adaptations, meetingPhotos, meal, attendees
+
+	?>
 	
 		
 		<li class="meeting">
@@ -41,5 +41,4 @@
 		</li>
 
 	<?php } ; ?>
-	</ul>
-</section>
+</ul>

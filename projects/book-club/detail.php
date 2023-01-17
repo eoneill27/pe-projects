@@ -17,18 +17,22 @@
 
 <?php if(isset($detail)) { ?>
 
-	<h1 class="heyyou-voice"><?=$detail["date"]?></h1>
-	<h2 class="attention-voice"><?=$detail["host"]?></h2>
-
 	<div class="detail-card">
 		<picture class="detail-cover">
 			<img src="<?=$detail["cover"]?>" alt="">
 		</picture>
 		<div class="detail-data">
-			<h3 class="info-voice"><?=$detail["title"]?></h3>
-			<h4 class="author-voice"><?=$detail["author"]?></h4>
+			<div class="detail-data-top">
+				<h1 class="detail-date attention-voice"><?=$detail["date"]?></h1>
+				<h2 class="detail-title info-voice"><?=$detail["title"]?></h2>
+				<h3 class="detail-subtitle author-voice"><?=$detail["subtitle"]?></h3>
+				<h4 class="detail-author author-voice">by <?=$detail["author"]?></h4>
+				<h5 class="detail-host info-voice">Hosted by <?=$detail["host"]?></h5>
+			</div>
 
-			<p class="reading-voice"><?=$detail["notes"]?></p>
+			<div class="detail-data-bottom">
+				<p class="detail-notes reading-voice"><span style="font-weight: 500">Notes:</span> <?=$detail["notes"]?></p>
+			</div>
 		</div>
 
 	</div>
