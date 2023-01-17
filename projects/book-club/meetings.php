@@ -23,10 +23,9 @@
 		//what to do about adaptations, meetingPhotos, meal, attendees
 
 ?>
-
 	
 		<meeting-card>
-			<a href="detail/<?=$id?>">
+			<a href="?page=detail&id=<?=$id?>">
 			<picture class="book-cover">
 				<img src="<?=$cover?>" alt="">
 			</picture>
