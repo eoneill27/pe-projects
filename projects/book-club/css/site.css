@@ -54,6 +54,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 
 .reading-voice {
 	font-size: 18px;
+	line-height: 1.2;
 }
 
 .nav-voice {
@@ -221,26 +222,67 @@ meeting-card:hover .card-info {
 
 /* DETAIL PAGE */
 
+.detail-card {
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+	margin-top: 40px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
 .detail-cover {
 	max-width: 225px;
+}
+
+.detail-date {
+	margin-top: 40px;
+}
+
+.detail-title, .detail-subtitle {
+	font-style: italic;
+}
+
+.detail-title + .detail-subtitle {
+	margin-top: 5px;
+}
+
+.detail-author {
+	margin-top: 10px;
+}
+
+.detail-host {
+	margin-top: 30px;
+}
+
+.detail-notes {
+	margin-top: 20px;
 }
 
 @media (min-width: 600px) {
 
 	.detail-card {
+		margin-top: 40px;
 		display: flex;
-		gap: 20px;
+		flex-direction: row;
+		align-items: center;
+		gap: 30px;
 	}
 
 	.detail-data {
 		display: flex;
 		flex-direction: column;
-		margin-top: 30px;
+		justify-content: space-between;
+		gap: 50px;
+		
 	}
 
 	.detail-cover {
 		max-width: 500px;
-		margin-top: 30px;
+	}
+
+	.detail-notes {
+		margin-bottom: 30px;
+		max-width: 60ch;
 	}
 }
 /* IMAGES */
@@ -248,5 +290,11 @@ meeting-card:hover .card-info {
 
 .meeting-photo {
 	max-width: 500px;
+}
+
+/* FOOTER */
+
+.site-footer {
+	margin-top: 100px;
 }
 
