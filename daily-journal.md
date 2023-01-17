@@ -1,5 +1,73 @@
 # Emily's Daily Journal
 
+## January 16, 2023
+
+### Stand up
+
+This weekend I got my e4p page up and running and I have 5 forms on there. I made all of the styling consistent and also played around with the styling of my site a bit. I had a good talk with Derek on Saturday and still need to implement some of what we've talked about in my book list project. The merge conflict meeting was fun, and it was nice to have a big group meeting! 
+
+This morning I watched the Andy Harris video on how to begin thinking like a programmer while I was waiting for the lesson to be posted. The project we're embarking on this week sounds exciting, so I'm looking forward to really getting into today's lesson. Happily, I don't have to go to work today. I'm heading to spin class with one of my triathlon buddies in a few minutes, but I'll be back around 11 and will be available pretty much all day.
+
+No blockers today!  
+
+### Today's lesson - 127:097: Routing with URL querystrings
+
+GET object
+add to URL - ? and a key:value pair
+
+Querystring - ?name=emily
+
+Can use that key/value pair anywhere on the page
+
+$name = $_GET["name"];
+Can use this to put things in a particular order on a page
+
+Can add as many key/value pairs as you want
+
+/?name=emily&food=pasta
+Query parameters
+
+PHP manual definition - 
+$_GET is an associative array of variables passed to the current script via the URL parameters (AKA query string). Note that the array is not only populated for GET requests, but rather for all requests with a query string.
+
+Create templates
+?page=home
+?page=list
+?page=details
+
+Script is being read from top to bottom. 
+Want to find out what route we're going to take before we do anything on the page.
+Put the PHP zone high (Derek puts it above HTML tag)
+
+```
+	<?php $page = $_GET["page"] ?>
+
+	if(isset($_GET["page"])) {
+		$page = $_GET["page"];
+	} else {
+		$page = "empty";
+	}
+```
+If it's getting something from the query string - use it - otherwise, don't.
+
+empty() - determine whether a variable is empty
+- a variable is considered empty if it does not exist or if its value equals false
+- empty() does not generate a warning if the variable does not exist
+- essentially the concise equivalent to !isset($var) || $var == false
+- returns true if variable does not exist or has a value that is empty or equal to zero
+- otherwise returns false
+
+when you POST your form, it gets stored in $_POST array
+When you GET a URL and send along some data, it gets stored in the $_GET array
+
+What is returned is just a string
+
+### To dos
+
+- [x] watch the video 
+- [x] figure out what you'd like your project to be about
+- [x] start building your project
+
 ## January 14 2023
 
 ### Stand up
