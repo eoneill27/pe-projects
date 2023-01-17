@@ -28,11 +28,13 @@
 
 	<body>
 
-		<nav class="site-nav">
+		<header class="site-header">
 			<inner-column>
-				<a class="nav-voice" href="?page=home">Home</a>
-				<a class="nav-voice" href="?page=meetings">Meetings</a>
-				<a class="nav-voice" href="?page=photos">Photos</a>
-				<a class="nav-voice" href="?page=recipes">Recipes</a>
+				<nav class="site-nav">
+					<a class="nav-voice" href="?page=home">Home</a>
+					<a class="nav-voice" href="?page=meetings">Meetings</a>
+					<a class="nav-voice" href="?page=photos">Photos</a>
+					<a class="nav-voice" href="?page=recipes">Recipes</a>
+				</nav>
 			</inner-column>
-		</nav>
+		</header>

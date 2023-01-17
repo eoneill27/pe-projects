@@ -4,7 +4,7 @@
 <?php include ("data/meetings.php"); ?>
 
 <section class="meeting-grid">
-	
+
 <?php 
 
 	foreach ($meetingArray as $meeting) { 
@@ -24,18 +24,19 @@
 
 ?>
 
-	<a href="detail/<?=$id?>">
+	
 		<meeting-card>
-				<picture class="book-cover">
-					<img src="<?=$cover?>" alt="">
-				</picture>
-				<div class="card-info">
-					<h2 class="attention-voice"><?=$title?></h2>
-					<h3 class="info-voice"><?=$date?></h3>
-					<h4 class="host-voice"><?=$host?></h4>
-				</div>
+			<a href="detail/<?=$id?>">
+			<picture class="book-cover">
+				<img src="<?=$cover?>" alt="">
+			</picture>
+			<div class="card-info">
+				<h2 class="attention-voice"><?=$title?></h2>
+				<h3 class="info-voice"><?=$date?></h3>
+				<h4 class="host-voice"><?=$host?></h4>
+			</div>
+			</a>
 		</meeting-card>
-	</a>
 
 	<?php } ; ?>
 
