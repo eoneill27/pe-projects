@@ -65,6 +65,9 @@
 					if ($page == "detail") {
 						include ("detail.php");
 					}
+					if ($page =="addMeeting") {
+						include ("addMeeting.php");
+					}
 
 				?>
 
@@ -73,6 +76,7 @@
 
 		<footer class="site-footer">
 			<inner-column>
+				<a class="nav-voice" href="?page=addMeeting">Add a meeting</a>
 				
 			</inner-column>
 		</footer>

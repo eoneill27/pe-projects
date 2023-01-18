@@ -1,4 +1,4 @@
-<h1 class="heyyou-voice">Poison Raisins Forever!</h1>
+<h1 class="home-heading heyyou-voice">Poison Raisins Forever!</h1>
 
 <?php
 

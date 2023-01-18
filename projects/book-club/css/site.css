@@ -115,6 +115,10 @@ h4 + p {
 
 /* HOME */
 
+.home-heading {
+	text-align: center;
+}
+
 .next-meeting { 
 	display: flex;
 	flex-direction: column;
@@ -224,6 +228,7 @@ meeting-card:hover .card-info {
 	meeting-card {
 		width: 275px;
 		height: 400px;
+		margin-top: 20px;
 	}
 
 	.book-cover {
@@ -232,8 +237,8 @@ meeting-card:hover .card-info {
 
 	.meeting-grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 10px;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
 	}
 }
 
@@ -309,9 +314,30 @@ meeting-card:hover .card-info {
 	max-width: 500px;
 }
 
+/* MEETING FORM */
+
+field {
+	display: block;
+}
+
 /* FOOTER */
 
-.site-footer {
-	margin-top: 100px;
+.site-footer inner-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+
+@media (min-width: 450px) {
+	.site-footer inner-column {
+		justify-content: flex-end;
+		gap: 30px;
+		padding: 50px 20px;
+		margin-top: 100px;
+	}
 }
 
