@@ -71,7 +71,7 @@
 				<meeting-card>
 					<div class="card-info">
 						<h2 class="title attention-voice"><?=$title?></h2>
-						<h3 class="meeting-date info-voice"><?=date('F d, Y', $date)?></h3>
+						<h3 class="meeting-date info-voice"><?=date('F j, Y', $date)?></h3>
 						<h4 class="host host-voice"><?=$host?></h4>
 					</div>
 
