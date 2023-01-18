@@ -1,11 +1,26 @@
 <h1 class="heyyou-voice">Poison Raisins Forever!</h1>
 
+<?php
+
+	include ("data/meeting-data.php");
+
+	$nextMeetings = array_slice($meetingArray, -1);
+
+	foreach ($nextMeetings as $nextMeeting) {
+		$nextDate = $nextMeeting["date"];
+		$nextHost = $nextMeeting["host"];
+		$nextTitle = $nextMeeting["title"];
+		$nextAuthor = $nextMeeting["author"];
+	}
+
+?>
+
 <div class="next-meeting">
 	<h2 class="attention-voice">NEXT MEETING:</h2>
-	<p class="info-voice">February 3, 2023 at Allison's</p>
+	<p class="info-voice"><?=$nextDate?> at <?=$nextHost?>'s</p>
 
 	<h2 class="attention-voice">NEXT BOOK:</h2>
-	<p class="info-voice">To Be or Not to Be/Ryan North</p>
+	<p class="info-voice"><span style="font-style: italic"><?=$nextTitle?></span> by <?=$nextAuthor?></p>
 </div>
 
 
