@@ -30,6 +30,10 @@ same page - different information
 
 query string is driving what is being put on the page
 
+FROM MIGUEL'S POST - 
+Yesterday, I couldn’t figure out how to have data in downstream folders connect to the root. It got to the point where I had to abandon folders for anything but my CSS and image files, leaving all else in the root. I met with Derek today, and he provided a beacon.
+If I have a PHP file ten folders downstream, but I’ve included it in my index file, the index file is running that script. That means, the index file is to be the base path to start seeking those other CSS/image/data folders. Where a PHP partial doesn’t matter; where the file that runs that PHP partial is what matters.
+
 ### To dos
 
 - [x] watch the video
