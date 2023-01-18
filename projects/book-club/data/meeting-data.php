@@ -6,7 +6,7 @@ $meetingArray = [
 		"id" => 10001,
 		"date" => "May 27, 2010",
 		"host" => "Jenn",
-		"title" => "Book of Negroes",
+		"title" => "The Book of Negroes",
 		"subtitle" => NULL,
 		"author" => "Lawrence Hill",
 		"genre" => "fiction",
@@ -1736,7 +1736,7 @@ $meetingArray = [
 
 	[
 		"id" => 10097,
-		"date" => "February 3, 2013",
+		"date" => "February 3, 2023",
 		"host" => "Allison",
 		"title" => "To Be or Not to Be",
 		"subtitle" => "A Chooseable-Path Adventure",

@@ -62,22 +62,9 @@
 					if ($page == "recipes") {
 						include ("recipes.php");
 					}
-
 					if ($page == "detail") {
 						include ("detail.php");
 					}
-
-				// 	if (isset($_GET["id"])) {
-				// 		$id = $_GET["id"];
-				// 	} else {
-				// 		$id = "empty";
-				// 	}
-
-				// 	if ($id == $meetingId) {
-				// 		echo $meetingId;
-				// 	}
-
-				// }
 
 				?>
 

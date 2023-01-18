@@ -134,6 +134,19 @@ h4 + p {
 }
 /* MEETING GRID */
 
+.order-sort {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+.order-sort a {
+	font-weight: 500;
+}
+.order-sort a:hover {
+	color: salmon;
+}
+
 .meeting-grid {
 	display: flex;
 	flex-direction: column;
@@ -170,6 +183,10 @@ meeting-card:hover .card-info {
 @media (min-width: 420px) {
 	meeting-card {
 		width: 350px;
+	}
+
+	.order-sort {
+		margin-left: 2px;
 	}
 }
 
