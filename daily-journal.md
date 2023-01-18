@@ -1,5 +1,40 @@
 # Emily's Daily Journal
 
+## January 17, 2023
+
+### Stand up
+
+Yesterday I got going on my querystring/routing/template project. I'm excited about this - this whole challenge fits in really nicely with what I've been wanting to do for my book club site, and I think it's going to turn out really well. 
+
+Today I watched the video and started building my details page. On my coffee break at work today I started writing out in longhand what exactly is going on with the GET superglobal and the querystring and routing stuff, as far as I understand it, to help me process the information and make it stick. I also added some notes to my code to provide myself with extra clarity when I'm looking things over. 
+
+Yesterday I broke the header and the footer out into partials, but I think I'll reincorporate those into the index today. I don't think having them separate is benefitting me too much in this case - and I was starting to get confused with part of my router in the header.php file and part of it in the index.php file. Better to have it all in one place, I think.
+
+No blockers today! Looking forward to chatting with some of you tonight.
+
+### Today's lesson - 128:098: Dynamic detail templates
+
+Why do we initialize the $page variable?
+Not actually necessary with the if/else statement included
+But it's good practice - good to let the program know what variables are starting as
+
+other superglobals - 
+$_SERVER (gets you information about the server)
+$_SESSION
+
+form can send GET request
+link can also send GET request 
+sends the key/value pair up into the GET superglobal
+send a little information to build the page differently
+same page - different information
+
+query string is driving what is being put on the page
+
+### To dos
+
+- [x] watch the video
+- [x] work out your detail page
+
 ## January 16, 2023
 
 ### Stand up
