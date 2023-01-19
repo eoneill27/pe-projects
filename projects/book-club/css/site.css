@@ -8,6 +8,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
+	--site-purple: #342645;
 }
 
 inner-column {
@@ -16,7 +17,9 @@ inner-column {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
-}
+/*	background-color: var(--site-purple);
+	color: white;
+*/}
 
 .page-content {
 	flex-grow: 1;
@@ -158,6 +161,8 @@ h4 + p {
 }
 
 meeting-card {
+	background-color: white;
+	color: black;
 	display: block;
 	width: 250px;
 	padding: 20px;
@@ -242,13 +247,7 @@ meeting-card:hover .card-info {
 	}
 }
 
-@media (min-width: 1200px) {
-	.meeting-grid {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-gap: 20px;
-	}
-}
+
 
 /* DETAIL PAGE */
 
@@ -344,6 +343,16 @@ form-field.radio-field {
 	flex-direction: row;
 	align-items: center;
 	flex-wrap: wrap;
+	max-width: 60ch;
+}
+
+form-field legend, label {
+	font-weight: 500;
+}
+
+form-field.radio-field label {
+	font-weight: 400;
+	margin-right: 5px;
 }
 
 form-field input {
@@ -352,11 +361,21 @@ form-field input {
 
 form-field.radio-field input {
 	margin-top: 0;
+	margin-left: 10px;
 }
 
 button {
 	margin-top: 20px;
+	margin-bottom: 50px;
 	padding: 5px 30px;
+}
+
+.form-link {
+	font-weight: 600;
+}
+
+.form-link:hover {
+	color: salmon;
 }
 
 /* FOOTER */

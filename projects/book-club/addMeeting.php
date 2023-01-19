@@ -83,6 +83,7 @@
 	</form-field>
 
 	<form-field class="radio-field">
+		<legend class="reading-voice" style="font-family: Avenir, sans-serif">Genre:</legend>
 		<input class="reading-voice" type="radio" id="genre" name="genre" value="fiction"/>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="fiction">Fiction</label>
 
@@ -97,7 +98,7 @@
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="cover">Cover image URL*</label>
-		<input type="url" id="cover" name="cover" pattern="https://" />
+		<input type="url" id="cover" name="cover" />
 	</form-field>
 
 	<form-field class="radio-field">
@@ -118,4 +119,8 @@
 	<button class="reading-voice" type="submit" name="add">
 		Add meeting
 	</button>
+
+	<p class="reading-voice">* Book cover URLs can be obtained with the w3ssley <a class="form-link" href="https://github.com/w3slley/bookcover-api" target="_blank">bookcover-api</a>.</p>
 </form>
+
+<p class="attention-voice" style="margin-top: 50px";><?=$message?></p>
