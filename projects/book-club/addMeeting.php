@@ -2,11 +2,45 @@
 
 <?php
 
+$date = NULL;
+$title = "";
+$message = NULL;
+
+$hasDate = false;
+$hasTitle = false;
+
+$dateError = false;
+$titleError = false;
+
 	if (isset($_POST["add"])) {
 		$message = "The meeting has been added!";
 	} else {
 		$message = NULL;
 	}
+
+	if (isset($_POST["add"])) {
+		if (isset($_POST["date"])) {
+			$date = $_POST["date"];
+
+			if ($date == true) {
+				$hasDate = true;
+			} else {
+				$dateError = "Please enter the meeting date.";
+			}
+		}
+
+		if (isset($_POST["title"])) {
+			$title = $_POST["title"];
+
+			if ( strlen($title > 0) ) {
+				$hasTitle = true;
+			} else {
+				$titleError = "Please enter the book title.";
+			}
+		}
+		}
+
+		
 
 ?>
 
@@ -14,7 +48,11 @@
 	
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="date">Meeting date</label>
-		<input class="reading-voice" type="date" id="date" name="date" min="2010-01-01" required />
+		<input class="reading-voice" type="date" id="date" name="date" min="2010-01-01" />
+		<?php if ($dateError) { ?>
+			<p class="error"><?=$dateError?></p>
+		<?php }; ?>
+
 	</form-field>
 
 	<form-field class="radio-field">
@@ -69,7 +107,10 @@
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="title">Title</label>
-		<input type="text" id="title" name="title" required />
+		<input type="text" id="title" name="title" />
+		<?php if ($titleError) { ?>
+			<p class="error"><?=$titleError?></p>
+		<?php }; ?>
 	</form-field>
 
 	<form-field>

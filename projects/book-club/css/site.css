@@ -378,6 +378,12 @@ button {
 	color: salmon;
 }
 
+.error {
+	color: darkorange;
+	font-weight: 500;
+	margin-top: 5px;
+}
+
 /* FOOTER */
 
 .site-footer inner-column {
