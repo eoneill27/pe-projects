@@ -1,5 +1,62 @@
 # Emily's Daily Journal
 
+## January 18, 2023
+
+### Stand up
+
+Yesterday I built out my meeting detail page and added a little bit of other functionality to my book club site. It was nice to talk with everyone last night! I 
+
+Today I'm going to keep refining the styling and layouts, and I'll get an "Add Meeting" form up. It always helps to hear how other people are understanding and explaining the concepts.
+
+No blockers today!
+
+### Today's lesson - 129:099: CRUD: Database ideas and medley
+
+CRUD - Create, Read, Update, Delete
+
+Each piece of data that you want to store is referred to as a record
+The record needs to be made to exist somehow - maybe via an add button, a form, something automated
+The record is Created
+This implies that it is saved to a database
+Reading the record - looking at it again
+Reading the database, probably displaying the records
+Updating the record by changing it in some way, maybe changing user name or address
+Sometimes you don't want to keep a record anymore - you want to Delete it
+
+CRUD = a term to describe how we interact with databases
+
+Google Forms - in response tab, you can create a spreadsheet from the form
+Export to CSV, open in Sublime
+
+We will store our data in a JSON file
+
+CMD + D - in a Sublime file, find all the instances of a particular word or phrase
+
+CMD + SHIFT + F - find across all open files
+can also use to find and replace a string across all open files
+Use this if you want to change something across many files
+Use CMD + D for one file
+
+Having stuff that works and that you understand is way more important than having things "cool" or "tidy" or whatever. 
+
+Could create a function to get the templates - 
+function getTemplate($page) {
+	include($page . '.php');
+}
+
+Then replace all the Includes with getTemplate($page);
+
+require()
+for something very important - use instead of include()
+
+in a form - input type="range" creates a slider
+
+
+
+### To dos 
+- [x] build form
+
+
 ## January 17, 2023
 
 ### Stand up
