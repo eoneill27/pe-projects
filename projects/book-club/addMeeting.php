@@ -1,6 +1,6 @@
 
 
-<h1 class="heyyou-voice">Add a meeting</h1>
+<h1 class="attention-voice">Add a meeting</h1>
 
 <?php
 
