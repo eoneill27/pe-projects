@@ -1,6 +1,6 @@
 <?php include ("site-nav.php"); ?>
 
-<?php include ("../secrets/users.php"); ?>
+<?php include ("../secret/users.php"); ?>
 
 <h1 class="heyyou-voice">Log in</h1>
 <!-- test -->
