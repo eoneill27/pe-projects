@@ -4,8 +4,22 @@
 		background-color: black;
 		background-image: url(images/poison-raisins.svg);
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
+		background-size: 150%;
+		background-position: top 20px;
+	}
+
+	@media (min-width: 500px) {
+		body {
+			background-size: 125%;
+			background-position: center;
+		}
+	}
+
+	@media (min-width: 650px) {
+		body {
+			background-size: 100vh;
+			background-position-y: -180px;
+		}
 	}
 
 	inner-column {
