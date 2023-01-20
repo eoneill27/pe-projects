@@ -6,30 +6,43 @@
 
 <?php
 
-$inputUser = NULL;
-$inputPass = NULL;
+	$inputUser = NULL;
+	$inputPass = NULL;
 
-$message = NULL;
+	$message = NULL;
 
-if (isset($_POST["submitted"])) {
+	if (isset($_POST["submitted"])) {
 
-	$inputUser = $_POST["userName"];
-	$inputPass = $_POST["password"];
+		$inputUser = $_POST["userName"];
+		$inputPass = $_POST["password"];
 
-	$inputLogin = array($inputUser, $inputPass);
+		$inputLogin = array($inputUser, $inputPass);
 
-	$adminLogin = array($admin["adminName"], $admin["adminPassword"]);
+		$adminLogin = array($admin["adminName"], $admin["adminPassword"]);
 
-	if ($inputLogin === $adminLogin) {
-		header("Location: ?page=admin");
-		exit;
+		if ($inputLogin === $adminLogin) {
+			header("Location: ?page=admin");
+			exit;
+		}
+
+		foreach ($userArray as $user) {
+			$userName = $user["userName"];
+			$userPass = $user["password"];
+
+			$userLogin = array($userName, $userPass);
+
+			if ($inputLogin === $userLogin) {
+				header("Location: ?page=home");
+				exit;
+			} elseif ($inputLogin == NULL) {
+				$message = NULL;
+			} else {
+				$message = "Incorrect user name or password";
+			}
+		}
 	}
 
-	foreach ($userArray as $user) {
-		$userName = $user["userName"];
-		$userPass = $user["password"];
 
-		$userLogin = array($userName, $userPass);
 
 		// print_r($userLogin);
 	 
@@ -38,20 +51,6 @@ if (isset($_POST["submitted"])) {
 		// } else {
 		// 	echo "not great";
 		// }
-
-		if ($inputLogin === $userLogin) {
-			header("Location: ?page=home");
-			exit;
-		} elseif ($inputLogin == NULL) {
-			$message = NULL;
-		} else {
-			$message = "incorrect user name or password";
-		}
-	}
-}
-
-
-
 // }
 
 		// if (strcasecmp($inputUser, $userName) == 0) {
