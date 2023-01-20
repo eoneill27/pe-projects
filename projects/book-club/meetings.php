@@ -1,3 +1,4 @@
+<?php include ("site-nav.php"); ?>
 
 <h1 class="heyyou-voice">Past Meetings</h1>
 
@@ -86,3 +87,5 @@
 	<?php } ; ?>
 
 </ul>
+
+<?php include ("footer.php"); ?>

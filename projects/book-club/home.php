@@ -1,3 +1,5 @@
+<?php include ("site-nav.php"); ?>
+
 <h1 class="home-heading heyyou-voice">Poison Raisins Forever!</h1>
 
 <?php
@@ -24,3 +26,4 @@
 </div>
 
 
+<?php include ("footer.php"); ?>

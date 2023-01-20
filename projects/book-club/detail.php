@@ -1,3 +1,5 @@
+<?php include ("site-nav.php"); ?>
+
 <?php include ("data/meeting-data.php"); ?>
 
 <?php
@@ -42,4 +44,6 @@
 	<h1 class="heyyou-voice">No meeting found</h1>
 
 <?php } ?>
+
+<?php include ("footer.php"); ?>
 

@@ -116,6 +116,11 @@ h4 + p {
 	}
 }
 
+/* LANDING */
+
+
+
+
 /* HOME */
 
 .home-heading {
@@ -321,7 +326,7 @@ meeting-card:hover .card-info {
 	max-width: 500px;
 }
 
-/* MEETING FORM */
+/* FORMS */
 
 form {
 	display: flex;

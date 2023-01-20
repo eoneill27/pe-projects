@@ -9,7 +9,7 @@
 	if (isset($_GET["page"])) {
 		$page = $_GET["page"];  // url?page=string
 	} else {
-		$page = "home"; //default
+		$page = "landing"; //default
 	}
 
 ?>
@@ -30,26 +30,21 @@
 
 	<body>
 
-		<header class="site-header">
-			<inner-column>
-				<nav class="site-nav">
-					<a class="nav-voice" href="?page=home">Home</a>
-					<a class="nav-voice" href="?page=meetings">Meetings</a>
-					<a class="nav-voice" href="?page=photos">Photos</a>
-					<a class="nav-voice" href="?page=recipes">Recipes</a>
-				</nav>
-			</inner-column>
-		</header>
-
-
-		<main class="page-content"> <!-- outlet - what is getting changed on the page depending on the route-->
-			<inner-column>
-
 				<?php
 
 					// router part two 
 					// which template to include
 
+					
+					if ($page == "landing") {
+						include ("landing.php");
+					}
+					if ($page == "login") {
+						include ("login.php");
+					}
+					if ($page == "admin") {
+						include ("admin.php");
+					}
 					if ($page == "home") {
 						include ("home.php");
 					}
@@ -71,18 +66,7 @@
 
 				?>
 
-			</inner-column>
-		</main>
 
-		<footer class="site-footer">
-			<inner-column>
-				<a class="nav-voice" href="?page=addMeeting">Add a meeting</a>
-				
-			</inner-column>
-		</footer>
-
-	</body>
-</html>
 
 
 
