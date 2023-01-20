@@ -5,32 +5,52 @@
 <h1 class="heyyou-voice">Log in</h1>
 
 <?php
+	//goal is to match user inputs (user name & password)
+	//with existing user names and passwords in user name DB
+	//if an exact match exists, redirect user to appropriate page
 
+	//initialize user input variables
 	$inputUser = NULL;
 	$inputPass = NULL;
 
+	//initialize validation message
 	$message = NULL;
 
 	if (isset($_POST["submitted"])) {
 
+	//if the form has been submitted, 
+	//assign the user inputs (user name & password) to variables
 		$inputUser = $_POST["userName"];
 		$inputPass = $_POST["password"];
 
+	//create inputLogin array for later matching 
+	//with data from saved users.php file
 		$inputLogin = array($inputUser, $inputPass);
 
+	//separate array for admin log in info,
+	//since admin is directed to different page on login
 		$adminLogin = array($admin["adminName"], $admin["adminPassword"]);
 
+	//if the adminLogin in the users.php file 
+	//exactly matches the inputLogin,
+	//send admin to admin page
 		if ($inputLogin === $adminLogin) {
 			header("Location: ?page=admin");
 			exit;
 		}
 
+	//for each user name & password object in users.php data file
+	//assign variables and create userLogin array - 
+	//for matching with inputLogin array
 		foreach ($userArray as $user) {
 			$userName = $user["userName"];
 			$userPass = $user["password"];
 
 			$userLogin = array($userName, $userPass);
 
+	//if the $inputLogin exactly matches the $userLogin, 
+	//redirect user to home page
+	//otherwise, provide validation message
 			if ($inputLogin === $userLogin) {
 				header("Location: ?page=home");
 				exit;
