@@ -18,8 +18,6 @@ if (isset($_POST["submitted"])) {
 
 	$inputLogin = array($inputUser, $inputPass);
 
-
-	print_r($admin);
 	$adminLogin = array($admin["adminName"], $admin["adminPassword"]);
 
 	if ($inputLogin === $adminLogin) {
