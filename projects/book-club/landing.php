@@ -5,7 +5,7 @@
 		background-image: url(images/poison-raisins.svg);
 		background-repeat: no-repeat;
 		background-size: 150%;
-		background-position: top 20px;
+		background-position: center;
 	}
 
 	@media (min-width: 500px) {
