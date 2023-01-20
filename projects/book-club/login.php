@@ -1,6 +1,6 @@
 <?php include ("site-nav.php"); ?>
 
-<?php include ("data/users.php"); ?>
+<?php include ("../secrets/users.php"); ?>
 
 <h1 class="heyyou-voice">Log in</h1>
 
@@ -26,7 +26,7 @@ if (isset($_POST["submitted"])) {
 		header("Location: ?page=admin");
 		exit;
 	}
-	
+
 	foreach ($userArray as $user) {
 		$userName = $user["userName"];
 		$userPass = $user["password"];
