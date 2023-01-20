@@ -1,5 +1,86 @@
 # Emily's Daily Journal
 
+## January 20, 2023
+
+### Stand up
+
+Yesterday I went through the form validation lesson and wrestled with creating a working login form for my book club site. 
+
+I just now saw the milestone from yesterday - "User login with PHP and sessions." I will look at that today! 
+
+I want to spend most of my time today working on the site styles and breaking my CSS file up into multiple CSS files. I haven't had a chance to look at the PSSST CSS stuff, so this is a good day to get into that.
+
+No blockers today.
+
+### Today's lesson - 131:101: Using route-based info for styling
+
+
+### To dos 
+
+- [] create style tiles
+- [] style site
+- [] download font
+- [] break up CSS
+- [] convert PHP data to JSON?
+- [] create README for GitHub
+- [] user login milestone
+- [] get graphics file for Miguel
+
+## January 19, 2023
+
+### Stand up
+
+Yesterday I created a form to add a meeting to my book club site. I can't say I did much beyond what was required yesterday. A Wednesday slump. 
+
+This morning I watched the video and added some validation messages to my form. I would like to create some style tiles today and do some work on the visual design elements of the site. I would also like to add a form to the Recipes page.
+
+No blockers today! 
+
+### Today's lesson - 130:100: Thinking through form validation
+
+You never know what your user is going to put in your form
+
+HTML5 has some validation built in
+
+Map out what you want to have happen before you code
+If form is submitted
+	If date is filled in
+		Do this
+	If host is filled in
+		Do this
+	etc.
+
+if (stlen($title) > 0) {
+	$hasTitle = true;
+}
+
+if ($hasDate AND $hasHost AND $hasTitle ... etc) { }
+
+Can put initialized variables in "value" attribute of form
+
+Build form framework so you don't have to do this every time! (samples of different inputs, maybe)
+
+If all of the conditions are met in the validation - then you can do something (save it to the databaes, maybe)
+
+$cleanNam = htmlspecialchars($name);
+- htmlspecialchars() converts special characters to HTML entities
+- certain characters have special significance in HTML and should be represented by HTML entities if they are to preserve their meanings
+- This function returns a string with these conversions made
+
+htmlentities() for full entity translation
+
+Error - "trying to access array offeset in value of type null"
+- means "you are trying to get a property from an array that is not defined"
+- offset value = array property
+
+### To dos
+
+- [x] form validation - 1 native and one written in PHP
+- [] work on site styles
+- [] dataset organized and in place (should it be converted to JSON?) - including edge cases (what would these be?)
+- [] clear README describing the project on GitHub
+- [] convert PHP array to JSON
+
 ## January 18, 2023
 
 ### Stand up
@@ -52,6 +133,7 @@ for something very important - use instead of include()
 in a form - input type="range" creates a slider
 
 
+QUESTION - adding a meeting - how to automatically add ID # - next one in the list - ID for last item in array + 1
 
 ### To dos 
 - [x] build form
