@@ -149,7 +149,7 @@
 
 ?>
 
-<form class="login-form" action="" method="POST">
+<form class="login-form card" action="" method="POST">
 	
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="userName">User name</label>
