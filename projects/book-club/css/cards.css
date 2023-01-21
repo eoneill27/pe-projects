@@ -160,6 +160,8 @@ meeting-card:hover .card-info {
 	padding: 30px;
 	display: flex;
 	flex-direction: column;
+	background-color: #FFFDF9;
+	color: black;
 }
 
 .detail-cover {
