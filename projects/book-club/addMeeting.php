@@ -156,7 +156,7 @@ $titleError = false;
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="notes">Notes</label>
-		<textarea id="notes" name="notes" rows="5" cols="33"/></textarea>
+		<textarea class="reading-voice" style="font-family: Avenir, sans-serif" id="notes" name="notes" rows="5" cols="33"/></textarea>
 	</form-field>
 
 	<button class="reading-voice" type="submit" name="add">

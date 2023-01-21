@@ -19,7 +19,7 @@
 
 <?php if(isset($detail)) { ?>
 
-	<div class="detail-card">
+	<div class="detail-card card">
 		<picture class="detail-cover">
 			<img src="<?=$detail["cover"]?>" alt="">
 		</picture>

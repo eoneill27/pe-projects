@@ -17,7 +17,7 @@
 
 ?>
 
-<div class="next-meeting">
+<div class="next-meeting card">
 	<h2 class="attention-voice">NEXT MEETING:</h2>
 	<p class="info-voice"><?=$nextDate?> at <?=$nextHost?>'s</p>
 

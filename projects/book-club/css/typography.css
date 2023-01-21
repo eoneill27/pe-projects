@@ -1,0 +1,75 @@
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: 'Poppins', Avenir, sans-serif;
+}
+
+.heyyou-voice {
+	font-family: 'Calistoga', monospace;
+	letter-spacing: .04rem;
+	font-size: clamp(30px, 16vw, 72px);
+}
+
+.attention-voice {
+	font-family: 'Calistoga', monospace;
+	letter-spacing: .04rem;
+	font-size: clamp(20px, 9vw, 32px);
+	line-height: 1.2;
+}
+
+.info-voice {
+
+	font-size: clamp(18px, 7vw, 26px);
+	line-height: 1.2;
+}
+
+.host-voice {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.author-voice {
+	font-size: 24px;
+}
+
+.reading-voice {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.nav-voice {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@media (min-width: 300px) {
+	.nav-voice {
+		font-size: 16px;
+		font-weight: 500;
+	}
+}
+
+h1 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+h2 + h3 {
+	margin-top: 20px;
+}
+
+h3 + h4 {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 15px;
+}
+
+p + h2 {
+	margin-top: 30px;
+}
+
+h4 + p {
+	margin-top: 25px;
+}

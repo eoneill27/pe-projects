@@ -1,0 +1,71 @@
+/* FORMS */
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 30px;
+	max-width: 900px;
+	box-shadow: rgba(250, 128, 114, 0.4) -5px 5px, rgba(250, 128, 114, 0.3) -10px 10px, rgba(250, 128, 114, 0.2) -15px 15px, rgba(250, 128, 114, 0.1) -20px 20px, rgba(250, 128, 114, 0.05) -25px 25px;
+}
+
+form-field {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+form-field.radio-field {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 60ch;
+}
+
+form-field legend, label {
+	font-weight: 500;
+}
+
+form-field.radio-field label {
+	font-weight: 400;
+	margin-right: 5px;
+}
+
+form-field input {
+	margin-top: 5px;
+}
+
+form-field.radio-field input {
+	margin-top: 0;
+	margin-left: 10px;
+}
+
+button {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 5px 30px;
+}
+
+text-area {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+.form-link {
+	font-weight: 600;
+}
+
+.form-link:hover {
+	color: salmon;
+}
+
+.error {
+	color: darkorange;
+	font-weight: 500;
+	margin-top: 5px;
+}
+
+
+

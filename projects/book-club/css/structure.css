@@ -1,0 +1,27 @@
+
+body * {
+/*	border: 2px solid red;*/
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	--site-purple: #9300FF;
+	--site-white: #FFFDF9;
+	background-color: var(--site-purple);
+}
+
+inner-column {
+	display: block;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: var(--site-purple);
+	color: var(--site-white);
+}
+
+.page-content {
+	flex-grow: 1;
+}

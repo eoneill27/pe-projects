@@ -3,8 +3,8 @@
 <h1 class="heyyou-voice">Past Meetings</h1>
 
 <div class="order-sort">
-	<a class="moving-voice" href="?page=meetings">Oldest first</a>
-	<a class="moving-voice" href="?page=meetings&order=descending">Newest first</a>
+	<a class="nav-voice" href="?page=meetings">Oldest first</a>
+	<a class="nav-voice" href="?page=meetings&order=descending">Newest first</a>
 </div>
 
 <!-- <a href="?page=meetings&year=2010">2010</a> -->
@@ -69,7 +69,7 @@
 		<li class="meeting">
 			<a href="?page=detail&meeting=<?=$meetingId?>">
 
-				<meeting-card>
+				<meeting-card class="card">
 					<div class="card-info">
 						<h2 class="title attention-voice"><?=$title?></h2>
 						<h3 class="meeting-date info-voice"><?=date('F j, Y', $date)?></h3>
