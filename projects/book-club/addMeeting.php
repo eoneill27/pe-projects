@@ -46,7 +46,7 @@ $titleError = false;
 
 ?>
 
-<form action="" method="POST">
+<form action="" method="POST" class="card">
 	
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="date">Meeting date</label>
