@@ -13,7 +13,8 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: .2rem;
-	text-shadow: rgba(250, 128, 114, 0.4) -5px 5px, rgba(250, 128, 114, 0.3) -10px 10px;
+	text-shadow: rgba(255, 106, 112, 0.4) -5px 5px;
+	
 }
 
 .next-meeting { 
@@ -29,6 +30,11 @@
 }
 
 @media (min-width: 500px) {
+
+	.home-heading {
+		text-shadow: rgba(250, 128, 114, 0.4) -5px 5px, rgba(250, 128, 114, 0.3) -10px 10px;
+	}
+
 	.next-meeting {
 		margin-left: auto;
 		margin-right: auto;
@@ -195,8 +201,6 @@ meeting-card:hover .card-info {
 @media (min-width: 600px) {
 
 	.detail-card {
-		background-color: #FFFDF9;
-		color: black;
 		margin-top: 40px;
 		display: flex;
 		flex-direction: row;
