@@ -1,5 +1,43 @@
 # Emily's Daily Journal
 
+## January 21 2023
+
+### Stand up 
+
+Yesterday, felt the same as Miguel and Jess! But now it's the weekend and I hope to get a lot done. I did manage to add some styling to my site yesterday.
+
+Today I'd like to get my Add Meeting form working and saving data.
+
+### Today's lesson - 132:102: JSON and trying to store data
+
+```
+<pre>
+```
+pre-formatted
+
+want to turn our PHP data into JSON
+It's just the way of the world
+Encode into JSON as script runs
+Then decode back to PHP
+
+uniqid('optional-prefix')
+
+file_get_contents('file/path.extension')
+
+file_put_contents('file/path.extension', data)
+
+json_decode('any_file.json', true) - true turns the data into PHP assoc array
+
+json_encode('data-to-encode') - turns PHP assoc arrays back into JSON
+
+### To dos
+
+- [] site styling
+- [x] convert PHP data to JSON?
+- [] create README for GitHub
+- [] user login milestone
+- [] get graphics file for Miguel
+
 ## January 20, 2023
 
 ### Stand up
@@ -14,13 +52,41 @@ No blockers today.
 
 ### Today's lesson - 131:101: Using route-based info for styling
 
+Can put PHP in links with if statement to add different classes to pages depending on the situation
+
+```
+	<a href="?page=home" class="<?php if($page=='home') {echo 'active';} ?>">
+```
+Put this in every nav link
+It adds class "active" to each a tag
+
+Allows you to put underline on active class on the link, for instance - so when you're on home page, home page link is underlined
+
+Break up CSS
+@import
+put CSS files in order of importance
+
+Can add PHP to the body tag as a class
+```
+	<body class="<?=$page?>">
+```
+So then you can use body.home or .home in CSS as a selector
+
+these can be selectors:
+field input[type="text"]
+field input[type="number"]
+
+labels, inputs - set to display block
+can make width 100%
+
+components.css for small pieces like buttons
 
 ### To dos 
 
 - [] create style tiles
-- [] style site
-- [] download font
-- [] break up CSS
+- [x] style site
+- [x] download font
+- [x] break up CSS
 - [] convert PHP data to JSON?
 - [] create README for GitHub
 - [] user login milestone
