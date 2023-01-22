@@ -2,13 +2,15 @@
 
 <?php include ("data/meeting-data.php"); ?>
 
+<?php include ("functions.php"); ?>
+
 <?php
 
 	if (isset($_GET["meeting"])) {
 		$detailMeetingId = $_GET["meeting"];
 	}
 
-	foreach ($meetingArray as $meeting) { 
+	foreach (renderMeetingData() as $meeting) { 
 		if ($detailMeetingId == $meeting["id"]) {
 			$detail = $meeting;
 		}
@@ -44,6 +46,7 @@
 	<h1 class="heyyou-voice">No meeting found</h1>
 
 <?php } ?>
+
 
 <?php include ("footer.php"); ?>
 
