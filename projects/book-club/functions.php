@@ -49,6 +49,6 @@ function renderMeetingData () {
 
 // saveData('an-example.json', $items);
 
-// renderData($items, 'book-card.php');
+// renderMeetingData produces PHP array from JSON data
 
 ?>

@@ -1,6 +1,6 @@
 
 <?php include ("functions.php") ?>
-<?php include ("data/meeting-data.php"); ?>
+
 
 <h1 class="attention-voice">Add a meeting</h1>
 
@@ -98,7 +98,7 @@ $titleError = false;
 
 <form action="" method="POST" class="card">
 	
-	<form-field>
+	<form-field class="">
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="date">Meeting date</label>
 		<input class="reading-voice" type="date" id="date" name="date" min="2010-01-01" />
 		<?php if ($dateError) { ?>
@@ -159,7 +159,7 @@ $titleError = false;
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="title">Title</label>
-		<input type="text" id="title" name="title" />
+		<input class="reading-voice" type="text" id="title" name="title" />
 		<?php if ($titleError) { ?>
 			<p class="error"><?=$titleError?></p>
 		<?php }; ?>
@@ -167,12 +167,12 @@ $titleError = false;
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="subtitle">Subtitle</label>
-		<input type="text" id="subtitle" name="subtitle"/>
+		<input class="reading-voice" type="text" id="subtitle" name="subtitle"/>
 	</form-field>
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="author">Author</label>
-		<input type="text" id="author" name="author"/>
+		<input class="reading-voice" type="text" id="author" name="author"/>
 	</form-field>
 
 	<form-field class="radio-field">
@@ -186,12 +186,12 @@ $titleError = false;
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="isbn">ISBN</label>
-		<input type="number" id="isbn" name="isbn"/>
+		<input class="reading-voice" type="number" id="isbn" name="isbn"/>
 	</form-field>
 
 	<form-field>
 		<label class="reading-voice" style="font-family: Avenir, sans-serif" for="cover">Cover image URL*</label>
-		<input type="url" id="cover" name="cover" />
+		<input class="reading-voice" type="url" id="cover" name="cover" />
 	</form-field>
 
 	<form-field class="radio-field">

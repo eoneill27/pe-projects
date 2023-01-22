@@ -2,22 +2,7 @@
 
 <?php 
 
-	// include ("functions.php");
-
 	$order = NULL; 
-	$year = NULL;
-
-	// $meetings = renderMeetingData();
-
-	
-
-	// if (isset($_GET["order"])) {
-	// 	$order = $_GET["order"];
-
-	// 	if ($order == "descending") {
-	// 		array_reverse($meetings);
-	// 	}
-	// }
 
 	if ($page == "meetings") {
 
@@ -44,7 +29,6 @@
 			$gala = $meeting["gala"];
 			$notes = $meeting["notes"];
 
-
 ?>
 	
 	<li class="meeting">
@@ -66,31 +50,6 @@
 	</li>
 
 <?php }}; ?>
-
-<!-- 		if (isset($_GET["order"])) {
-			$order = $_GET["order"];
-
-			if ($order == "descending") {
-				$meetings = renderMeetingData();
-				$meetings = rsort($meetings);
-				foreach ($meetings as $meeting) { 
-
-
-					$meetingId = $meeting["id"];
-					$date = strtotime($meeting["date"]);
-					$host = $meeting["host"];
-					$title = $meeting["title"];
-					$subtitle = $meeting["subtitle"];
-					$author = $meeting["author"];
-					$genre = $meeting["genre"];
-					$isbn = $meeting["isbn"];
-					$cover = $meeting["cover"];
-					$gala = $meeting["gala"];
-					$notes = $meeting["notes"];
-
-
-?> -->
-	
 
 
 
