@@ -39,7 +39,7 @@
 	}
 }
 
-.site-nav a.active {
+a.active {
 	text-decoration: underline;
 	text-decoration-color: salmon;
 	text-decoration-thickness: .125em;

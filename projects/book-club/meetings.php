@@ -1,10 +1,18 @@
 <?php include ("site-nav.php"); ?>
 
+<?php
+	$order = NULL;
+
+	if (isset($_GET["order"])) {
+			$order = $_GET["order"];
+		}
+?>
+
 <h1 class="heyyou-voice">Past Meetings</h1>
 
 <div class="order-sort">
-	<a class="nav-voice" href="?page=meetings">Oldest first</a>
-	<a class="nav-voice" href="?page=meetings&order=descending">Newest first</a>
+	<a class="nav-voice <?php if($order === "ascending") {echo "active";} ?>" href="?page=meetings&order=ascending">Oldest first</a>
+	<a class="nav-voice <?php if($order === "descending") {echo "active";} ?>" href="?page=meetings&order=descending">Newest first</a>
 </div>
 
 <!-- <a href="?page=meetings&year=2010">2010</a> -->
@@ -22,29 +30,7 @@
 	 <input type="submit" name="submit" value="Choose">
 </form> -->
 
-<?php 
-
-	include ("functions.php");
-
-	$order = NULL; 
-	$year = NULL;
-
-	$meetings = renderMeetingData();
-
-	
-
-	if (isset($_GET["order"])) {
-		$order = $_GET["order"];
-
-		if ($order == "descending") {
-			array_reverse($meetings);
-		}
-	}
-
-	if (isset($_GET["year"])) {
-		$year = $_GET["year"];
-	}
-?>
+<?php include ("functions.php"); ?>
 
 <ul class="meeting-grid">
 
