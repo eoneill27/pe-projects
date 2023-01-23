@@ -6,5 +6,6 @@
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 	text-decoration: underline;
-	max-width: 60%;
+	display: block;
+	margin-top: 15px;
 }
