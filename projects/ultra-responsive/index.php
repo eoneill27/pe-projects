@@ -24,6 +24,16 @@
 			</inner-column>
 		</header>
 
+		<main>
+			<inner-column>
+				<?php include("diptych.php"); ?>
+			</inner-column>
+
+			<inner-column>
+				<?php include("action.php"); ?>
+			</inner-column>
+		</main>
+
 
 	</body>
 

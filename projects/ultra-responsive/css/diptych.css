@@ -1,1 +1,26 @@
-diptych.css
+@import 'components.css';
+
+body * {
+	border: 3px solid black;
+}
+
+diptych-mod {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 10px;
+}
+
+.diptych-pic, .diptych-pic img {
+	padding: 10px;
+}
+
+.diptych-copy {
+	padding: 30px 10px;
+}
+
+@media (min-width: 700px) {
+	diptych-mod {
+		flex-direction: row-reverse;
+		align-items: center;
+	}
+}

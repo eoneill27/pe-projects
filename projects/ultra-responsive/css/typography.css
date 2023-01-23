@@ -1,3 +1,33 @@
 body {
 	font-family: sans-serif;
 }
+
+.heyyou-voice {
+	font-size: 38px;
+	font-weight: 600;
+}
+
+.attention-voice {
+	font-size: 30px;
+}
+
+.info-voice {
+	font-size: 22px;
+}
+
+.reading-voice {
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.moving-voice {
+	font-size: 16px;
+}
+
+h1 + p, h2 + p, h3 + p, p + a{
+	margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+	padding: 10px;
+}

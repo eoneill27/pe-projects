@@ -2,16 +2,16 @@
 	<link rel="stylesheet" href="css/masthead.css">
 </head>
 
-<mast-head>
+<masthead-mod>
 
 	<nav class="site-menu">
-		<a href="?">LOGO</a>
-		<a href="?">Some page</a>
-		<a href="?">"Masthead"</a>
+		<a class="moving-voice" href="?">LOGO</a>
+		<a class="moving-voice" href="?">Some page</a>
+		<a class="moving-voice" href="?">"Masthead"</a>
 	</nav>
 
 	<nav class="user-menu">
-		<a href="?">Sign in</a>
+		<a class="moving-voice" href="?">Sign in</a>
 	</nav>
 
-</mast-head>
+</masthead-mod>

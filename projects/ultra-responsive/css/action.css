@@ -1,1 +1,6 @@
-action.css
+@import 'components.css';
+
+action-mod {
+	display: block;
+	padding: 50px 10px;
+}
