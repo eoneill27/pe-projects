@@ -1,0 +1,34 @@
+@import 'meyer-setup.css';
+
+@import 'typography.css';
+
+
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+inner-column {
+	display: block;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
