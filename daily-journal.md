@@ -1,6 +1,30 @@
 # Emily's Daily Journal
 
-## January 21 2023
+## January 22, 2023
+
+### Stand up 
+
+I took a break yesterday and I think I really needed it. On Saturday I continued to work on my CRUD book club site and managed to get the "add meeting" form working. That felt like a pretty exciting triumph. Still need to work on adding photos
+
+We're shifting gears this week. I love these responsive layout challenges, so I'm looking forward to doing the work today. Too bad I'm at work work! But I did sketch things out for myself this morning before I had to leave for the office, and I finished the masthead module. I will be adding all of this to my responsive layout garden, I think! 
+
+No blockers today. I'll be working over my lunch break at noon and then back at it around 6pm tonight. 
+
+### Today's lesson - 134:103: Super Ultra Responsive Layout and Theming Challenge
+
+This layout will have a bunch of bare-bones responsive modules
+Use PHP where it's helpful (probably for modules)
+
+Each unique layout can be a module - "masthead", for example
+
+Everything is a box!
+
+### To dos
+
+- [x] recreate the layout
+- [] personal site style guide
+
+## January 21, 2023
 
 ### Stand up 
 
