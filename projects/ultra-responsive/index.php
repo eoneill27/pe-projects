@@ -41,12 +41,13 @@
 				<?php include("action.php"); ?>
 			</inner-column>
 
-			<inner-column>
-				<?php include("footer.php"); ?>
-			</inner-column>
-
 		</main>
 
+		<footer>
+			<inner-column>
+				<?php include("site-footer.php"); ?>
+			</inner-column>
+		</footer>
 
 	</body>
 
