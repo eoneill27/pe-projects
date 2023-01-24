@@ -1,7 +1,3 @@
-<head>
-	<link rel="stylesheet" href="css/site-footer.css">
-</head>
-
 <site-footer>
 	
 	<div class="footer-header">

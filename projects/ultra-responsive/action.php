@@ -1,7 +1,3 @@
-<head>
-	<link rel="stylesheet" href="css/action.css">
-</head>
-
 <action-mod>
 	<div class="action-content">
 		<h2 class="heyyou-voice">This module is a "call&nbspto&nbspaction"</h2>

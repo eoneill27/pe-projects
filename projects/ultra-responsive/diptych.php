@@ -1,7 +1,3 @@
-<head>
-	<link rel="stylesheet" href="css/diptych.css">
-</head>
-
 <diptych-mod>
 	<picture class="diptych-pic">
 		<img src="https://peprojects.dev/images/square.jpg" alt="">

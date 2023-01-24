@@ -1,7 +1,3 @@
-<head>
-	<link rel="stylesheet" href="css/article-grid.css">
-</head>
-
 <article-grid>
 
 	<div class="article-heading">

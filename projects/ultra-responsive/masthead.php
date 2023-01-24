@@ -1,7 +1,3 @@
-<head>
-	<link rel="stylesheet" href="css/masthead.css">
-</head>
-
 <masthead-mod>
 
 	<nav class="site-menu">

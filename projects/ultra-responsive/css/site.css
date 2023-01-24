@@ -4,6 +4,12 @@
 
 @import 'components.css';
 
+@import 'masthead.css';
+@import 'diptych.css';
+@import 'action.css';
+@import 'article-grid.css';
+@import 'site-footer.css';
+
 
 
 body {
