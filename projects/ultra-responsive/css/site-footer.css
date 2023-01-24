@@ -1,23 +1,35 @@
 @import 'components.css';
 
+site-footer * {
+	border: 3px solid black;
+}
+
 site-footer {
 	display: block;
 	padding: 50px 10px 150px 10px;
 }
 
 .footer-header {
+	padding: 10px;
 	padding-bottom: 30px;
+
 }
 
 .footer-links {
+	padding: 10px;
 	padding-top: 50px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.site-menu, .user-menu, .legal-menu, .social-menu {
+site-footer .site-menu, site-footer .user-menu, .legal-menu, .social-menu {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
+}
+
+site-footer a {
+	color: blue;
+	text-decoration: underline;
 }

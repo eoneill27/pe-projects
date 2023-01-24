@@ -5,7 +5,7 @@
 <site-footer>
 	
 	<div class="footer-header">
-		<h2 class="heyyou-voice">This is the site footer and it has a "site-map" module in it.</h2>
+		<h2 class="attention-voice">This is the site footer and it has a "site-map" module in it.</h2>
 		<p class="reading-voice">Pretty standard type of thing, right?</p>
 	</div>
 

@@ -25,22 +25,30 @@
 		</header>
 
 		<main>
-			<inner-column>
-				<?php include("diptych.php"); ?>
-			</inner-column>
 
-			<inner-column>
-				<?php include("action.php"); ?>
-			</inner-column>
+			<section class="diptych-section">
+				<inner-column>
+					<?php include("diptych.php"); ?>
+				</inner-column>
+			</section>
 
-			<inner-column>
-				<?php include("article-grid.php"); ?>
-			</inner-column>
+			<section class="action-section1">
+				<inner-column>
+					<?php include("action.php"); ?>
+				</inner-column>
+			</section>
 
-			<inner-column>
-				<?php include("action.php"); ?>
-			</inner-column>
+			<section class="article-section">
+				<inner-column>
+					<?php include("article-grid.php"); ?>
+				</inner-column>
+			</section>
 
+			<section class="action-section2">
+				<inner-column>
+					<?php include("action.php"); ?>
+				</inner-column>
+			</section>
 		</main>
 
 		<footer>

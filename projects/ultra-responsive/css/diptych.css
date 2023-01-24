@@ -1,13 +1,15 @@
 @import 'components.css';
 
-body * {
+diptych-mod * {
 	border: 3px solid black;
 }
+
 
 diptych-mod {
 	display: flex;
 	flex-direction: column;
 	padding: 50px 10px;
+	border: 3px solid black;
 }
 
 .diptych-pic, .diptych-pic img {

@@ -23,10 +23,29 @@ inner-column {
 	margin-right: auto;
 }
 
+header {
+	background-color: lemonchiffon
+}
 
+.diptych-section {
+	background-color: lightpink;
+}
 
+.action-section1 {
+	background-color: palegreen;
+}
 
+.article-section {
+	background-color: lightblue;
+}
 
+.action-section2 {
+	background-color: lightsalmon;
+}
+
+footer {
+	background-color: plum;
+}
 
 
 
