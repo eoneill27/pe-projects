@@ -1,0 +1,23 @@
+@import 'components.css';
+
+site-footer {
+	display: block;
+	padding: 50px 10px 150px 10px;
+}
+
+.footer-header {
+	padding-bottom: 30px;
+}
+
+.footer-links {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.site-menu, .user-menu, .legal-menu, .social-menu {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
