@@ -3,7 +3,7 @@
 </head>
 
 <masthead-mod>
-
+	
 	<nav class="site-menu">
 		<a class="moving-voice" href="?">LOGO</a>
 		<a class="moving-voice" href="?">Some page</a>

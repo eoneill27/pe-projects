@@ -2,6 +2,10 @@ masthead-mod * {
 	border: 3px solid black;
 }
 
+header inner-column {
+	border: 3px solid black;
+}
+
 masthead-mod {
 	display: flex;
 	flex-direction: column;

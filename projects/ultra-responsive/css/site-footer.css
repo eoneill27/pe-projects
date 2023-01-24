@@ -1,33 +1,32 @@
-site-footer * {
+
+
+footer * {
 	border: 3px solid black;
 }
 
-site-footer {
+footer-header {
 	display: block;
-	padding: 50px 10px 150px 10px;
-}
-
-.footer-header {
 	padding: 10px;
+	padding-top: 30px;
 	padding-bottom: 30px;
-
 }
 
-.footer-links {
-	padding: 10px;
-	padding-top: 50px;
+site-map {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 150px;
 }
 
-site-footer .site-menu, site-footer .user-menu, .legal-menu, .social-menu {
+site-map .site-menu, site-map .user-menu, .legal-menu, .social-menu {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
 }
 
-site-footer a {
+site-map a {
 	color: blue;
 	text-decoration: underline;
 }
