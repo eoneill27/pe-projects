@@ -4,6 +4,7 @@
 
 @import 'components.css';
 
+/* MODULES */
 @import 'masthead.css';
 @import 'diptych.css';
 @import 'action.css';

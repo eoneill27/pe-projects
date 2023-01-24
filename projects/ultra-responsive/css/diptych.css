@@ -1,9 +1,6 @@
-@import 'components.css';
-
 diptych-mod * {
 	border: 3px solid black;
 }
-
 
 diptych-mod {
 	display: flex;
