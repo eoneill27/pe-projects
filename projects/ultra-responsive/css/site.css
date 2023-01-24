@@ -24,27 +24,27 @@ inner-column {
 }
 
 header {
-	background-color: lemonchiffon
+	background-color: rgb(160, 211, 182);
 }
 
 .diptych-section {
-	background-color: lightpink;
+	background-color: rgb(161, 217, 230);
 }
 
 .action-section1 {
-	background-color: palegreen;
+	background-color: rgb(213, 146, 190);
 }
 
 .article-section {
-	background-color: lightblue;
+	background-color: rgb(250, 196, 144);
 }
 
 .action-section2 {
-	background-color: lightsalmon;
+	background-color: rgb(255, 133, 141);
 }
 
 footer {
-	background-color: plum;
+	background-color: rgb(246, 237, 220);
 }
 
 
