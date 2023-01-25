@@ -1,6 +1,23 @@
 # Emily's Daily Journal
 
-## January 22, 2023
+## January 24, 2023
+
+### Stand up
+
+Yesterday I got through the responsive challenge with HTML, CSS and PHP partials. I didn't go as far as looping through data arrays, but it makes sense to do that with the article cards!
+
+Today I will make sure my code is nice and tidy. I spent some time this morning looking through the CodePens that were in the Optional section of yesterday's lesson. I'd like to try to get a jump on tomorrow's lesson today. Meeting with Derek at 4pm.
+
+### Today's lesson - 135:104: Finalizing the base code and code review
+
+### To dos
+
+- [x] meet with Derek - code review
+- [] personal site style guide
+- [x] go through example codepens
+- [] check out milestones
+
+## January 23, 2023
 
 ### Stand up 
 
