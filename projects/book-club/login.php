@@ -53,8 +53,13 @@
 	//redirect user to home page
 	//otherwise, provide validation message
 			if ($inputLogin === $userLogin) {
+				session_start();
+				// session_regenerate_id(true);
+				$_SESSION["a"] = "Hello " . $user['userName'] . "!";
+
 				header("Location: ?page=home");
 				exit;
+				
 			} elseif ($inputLogin == NULL) {
 				$message = NULL;
 			} else {
