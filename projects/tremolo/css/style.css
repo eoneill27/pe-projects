@@ -209,6 +209,7 @@ div + h2 {
 .who-what-how inner-column {
 	display: flex;
 	flex-direction: column;
+	padding: 0;
 }
 
 .who, .what, .how {
@@ -223,7 +224,7 @@ div + h2 {
 }
 
 .what, .how {
-	border-top: 1px solid var(--site-blue);
+	border-top: 2px solid var(--mercury-gray);
 	padding-top: 40px;
 }
 
@@ -330,6 +331,10 @@ div + h2 {
 	text-align: center;
 }
 
+.site-footer inner-column {
+	padding: 15px;
+}
+
 .site-footer .services-menu, .socials-menu {
 	display: none;
 }
@@ -375,6 +380,7 @@ div + h2 {
 
 	.social-logo {
 		max-width: 35px;
+		margin-bottom: 15px;
 	}
 
 	.site-footer h3 {
@@ -393,6 +399,10 @@ div + h2 {
 }
 
 @media (min-width: 800px) {
+
+	.social-logo {
+		margin-bottom: 5px;
+	}
 	.terms {
 		margin-top: 15px;
 		flex-direction: row;
