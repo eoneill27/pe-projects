@@ -1,0 +1,24 @@
+.logout, .login {
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.logout button, .login button {
+	margin: 0;
+	padding: 0 10px;
+	background-color: #de5c9a;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+.site-nav .login button:hover, .site-nav .login a:hover, .site-nav .logout button:hover, .site-nav .logout a:hover {
+	background-color: salmon;
+	color: white;
+}
