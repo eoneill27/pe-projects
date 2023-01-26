@@ -1,5 +1,57 @@
 # Emily's Daily Journal
 
+## January 25, 2023
+
+### Stand up
+
+Yesterday I cleaned up my responsive challenge code and had a good meeting with Derek and Drew. 
+
+I also spent some time emulating a friend's company's website - he's a marketing guy who started a business coaching company, and I'm meeting with him on Saturday to talk about the possibility of future freelance web work. I noticed that his website (made with Wix) is not responsive on a desktop - it seems to have a separate mobile version that looks fine, but when the browser screen on a laptop or desktop gets narrower than about 980px, everything on the right side starts to get cut off. So, I got a little carried away and redid his home page.
+
+Today I'm working on my research and also got log-in/log-out functionality working on the book club site.
+
+No blockers!
+
+### Today's lesson - 136:105: Part 3 - Research
+
+This project is not about being creative - it is about identifying visual tricks and emulating them to a high degree of detail
+
+By choosing a "theme," you can unify the look and feel of your project.
+For the most part, it's really just about making clear decisions.
+A theme is the set of decisions.
+To theme something is to actively design or implement those decisions.
+
+Most layouts can be drawn on a napkin in less than 30 seconds.
+It's the details and the way you dress it up that makes it look "professional"
+
+Font choice matters a lot, as well as any graphics, colors you utilize, images
+These components will help with the storytelling
+
+
+### PHP sessions
+
+session_start() - start new or resume existing session
+- creates a session or resumes the current one based on a session identifier passed via a GET or POST request, or passed via a cookie
+- if parameter is provided, this is an associative array of options that will override the currently set session configuration directives
+- session_start(['cookie_lifetime' => ___, 'read_and_close' => true,]);
+- to use cookie-based sessions, session_start() must be called before outputting anything to the browser
+
+$_SESSION - an associative array containing session variables available to the current script
+
+session_destroy()
+
+session_regenerate_id(true);
+- use if you want to change the session id on each log in
+
+### To dos
+
+- [x] research
+- [] personal site style guide
+- [] check out milestones
+- [] README files
+- [x] user login milestone
+- [] graphics file for Miguel
+
 ## January 24, 2023
 
 ### Stand up
