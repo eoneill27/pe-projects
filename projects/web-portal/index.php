@@ -79,11 +79,16 @@
 			<ul><h3>fonts</h3>
 				<li><a href="https://web.mit.edu/jmorzins/www/fonts.html" target="_blank">Safe web fonts</a></li>
 				<li><a href="https://fonts.google.com/" target="_blank">Google fonts</a></li>
+				<li><a href="https://heyreliable.com/ultimate-google-font-pairings/" target="_blank">Ultimate Google font pairings</a></li>
 				<li><a href="https://www.typewolf.com" target="_blank">Typewolf</a></li>
 			</ul>
 
 			<ul><h3>colors</h3>
 				<li><a href="https://enes.in/sorted-colors/" target="_blank">Sorted CSS colors</a></li>
+				<li><a href="https://color.adobe.com/create/color-wheel" target="_blank">Adobe Color</a></li>
+				<li><a href="https://m3.material.io/styles/color/overview" target="_blank">Material Design - Color</a></li>
+				<li><a href="https://mycolor.space/" target="_blank">Color Space</a></li>
+				<li><a href="https://www.khroma.co/generator" target="_blank">Khroma</a></li>
 			</ul>
 		
 		</section>
