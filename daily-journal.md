@@ -1,5 +1,72 @@
 # Emily's Daily Journal
 
+## January 27, 2023
+
+### Stand up
+
+Yesterday I worked on choosing colors and getting a style tile together. Last night I spent some more time on my recipe card design and also changed my fonts up slightly.
+
+This morning I read Brian's case study (having previously only scanned it) and also read through the base code. It really is a good exercise - I'm so used to my way of doing things, and now seeing this new thing and trying to figure out how best to add to it and alter it is more challenging than I thought it would be. Really looking forward to getting into the coding today! 
+
+### Today's lesson - 137:105 - Getting the tiles into styles
+
+### To dos
+
+- [x] read base code
+- [] start styling code
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
+## January 26, 2023
+
+### Stand up
+
+Yesterday I spent a while researching meal kit delivery sites. It is hard to keep personal preferences out of this, but I am doing my best to stay focused on the task! 
+
+Today I will get a couple style tiles done. I think I've settled on some fonts, but I need to spend some more time on colors. 
+
+No blockers today.
+
+### Today's lesson - 137:106 - Theme challenge: Style tiles
+
+Create a style tile so you are ready to implement the visual theme over the next two days
+
+start with a pair of fonts
+pick out some colors
+figure out what pieces there are to work with
+You can use to use the inherent boxes to style with or just as a way to lay things out
+Each section, module and component can have all sorts of unique treatments
+
+Pick 3 pages
+Look at their fonts and colors
+Do they use many weights? Many sizes? What is size contrast like? 
+Do they use uppercase? Letter spacing?
+Simplify these and use them as guidelines
+
+How are the links in the header treated?
+What is line quality like? Thin/thick? Lots of dark areas? How is the balance? What is repeated?
+How is the welcome/hero area treated?
+What about the contrast between heading and body copy? 
+CTAs? Heading size? CTA buttons?
+How do you make it fun?
+Light or dark footer
+
+What is consistent?
+
+overflow-y-scroll for slider??
+
+check out Affinity global swatches
+
+### To dos
+
+- [x] style tile
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
 ## January 25, 2023
 
 ### Stand up
@@ -33,7 +100,7 @@ These components will help with the storytelling
 session_start() - start new or resume existing session
 - creates a session or resumes the current one based on a session identifier passed via a GET or POST request, or passed via a cookie
 - if parameter is provided, this is an associative array of options that will override the currently set session configuration directives
-- session_start(['cookie_lifetime' => ___, 'read_and_close' => true,]);
+- session_start(['cookie_lifetime' => , 'read_and_close' => true,]);
 - to use cookie-based sessions, session_start() must be called before outputting anything to the browser
 
 $_SESSION - an associative array containing session variables available to the current script
@@ -104,7 +171,7 @@ Today I'd like to get my Add Meeting form working and saving data.
 ### Today's lesson - 132:102: JSON and trying to store data
 
 ```
-<pre>
+	<pre>
 ```
 pre-formatted
 
