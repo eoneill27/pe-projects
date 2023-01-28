@@ -1,0 +1,93 @@
+
+graphic-diptych {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+/*	gap: 30px;*/
+/*	padding: 10vh 0;*/
+}
+
+/*text-content {
+	display: block;
+}*/
+
+graphic-diptych p {
+	margin-top: 20px;
+}
+
+/*.hero-image {
+	max-height: 600px;
+	overflow: hidden;
+}*/
+
+.welcome {
+	background-image: url("../../images/meal-vert.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	color: var(--white);
+	height: 500px;
+}
+
+graphic-diptych text-content {
+
+	background-color: white;
+	color: var(--black);
+	padding: 40px 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 55ch;
+	position: relative;
+	bottom: 60px;
+	z-index: 5;
+	opacity: 90%;
+	text-align: center;
+}
+
+@media (min-width:  700px) {
+
+	.hero-image {
+		display: none;
+	}
+
+	.welcome {
+		background-image: url("../../images/meal-lg.jpg");
+		background-position: top 55% right 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: var(--white);
+		height: 500px;
+	}
+
+	graphic-diptych {
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	graphic-diptych text-content {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		background-color: white;
+		color: var(--black);
+		padding: 30px;
+		max-width: 55ch;
+		position: relative;
+/*		top: 50%;*/
+		z-index: 5;
+		opacity: 90%;
+	}
+
+	graphic-diptych text-content p {
+		font-weight: 700;
+	}
+
+	/*graphic-diptych :is(picture, text-content) {
+		flex-basis: 50%;
+	}*/
+}
