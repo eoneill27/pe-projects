@@ -1,0 +1,21 @@
+@import "forms.css";
+
+/* buttons and icons and smaller reusable bits here */
+
+.button {
+	display: block;
+
+	font-family: "Raleway", sans-serif;
+	font-size: .9rem;
+	font-weight: 600;
+	line-height: 1.4;
+	letter-spacing: 0.05rem;
+	text-transform: uppercase;
+
+	padding: .5em 1.5em;
+	background-color: var(--site-orange);
+	color: white;
+	border-radius: 25px;
+	min-width: 120px;
+	text-align: center;
+}
