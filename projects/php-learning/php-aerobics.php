@@ -45,6 +45,12 @@ for($i = 1; $i <= 34; $i++) {
 	
 }
 
+$var = '';
+
+if(isset($var)) {
+	echo "<li>This var is set so I will print.</li>";
+}
+
 
 ?>
 
