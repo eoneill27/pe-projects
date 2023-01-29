@@ -39,7 +39,7 @@ mast-head nav a:not(.home) {
 }
 
 mast-head a:hover {
-	text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+	text-shadow: 0 0 .65px darkgray, 0 0 .65px darkgray;
 }
 
 @media (min-width:  600px) {
