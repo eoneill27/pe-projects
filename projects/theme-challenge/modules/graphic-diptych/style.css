@@ -46,6 +46,9 @@ graphic-diptych text-content {
 	text-align: center;
 }
 
+graphic-diptych :is(h1, p) {
+	text-shadow: 0px 0px 32px rgb(0 0 0 / 50%);
+}
 @media (min-width: 355px) {
 	graphic-diptych text-content p {
 		max-width: 20ch;
@@ -70,6 +73,8 @@ graphic-diptych text-content {
 
 	graphic-diptych text-content {
 		max-width: 65ch;
+		align-items: flex-start;
+		text-align: left;
 /*		margin-top: 30px;*/
 	}
 
