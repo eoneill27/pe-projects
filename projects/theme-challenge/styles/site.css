@@ -57,43 +57,43 @@ footer {
 @media (prefers-color-scheme: dark) {
 
 	.site-header, mast-head {
-		background-color: var(--black);
+		background-color: var(--paper);
 	}
 
 	mast-head a {
-		color: var(--white);
+		color: var(--ink);
 	}
 
 	articles-intro {
-		color: var(--black);
+		color: var(--paper);
 	}
 
 	.latest {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--paper);
+		color: var(--ink);
 	}
 
 	.article-card {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--paper);
+		color: var(--ink);
 	}
 	section.sign-up {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--paper);
+		color: var(--ink);
 	}
 
 	section.sign-up .button {
 		background-color: var(--site-orange);
-		color: var(--white);
+		color: var(--ink);
 	}
 
 	section.get-involved {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--paper);
+		color: var(--ink);
 	}
 
 	footer, site-map {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--paper);
+		color: var(--ink);
 	}
 }
