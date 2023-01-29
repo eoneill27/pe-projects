@@ -14,7 +14,7 @@ call-to-action {
 }
 
 .kit-1, .family-meal {
-	width: 100%;
+	max-width: 400px;
 }
 
 call-to-action .button {
@@ -52,13 +52,21 @@ picture + .not-picture {
 		flex-basis: auto;
 	}
 
-	.kit-1 {
-		min-width: 65%;
+	.get-involved call-to-action {
+		display: flex;
+		flex-direction: row;
 	}
 
-	.not-picture {
+	picture {
+		max-width: 600px;
+	}
+
+	.plate {
 		margin-right: 30px;
 	}
 
+	#cta-1 .not-picture {
+		margin-right: 30px;
+	}
 	
 }
