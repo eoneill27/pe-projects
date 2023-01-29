@@ -66,6 +66,7 @@ inner-column {
 .reading-voice {
 	font-family: "Poppins", Avenir, sans-serif;
 	font-size: clamp(12px, 6vw, 18px);
+	font-weight: 300;
 	line-height: 1.4;
 }
 
@@ -315,6 +316,10 @@ div + div {
 		display: block;
 		align-self: center;
 		justify-self: left;
+	}
+
+	.about-text2 {
+		margin-left: 40px;
 	}
 }
 
