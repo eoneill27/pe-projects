@@ -84,7 +84,7 @@ graphic-diptych text-content {
 	}
 
 	graphic-diptych text-content p {
-		font-weight: 700;
+		font-weight:500;
 	}
 
 	/*graphic-diptych :is(picture, text-content) {
