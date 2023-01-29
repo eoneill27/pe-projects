@@ -55,7 +55,7 @@ graphic-diptych text-content {
 	}
 
 	.welcome {
-		background-image: url("../../images/meal.jpg");
+		background-image: url("../../images/meal-med.jpg");
 		background-position: top 55% right 50%;
 		background-size: cover;
 		background-repeat: no-repeat;
