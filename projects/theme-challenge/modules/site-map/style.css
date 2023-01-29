@@ -33,3 +33,7 @@ site-map li {
 	font-weight: 200;
 	line-height: 1.4;
 }
+
+site-map li:hover {
+	text-shadow: 0 0 .65px #FFFFFF, 0 0 .65px #FFFFFF;
+}
