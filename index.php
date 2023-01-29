@@ -9,7 +9,7 @@
 					<p class="reading-voice">I draw on my experience as a librarian and my expertise in my web design work to fine-tune the information architecture supporting your website, making your content easily findable and accessible to all of your users.</p>
 
 					<div class="button">
-						<a class="info-voice" href="about.php">Find out more</a>
+						<a class="button-voice" href="about.php">Find out more</a>
 					</div>
 				</section>
 
@@ -90,7 +90,7 @@
 			
 		
 					<div class="button">
-						<a class="info-voice" href="projects.php">Find out more</a>
+						<a class="button-voice" href="projects.php">Find out more</a>
 					</div>
 
 				</section>

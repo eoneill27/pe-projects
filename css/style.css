@@ -64,9 +64,15 @@ inner-column {
 }
 
 .reading-voice {
-	font-family: Avenir, sans-serif;
+	font-family: "Poppins", Avenir, sans-serif;
 	font-size: clamp(12px, 6vw, 18px);
 	line-height: 1.4;
+}
+
+.button-voice {
+	font-family: "Poppins", Avenir, sans-serif;
+	font-size: clamp(14px, 4vw, 22px);
+	font-weight: 400;
 }
 
 .logo {
@@ -247,13 +253,80 @@ legend {
 
 /* ABOUT */
 
+.about-grid {
+	margin-top: 40px;
+
+}
+
+.about-grid picture {
+	max-width: 400px;
+}
+
+picture.acpt {
+	max-width: 300px;
+}
+
+
+div + div {
+	margin-top: 30px;
+}
+
+.atlas {
+	display: none;
+}
+
+.c2c, .acpt {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (min-width: 900px) {
 	.about-grid {
 		display: grid;
 		grid-template-columns: 50% 50%;
+		grid-template-rows: auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0;
+		margin-top: 0;
+	}
+
+	.about-grid picture {
+		max-width: 500px;
+	}
+
+	.c2c, .atlas {
+		max-width: 400px;
+	}
+
+	.c2c {
+		margin-left: 30px;
+	}
+
+	.atlas {
+		margin-right: 30px;
+	}
+
+	picture.acpt {
+		max-width: 350px;
+	}
+
+	.atlas {
+		display: block;
+		align-self: center;
+		justify-self: left;
 	}
 }
 
+@media (min-width: 1050px) {
+	.about-text1, .about-text2, .about-text3 {
+		justify-self: left;
+	}
+
+	.about-img1, .about-img2, .about-img3 {
+		justify-self: center;
+	}
+}
 /* PROJECTS & FORMS - PAGES & TILES */
 
 .projects h1 {
