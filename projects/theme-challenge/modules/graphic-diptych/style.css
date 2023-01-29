@@ -80,6 +80,7 @@ graphic-diptych :is(h1, p) {
 		max-width: 65ch;
 		align-items: flex-start;
 		text-align: left;
+		margin-top: 0;
 /*		margin-top: 30px;*/
 	}
 
