@@ -1,9 +1,13 @@
+/*
+graphic-diptych * {
+	border: 3px solid red;
+}*/
 
 graphic-diptych {
 	display: block;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	height: 60vh;
 /*	gap: 30px;*/
@@ -39,16 +43,16 @@ graphic-diptych text-content {
 	align-items: center;
 	flex-wrap: wrap;
 	max-width: 55ch;
-	/*position: relative;
-	bottom: 175px;*/
 	z-index: 5;
 	opacity: 90%;
 	text-align: center;
+	margin-top: 50px;
 }
 
 graphic-diptych :is(h1, p) {
 	text-shadow: 0px 0px 32px rgb(0 0 0 / 50%);
 }
+
 @media (min-width: 355px) {
 	graphic-diptych text-content p {
 		max-width: 20ch;
@@ -61,6 +65,7 @@ graphic-diptych :is(h1, p) {
 		background-image: url("../../images/hero-desktop.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-position: center;
 		color: var(--white);
 		height: 500px;
 	}
