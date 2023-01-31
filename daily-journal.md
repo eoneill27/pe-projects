@@ -1,5 +1,110 @@
 # Emily's Daily Journal
 
+## January 30, 2023
+
+### Stand up
+
+On Saturday I worked on refining my theme challenge site. Brian had a lot of good suggestions for how to deal with the photographs, which I really appreciated - things looked a lot better after I implemented his notes. This project does not feel finished to me - I want to keep working on it, definitely need to think about how the top navigation looks on a phone, and I want to try out a carousel for the article cards. I'd like to make another version, too - maybe a crazy fun version!
+
+Today I'm looking forward to getting into WordPress. I'm hoping to have some extra time to work on the theme challenge and tweak some things on my personal site. I'm feeling a little like there are loose ends in various places to be tied up, but work and the course have felt pretty full-on for the past couple of weeks and I've been finding it difficult to find the time and the energy to do the extra stuff. This week is a fresh start!
+
+No blockers today.
+
+### Today's lesson - 141:109 - Installing WordPress
+
+WordPress is a PHP framework
+
+WordPress CMS overview - 
+- gives you a free admin panel
+- allows you to administer all the parts of your site
+- also ecosystem of different 3rd parties' plug-ins - added value that you can add to your own project
+- allows you to leverage community code
+
+WordPress does involve programming
+You have to build out the front end - the "theme" - all of the PHP and framework code that shows the front of the website
+
+All of the concepts from WordPress will transfer to any other CMS
+
+What is WordPress?
+It is a PHP framework and content management system
+30% of websites built with WordPress
+ticks the boxes for most projects
+
+WordPress developer resources - developer.wordress.org
+
+WordPress and JSON - 
+WordPress is a stand-alone "CMS admin panel" and it can generate the JSON output with all of your data. This can be used to feed an entirely different app - outside of WP
+[question - is this a headless CMS?]
+
+Today's video - 
+
+Since it's PHP, it involves MAMP
+Also involves a database
+
+Point MAMP to where WP is installed
+(have to point it back to PE Projects when you're working on other PHP projects)
+
+Sequel Pro - free application that helps you see and manage the databases that are on your computer
+
+wpbeginner.com - Beginner's Guide to WP database management - 
+
+WP written using PHP as its scripting language and MySQL as its database management system
+
+During installation, WP uses the informatino you provide about the DB to create tables and store default installation data inside those tables
+
+After the installation, WP runs queries to this DB to dynamically generate HTML pages for your website
+You don't have to create a new .html file for every page - WP handles everything dynamically
+
+WP DB is stored on the same server as hosting server
+
+Everything that comprises your website is stored in the WP DB
+
+### To dos 
+
+- [x] get WP installed and running
+- [x] install plugins
+- [x] practice your browser surfing research - where does the database live?
+- [x] switch between the available themes and try them out
+- [x] plan out a project in whimsical
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
+## January 28, 2023
+
+### Stand up
+
+Yesterday I started in on the code for my meal kit site. It's definitely interesting working with someone else's code! I realize how much I rely on my own naming conventions, and I've been feeling a little slow making my way through these files. But I'm getting faster as I go!
+
+This morning I decided to try something a little different with the diptych, taking a page out of Fresh Prep's book.
+https://peprojects.dev/alpha-6/emily/projects/theme-challenge/
+
+I just started working on the CTAs and using PHP to generate different content in the same template - but I have to think a little harder about how to do this properly.
+
+### Today's lesson - 139:108 - Ironing out the theme details
+
+The details are what make it look "official"
+
+transparent images
+
+if you set min-width on an image, it always takes up that amount of the screen
+If you use max-width, it allows the other stuff to expand more
+
+Use drop shadow on white text to make it more legible
+text-shadow: 0px 0px 32px rgb(0 0 0 / 50%);
+offset-x, offset-y, blur radius, color
+
+### To dos
+
+- [x] finish styling
+- [] add different versions
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
 ## January 27, 2023
 
 ### Stand up
@@ -8,12 +113,30 @@ Yesterday I worked on choosing colors and getting a style tile together. Last ni
 
 This morning I read Brian's case study (having previously only scanned it) and also read through the base code. It really is a good exercise - I'm so used to my way of doing things, and now seeing this new thing and trying to figure out how best to add to it and alter it is more challenging than I thought it would be. Really looking forward to getting into the coding today! 
 
-### Today's lesson - 137:105 - Getting the tiles into styles
+### Today's lesson - 138:107 - Getting the tiles into styles
+
+look at Brian's case study - 
+1st iteration - get the style onto the web as fast as possible in order to see what works and what doesn't - don't mess around with the layout
+
+- do some user testing with people in real life - can you tell what industry this site is for? Does it feel [whatever feeling you're trying to evoke]? What did you feel about the layout and hierarchy of content?
+
+- remember to look at the page with the dock open and menu bar and bookmarks bar open in browser - see how much real estate remains - don't make site menu too big
+
+2nd iteration - apply feedback - think about the average user
+- make sure headings are big enough in contrast with paragraphs - size and weight
+
+- theme switcher with PHP & querystring
+
+- generate all site data with PHP assoc array
+
+- reset variables to empty strings and reassign them later to the next index in assoc. array for the next call to action
+
+- typography, spacing and hierarchy are what make or break a website
 
 ### To dos
 
 - [x] read base code
-- [] start styling code
+- [x] start styling code
 - [] personal site style guide
 - [] fix personal site projects link
 - [] graphics file for Miguel
