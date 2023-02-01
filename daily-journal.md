@@ -1,5 +1,80 @@
 # Emily's Daily Journal
 
+## January 31, 2023
+
+### Stand up
+
+Yesterday I went through the WordPress set up and thought about a potential project for the week.
+
+Today - more WordPress! I started watching the video this morning and I'm looking forward to reinforcing what's going on in the video by reading the theme handbook. Meeting with Derek this evening to go over my WordPress project.
+
+No blockers today!
+
+### Today's lesson - 142:110 - Exploring the WordPress docs and a first loop?
+
+WP is a big collection of functions and conventions and systems inspired by thousands of people's work
+Lean into it!
+
+Open up entire WP folder in sublime
+
+localhost:8888/wp-admin
+front end of the back end
+
+we are going to build our own themes from the ground up
+we will be using WP as a free content management system and going a bit rogue with it
+
+WordPress Theme Handbook
+
+The Loop - loops through and displays the posts
+
+stylesheet should be loaded using wp_enqueue_style in functions.php
+
+can make many different headers or footers and use functions to include specific ones
+get_header();
+get_footer();
+
+wp_head();
+wp_footer();
+put these in head and just after footer
+
+framework feeds in a bunch of different classes into body
+
+wpbeginner.com - good info
+
+custom posts
+can be given any name you like
+
+The Loop
+```
+	if (is_page('list')) {
+		$args = array (
+			'post_type'=>'monsters'
+			);
+
+		$loop = new WP_Query($args);
+
+		while ($loop->have_posts()) { 
+			loop->the_post();
+
+			include('monster-card.php');
+		}
+
+		wp_reset_postdata();
+	}
+```
+
+### To dos 
+
+- [x] get site up to speed with the video
+- [x] talk with Derek about your idea for the week
+- [x] map out project in Whimsical
+- [x] spend some time reading the 'theme handbook'
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
 ## January 30, 2023
 
 ### Stand up
