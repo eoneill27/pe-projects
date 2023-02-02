@@ -1,5 +1,84 @@
 # Emily's Daily Journal
 
+## February 1, 2023
+
+### Stand up
+
+Yesterday I had a chat with Derek about my project direction and spent a while reading the WP Theme Handbook. Not done yet! 
+
+I feel like things are really starting to click after watching today's video. I'm looking forward to getting into all of this form creation and starting to tie all of my records together. I'm going to try to get my plan detailed right now (lunch break) so I can share it with the group, and then will start in on some serious site building this evening.
+
+No blockers!
+
+### Today's lesson - 143:111 - Using ACFs in templates and creating custom post types
+
+Remember that the admin panel is likely for the client too
+
+Think of the fields as attributes for the resources (the post types)
+
+Woo Commerce - 3rd party group that makes an e-commerce solution that works with WordPress
+
+Security flaws with WP
+But constant updates - a lot of those are about security
+
+server side rendering concepts will translate to Python, Ruby
+It will be worth it!
+
+WP generates JSON data - you could install WP, never write any PHP, request the data from the WP install, and use it to build a JS application
+WP can generate a real API for us to use to build a JS application
+(explain that to the haters)
+
+WP hooks up MySQL DB
+Takes the data you type in - saves it somewhere - then retrieves it when you need it again
+
+We can turn it into a form-building machine
+
+Also has the idea of users
+authentication
+different roles
+
+Custom fields
+Give the new field group a name
+Know that WP gives unique identifier to each item, so we don't need to do that
+
+Field label is for administrator to see
+Field name is what we're going to use in the application as the developer
+
+Lots of field types
+Including relational fields
+
+Set location rules for where this field will show up
+
+Field group for item fields
+Data points that define the idea of the item for the rest of the application
+Really helpful to plan them out to begin with!
+
+Create template for item
+item-card.php
+in folder templates > components (not industry standard, just what works for Derek - see if it works for you)
+include item-card.php in the Loop in the index
+
+Within the Loop, we have access by default to anything that is on the page
+
+Advanced Custom Fields has its own layer on top of WP to help us get things
+the_field()
+get_field()
+
+is_singular
+if it's a single item page, do this
+can create template for details page and put it here
+
+### To dos
+
+- [x] watch the video 
+- [x] write out your plan & share with team
+- [x] get started on site/building forms
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
 ## January 31, 2023
 
 ### Stand up
