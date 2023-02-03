@@ -1,5 +1,61 @@
 # Emily's Daily Journal
 
+## February 2, 2023
+
+### Stand up
+
+Yesterday I got into some WP post and form building and started styling my site. 
+
+Today I will continue with the site styling. I'd also like to continue reading the Theme Handbook and learn more about the relationship field type.
+
+No blockers today.
+
+### Today's lesson - 144:112 - Resource relationships and menus
+
+the_field [' '] (enter name of field) - it will appear!
+
+CSS folder can be in root - don't need to follow WP conventions for our purposes
+
+WP settings that let you adjust what is the home page
+Reading settings 
+Your homepage displays - a static page
+
+field type - Relationship
+has a relationship to another datatype
+uncheck all filters
+filter by post type - Designer
+
+Register custom menu
+add function to functions.php
+puts "Menus" in Appearance menu in sidebar area
+
+Once you've registered your menus, you need to use wp_nav_menu() to tell your theme where to display them
+
+Check out the classes that get automatically added to the nav li
+
+Break your files up into components
+You can have a PHP template with the logic in there - and a CSS file of the same name
+BUT - you can overdo it
+Sometimes it's best to just have a big file
+See what works best for you
+
+The framework "knows" where everything is
+If you want to link to a page or a post, use the_permalink() function - builds the URL for you
+
+ACF - Relationships
+Relationship field will return an array of items where each item is either a WP_Post object or an integer value depending on the return format
+
+### To dos
+
+- [] get some reusable components in place
+- [] get more detailed with your resource relationships
+- [] keep styling things out - what is boilerplate and what is project specific? How can you keep them apart?
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
 ## February 1, 2023
 
 ### Stand up
