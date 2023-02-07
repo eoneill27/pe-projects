@@ -20,7 +20,7 @@
 		$nextTitle = $nextMeeting["title"];
 		$nextAuthor = $nextMeeting["author"];
 	}
-?>
+?> 
 
 <div class="next-meeting card">
 	<h2 class="attention-voice">NEXT MEETING:</h2>
