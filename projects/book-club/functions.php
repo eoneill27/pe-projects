@@ -24,7 +24,7 @@ function saveData($myJsonFile, $phpData) {
 
 	$json = json_encode($phpData);
 
-	file_put_contents($myJsonFile, $json); 
+	file_put_contents($myJsonFile, $json, FILE_APPEND); 
 }
 
 //renders the data in specified way
