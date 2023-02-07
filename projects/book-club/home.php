@@ -5,17 +5,21 @@
 
 <?php
 
-	include ("data/meeting-data.php");
+	// include ("data/meetings.json");
+
+	include ('functions.php');
+
+	$meetingArray = renderMeetingData();
 
 	$nextMeetings = array_slice($meetingArray, -1);
 
 	foreach ($nextMeetings as $nextMeeting) {
-		$nextDate = $nextMeeting["date"];
+		$date = strtotime($nextMeeting["date"]);
+		$nextDate = date('F j, Y', $date);
 		$nextHost = $nextMeeting["host"];
 		$nextTitle = $nextMeeting["title"];
 		$nextAuthor = $nextMeeting["author"];
 	}
-
 ?>
 
 <div class="next-meeting card">
