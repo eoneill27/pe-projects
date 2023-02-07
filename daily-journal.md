@@ -1,5 +1,223 @@
 # Emily's Daily Journal
 
+## February 6, 2023
+
+### Stand up
+
+This weekend I spent some time working on my WordPress theme, getting some of the styles in place. I also met with Derek, Drew, Alina and Miguel on Saturday to go over our theme challenge sites, which was really helpful. I need to make time to work on that more and act on some of the feedback I received.
+
+Today I will continue to work on WordPress - I want to go back over everything to try to really reinforce and understand what is actually going on. I've watched six of the portfolio work-through videos, and I think the whole series is going to be super helpful. 
+
+No blockers today.
+
+### Today's lesson - 148:115 - WordPress Week 2
+
+Super Extra Portfolio Work-Through
+
+part 2 
+- can have more than one header
+
+part 3
+- break code into smaller partial files. We used PHP, but you can also use Node or something else
+- .DS_store - just a little file with info about the folder itself - mac-specific - add to git ignore file (right click in Tower)
+
+Part 4
+- aspect ratio 
+- quick way to fake an image - make a div, give div background color and aspect ratio
+
+Part 5
+- how do you get unique dynamic data in modules?
+- set variable
+- $heading = "our new award";
+- in module - ```<h2><?=$heading?></h2>```
+- what if there is no heading? 
+- $heading = $heading ?? "Default heading here";
+
+Part 6
+- planning out a clear CSS structure is important
+
+### To dos
+
+- [] add log in and is_user_logged_in to project
+- [] add 404 message to project
+- [] research challenge
+- [] check out milestones
+- [] get some reusable components in place
+- [] get more detailed with your resource relationships
+- [] keep styling things out - what is boilerplate and what is project specific? How can you keep them apart?
+- [] look at Ned's project
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
+## February 4, 2023
+
+### Stand up
+
+Yesterday I didn't accomplish as much as I had hoped to - Book Club won the battle for my attention last night. I found the recap lesson really helpful, though, and I had my theme up to speed by the end of it.
+
+Today is a new day! It's a work day for me - no plans apart from really tuning up my theme and getting it all styled out. I think I might choose a site to imitate - I know my brother admires Treehause, which is pretty basic. It's great to understand the relationship field a bit better today, and now I have my furniture detail pages linking to the associated designer detail pages. 
+
+No blockers today.
+
+### Today's lesson - 146:114 - WP medley and connecting related resources
+
+images
+create new field
+return format: image array
+library: uploaded to post
+
+the_field echoes the value
+get_field gets the object of data so you can use it, but doesn't echo it
+
+if_user_logged_in() {}
+can use this to show certain data to some users if they're logged in, but not if they're not
+
+what if a field is not filled in?
+prepare for when things are not there
+
+if images aren't the same size, they will throw off the grid
+set inline style of picture tag to background image
+in css, that picture class - 
+height: 0
+padding-bottom: 100%
+background-size: cover
+background-position: center
+This will set the image as a background image and make everything the same size
+
+Can also set things up in the admin panel to have it crop images for you
+
+Think about a system to resize images so they're not too big
+
+Check out CodePen on object fit
+
+RESEARCH CHALLENGE - there are ways to hook into function that spits out the menu and change the markup - take out the list items - make it look like we would do it!
+
+ACF relationship
+- display list of posts (with setup_postdata) - allows you to use the_field() 
+- display list of posts (without setup_postdata) - Derek thinks this option looks easier
+
+see notebook for code
+
+### To dos 
+
+- [x] Get your post types and fields all going - fill out the cards
+- [] get some reusable components in place
+- [] get more detailed with your resource relationships
+- [] keep styling things out - what is boilerplate and what is project specific? How can you keep them apart?
+- [] look at Ned's project
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
+## February 3, 2023
+
+### Stand up
+
+Yesterday I worked a bit more on styling things out, wrapped my head around Derek's file path functions, and got my menu hooked up.
+
+Today I am appreciating the recap video. More styling to come, and I still want to get back to the Theme Manual, since I did not get to it yesterday. 
+
+No blockers. 
+
+### Today's lesson - 145:113 - Resource relationships and menus
+
+2 files that absolutely have to be in theme root - index.php and style.css
+First comment in style.css is a bunch of metadata about the theme - WP requires this
+
+header file - header.php
+can just put boilerplate code in there
+
+you could mock everything out in HTML and then cut and paste things into your WP theme
+Lots of the protoptyping with testing and user can happen before you get WP involved
+
+How Derek does it - get the admin panel stuff set up for client so they can add content/data
+But keep front end stuff as lean as possible
+
+WP specific things in the header and footer 
+<?php wp_head(); ?> goes inside head tags, at the end
+Framework-specific function - inserts scripts at the beginning of the page - inserts CSS and other metadata
+Required
+
+<?php wp_footer(); ?> - put in before closing body tag
+
+in index -
+<?php get_header(); ?>
+<?php get_footer(); ?>
+
+if(is_page('home')) {
+	echo 'home';
+}
+Built in WP function
+in order for this to work, there has to be a page with the name 'home' set up in the WP admin panel
+and home needs to be set as the home page
+
+Detail pages don't exist in the admin panel
+They are their own post type
+Instead of checking is_page, you check is_singular()
+if(is_singular('inventory'));
+
+ACF has function the_field()
+Gets any field that is associated with that post type
+
+is_404() - determines whether query has resulted in a 404
+if(is_404()) {
+	include('templates../page-not-found.php');
+}
+create 404 page template
+
+In spare time, get a nice WP project tuned up as a base theme so that when you start a new project, all the basic PHP and CSS is in place
+WP boilerplate?
+
+Grab modules from the theme challenge
+
+CSS @import
+make sure files are cascading things in the right order
+
+Idea of "template directory" in WP vs. the root of the actual website where the root is getting served
+When you need to go up a level, you can use get_template_directory_uri() OR use Derek's function getFile($path)
+
+First have to register menu in functions
+function register_my_menu() {
+	('site-menu', __('Site Menu'));
+}
+add_action ('init', 'register_my_menu');
+
+Then go to Appearance - Menus in admin panel
+
+wp_nav_menu (
+	array(
+		'theme_location' => 'site-menu', [from registration]
+		'container-class' => 'whatever',
+	)
+)
+
+The framework does some of the work for you
+When the page builds itself, it's going to take into account any other special stuff like plug ins or page-specific scripts or styles and insert them for you
+But it can't do that if you don't put in the little insert slots
+wp_head
+wp_footer
+
+probably need to use get_template_directory_uri() to use images in CSS
+
+### To dos
+
+- [x] Get your theme up to speed
+- [] Get your post types and fields all going - fill out the cards
+- [] get some reusable components in place
+- [] get more detailed with your resource relationships
+- [] keep styling things out - what is boilerplate and what is project specific? How can you keep them apart?
+- [] look at Ned's project
+- [] add different versions to theme site
+- [] personal site style guide
+- [] fix personal site projects link
+- [] graphics file for Miguel
+- [] README files
+
 ## February 2, 2023
 
 ### Stand up
