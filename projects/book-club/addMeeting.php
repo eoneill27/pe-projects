@@ -82,10 +82,10 @@ $titleError = false;
 			"cover" => $cover,
 			"gala" => $gala,
 			"notes" => $notes,
-
 		];
 
-		// var_dump($newMeeting);
+		var_dump($newMeeting);
+		
 		
 		//add new meeting assoc. array to $meetings array
 		array_push($meetings, $newMeeting);
