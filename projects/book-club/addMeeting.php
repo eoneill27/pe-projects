@@ -84,7 +84,7 @@ $titleError = false;
 			"notes" => $notes,
 		];
 
-		var_dump($newMeeting);
+		// var_dump($newMeeting);
 		
 		
 		//add new meeting assoc. array to $meetings array
