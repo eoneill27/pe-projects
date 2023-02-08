@@ -1,5 +1,45 @@
 # Emily's Daily Journal
 
+## February 7, 2023
+
+### Stand up
+
+Yesterday I watched some of the portfolio work-through videos and worked on my WordPress site, continuing to style it out. 
+
+Today I've been working on creating a log in page and adding a 404 message to the site. I want to spend at least another hour watching the work-through videos today. I would also like to look at a couple of recent milestones because I have been neglecting those lately.
+
+I realized that my daily to-do list was becoming unwieldy and creating a bit of a blocker for me regarding how I felt about my productivity. I keep it in my daily journal, and somewhere around the start of WordPress, I started just copying and pasting the undone stuff from each day and adding the new stuff to the top, which meant it never really got any shorter. Today's daily journal list is much smaller - I think I can check everything off the list by the end of the day. The rest of the stuff has gone into a separate to-do list file, which will now be for longer-term to-dos, or things to tackle after the daily list is done. I organized it by project, which also helps makes it look more bite-sized. 
+
+### Today's lesson - 149:116 - WordPress Week 2
+
+I've created a separate to-do list file for tasks that I know I won't get to today, but that need to be worked on/accomplished in the near-term. It's in my DFTW Google Drive folder.
+
+Portfolio Work-Through - Part 8
+file structure
+images
+styles
+templates: pages, components, modules
+
+perpetual.education/lesson/medley-6-of-6/#reset
+- different options for file structure
+
+part of building a framework is being able to rely on a set of conventions that is in place
+
+Part 9 
+If all of your ps are going to be reading-voice, do .reading-voice, p {}
+
+Part 10 
+Think about screen readers
+"learn more" doesn't mean much to a screen reader without context
+Can include meaningful text that only screen reader will see
+
+### To dos
+
+- [] add log in and is_user_logged_in to project
+- [x] add 404 message to project
+- [] research challenge
+- [x] check out milestones
+
 ## February 6, 2023
 
 ### Stand up
