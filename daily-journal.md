@@ -1,5 +1,89 @@
 # Emily's Daily Journal
 
+## February 8, 2023
+
+### Stand up
+
+Yesterday I watched four more portfolio work-through videos as well as the WP custom content types video, which led me to start building a taxonomy for my WP site. 
+
+Today my goals are to get through 10 work-through videos (4 down so far) and to continue to work on taxonomies and data relationships. 
+
+No blockers today!  
+
+### Today's lesson - 150:117 - Wordpress Week 2
+
+#### Workthrough part 11
+within the module - PHP area at the top - set variables
+$pageTitle = $pageTitle ?? "this is the page title";
+
+#### Part 12
+Style guide page - an area where you can see all elements of the site
+Also a documentation layer
+style-guide.php
+
+Flex children and grid children can rearrange their order 
+graphic-diptych.flipped picture {
+	order: 2;
+}
+Think about what this means for a screen reader
+
+ternary operator ?
+```
+<?php ($flipped) ? "flipped" : " " ?>
+```
+is the same as 
+```
+<?php if($flipped) {
+	echo "flipped";
+} else {
+	echo " ";
+}
+
+$flipped = true;
+$isFlipped = " ";
+
+if ($flipped) {
+	$isFlipped = "flipped";
+}
+```
+If $flipped is true, add this class - allows you to control the layout from outside the module
+
+#### Part 13
+Create projects folder with an index and subfolder for each project with its own index
+
+Use your portfolio site as a way to show your talent and skills
+Show that you can work with dynamic data from another source
+
+goals page is a good place to do this
+JSON data
+create goals array in JSON
+
+#### Part 14
+$json = file_get_content('data/goals.json');
+$goalsData = json_decode($json, true); - turns JSON data into PHP associative array
+
+can have nested foreach loops
+
+
+#### WORDPRESS
+
+Querying relationship fields - ACF
+Reverse relationships
+On each designer page, query the WP DB for all the pieces of furniture made by that designer
+Do that by using the get_posts function
+Makes use of the WP_Query class to fetch posts 
+
+The get_posts query finds all posts that are of the type 'inventory'
+It then finds the 'designer' custom field for each item and runs a LIKE query on the value
+
+### To dos
+
+- [x] build taxonomies
+- [] add log in and is_user_logged_in to project
+- [] research challenge
+- [] watch 10 work through videos
+
+
 ## February 7, 2023
 
 ### Stand up
