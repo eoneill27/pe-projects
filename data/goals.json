@@ -1,21 +1,16 @@
-<?php
-
-$goals = [
-
-
-	$endCourse = [
-		"heading" => "End of the Course",
-		"items" => [
-			"confidence in my skills as a designer and a developer",
-			"a beautiful personal website that showcases who I am and what I can do - something that will market me well to potential clients",
-			"some experience with real-world projects",
-			"one job (at least) to look forward to working on, as the start of the transition out of my current job",
-		]
-	],
-
-	$fiveYear = [
-		"heading" => "5-year vision", 
-		"items" => [
+[
+	{
+		"heading": "End of the course",
+		"items": [
+				"confidence in my skills as a designer and a developer",
+				"a beautiful personal website that showcases who I am and what I can do - something that will market me well to potential clients",
+				"some experience with real-world projects",
+				"one job (at least) to look forward to working on, as the start of the transition out of my current job"
+			]
+	},
+	{
+		"heading": "Five years",
+		"items": [
 			"self-employed",
 			"owner & operator of web design business",
 			"making $125,000+ annually",
@@ -25,8 +20,5 @@ $goals = [
 			"owner of a wirehaired dachshund named Little Joey Cora",
 			"flourishing work-life balance - lots of walks, lots of time with my friends and their kids, healthy meals at home"
 		]
-	]
-];
-
-?>
-
+	}
+]
