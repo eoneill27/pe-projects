@@ -1,0 +1,24 @@
+featured-cards {
+	display: block;
+}
+
+featured-cards li + li {
+	margin-top: 30px;
+}
+
+featured-cards .project-tile {
+	max-width: 700px;
+}
+
+@media (min-width: 630px) {
+	featured-cards .project-tile {
+		max-width: 700px;
+		height: 215px;
+	}
+}
+
+@media (min-width: 860px) {
+	featured-cards .button {
+		margin-top: 60px;
+	}
+}

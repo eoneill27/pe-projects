@@ -1,0 +1,9 @@
+heading-text {
+	display: block;
+}
+
+heading-text p {
+	max-width: 60ch;
+	margin-top: 40px;
+}
+
