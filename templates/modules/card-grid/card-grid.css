@@ -20,7 +20,7 @@ card-grid {
 	max-width: 500px;
 }*/
 
-.form-tile, .card-tile {
+.card-tile {
 	height: 250px;
 	max-width: 500px;
 	border: 4px solid black;
@@ -34,37 +34,17 @@ card-grid {
 	background-color: var(--site-blue);
 }
 
-.form-tile:hover {
-	background-color: var(--site-blue);
-}
-
-.form-tile h3, .card-tile h3 {
+.card-tile h3 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-
-/*.home-projects .tile-img, .home-projects .tile-img {
-	display: block;
-}*/
-
-/*.home-projects .overlay, .projects .overlay {
-	display: none;
-}*/
-
-/*.projects a:hover .tile-img {
-	display: none;
-}
-
-.projects a:hover .overlay {
-	display: block;
-}*/
 
 .book-link:hover {
 	color: salmon;
 }
 
 @media(min-width: 500px) {
-	.form-tile, .card-tile {
+	.card-tile {
 		height: 200px;
 		margin-top: 25px;
 	}
@@ -72,26 +52,30 @@ card-grid {
 
 @media (min-width: 650px) {
 
-	.form-grid ul, .card-grid ul {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 15px 30px;
-	}
-
-	.form-tile, .card-tile {
+	.card-tile {
 		height: 250px;
 		max-width: 400px;
 		padding: 30px;
 		margin-top: 0;
 	}
+	
+	.card-grid ul {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 15px 30px;
+	}
+
+	.card-tile h3 {
+		margin-top: 0;
+	}
 }
 
 @media (min-width: 900px) {
-	.form-grid ul, .card-grid ul {
+	.card-grid ul {
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	.form-tile, .card-tile {
+	.card-tile {
 		max-width: 350px;
 	}
 }

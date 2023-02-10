@@ -1,9 +1,7 @@
 @import 'meyer-setup.css';
 
 /* MODULES */
-@import '../templates/modules/heading-text/heading-text.css';
-@import '../templates/modules/featured-cards/featured-cards.css';
-@import '../templates/modules/card-grid/card-grid.css';
+@import 'modules.css';
 
 /* SITE SET UP */
 

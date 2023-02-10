@@ -1,4 +1,4 @@
-<heading-text>
+<generic-text>
 
 	<header class="module-header">
 		<h1 class="heyyou-voice"><?=$heading?></h1>
@@ -12,5 +12,5 @@
 		<a class="button-voice" href="about.php">Find out more</a>
 	</div>
 
-</heading-text>
+</generic-text>
  
