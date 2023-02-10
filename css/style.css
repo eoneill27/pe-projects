@@ -1,5 +1,9 @@
 @import 'meyer-setup.css';
 
+/* MODULES */
+@import '../templates/modules/heading-text/heading-text.css';
+@import '../templates/modules/featured-cards/featured-cards.css';
+@import '../templates/modules/card-grid/card-grid.css';
 
 /* SITE SET UP */
 
@@ -170,18 +174,6 @@ legend {
 
 /* HOME PAGE CONTENT */ 
 
-.home-intro p {
-	max-width: 60ch;
-}
-
-.home-projects li + li {
-	margin-top: 30px;
-}
-
-.home-projects .project-tile {
-	max-width: 700px;
-}
-
 .home-svg {
 	margin-top: 60px;
 }
@@ -195,11 +187,6 @@ legend {
 @media (min-width: 630px) {
 	inner-column {
 		max-width: 600px;
-	}
-
-	.home-projects .project-tile {
-		max-width: 700px;
-		height: 215px;
 	}
 }
 @media (min-width: 860px) {
@@ -215,7 +202,7 @@ legend {
 		gap: 10px;
 	}
 
-	.home-intro {
+	heading-text {
 		grid-column: 1;
 		grid-row: 1 / 5;
 	}
@@ -242,14 +229,6 @@ legend {
 		max-width: 500px;
 	}
 */
-	.home-projects .button {
-		margin-top: 60px;
-	}
-
-}
-
-@media (min-width: 925px) {
-
 }
 
 /* ABOUT */
@@ -330,105 +309,6 @@ div + div {
 
 	.about-img1, .about-img2, .about-img3 {
 		justify-self: center;
-	}
-}
-/* PROJECTS & FORMS - PAGES & TILES */
-
-.projects h1 {
-	margin-bottom: 30px;
-}
-
-.e4p h2 {
-	margin-bottom: 30px;
-}
-
-.project, .form {
-	margin-top: 20px;
-}
-
-/*a.project {
-	max-width: 500px;
-}*/
-
-.form-tile, .project-tile {
-	height: 250px;
-	max-width: 500px;
-	border: 4px solid black;
-	padding: 10px 20px;
-	border-radius: 8px;
-	box-shadow: var(--site-green) -13px 13px;
-
-}
-
-.project-tile:hover {
-	background-color: var(--site-blue);
-}
-
-.form-tile:hover {
-	background-color: var(--site-blue);
-}
-
-.form-tile h3, .project-tile h3 {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-
-/*.home-projects .tile-img, .home-projects .tile-img {
-	display: block;
-}*/
-
-/*.home-projects .overlay, .projects .overlay {
-	display: none;
-}*/
-
-/*.projects a:hover .tile-img {
-	display: none;
-}
-
-.projects a:hover .overlay {
-	display: block;
-}*/
-
-.book-link:hover {
-	color: salmon;
-}
-
-@media(min-width: 500px) {
-	.form-tile, .project-tile {
-		height: 200px;
-		margin-top: 25px;
-	}
-}
-
-@media (min-width: 650px) {
-
-	.form-grid ul, .project-grid ul {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 15px 30px;
-	}
-
-	.form-tile, .project-tile {
-		height: 250px;
-		max-width: 400px;
-		padding: 30px;
-		margin-top: 0;
-	}
-}
-
-@media (min-width: 900px) {
-	.form-grid ul, .project-grid ul {
-		grid-template-columns: repeat(3, 1fr);
-	}
-
-	.form-tile, .project-tile {
-		max-width: 350px;
-	}
-}
-
-@media (min-width: 700px) {
-	.book-link {
-		display: inline-block;
 	}
 }
 

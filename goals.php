@@ -1,10 +1,17 @@
 <?php include('header.php'); ?>	
 
-<inner-column>
-	<section class="goals">
+<?php 
+	
+	$json = file_get_contents("data/goals.json");
+	$goals = json_decode($json, true);
+?>
+
+
+<section class="goals">
+	<inner-column>
 		<h1 class="attention-voice">Goals</h1>
 
-		<?php include('data/goals.php');
+		<?php 
 
 			foreach($goals as $goal) {
 				echo "<h2 class='info-voice'>" . $goal["heading"] . "</h2>
@@ -17,8 +24,8 @@
 			};
 
 		?>
-		
-	</section>
-</inner-column>
+	</inner-column>
+</section>
+
 
 <?php include('footer.php'); ?>

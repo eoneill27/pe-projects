@@ -2,15 +2,14 @@
 		<section class="home-grid">
 			<inner-column>
 
-				<section class="home-intro">
-					<h1 class="heyyou-voice">Hello!</h1>
-					<p class="reading-voice">In my first career, I spent 15 years working as a professional librarian. In my second career, I hope to focus on helping small businesses build beautiful, functional, accessible web sites. Whether you need a site built from scratch or you have an existing site that needs a bit of TLC, I can help you achieve your goals and build your business.</p>
+				<section class="home-welcome">
+					<?php 
+						$heading = "Hello!";
+						$text1 = "In my first career, I spent 15 years working as a professional librarian. In my second career, I hope to focus on helping small businesses build beautiful, functional, accessible web sites. Whether you need a site built from scratch or you have an existing site that needs a bit of TLC, I can help you achieve your goals and build your business.";
+						$text2 = "I draw on my experience as a librarian and my expertise in my web design work to fine-tune the information architecture supporting your website, making your content easily findable and accessible to all of your users.";
 
-					<p class="reading-voice">I draw on my experience as a librarian and my expertise in my web design work to fine-tune the information architecture supporting your website, making your content easily findable and accessible to all of your users.</p>
-
-					<div class="button">
-						<a class="button-voice" href="about.php">Find out more</a>
-					</div>
+						include('templates/modules/heading-text/heading-text.php'); 
+					?>
 				</section>
 
 				<section class="home-svg">
@@ -21,77 +20,7 @@
 
 				<section class="home-projects">
 
-					<h2 class="heyyou-voice">Projects</h2>
-
-					<ul>
-
-						<?php include('data/projects.php'); 
-
-							$totalShown = 2;
-							$projects = array_slice($projectsArray, 0, $totalShown);
-
-							foreach($projects as $project) {
-								$id = $project["id"];
-								$img = $project["img"];
-								$imgOver = $project["imgOver"];
-								$url = $project["url"];
-								$alt = $project["alt"];
-								$title = $project["title"];
-								$description = $project["description"];
-
-						?>
-
-							<li class="project" style='list-style-type: none'>
-								<a href="<?=$url?>">
-								<div class="project-tile">
-									<h3 class="info-voice"><?=$title?></h3>
-									<p class="reading-voice"><?=$description?></p>
-								</div>
-								</a>
-				
-							</li>
-
-		 				<!-- 	echo "<li id='" . $id . "' style='list-style-type: none'>
-									<a href='" . $link . "' target='_blank'>
-										<picture class='tile-img project'>
-											<img src='" . $img . "' alt='" . $alt . "'>
-										</picture>
-
-										<picture class='overlay project'>
-											<img src='" . $imgOver. "' alt='" . $alt . "'>
-										</picture>";
-
-							echo "</a> </li>"; -->
-							<?php } ?>
-
-							</ul>
-					
-		
-
-						
-							<!-- <a href="https://peprojects.dev/alpha-6/emily/projects/beth-electric/" target="_blank">
-								<picture class="tile-img project">
-									<img src="images/be-tile.jpg" alt="https://peprojects.dev/alpha-6/emily/projects/beth-electric/">
-								</picture>
-								<picture class="overlay project">
-									<img src="images/be-tile-over.jpg" alt="https://peprojects.dev/alpha-6/emily/projects/beth-electric/">
-								</picture>
-							</a>
-
-
-							<a href="https://peprojects.dev/alpha-6/emily/projects/research-employ/" target="_blank">
-								<picture class="tile-img project">
-									<img src="images/employ-tile.jpg" alt="Screenshot of the project Research & Employ.">
-								</picture>
-								<picture class="overlay project">
-									<img src="images/employ-tile-over.jpg" alt="Screenshot of the project Research & Employ.">
-								</picture>
-							</a> -->
-			
-		
-					<div class="button">
-						<a class="button-voice" href="projects.php">Find out more</a>
-					</div>
+					<?php include('templates/modules/featured-cards/featured-cards.php'); ?>
 
 				</section>
 

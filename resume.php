@@ -1,61 +1,55 @@
 <?php include('header.php'); ?>	
 
-<inner-column>
-	<section class="resume">
-		<h1 class="attention-voice">Resume</h1>
+<?php
+	$json = file_get_contents("data/resume.json");
+	$resumeData = json_decode($json, true);
+	$title = $resumeData["pageTitle"];
+	$sections = $resumeData["sections"];
 
-		<h2 class="info-voice">Education</h2>
-		<ul class="reading-voice">
+?>
 
-		<?php include('data/resume.php');
-
-			foreach($education["listItems"] as $educationItem) {
-			
-		?>
-
-			<li class="reading-voice"><?=$educationItem?></li>
+<section class="resume">
+	<inner-column>
 		
-		<?php }; ?>
+		<h1 class="heyyou-voice"><?=$title?></h1>
 
-		</ul>
+		<?php 
 
-		<h2 class="info-voice">Work Experience</h2>
+		foreach($sections as $section) { ?>
+
+		<h2 class="info-voice"><?=$section['heading'];?></h2>
 		<ul class="reading-voice">
 
 		<?php 
 
-			foreach($workExperience as $workItem) {
-				$jobTitle = $workItem["jobTitle"];
-				$time = $workItem["time"];
-				$organization = $workItem["organization"];
-				$location = $workItem["location"];
-			?>
+		foreach($section['experiences'] as $experience) { ?>
 
-			<li class="reading-voice"><h3><?=$jobTitle?></h3>
-				<?=$time?><br/>
-				<?=$organization?><br/>
-				<?=$location?><br/>
+			<li class="reading-voice">
+				<?php if (isset($experience['title'])) { 
+					echo "<h3>" . $experience['title'] . "</h3>";
+				} ?>
+				<?php if (isset($experience['time'])) { 
+					echo $experience['time'] . "<br/>";
+				} ?>
+				<?php if (isset($experience['organization'])) { 
+					echo $experience['organization'] . "<br/>";
+				} ?>
+				<?php if (isset($experience['location'])) { 
+					echo $experience['location'] . "<br/>";
+				} ?>
+				<?php if (isset($experience['description'])) { 
+					echo $experience['description'] . "<br/>";
+				} ?>
 			</li>
 
 		<?php } ?>
+	
 
 		</ul>
 
-		<h2 class="info-voice">Personal Activities and Interests</h2>
-		<ul class="reading-voice">
+	<?php } ?>
+	</inner-column>
+</section>
 
-		<?php 
-			foreach($personal["listItems"] as $personalItem) {
-			
-		?>
-
-			<li class="reading-voice"><?=$personalItem?></li>
-		
-		<?php }; ?>
-
-		</ul>
-		
-	</section>
-</inner-column>
 
 <?php include('footer.php'); ?>
