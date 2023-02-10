@@ -141,34 +141,11 @@ legend {
 	margin-bottom: 40px;
 }
 
-.site-header inner-column {
+/*.site-header inner-column {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.header-nav {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	gap: 15px;
-	margin-right: 20px;
-}
-
-.header-nav a {
-	margin-left: 10px;
-}
-
-.header-nav a {
-	margin-left: 10px;
-}
-
-@media (min-width: 600px) {
-	.header-nav {
-		width: 49%;
-		display: flex;
-		justify-content: space-between;
-	}
-}
+}*/
 
 /* HOME PAGE CONTENT */ 
 
