@@ -53,7 +53,7 @@ gallery-diptych {
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1180px) {
 	gallery-diptych {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
