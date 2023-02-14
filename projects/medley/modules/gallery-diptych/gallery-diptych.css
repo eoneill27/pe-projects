@@ -57,7 +57,7 @@ gallery-diptych {
 	gallery-diptych {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(24, 25px);
+		grid-template-rows: repeat(20, 25px);
 		gap: var(--gap);
 	}
 
