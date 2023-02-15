@@ -27,8 +27,8 @@
 		<?php 
 
 		$logo = "EMILY O'Neill";
-		$homeLink = "?page=home";
-		$link1 = "?page=about";
+		$homeLink = getFile('index.php');
+		$link1 = getFile('about.php');
 		$link1Title = "About";
 		$link2 = "?page=projects";
 		$link2Title = "Projects";
