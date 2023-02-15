@@ -49,5 +49,14 @@ function getPageTemplate() {
 	}
 }
 
+function getProjectTemplate($project) {
+	$filePath = "projects/" . $project; 
+	if (file_get_contents($filePath)) {
+		include($filePath);
+	} else {
+		include('pages/404.php');
+	}
+}
+
 
 ?>
