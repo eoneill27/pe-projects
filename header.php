@@ -21,27 +21,28 @@
 
 	<body>
 
-		<header class="site-header">
-			<inner-column>
-				
-				<?php 
+<header class="site-header">
+	<inner-column>
+		
+		<?php 
 
-				$logo = "EMILY O'Neill";
-				$link1 = "about.php";
-				$link1Title = "About";
-				$link2 = "projects.php";
-				$link2Title = "Projects";
-				$link3 = "'https://oneillemily.substack.com' target='_blank'";
-				$link3Title = "Writing";
-				$link4 = "contact.php";
-				$link4Title = "Contact";
+		$logo = "EMILY O'Neill";
+		$homeLink = "?page=home";
+		$link1 = "?page=about";
+		$link1Title = "About";
+		$link2 = "?page=projects";
+		$link2Title = "Projects";
+		$link3 = "'https://oneillemily.substack.com' target='_blank'";
+		$link3Title = "Writing";
+		$link4 = "?page=contact";
+		$link4Title = "Contact";
 
 
-				include('templates/modules/mast-head/mast-head.php'); 
+		include('templates/modules/mast-head/mast-head.php'); 
 
-				?>
+		?>
 
-			</inner-column>
-		</header>
+	</inner-column>
+</header>
 
-		<main class="page-content">
+<main class="page-content">
