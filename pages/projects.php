@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>	
+
 
 <section class="projects">
 	<inner-column>
@@ -16,5 +16,5 @@
 
 
 
-<?php include('footer.php'); ?>
+
 

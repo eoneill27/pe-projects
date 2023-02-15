@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>	
+
 
 <?php 
 	
@@ -27,5 +27,3 @@
 	</inner-column>
 </section>
 
-
-<?php include('footer.php'); ?>

@@ -1,5 +1,3 @@
-<?php include('header.php'); ?>	
-
 <inner-column>
 	
 		<section class="about-intro">
@@ -47,8 +45,6 @@
 
 		</section>
 		<div class="button">
-				<a class="button-voice" href="resume.php">See my resume</a>
+				<a class="button-voice" href="?page=resume">See my resume</a>
 		</div>
 </inner-column>
-
-<?php include('footer.php'); ?>

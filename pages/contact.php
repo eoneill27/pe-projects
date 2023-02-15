@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>	
+
 
 <section class="contact" id="contact">
 	<inner-column>
@@ -11,4 +11,3 @@
 	</inner-column>
 </section>
 
-<?php include('footer.php'); ?>
