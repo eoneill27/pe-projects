@@ -20,7 +20,13 @@
 
 <?php
 
-	getPageTemplate();
+	
+
+	if (queryString() == "page=e4p") {
+		include ("projects/e4p/index.php");
+	} else {
+		getPageTemplate();
+	}
 
 	// router part two 
 	// which template to include
@@ -45,7 +51,7 @@
 	// 	include ("goals.php");
 	// }
 
-	
+
 
 ?>
 

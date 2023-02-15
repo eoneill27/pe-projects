@@ -1,10 +1,10 @@
 <?php 
 
-// function enableErrorReporting() {
-// 	error_reporting(E_ALL);
-// 	ini_set('display_errors', '1');
-// }
-// enableErrorReporting(); // turn it on
+function enableErrorReporting() {
+	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
+}
+enableErrorReporting(); // turn it on
 
 
 function show($things) {

@@ -3,7 +3,7 @@
 		"id": "e4p",
 		"img": "images/e4p-tile.jpg",
 		"imgOver": "images/e4p-tile.jpg",
-		"url": "projects/e4p",
+		"url": "?page=e4p",
 		"alt": "Card for the Exercises for Programmers page.",
 		"title": "Exercises for Programmers",
 		"description": "A collection of forms using PHP"
