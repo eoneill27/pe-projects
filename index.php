@@ -24,9 +24,20 @@
 
 	if (queryString() == "page=e4p") {
 		include ("projects/e4p/index.php");
-	} else {
-		getPageTemplate();
 	}
+
+	if (isset($_GET['form'])) {
+		getFormTemplate();
+	}
+	
+	if (isset($_GET['page'])) {
+		getPageTemplate();	
+	}
+	
+
+	
+
+
 
 	// router part two 
 	// which template to include

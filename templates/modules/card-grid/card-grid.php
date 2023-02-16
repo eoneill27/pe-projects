@@ -20,7 +20,7 @@
 
 		<?php foreach($array as $thing) { ?>
 
-			<li class="form" style='list-style-type: none'>
+			<li class="project form" style='list-style-type: none'>
 				<a href="<?=$thing['url'];?>">
 					<div class="card-tile">
 

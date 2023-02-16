@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+
 
 <inner-column>
 
@@ -62,4 +62,3 @@
 
 	</inner-column>
 
-<?php include("footer.php"); ?>

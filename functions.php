@@ -58,5 +58,24 @@ function getProjectTemplate($project) {
 	}
 }
 
+//if querystring is ?form=$form, get $form
+function currentForm() {
+	if(isset($_GET['form'])) {
+		return $_GET['form'];
+	} else {
+		return 'index';
+	}
+}
+
+//create file path and include form - file path is projects/e4p/$form.php
+function getFormTemplate() {
+	$filePath = "projects/e4p/" . currentForm() . ".php";
+	if (file_get_contents($filePath)) {
+		include($filePath);
+	} else {
+		include('pages/404.php');
+	}
+}
+
 
 ?>
