@@ -10,12 +10,6 @@ generic-text p {
 
 @media (min-width: 850px) {
 
-	generic-text {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-	}
-
 	generic-text p {
 		max-width: 75ch;
 	}
