@@ -1,11 +1,12 @@
 <?php 
 
-function enableErrorReporting() {
-	error_reporting(E_ALL);
-	ini_set('display_errors', '1');
-}
-enableErrorReporting(); // turn it on
+// function enableErrorReporting() {
+// 	error_reporting(E_ALL);
+// 	ini_set('display_errors', '1');
+// }
+// enableErrorReporting(); // turn it on
 
+error_reporting(0);
 
 function show($things) {
 	echo "<code class='show-code'>";
@@ -15,13 +16,10 @@ function show($things) {
 	echo '</code>';
 }
 
-
-
 // get file path - but always from the root
 function getFile($path) {
 	return dirname(__FILE__) . '/' . $path;
 }
-
 // usage:  include( getFile("templates/components/thing.php") );
 
 
@@ -49,15 +47,6 @@ function getPageTemplate() {
 	}
 }
 
-function getProjectTemplate($project) {
-	$filePath = "projects/" . $project; 
-	if (file_get_contents($filePath)) {
-		include($filePath);
-	} else {
-		include('pages/404.php');
-	}
-}
-
 //if querystring is ?form=$form, get $form
 function currentForm() {
 	if(isset($_GET['form'])) {
@@ -77,5 +66,14 @@ function getFormTemplate() {
 	}
 }
 
+
+// function getProjectTemplate($project) {
+// 	$filePath = "projects/" . $project; 
+// 	if (file_get_contents($filePath)) {
+// 		include($filePath);
+// 	} else {
+// 		include('pages/404.php');
+// 	}
+// }
 
 ?>
