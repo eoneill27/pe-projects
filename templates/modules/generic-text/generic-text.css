@@ -1,5 +1,6 @@
 generic-text {
 	display: block;
+
 }
 
 generic-text p {
@@ -7,3 +8,15 @@ generic-text p {
 	margin-top: 40px;
 }
 
+@media (min-width: 850px) {
+
+	generic-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	generic-text p {
+		max-width: 75ch;
+	}
+}

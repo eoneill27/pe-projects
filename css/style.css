@@ -398,6 +398,12 @@ form button:hover {
 	font-weight: 700;
 }
 
+/* STYLE GUIDE */
+
+.style-heading {
+	margin-bottom: 40px;
+}
+
 /* SITE FOOTER */
 
 .site-footer {

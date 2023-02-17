@@ -4,7 +4,7 @@
 	$imgClass = $imgClass ?? "default imgClass";
 	$img = $img ?? "https://peprojects.dev/images/landscape.jpg";
 	$alt = $alt ?? "default alt text";
-	$copy = $copy ?? "<h3 class='info-voice'>This is a graphic diptych</h3><p class='reading-voice>Check out this super nice photo.</p>"
+	$copy = $copy ?? "<h3 class='info-voice'>This is a graphic diptych</h3><p class='reading-voice'>Check out this super nice photo.</p>";
 	// $class = "";
 	// $img = "https://peprojects.dev/images/landscape.jpg";
 	// $alt = "Test alt text.";

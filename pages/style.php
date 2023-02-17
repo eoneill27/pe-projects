@@ -1,4 +1,6 @@
 <inner-column>
+
+	<h1 class="heyyou-voice style-heading">Style guide</h1>
 	
 	<?php include('templates/modules/generic-text/generic-text.php'); ?>
 

@@ -5,12 +5,19 @@
 graphic-diptych {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
 graphic-diptych .diptych-pic {
 	max-width: 400px;
 	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+graphic-diptych p {
+	margin-top: 15px;
 }
 
 graphic-diptych.flipped {
@@ -21,7 +28,6 @@ graphic-diptych.flipped {
 	graphic-diptych {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around;
 		align-items: center;
 	}
 
@@ -30,22 +36,27 @@ graphic-diptych.flipped {
 	}
 
 	graphic-diptych .diptych-pic {
-		max-width: 500px;
+		max-width: 600px;
+		margin-right: 20px;
+	}
+
+	graphic-diptych.flipped .diptych-pic {
+		margin-left: 20px;
 	}
 
 	graphic-diptych p {
-		max-width: 50ch;
-		margin-left: 30px;
+		max-width: 70ch;
+
 	}
 
 	graphic-diptych.flipped p {
 		margin-left: 0;
 	}
-
+/*
 	.diptych-pic {
 		margin-left: auto;
 		margin-right: auto;
-	}
+	}*/
 	/*.flipped.diptych-pic {
 		margin-right: 0px;
 	}*/
