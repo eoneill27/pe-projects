@@ -1,5 +1,132 @@
 # Emily's Daily Journal
 
+## February 16, 2023
+
+### Stand up
+
+Yesterday I finished the Dynamic Portfolio Adventure videos and watched quite a few portfolio work-through videos. I also made some strides with my site navigation and made sure my file structure is in good order.
+
+This morning I've watched the work-through videos through #30 and will continue watching these over the course of this week. I have my goals, resume and projects page backed by JSON, but don't have data backing my home, about or contact pages yet - and still need to create a template for the project details page. 
+
+Today my goal is to continue to watch videos and take notes and to create a couple more modules - graphic-diptych, figure-module.
+
+### Today's lesson - 158:124 - Medley week 4/6
+
+### To dos
+
+- [x] graphic-diptych module for About page
+- [] start on style guide
+- [x] portfolio workthrough videos
+- [] create archive
+
+## February 15, 2023
+
+### Stand up
+
+Yesterday I put some more time into my portfolio site and watched the first two Dynamic Portfolio Adventure videos.
+
+Today will be similar, I think - I'll watch part 3 and keep at it! 
+
+I also watched the Styling Forms video - I'd like to make a form reset if I have time.
+
+No blockers today.
+
+### Today's lesson - 157:123 - Medley week 3/6
+
+### To dos 
+
+- [x] portfolio adventure part 2 & 3
+- [x] figure out portfolio site navigation 
+- [x] take big picture look at portfolio site file structure
+- [] form reset
+
+## February 14, 2023
+
+### Stand up
+
+Yesterday I started in on the layout challenge, then had a good meeting with Derek, Drew, Alina and Miguel about grid, then continued on the grid path and watched the Jen Simmons video.
+
+Today I'm going to shift gears back to my portfolio website. I've started watching the Portfolio Adventure Part 1 video and am getting a router in place on my site. I'm looking forward to having the structure and organization really solidly in place by the end of the week.
+
+No blockers!
+
+### Today's lesson - 156:122 - Medley week 2/6
+
+### To dos 
+
+- [] layout #2
+- [x] portfolio adventure part 1
+- [x] add router to portfolio site
+- [] practice layouts - see Derek's post in CSS
+
+## February 13, 2023
+
+### Stand up
+
+### Today's lesson - 155:121 - Medley week 1/6
+
+### To dos
+
+- [x] Jen Simmons video
+- [x] layout #1
+
+## February 11, 2023
+
+### Stand up
+
+Wow, I forgot to do standup yesterday. I would have sworn I had done it - but the channel does not lie.
+
+Yesterday I intended to spend more time on WordPress, but I actually continued to work on my portfolio site and watched a couple more work-through videos.
+
+Today is a WordPress day for me. I want to make sure I finish the week with a solid understanding of where I'm at with WP and an investigation into some more field types. The ACF documentation has a nice grid display of the different field types, and I'd like to make my way through a good chunk of that.
+
+One blocker I'm having is with repeater and flexible content field types - in my admin panel, I'm seeing that they are only available in ACF Pro. Is there another way to access this functionality that I'm missing?
+
+### Today's lesson - 153:120 - Wordpress Week 2 (Saturday)
+
+### To dos
+
+- [x] look into WP flexible contents fields
+- [x] look into WP repeater fields
+- [] look into WP input forms
+- [] look into WP slider
+- [] watch 5 workthrough videos
+
+## February 10, 2023
+
+### Stand up
+
+[FORGOT TO DO IT?!?!? TIME TO REFOCUS]
+
+### Today's lesson - 152:119 - Wordpress Week 2 (Friday)
+
+
+### To dos
+
+- [] look into WP flexible contents fields
+- [] look into WP input forms
+- [] look into WP slider
+- [] watch 5 workthrough videos
+
+
+## February 9, 2023
+
+### Stand up
+
+Yesterday I made it through another four work-through videos. I also learned about querying relationship fields in WordPress and got my furniture designers to relate to their furniture pieces. 
+
+Today I need to spend some time putting the work-through tips into action on my portfolio site. Some file restructuring needs to be done, PHP arrays need to be converted to JSON, and a bunch of modules need to be created. 
+
+No blockers today!
+
+### Today's lesson - 151:118 - Wordpress Week 2 (Thursday)
+
+### To dos 
+
+- [] watch 5 workthrough videos
+- [] get portfolio site caught up
+- [] continue to style & build WP site
+
 ## February 8, 2023
 
 ### Stand up
