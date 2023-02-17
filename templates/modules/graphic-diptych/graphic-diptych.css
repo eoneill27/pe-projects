@@ -1,0 +1,52 @@
+/*graphic-diptych * {
+	border: 2px solid red;
+}*/
+
+graphic-diptych {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+graphic-diptych .diptych-pic {
+	max-width: 400px;
+	margin-top: 30px;
+}
+
+graphic-diptych.flipped {
+	flex-direction: column-reverse;
+}
+
+@media (min-width: 900px) {
+	graphic-diptych {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	graphic-diptych.flipped {
+		flex-direction: row-reverse;
+	}
+
+	graphic-diptych .diptych-pic {
+		max-width: 500px;
+	}
+
+	graphic-diptych p {
+		max-width: 50ch;
+		margin-left: 30px;
+	}
+
+	graphic-diptych.flipped p {
+		margin-left: 0;
+	}
+
+	.diptych-pic {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/*.flipped.diptych-pic {
+		margin-right: 0px;
+	}*/
+}
