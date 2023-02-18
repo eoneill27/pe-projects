@@ -1,0 +1,35 @@
+/* SITE STRUCTURE */
+
+body * {
+/*	border: 3px solid red;*/
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	--site-yellow: #facc36;
+	--site-pink: #e2929f;
+	--site-blue: #ace2d0;
+	--site-green: #c6cc53;
+}
+
+inner-column {
+	
+	display: block;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+@media (min-width: 860px) {
+
+	inner-column {
+		padding: 20px;
+	}
+}
+
+.page-content {
+	flex-grow: 1;
+}

@@ -1,0 +1,67 @@
+
+/* FORM STYLING */
+
+a h1 {
+	text-align: center;
+}
+.form-fields, .form-output {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+@media (min-width: 600px) {
+
+	.form-fields, .form-output {
+		width: 500px;
+	}
+}
+
+.form-output {
+	margin-top: 30px;
+}
+
+.form-fields label {
+	margin-top: 15px;
+}
+.form-fields input {
+	max-width: 20ch;
+	margin-top: 5px;
+}
+
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0; 
+}
+
+@media (min-width: 500px) {
+
+	.form-fields, .form-output {
+		max-width: 450px;
+	}
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+form button {
+	margin-top: 30px;
+	padding: 5px 30px;
+	border: 2px solid black;
+}
+
+form button:hover {
+	background-color: var(--site-yellow);
+}
+
+.gentle-reminder {
+	color: red;
+}

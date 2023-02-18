@@ -69,6 +69,10 @@ picture img { /* "ALL images inside of pictures" */
 	/* allow it to fill parent & only set size on parent */
 }
 
+svg {
+  display: block;
+  width: 100%;
+}
 
 /* LINKS 
 https://codepen.io/perpetual-education/pen/VwPxxKg */
@@ -96,6 +100,7 @@ nav a {
 	text-decoration: none;
 }
 
+
 /* ACCESSIBILITY */
 
 .visually-hidden {
@@ -106,4 +111,9 @@ nav a {
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
+}
+
+/* selects for custom elements */
+:where(:not(:defined)) {
+	display: block;
 }
