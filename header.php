@@ -11,7 +11,7 @@
 		<meta property="og:image" content="https://peprojects.dev/alpha-6/emily/images/meta-share.jpg">
 		<link rel="icon" href="https://peprojects.dev/alpha-6/emily/images/favicon.png">
 
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/site.css">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
