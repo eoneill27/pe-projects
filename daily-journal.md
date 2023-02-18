@@ -1,5 +1,25 @@
 # Emily's Daily Journal
 
+## February 17, 2023
+
+### Stand up
+
+Yesterday I watched a lot of videos and built a couple more modules. I also started building the style guide. 
+
+I hit a bit of a wall last night in terms of imagining how the modules would fit in to my site without totally redoing the structure of the site - today I've started making the project detail pages, and it occurred to me that these are blank slates for my modules. I might focus on using all of the modules in the case studies instead of trying to force them into the existing pages.
+
+Today I would also like to tackle my CSS files - I need to break up the site-wide stylesheets into smaller pieces.
+
+### Today's lesson - 159:125 - Medley week 5/6
+
+### To dos
+
+- [x] break up CSS files
+- [] create archive
+- [x] create details page template for projects
+- [] use modules in the details page
+- [] build out style guide
+
 ## February 16, 2023
 
 ### Stand up
