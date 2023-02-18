@@ -2,6 +2,7 @@
 
 	$header = (isset($header)) ? $header : "";
 	$totalShown = 2;
+	// $array = $array;
 	$array = array_slice($array, 0, $totalShown);
 ?>
 

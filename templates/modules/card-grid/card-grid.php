@@ -3,6 +3,7 @@
 
 	$header = (isset($header)) ? $header : "";
 	$subHeader = (isset($subHeader)) ? $subHeader : "";
+	$array = $array;
 
 ?>
 

@@ -1,11 +1,11 @@
 generic-text {
 	display: block;
-
+/*	margin-top: 40px;*/
 }
 
 generic-text p {
 	max-width: 60ch;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 @media (min-width: 850px) {
