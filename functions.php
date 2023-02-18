@@ -1,12 +1,12 @@
 <?php 
 
-// function enableErrorReporting() {
-// 	error_reporting(E_ALL);
-// 	ini_set('display_errors', '1');
-// }
-// enableErrorReporting(); // turn it on
+function enableErrorReporting() {
+	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
+}
+enableErrorReporting(); // turn it on
 
-error_reporting(0);
+// error_reporting(0);
 
 function show($things) {
 	echo "<code class='show-code'>";
@@ -40,7 +40,7 @@ function currentPage() {
 // currentPage is passed into function to get page template
 function getPageTemplate() {
 	$filePath = "pages/" . currentPage() . ".php";
-	if (file_get_contents($filePath)) {
+	if (file_exists($filePath)) {
 		include($filePath);
 	} else {
 		include('pages/404.php');
