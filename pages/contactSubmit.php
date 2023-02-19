@@ -6,7 +6,7 @@ if(isset($_POST['submitted'])) {
 
 $to      = 'oneill.emily@gmail.com';
 $subject = 'Contact form submission';
-$message = wordwrap($_POST['message']);
+$message = $_POST['message'];
 $from = $_POST['name'];
 $email = $_POST['email'];
 $headers = 'From: ' . $from . '\r\n' . 'Reply-to: ' . $email;
