@@ -1,26 +1,11 @@
 
 
-<?php
-	// Get data from form
 
-if(isset($_POST['submitted'])) {
-
-$to      = 'oneill.emily@gmail.com';
-$subject = 'Contact form submission';
-$message = $_POST['message'];
-$headers = array(
-    'From' => $_POST['name'],
-    'Reply-To' => $_POST['email'],
-	);
-
-@mail($to, $subject, $message, $headers);
-}
-?>
 
 
 <section class="contact" id="contact">
 	<inner-column>
-		<h1 class="heyyou-voice">Contact Emily</h1>
+		<h1 class="heyyou-voice">EContact Emily</h1>
 
 		<div class="contact-text">
 			<span class="reading-voice">You can always reach me at
@@ -28,7 +13,7 @@ $headers = array(
 
 			<p class="reading-voice">Alternatively, you can fill in this form with a brief description of your project:</p>
 
-			<form action="?=contactSubmit" method="post">
+			<form action="?page=contactSubmit" method="post">
 				
 				<div class="form-fields reading-voice">
 				
@@ -49,7 +34,7 @@ $headers = array(
 				</div>
 				
 			</form>
-			
+
 			<p class="reading-voice">I'll do my very best to get back to you within 24 hours. I'm looking forward to working with you!</p>
 		</div>
 	</inner-column>
