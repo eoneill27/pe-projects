@@ -6,19 +6,18 @@ if(isset($_POST['submitted'])) {
 
 $to      = 'oneill.emily@gmail.com';
 $subject = 'Contact form submission';
-$message = $_POST['message'];
-$headers = array(
-    'From' => $_POST['name'],
-    'Reply-To' => $_POST['email'],
-	);
+$message = wordwrap($_POST['message']);
+$from = $_POST['name'];
+$email = $_POST['email'];
+$headers = 'From: ' . $from . '\r\n' . 'Reply-to: ' . $email;
 
 mail($to, $subject, $message, $headers);
+
 }
 ?>
+
 <inner-column>
 
-	<p class="reading-voice">Thanks for submitting your form!</p>
+	<p class="reading-voice">Thanks for submitting the contact form! I'll get back to you as soon as I can.</p>
 
-<h1>lkjelkj
-</h1>
 </inner-column>
