@@ -9,9 +9,8 @@ $subject = 'Contact form submission';
 $message = $_POST['message'];
 $from = $_POST['name'];
 $email = $_POST['email'];
-$headers = 'From: ' . $name . '\r\n' .
-        'Reply-To: ' . $email . '\r\n' .
-        'X-Mailer: PHP/' . phpversion();
+$headers = 'From: ' . $from . '\r\n' .
+        'Reply-To: ' . $email . '\r\n';
 
 mail($to, $subject, $message, $headers);
 
