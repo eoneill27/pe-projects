@@ -6,13 +6,13 @@ if(isset($_POST['submitted'])) {
 
 $to      = 'oneill.emily@gmail.com';
 $subject = 'Contact form submission';
-$message = 'From: ' . $_POST['name'] . '\r\n' . 'Reply-to: ' . '\r\n' . $_POST['message'];
+$message = 'From: ' . $_POST['name'] . '\r\n' . 'Reply-to: ' . $_POST['email'] . '\r\n' . $_POST['message'];
 // $from = $_POST['name'];
 // $email = $_POST['email'];
 // $headers = 'From: ' . $from . '\r\n' .
 //         'Reply-To: ' . $email . '\r\n';
 
-mail($to, $subject, $message, $headers);
+mail($to, $subject, $message);
 
 }
 
