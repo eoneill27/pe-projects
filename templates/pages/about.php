@@ -1,7 +1,7 @@
 <inner-column>
 	
 		<section class="about-intro">
-			<h1 class="heyyou-voice">About Emily</h1>
+			<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
 		</section>
 
 		<?php

@@ -1,0 +1,23 @@
+{
+	"slug": "style-guide",
+	"title": "Style Guide",
+	"sections": [
+		{
+			"module": "generic-text",
+			"class": ""
+		},
+		{
+			"module": "graphic-diptych"
+		},
+		{
+			"module": "graphic-diptych",
+			"class": "flipped"
+		},
+		{
+			"module": "featured-cards"
+		},
+		{
+			"module": "card-grid"
+		}
+	]
+}

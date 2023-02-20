@@ -14,8 +14,8 @@
 	$pageDataFilePath = "data/pages/$page.json";
 	$pageData = null;
 	if (file_exists($pageDataFilePath)) {
-		$json = file_get_contents($pageDataFilePath);
-		$pageData = json_decode($json, true);
+		$pageJson = file_get_contents($pageDataFilePath);
+		$pageData = json_decode($pageJson, true);
 	}
 ?>
 
@@ -31,8 +31,8 @@
  	}
 
 	if($pageData) {
-		if(!isset($pageData['template'])) {
-			include('templates/pages/default.php');
+		if(!isset($pageData["template"])) {
+			include("templates/pages/default.php");
 		} else {
 			include("templates/pages/$pageData[template].php");
 		}
@@ -49,9 +49,9 @@
 
 
 
-		if (isset($_GET['form'])) {
-			getFormTemplate();
-		}
+		// if (isset($_GET['form'])) {
+		// 	getFormTemplate();
+		// }
 
 	
 	// } else {

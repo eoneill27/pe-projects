@@ -5,7 +5,7 @@
 
 <section class="contact" id="contact">
 	<inner-column>
-		<h1 class="heyyou-voice">Contact Emily</h1>
+		<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
 
 		<div class="contact-text">
 			<span class="reading-voice">You can always reach me at
