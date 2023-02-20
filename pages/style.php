@@ -2,8 +2,8 @@
 	<inner-column>
 
 		
-			<h1 class="heyyou-voice style-heading">Style guide</h1>
-			
+		<h1 class="heyyou-voice style-heading">Style guide</h1>
+
 		<div class="style-div">
 			<h1 class="heyyou-voice">This is the Hey You! voice</h1>
 			<h2 class="attention-voice">This is the Attention voice</h2>
