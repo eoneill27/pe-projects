@@ -22,7 +22,7 @@
 		<?php foreach($array['cards'] as $card) { ?>
 
 			<li class="project form" style='list-style-type: none'>
-				<a href="<?=$card['url'];?>">
+				<a href="<?=$card['url']?>">
 					<div class="card-tile">
 
 						<h3 class="info-voice"><?=$card['title'];?></h3>

@@ -22,13 +22,9 @@
 <?php 
 
 
-	
-
-	 
-
-	if (queryString() == "page=e4p") {
-		include ("projects/e4p/index.php");
- 	}
+	// if (queryString() == "page=e4p") {
+	// 	include ("projects/e4p/index.php");
+ 	// }
 
 	if($pageData) {
 		if(!isset($pageData["template"])) {
