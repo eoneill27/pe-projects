@@ -31,6 +31,13 @@
 	line-height: 1.4;
 }
 
+.strong-voice {
+	font-family: "Poppins", Avenir, sans-serif;
+	font-size: clamp(12px, 6vw, 18px);
+	font-weight: 500;
+	line-height: 1.4;
+}
+
 .button-voice {
 	font-family: "Poppins", Avenir, sans-serif;
 	font-size: clamp(14px, 4vw, 22px);

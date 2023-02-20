@@ -1,0 +1,101 @@
+{
+	"slug": "resume",
+	"template": "resume",
+	"title": "Resume",
+	
+	"sections": [
+		{
+			"heading": "Education",
+			"experiences": [
+				{
+					"title": "Design for the Web",
+					"time": "September 2022-present",
+					"organization": "Perpetual Education",
+					"location": "online"
+				},
+				{
+					"title": "Master of Library and Information Studies and Master of Archival Studies, joint degree",
+					"time": "2005-2008",
+					"organization": "University of British Columbia",
+					"location": "Vancouver, BC"
+				},
+				{
+					"title": "Bachelor of Arts in History",
+					"time": "2001-2005",
+					"organization": "University of North Carolina",
+					"location": "Chapel Hill, NC"
+				}
+			]
+		},
+		{
+			"heading": "Work Experience",
+			"experiences": [
+				{
+					"title": "Information Specialist",
+					"time": "September 2009-present",
+					"organization": "British Columbia Teachers' Federation",
+					"location": "Vancouver, British Columbia"
+				},
+				{
+					"title": "Librarian",
+					"time": "July 2008-June 2009",
+					"organization": "Sandwell Engineering, Inc.",
+					"location": "Vancouver, British Columbia"
+				},
+				{
+					"title": "Graduate Academic Assistant, Reference Desk",
+					"time": "September 2007-April 2008",
+					"organization": "Woodward Biomedical Library, University of British Columbia",
+					"location": "Vancouver, British Columbia"
+				},
+				{
+					"title": "Student Library Assistant",
+					"time": "May 2007-April 2008",
+					"organization": "Woodward Biomedical Library, University of British Columbia",
+					"location": "Vancouver, British Columbia"
+				},
+				{
+					"title": "Library Assistant",
+					"time": "October 2006-May 2007",
+					"organization": "Disability Services, University of British Columbia",
+					"location": "Vancouver, British Columbia"
+				},
+				{
+					"title": "Manuscripts Processing Assistant",
+					"time": "August 2002-May 2005",
+					"organization": "Manuscripts Department, Academic Affairs Library",
+					"location": "University of North Carolina, Chapel Hill"
+				}
+			]
+		},
+		{
+			"heading": "Personal Activities and Interests",
+			"experiences": [
+				{
+					"description": "Coach for the Canadian Girls Baseball development league since 2020"
+				},
+				{
+					"description": "Ten-time Canadian champion at the American Crossword Puzzle Tournament"
+				},
+				{
+					"description": "Executive member of the Teachers' Federation Employees' Union since 2015 - currently in the role of Secretary. Served as Vice President from 2018-2021"
+				},
+				{
+					"description": "Level 2 occupational first aid attendant since 2014"
+				},
+				{
+					"description": "Member of two recreational softball teams - one orthodox and one very, very slo-pitch"
+				},
+				{
+					"description": "Member of a ukulele trio (but don't ask - we only perform for our book club)"
+				},
+				{
+					"description": "Templeton Swim Boot Camp team member since 2015"
+				},
+				{
+					"description": "UBC sprint triathlon finisher seven years running"
+				}
+			]
+		}
+	]
+}

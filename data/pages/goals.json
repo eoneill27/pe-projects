@@ -1,0 +1,32 @@
+{
+	"slug": "goals",
+	"template": "goals",
+	"title": "Goals",
+
+	"sections": 
+	[
+		{
+			"heading": "End of the course",
+			"items": [
+					"confidence in my skills as a designer and a developer",
+					"a beautiful personal website that showcases who I am and what I can do - something that will market me well to potential clients",
+					"some experience with real-world projects",
+					"one job (at least) to look forward to working on, as the start of the transition out of my current job"
+				]
+		},
+		{
+			"heading": "Five years",
+			"items": [
+				"self-employed",
+				"owner & operator of web design business",
+				"making $125,000+ annually",
+				"flexible schedule - able to take long vacations, or work 4-day weeks work when and where I want to",
+				"engaging, interesting work that I enjoy - something that I don't mind devoting long days to, especially when long days mean shorter work weeks",
+				"owner of 2-bedroom condo with a view in my neighbourhood",
+				"owner of a wirehaired dachshund named Little Joey Cora",
+				"flourishing work-life balance - lots of walks, lots of time with my friends and their kids, healthy meals at home"
+			]
+		}
+	]
+
+}
