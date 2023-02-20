@@ -22,7 +22,7 @@
 					<?php 
 
 						$header = "Projects";
-						$json = file_get_contents("data/projects.json");
+						$json = file_get_contents("data/pages/projects.json");
 						$array = json_decode($json, true);
 
 						include('templates/modules/featured-cards/featured-cards.php'); 

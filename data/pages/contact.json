@@ -1,1 +1,5 @@
-contact.json
+{
+	"slug": "contact",
+	"template": "contact",
+	"title": "Contact Emily"
+}

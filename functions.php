@@ -39,11 +39,11 @@ function currentPage() {
 
 // currentPage is passed into function to get page template
 function getPageTemplate() {
-	$filePath = "pages/" . currentPage() . ".php";
+	$filePath = "templates/pages/" . currentPage() . ".php";
 	if (file_exists($filePath)) {
 		include($filePath);
 	} else {
-		include('pages/404.php');
+		include('templates/pages/404.php');
 	}
 }
 
@@ -62,7 +62,7 @@ function getFormTemplate() {
 	if (file_get_contents($filePath)) {
 		include($filePath);
 	} else {
-		include('pages/404.php');
+		include('templates/pages/404.php');
 	}
 }
 

@@ -5,36 +5,62 @@
 
 <?php
 
-	$pageData = null;
+	// ROUTER
+	
 	$page = currentPage();
 
-	$pageDataFilePath = "data/pages/$page.json";
-
 	//if there is a data file for a particular page
-	//get the data
+	// Get the page data
+	$pageDataFilePath = "data/pages/$page.json";
+	$pageData = null;
 	if (file_exists($pageDataFilePath)) {
 		$json = file_get_contents($pageDataFilePath);
 		$pageData = json_decode($json, true);
 	}
+?>
 
-	if (!isset($pageData['template'])) {
-		include('templates/pages/standard/php');
-	} else {
-		include("templates/pages/$pageData[template].php");
-	}
+<?php 
 
+
+	
+
+	 
 
 	if (queryString() == "page=e4p") {
 		include ("projects/e4p/index.php");
-	} else {
-		if (isset($_GET['page'])) {
-		getPageTemplate();	
+ 	}
+
+	if($pageData) {
+		if(!isset($pageData['template'])) {
+			include('templates/pages/default.php');
+		} else {
+			include("templates/pages/$pageData[template].php");
 		}
+	} else {
+		include('templates/pages/404.php');
 	}
 
-	if (isset($_GET['form'])) {
-		getFormTemplate();
-	}
+	// } elseif (isset($_GET['page']) AND !isset($pageData['template'])) {
+	// 	getPageTemplate();
+	// } else {
+	// 	include("templates/pages/" . $pageData['template'] . ".php");
+	// }
+
+
+
+
+		if (isset($_GET['form'])) {
+			getFormTemplate();
+		}
+
+	
+	// } else {
+	// 	if (isset($_GET['page'])) {
+	// 	getPageTemplate();	
+	// 	}
+	// }
+
+
 	
 ?>
 

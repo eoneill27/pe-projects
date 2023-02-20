@@ -1,1 +1,5 @@
-about.json
+{
+	"slug": "about",
+	"template": "about",
+	"title": "About"
+}

@@ -1,1 +1,5 @@
-home.json
+{
+	"slug": "home",
+	"template": "home",
+	"title": "Hello!"
+}
