@@ -3,7 +3,8 @@
 	$header = (isset($header)) ? $header : "";
 	$totalShown = 2;
 	// $array = $array;
-	$array = array_slice($array, 0, $totalShown);
+	$array = $array['cards'];
+	$featuredArray = array_slice($array, 0, $totalShown);
 ?>
 
 <featured-cards>
@@ -12,13 +13,13 @@
 	<ul>
 
 		<?php 
-			foreach ($array as $thing) { ?>
+			foreach ($featuredArray as $card) { ?>
 
 				<li>
-					<a href="<?=$thing['url'];?>">
+					<a href="<?=$card['url'];?>">
 						<div class="card-tile">
-							<h3 class="info-voice"><?=$thing['title'];?></h3>
-							<p class="reading-voice"><?=$thing['description'];?></p>
+							<h3 class="info-voice"><?=$card['title'];?></h3>
+							<p class="reading-voice"><?=$card['description'];?></p>
 						</div>
 					</a>
 				</li>

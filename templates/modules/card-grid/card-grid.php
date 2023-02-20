@@ -19,14 +19,14 @@
 
 		<ul>
 
-		<?php foreach($array as $thing) { ?>
+		<?php foreach($array['cards'] as $card) { ?>
 
 			<li class="project form" style='list-style-type: none'>
-				<a href="<?=$thing['url'];?>">
+				<a href="<?=$card['url'];?>">
 					<div class="card-tile">
 
-						<h3 class="info-voice"><?=$thing['title'];?></h3>
-						<p class="reading-voice"><?=$thing['description'];?></p>
+						<h3 class="info-voice"><?=$card['title'];?></h3>
+						<p class="reading-voice"><?=$card['description'];?></p>
 
 					</div>
 				</a>
