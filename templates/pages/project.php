@@ -1,6 +1,6 @@
 
 <?php
-	$json = file_get_contents("data/projects.json");
+	$json = file_get_contents("data/pages/projects.json");
 	$array = json_decode($json, true);
 
 
@@ -9,9 +9,9 @@
 <section class="project-details">
 	<inner-column>
 
-	<h1 class="heyyou-voice">Case study</h1>
+	<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
 
-		<?php foreach($array as $project) { 
+		<?php foreach($array['cards'] as $project) { 
 			if ($project['id'] == $_GET['id']) { 
 				$thisProject = $project; 
 				
