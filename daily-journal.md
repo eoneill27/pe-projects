@@ -1,5 +1,57 @@
 # Emily's Daily Journal
 
+## February 20, 2023
+
+### Stand up
+
+This weekend I was helping my friend Ann out - we took a trip with her kids for a couple of nights to visit her dad in Kamloops, BC, which is about 4 hours away from Vancouver. Her husband was out of town and her dad is a little unwell, so she wanted to go help him out with a few things - but her kids can be maniacs, so I thought she might need a hand if she actually wanted to get anything done for him. So long story short, I was on kid duty for most of the weekend and just did not have as much time as I felt I needed to get as far as I wanted to get with last week's work. 
+
+Happily, I have today off - so I spent the morning finally finishing the portfolio workthrough videos. It feels really great to have gotten through them! I'm feeling pretty good with where I'm at with my site structure - everything is backed by JSON and everything is hooked up and working. Some details still need to be added, but I feel a lot better about it than I did yesterday.
+
+I'll spend the rest of the afternoon working on today's lesson. I'm going to take tomorrow off work, too, just to give myself a little extra breathing room.
+
+No blockers today.
+
+### Today's lesson - 162:127 - Personal site "PRO" (the content)
+
+Your website is an interactive playground & storytelling device
+A way to prove that you know how to do all these things
+
+The site is a style system
+
+Map out the content of your website
+In great detail!
+What if you're working with a client and you map the content for the quote - but forget to include a big part?
+
+Think about trigger animation
+Green Sock
+
+Style guides to emulate from Alpha 4 - John, Andy, Jesse
+
+### To dos
+
+- [] video tour of personal site 
+- [x] think through site content - write it all out in detail
+
+## February 18, 2023
+
+### Stand up
+
+Yesterday I worked on my style guide and project detail page.
+
+Today I’m going through the site checklist - I want to work on an email form. I have my project detail pages linking out to the projects, but I need to write blurbs. I’d also like to watch todays videos and work on finishing the last set of work-through videos.
+
+No blockers today.
+
+### Today's lesson - 160:126 - Medley week 6/6
+
+### To dos
+
+- [x] email form
+- [] project blurbs
+- [] create archive
+
+
 ## February 17, 2023
 
 ### Stand up
@@ -18,7 +70,7 @@ Today I would also like to tackle my CSS files - I need to break up the site-wid
 - [] create archive
 - [x] create details page template for projects
 - [] use modules in the details page
-- [] build out style guide
+- [x] build out style guide
 
 ## February 16, 2023
 
