@@ -10,10 +10,7 @@
 
 <card-grid>
 	
-	<header class="module-header">
-		<h1 class="heyyou-voice"><?=$header?></h1>
-		<h2 class="info-voice"><?=$subHeader?></h2>
-	</header>
+
 
 	<div class="card-grid">
 

@@ -4,16 +4,8 @@ card-grid {
 
 /* PROJECTS & FORMS - PAGES & TILES */
 
-.projects h1 {
-	margin-bottom: 30px;
-}
-
-.e4p h2 {
-	margin-bottom: 30px;
-}
-
 .project, .form {
-	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*a.project {
