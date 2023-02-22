@@ -1,5 +1,44 @@
 # Emily's Daily Journal
 
+## February 21, 2023
+
+### Stand up
+
+Yesterday I finished the portfolio workthrough videos and got my E4P routing to align with the rest of the site routing. I also watched the content document video and got started on thinking about my site content. 
+
+Today I want to flesh out my site content document with more details and really put some thought into what specific modules I might want to use for each page. 
+
+### Today's lesson - 163:128 - Personal Site Work Day
+
+1. Discovering the content
+- every little point of detail
+- do the projects have dates or subtitles or link text or little icons or lists of tools used?
+- what will be on your case study pages?
+- if you don't know what your content is, you're just blindly designing a random website based on other websites
+- if it isn't in support of your goal, don't do it
+
+2. Discovering the content shape
+- think about all the ways the content can be laid out
+
+3. Discovering fonts and contrast
+
+4. Exploring possible layouts and grids
+
+5. Discovering patterns in the grid
+
+6. Critique and details
+
+Accessibility states
+prefers-color-scheme, prefers-contrast, prefers-no-motion
+
+Draw out elements in your resume that transfer 
+soft skills
+
+### To dos 
+
+- [x] flesh out site content document
+- [] video tour of personal site
+
 ## February 20, 2023
 
 ### Stand up
