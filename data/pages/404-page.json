@@ -1,0 +1,15 @@
+{
+	"slug": "404-page",
+	"template": "404-page",
+	"title": "I'm sorry, this is a 404 error!",
+
+	"sections": [
+		{
+			"module": "page-header"
+		},
+		{
+			"module": "generic-text",
+			"content": "<p class='reading-voice'>The page you're looking for doesn't exist. If you don't think you should be seeing this, please let me know.</p>"
+		}
+	]
+}

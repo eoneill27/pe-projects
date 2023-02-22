@@ -1,5 +1,6 @@
 {
 	"slug": "exercises",
 	"template": "exercises",
-	"title": "Exercises for Programmers"
+	"title": "Exercises for Programmers",
+	"subtitle": "A collection of forms based on Brian P. Hogan's book"
 }

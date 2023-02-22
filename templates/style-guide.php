@@ -1,8 +1,7 @@
 <section class="style-guide">
 	<inner-column>
 
-		
-		<h1 class="heyyou-voice style-heading">Style guide</h1>
+		<?php include('templates/modules/page-header/page-header.php'); ?>
 
 		<div class="style-div">
 			<h1 class="heyyou-voice">This is the Hey You! voice</h1>

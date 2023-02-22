@@ -8,8 +8,8 @@
 
 <section class="project-details">
 	<inner-column>
-
-	<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
+	
+	<?php include('templates/modules/page-header/page-header.php'); ?>
 
 		<?php foreach($array['cards'] as $project) { 
 			if ($project['id'] == $_GET['id']) { 

@@ -3,6 +3,9 @@
 	"title": "Style Guide",
 	"sections": [
 		{
+			"module": "page-header"
+		},
+		{
 			"module": "generic-text",
 			"class": ""
 		},

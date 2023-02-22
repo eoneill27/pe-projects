@@ -5,7 +5,7 @@
 
 <section class="contact" id="contact">
 	<inner-column>
-		<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
+		<?php include('templates/modules/page-header/page-header.php'); ?>
 
 		<div class="contact-text">
 			<span class="reading-voice">You can always reach me at

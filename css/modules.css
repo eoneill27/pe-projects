@@ -1,4 +1,5 @@
 @import '../templates/modules/mast-head/mast-head.css';
+@import '../templates/modules/page-header/page-header.css';
 @import '../templates/modules/generic-text/generic-text.css';
 @import '../templates/modules/featured-cards/featured-cards.css';
 @import '../templates/modules/card-grid/card-grid.css';

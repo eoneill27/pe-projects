@@ -9,7 +9,8 @@
 
 <section class="goals">
 	<inner-column>
-		<h1 class="attention-voice"><?=$pageData["title"];?></h1>
+		<?php include('templates/modules/page-header/page-header.php'); ?>
+
 
 		<?php 
 			foreach($pageData['sections'] as $section) {

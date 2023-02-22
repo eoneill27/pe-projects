@@ -11,7 +11,7 @@
 <section class="resume">
 	<inner-column>
 		
-		<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
+		<?php include('templates/modules/page-header/page-header.php'); ?>
 
 		<?php 
 

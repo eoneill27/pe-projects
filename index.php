@@ -32,8 +32,8 @@
 		} else {
 			include("templates/pages/$pageData[template].php");
 		}
-	} else {
-		include('templates/pages/404.php');
+	} elseif(!$pageData) {
+		include('templates/pages/404-page.php');
 	}
 
 	// } elseif (isset($_GET['page']) AND !isset($pageData['template'])) {

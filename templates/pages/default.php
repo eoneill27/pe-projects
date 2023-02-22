@@ -1,9 +1,4 @@
-<section>
-	<inner-column>
-		
-		<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
-	</inner-column>
-</section>
+
 
 
 		
@@ -11,7 +6,7 @@
 			$module = $section['module']; 
 			if(isset($section['class'])) {
 				$class = $section['class'];
-				}
+			}
 		?>
 
 			<section class="<?=$class?>">

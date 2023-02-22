@@ -1,7 +1,7 @@
 <inner-column>
 	
 		<section class="about-intro">
-			<h1 class="heyyou-voice"><?=$pageData['title'];?></h1>
+			<?php include('templates/modules/page-header/page-header.php'); ?>
 		</section>
 
 		<?php
