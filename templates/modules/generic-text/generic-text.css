@@ -5,7 +5,7 @@ generic-text {
 
 generic-text p {
 	max-width: 60ch;
-	margin-top: 20px;
+/*	margin-top: 20px;*/
 }
 
 @media (min-width: 850px) {
