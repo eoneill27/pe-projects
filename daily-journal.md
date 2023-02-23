@@ -1,5 +1,33 @@
 # Emily's Daily Journal
 
+## February 22, 2023
+
+### Stand up
+
+Yesterday I added to my content document, created a new module for my site, and got that working in all the appropriate places. I also started reading "the polar bear book," Information Architecture. 
+
+Today I will be thinking about grouping content and trying out different permutations for all of the content pieces that I've identified. I also want to continue to clean up my site code - I think I have some inconsistencies in my CSS that need to be addressed.
+
+No blockers today.
+
+### Today's lesson - 164:129 - Putting the content in context
+
+Don't forget about the magnet in Affinity - snapping
+CMD + R hides & shows the rulers
+CMD + ; hides & shows guide lines
+CMD + ' hides & shows grid
+
+Try to group things visually
+This is not really a visual design exploration
+We are exploring the types of shapes and character the content groups might have
+
+Look at Miguel's code
+How does his grid maintain the aspect ratio?
+
+### To dos
+
+- [x] content explorations
+
 ## February 21, 2023
 
 ### Stand up
