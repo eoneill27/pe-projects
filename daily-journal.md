@@ -1,5 +1,34 @@
 # Emily's Daily Journal
 
+## February 23, 2023
+
+### Stand up
+
+Yesterday I worked through four content explorations - I'd like to do more of that today. 
+
+I didn't get to my CSS clean up yesterday, so that's still on the agenda. 
+
+No blockers at the moment!
+
+### Today's lesson - 165:130 - Personal site work day
+
+Gold Collective videos
+
+Think about the pages in terms of what you want
+Might want to show people that you're really good at coding - so you have a projects page
+There might also be a hint about it on the home page
+
+Home page is your greeting
+What do you want to say to them when they first meet you?
+
+Stylistic note - consider centering copyright 2023 Emily O'Neill at bottom of footer
+
+### To dos
+
+- [x] content explorations
+- [x] clean up site CSS
+- [] grid exercises
+
 ## February 22, 2023
 
 ### Stand up
