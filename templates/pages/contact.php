@@ -1,8 +1,4 @@
 
-
-
-
-
 <section class="contact" id="contact">
 	<inner-column>
 		<?php include('templates/modules/page-header/page-header.php'); ?>

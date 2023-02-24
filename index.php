@@ -9,7 +9,7 @@
 	
 	$page = currentPage();
 
-	//if there is a data file for a particular page
+	// if there is a data file for a particular page
 	// Get the page data
 	$pageDataFilePath = "data/pages/$page.json";
 	$pageData = null;
@@ -21,11 +21,10 @@
 
 <?php 
 
-
-	// if (queryString() == "page=e4p") {
-	// 	include ("projects/e4p/index.php");
- 	// }
-
+	// if $pageData 'template' key is set, 
+	// include that page template
+	// if it's not set, include the default page
+	// if there is no $pageData, include the 404 error
 	if($pageData) {
 		if(!isset($pageData["template"])) {
 			include("templates/pages/default.php");
@@ -36,14 +35,20 @@
 		include('templates/pages/404-page.php');
 	}
 
+
+
+
+
+
+		// if (queryString() == "page=e4p") {
+	// 	include ("projects/e4p/index.php");
+ 	// }
+
 	// } elseif (isset($_GET['page']) AND !isset($pageData['template'])) {
 	// 	getPageTemplate();
 	// } else {
 	// 	include("templates/pages/" . $pageData['template'] . ".php");
 	// }
-
-
-
 
 		// if (isset($_GET['form'])) {
 		// 	getFormTemplate();

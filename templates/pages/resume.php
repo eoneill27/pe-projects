@@ -6,6 +6,10 @@
 	// $title = $resumeData["pageTitle"];
 	// $sections = $resumeData["sections"];
 
+	// don't need the above anymore because 
+	// router in index.php is setting $pageData;
+	// resume.json data is being pulled into this page
+
 ?>
 
 <section class="resume">

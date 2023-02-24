@@ -4,6 +4,10 @@
 	
 	// $json = file_get_contents("data/pages/goals.json");
 	// $goals = json_decode($json, true);
+
+	// don't need the above anymore because 
+	// router in index.php is setting $pageData;
+	// resume.json data is being pulled into this page
 ?>
 
 
