@@ -1,8 +1,9 @@
 <?php
 
-	$header = (isset($header)) ? $header : "";
+	$header = (isset($header)) ? $header : "These are some featured things";
 	$totalShown = 2;
-	// $array = $array;
+	$json = $json ?? file_get_contents('data/pages/projects.json');
+	$array = json_decode($json, true);
 	$array = $array['cards'];
 	$featuredArray = array_slice($array, 0, $totalShown);
 ?>

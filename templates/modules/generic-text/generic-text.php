@@ -1,5 +1,8 @@
 <?php 
 	
+	// foreach($pageData['sections'] as $section) {
+	// 	$content = $section['content'];
+	// }
 	$content = $content ?? "<h2 class='info-voice'>This is the generic-text heading</h2><p class='reading-voice'>This is the generic-text copy. You can write about anything at all here! Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Qui distinctio saepe temporibus quisquam ullam necessitatibus voluptatum, rerum minima, quod quae inventore, quis eum officia commodi quo, sequi architecto dolores deserunt?</p>";
 	// $heading = $heading ?? "This is a generic-text module";
 	// $headingClass = $headingClass ?? "attention-voice";

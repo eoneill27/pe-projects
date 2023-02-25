@@ -1,16 +1,14 @@
 
 <?php 
 
-	$header = (isset($header)) ? $header : "";
-	$subHeader = (isset($subHeader)) ? $subHeader : "";
+	$json = $json ?? file_get_contents('data/pages/projects.json');
+	$array = json_decode($json, true);
 	$array = $array;
 
 ?>
 
 
 <card-grid>
-	
-
 
 	<div class="card-grid">
 

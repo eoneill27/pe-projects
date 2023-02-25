@@ -159,7 +159,6 @@ div + div {
 }
 
 
-
 /* CONTACT */
 
 .contact-text {
@@ -212,7 +211,10 @@ div + div {
 }
 
 .style-div {
-	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 50px;
+	border: 2px dashed black;
+
 }
 
 /* SITE FOOTER */
