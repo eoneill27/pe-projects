@@ -1,30 +1,11 @@
-
 <mast-head>
+	<h1 class="logo"><a href='<?=$homeLink;?>'><?=$logo?></a></h1>
 
-	<nav class='site-menu'>
-		<ul>
-			<li class="moving-voice">
-				<a class='home' href='#'>
-					<?php include('modules/logo.php'); ?>
-				</a>
-			</li>
-
-			<li class="moving-voice">
-				<a href='#'>Some page</a>
-			</li>
-
-			<li class="moving-voice">
-				<a href='#'>Some other page</a>
-			</li>
-		</ul>
+	<nav class="header-nav nav-voice">
+		<a href=<?="$link1"?>><?=$link1Title?></a>
+		<a href=<?=$link2?>><?=$link2Title?></a>
+		<a href=<?=$link3?>>
+		<?=$link3Title?></a>
+		<a href=<?=$link4?>><?=$link4Title?></a>
 	</nav>
-
-	<nav class='user-menu'>
-		<ul>
-			<li>
-				<a class='button' href='#'>Sign in</a>
-			</li>
-		</ul>
-	</nav>
-
 </mast-head>

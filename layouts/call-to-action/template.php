@@ -1,5 +1,4 @@
 
-
 	<?php
 		if(isset($section['id'])) {
 			$id = $section['id']; 
