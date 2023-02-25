@@ -9,7 +9,6 @@
 .attention-voice {
 	font-family: "Poppins", Avenir, sans-serif;
 	font-size: 36px;
-	margin-bottom: 40px;
 }
 
 .nav-voice {
@@ -77,6 +76,14 @@ h2 + ul {
 
 ul + h2 {
 	margin-top: 30px;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+h2 + h3 {
+	margin-top: 15px;
 }
 
 section + section {
