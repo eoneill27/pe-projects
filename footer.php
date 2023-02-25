@@ -7,6 +7,8 @@
 
 				<nav class="footer-nav nav-voice">
 					<a href="?page=style-guide">Style guide</a>
+					<a href="?page=exercises">Exercises for Programmers</a>
+					<a href="?page=layouts">Layout garden</a>
 					<a href="https://github.com/eoneill27/" target="_blank">Github</a>
 					<a href="https://oneillemily.substack.com" target="_blank">Substack</a>
 					<a href="https://codepen.io/eoneill27" target="_blank">Codepen</a>
