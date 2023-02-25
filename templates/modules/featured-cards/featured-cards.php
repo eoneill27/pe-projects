@@ -20,7 +20,7 @@
 					<a href="<?=$card['url'];?>">
 						<div class="card-tile">
 							<h3 class="info-voice"><?=$card['title'];?></h3>
-							<p class="reading-voice"><?=$card['description'];?></p>
+							<p class="reading-voice"><?=$card['subtitle'];?></p>
 						</div>
 					</a>
 				</li>
