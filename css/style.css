@@ -233,16 +233,30 @@ div + div {
 
 .footer-nav {
 	display: flex;
+	flex-direction: row;
 	align-items: flex-start;
 	gap: 40px;
 	flex-wrap: wrap;
+}
+
+.footer-nav a {
+	margin-top: 8px;
 }
 
 .site-footer address {
 	margin-top: 30px;
 }
 
-@media (min-width: 600px) {
+.extras-menu, .social-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.extras-menu + .social-menu {
+	margin-top: 0;
+}
+
+@media (min-width: 870px) {
 	.site-footer inner-column {
 		flex-direction: row;
 		justify-content: space-between;
