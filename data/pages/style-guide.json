@@ -1,7 +1,7 @@
 {
 	"slug": "style-guide",
 	"template": "style-guide",
-	"title": "Style Guide",
+	"title": "Style Guide (page heading module)",
 	"sections": [
 		{
 			"module": "page-header"
