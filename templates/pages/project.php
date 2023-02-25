@@ -19,14 +19,14 @@
 
 			<h2 class="attention-voice"><?=$thisProject['title']?></h2>
 
-			<p class="info-voice"><?=$thisProject['description'];?></p>
+			<h3 class="info-voice"><?=$thisProject['subtitle'];?></h3>
 
 			<?php if (isset($thisProject['sections'])) {
 
 				foreach ($thisProject['sections'] as $section) {
 
 					if (isset($section['content'])) {
-						$textCopy = $section['content'];
+						$content = $section['content'];
 					}
 
 					if (isset($section['module'])) {

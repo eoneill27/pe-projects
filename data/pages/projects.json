@@ -10,7 +10,7 @@
 			"url": "?page=exercises",
 			"alt": "Card for the Exercises for Programmers page.",
 			"title": "Exercises for Programmers",
-			"description": "A collection of forms using PHP"
+			"subtitle": "A collection of forms using PHP"
 		},
 		{
 			"id": "beth",
@@ -20,14 +20,11 @@
 			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/beth-electric/",
 			"alt": "Screenshot of the mock client project Beth Electric.",
 			"title": "Mock Client Challenge",
-			"description": "A website created for a small business",
+			"subtitle": "A website created for a small business",
 			"sections": [
 				{
 					"module": "generic-text",
-					"content": "<p class='reading-voice'>blach blach</p>"
-				},
-				{
-					"module": "graphic-diptych"
+					"content": "<p class='reading-voice'>Over the course of a six-day sprint, I built a website for a mock client from the ground up.</p>"
 				}
 			]
 		},
@@ -36,50 +33,26 @@
 			"url": "?page=project&id=crash",
 			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/crash-course/",
 			"title": "Crash Course Redo",
-			"description": "Using PHP to reconfigure the PBS Crash Course Computer Science site",
+			"subtitle": "Using PHP to reconfigure the PBS Crash Course Computer Science site",
 			"sections": [
 				{
 					"module": "generic-text",
-					"content": "blah blah"
-				},
-				{
-					"module": "graphic-diptych"
+					"content": "<p class='reading-voice'>I mimicked the PBS Crash Course website to practice building a website backed by JSON, and in an attempt to improve the user experience of the site. Videos can be sorted in ascending or descending order, and the site can be toggled between light and dark modes.</p>"
 				}
 			]
-		},
-		{
-			"id": "monster",
-			"url": "?page=project&id=monster",
-			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/monsters/",
-			"title": "Adopt-A-Monster",
-			"description": "A monster adoption site made with PHP arrays and loops"
 		},
 		{
 			"id": "ann",
 			"url": "?page=project&id=ann",
 			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/anns-adventure/",
 			"title": "Choose Your Own Adventure",
-			"description": "A 'choose your own adventure' birthday card"
-		},
-		{
-			"id": "koalas",
-			"img": "images/koala-tile.jpg",
-			"imgOver": "images/koala-tile-over.jpg",
-			"url": "?page=project&id=koalas",
-			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/responsive-challenge/",
-			"alt": "Screenshot of the responsive layout challenge project.",
-			"title": "Responsive Layout Challenge",
-			"description": "Using flex box to create a responsive site"
-		},
-		{
-			"id": "employ",
-			"img": "images/employ-tile.jpg",
-			"imgOver": "images/employ-tile-over.jpg",
-			"url": "?page=project&id=employ",
-			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/research-employ/",
-			"alt": "Screenshot of the project Research & Employ.",
-			"title": "Research & Employ",
-			"description": "A demonstration of my ability to recreate the visual elements and responsiveness of a website"
+			"subtitle": "A 'choose your own adventure' birthday card",
+			"sections": [
+				{
+					"module": "generic-text",
+					"content": "<p class='reading-voice'>As a gift for my friend's 40th birthday, I made a virtual 'choose your own adventure' card. This was basic practice with file paths, but it is a project idea that merits further development.</p>"
+				}
+			]
 		},
 		{
 			"id": "garden",
@@ -89,7 +62,7 @@
 			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/layout-garden/",
 			"alt": "Screenshot of the responsive layout garden project.",
 			"title": "Responsive Layout Garden",
-			"description": "A collection of responsive layouts"
+			"subtitle": "A collection of responsive layouts"
 		}
 	]
 }
