@@ -4,7 +4,7 @@
 	$imgClass = $imgClass ?? "default imgClass";
 	$img = $img ?? "https://peprojects.dev/images/landscape.jpg";
 	$alt = $alt ?? "default alt text";
-	$diptychCopy = $diptychCopy ?? "<h3 class='info-voice'>This is a graphic diptych</h3><p class='reading-voice'>Check out this super nice photo. This is a place to write something interesting, maybe something about the photo, or maybe not!</p>";
+	$diptychCopy = $section['content'] ?? "<h3 class='info-voice'>This is a graphic diptych</h3><p class='reading-voice'>Check out this super nice photo. This is a place to write something interesting, maybe something about the photo, or maybe not!</p>";
 	// $class = "";
 	// $img = "https://peprojects.dev/images/landscape.jpg";
 	// $alt = "Test alt text.";
