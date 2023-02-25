@@ -16,8 +16,9 @@
 /* C omponents */
 @import 'components.css';
 
-/* S tuff (modules) */
+/* S tuff (modules, layouts) */
 @import 'modules.css';
+@import 'layouts.css';
 
 /* S ections and more stuff */
 

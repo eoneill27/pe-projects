@@ -1,0 +1,14 @@
+{
+	"slug": "layouts",
+	"template": "layouts",
+	"title": "Responsive Layout Garden",
+	"sections": 
+	[
+		{
+			"layout": "call-to-action",
+			"content": "<h2 class='attention-voice'>This is a call to action heading</h2><p class='reading-voice'>This is a call to action. It's prompting you to take some action - go ahead and do it!</p>",
+			"link": "#",
+			"buttonText": "Take action!"
+		}
+	]
+}

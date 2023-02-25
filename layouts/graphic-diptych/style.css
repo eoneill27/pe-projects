@@ -1,0 +1,91 @@
+/*
+graphic-diptych * {
+	border: 3px solid red;
+}*/
+
+graphic-diptych {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 60vh;
+/*	gap: 30px;*/
+/*	padding: 10vh 0;*/
+}
+
+graphic-diptych p {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	max-width: 40ch;
+}
+
+.welcome {
+	background-image: url("../../images/hero-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	color: var(--white);
+	height: 500px;
+}
+
+graphic-diptych text-content {
+
+	/*background-color: white;
+	color: var(--black);
+	padding: 40px 10px;
+	margin-left: 10px;
+	margin-right: 10px;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 55ch;
+	z-index: 5;
+	opacity: 90%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+graphic-diptych :is(h1, p) {
+	text-shadow: 0px 0px 32px rgb(0 0 0 / 50%);
+}
+
+@media (min-width: 355px) {
+	graphic-diptych text-content p {
+		max-width: 20ch;
+	} 
+}
+
+@media (min-width: 700px) {
+
+	.welcome {
+		background-image: url("../../images/hero-desktop.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		color: var(--white);
+		height: 500px;
+	}
+
+	graphic-diptych {
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	graphic-diptych text-content {
+		max-width: 65ch;
+		align-items: flex-start;
+		text-align: left;
+		margin-top: 0;
+/*		margin-top: 30px;*/
+	}
+
+	graphic-diptych text-content p {
+		max-width: 35ch;
+	}
+
+}
