@@ -1,5 +1,57 @@
 # Emily's Daily Journal
 
+## February 27, 2023
+
+### Stand up
+
+On Saturday I was in the office and got some work done on my site style guide and cleaned up some project content. Yesterday I took a real break.
+
+I watched Derek's review video of last week's work, and I think in light of that I'm going to spend some time today filling out my content and typography explorations before I move on to the grid layout mockups. I already have a lot of content on my site, but I have to decide if it's all good content or if some of it can go. 
+
+No blockers, but it's snowing outside and I'm not super happy about that. My race is on Saturday, and as long as it doesn't snow, I think we'll be ok. 
+
+### Today's lesson - 169:133 - Personal site "PRO" (layout)
+
+### To dos
+
+- [x] fill out content & typography explorations
+- [x] start on grid layouts in Affinity
+
+## February 25, 2023
+
+### Stand up
+
+Yesterday I continued my type explorations, which I enjoyed. I didn't get to much else!
+
+Today I am working a first aid shift at my office, so I'm hanging out at my desk in a quiet library all day - it's very nice. Today is a day for site content - I've fixed some issues with my style guide and am moving on to my layout garden. I also need to get some basic content in my case studies so that they don't look totally unfinished.
+
+No blockers today.
+
+### Today's lesson - 167:132 - Personal site work day
+
+### To dos 
+
+- [x] work on style guide - fix grids
+- [x] write some case study content - blurbs at least
+- [] grid exercises
+
+
+## February 24, 2023
+
+### Stand up
+
+Yesterday I spent more time with content in context, cleaned up my site code a bit, and revisited my WordPress site.
+
+Today I'll be working on typography explorations, which I really enjoy. Might do a bit more reading on information architecture too.
+
+No blockers today.
+
+### Today's lesson - 166:131 - Working through type details
+
+### To dos
+
+- [] grid exercises
+
 ## February 23, 2023
 
 ### Stand up
