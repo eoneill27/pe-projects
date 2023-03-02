@@ -1,5 +1,66 @@
 # Emily's Daily Journal
 
+## March 1, 2023
+
+### Stand up
+
+Yesterday I continued on the layout work. It's feeling a little bland to me. I'm meeting with Derek this morning to talk it over.
+
+More of the same today! I'm hoping to get to a place of being happy with my design ideas by tonight so I can start to move forward.
+
+No blockers today.
+
+### Today's lesson - 171:135 - Personal site PRO workday
+
+Talk with Derek - 
+
+think about having individual resume pieces fold up
+
+Build case study - this will help you visualize how alignment will work throughout the site
+Space to the right could be used for TOC, lessons learned, summaries, etc.
+ways to break down content into bite-sized chunks
+
+'e' in emily and 't' in contact create pillars - these make a line down
+might want to have something to pin them at the bottom
+
+current alignment makes a zig zag shape
+creates some friction
+
+don't need to have footer in all mockups because you won't see the footer when the page is longer
+
+conventional wisdom - everything should be aligned to two other things
+
+Create a consistent outline of alignment
+
+could have an arbitrary line in the footer that mimics the line along the text
+footer in inner column could have a slightly different color
+
+make really long page to figure out alignment
+
+can have different layouts for different pages
+but have rules for each
+figure out what your rules are
+
+### To dos
+
+- [x] meet with Derek
+- [] figure out design POV
+- [] work on layouts
+
+## February 28, 2023
+
+### Stand up
+
+Yesterday I continued to work on content and typography and ended the day by dipping a toe into layouts.
+
+Today - I will make a more concerted effort with layouts. I've got almost all of my existing content in Affinity so I can move it around easily. I'd like to work through some ideas tonight and then meet with Derek tomorrow in an effort to think about how I can step outside the box a bit.
+
+### Today's lesson - 170:134 - Personal site PRO workday
+
+### To dos
+
+- [] a million layouts
+
 ## February 27, 2023
 
 ### Stand up
