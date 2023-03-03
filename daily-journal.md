@@ -1,5 +1,33 @@
 # Emily's Daily Journal
 
+## March 3, 2023
+
+### Stand up
+
+### Today's lesson - 173:137 - Personal site PRO workday
+
+### To dos
+
+- [] start coding
+- [] write case studies
+
+## March 2, 2023
+
+### Stand up
+
+Yesterday I met with Derek and continued to work on my layouts. Derek said conventional wisdom is that everything should align to two other things - this is a helpful rule of thumb.
+
+Today my goal is to get two case studies written up so I have real, complete content to work with in that particular layout.
+
+No blockers today.
+
+### Today's lesson - 172:136 - Personal site PRO workday
+
+### To dos 
+
+- [] write 2 case studies
+- [x] continue layout exploration
+
 ## March 1, 2023
 
 ### Stand up
