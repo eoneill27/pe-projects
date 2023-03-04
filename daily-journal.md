@@ -4,6 +4,12 @@
 
 ### Stand up
 
+Yesterday I started down a new path with my layout. I'm enjoying the concept. Implementation might be tricky.
+
+I started off the morning by drawing out the repeating elements in the new layout. I am sure I will spend the rest of the day playing with grid and trying to make this work!
+
+No blockers today.
+
 ### Today's lesson - 173:137 - Personal site PRO workday
 
 ### To dos
