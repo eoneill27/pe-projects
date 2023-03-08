@@ -1,5 +1,59 @@
 # Emily's Daily Journal
 
+## March 7, 2023
+
+### Stand up
+
+Yesterday I was happy to get into JavaScript and play around in the console a bit. So far it seems like PHP has given us a really good foundation for this.
+
+Today's exercises sound like lots of fun and I am looking forward to getting into them this evening. 
+
+No blockers today.
+
+### Today's lesson - 177:140 - The Document Object Model
+
+### To dos
+
+- [x] watch the video
+- [] mess up someone's page
+- [] create a page with only JS in the console (60 mins)
+
+
+## March 6, 2023
+
+### Stand up
+
+On Saturday I got a bit of work done in the morning but then took the rest of the day off. The race went pretty well all things considered - but it was pouring rain and freezing cold, so by the time I got off my bike I couldn't feel my feet. I don't know if that made the run easier or harder. I'm pretty proud of myself for pushing through and finishing in spite of the miserable conditions. Terrible weather is definitely a motivation to get done as quickly as possible.
+
+Yesterday I worked more on coding my site - I'm definitely learning a lot about grid in this process. It's not ready for primetime, so the old version is still live, but I'm getting there.
+
+I'm really excited to start on JavaScript. I have to say, it was nice to be back to watching a video this morning. I absolutely felt the fatigue creeping in on me in the last couple of weeks, but I think I am going to find the JavaScript stuff reinvigorating. 
+
+No blockers today. 
+
+### Today's lesson - 176:139 - Intro to JavaScript and the browser console
+
+### To dos
+
+- [x] watch the video & follow along
+- [x] practice with some of your own ideas
+- [] work on website
+
+
+## March 4, 2023
+
+### Stand up
+
+Yesterday morning I started coding with my new layout ideas in mind. I didn't get much done after I got home from work. I made the mistake of laying down on the couch - I should know better! Alina gave me some great feedback - I'm definitely going to be acting on some of her critiques.
+
+Today, working more on the code. But today is race day followed by a friend's birthday dinner tonight, so I'm going to have to set PE aside for most of the day. I will be back in full force tomorrow.
+
+No blockers today.
+
+### Today's lesson - 174:138 - Personal site PRO workday
+
+### To dos
+
 ## March 3, 2023
 
 ### Stand up
