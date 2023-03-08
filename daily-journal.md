@@ -15,8 +15,8 @@ No blockers today.
 ### To dos
 
 - [x] watch the video
-- [] mess up someone's page
-- [] create a page with only JS in the console (60 mins)
+- [x] mess up someone's page
+- [x] create a page with only JS in the console (60 mins)
 
 
 ## March 6, 2023
