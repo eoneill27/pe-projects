@@ -1,5 +1,23 @@
 # Emily's Daily Journal
 
+## March 8, 2023
+
+### Stand up
+
+Yesterday I played around in the console, messed up my work's website, and practiced making a page from scratch in the console. Kind of slow going, but fun! 
+
+This morning I watched the video and followed along. I'm working a bit over my lunch break right now, and then I'll keep at it when I get home this evening. The dialog boxes are fun - looking forward to practicing with more complicated uses for those. 
+
+No blockers today.
+
+### Today's lesson - 178:141 - User input with browser dialog boxes
+
+### To dos
+
+- [x] watch the video
+- [x] write out pseudocode for first 10 E4P
+- [] write the code for first 10 E4P
+
 ## March 7, 2023
 
 ### Stand up
