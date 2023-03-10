@@ -1,5 +1,63 @@
 # Emily's Daily Journal
 
+## March 9, 2023
+
+### Stand up
+
+### Today's lesson - 179:142 - For each what?
+
+arrays keep their order
+objects do not, necessarily
+
+foreach loop is a method on an array
+
+exampleArray.forEach() - takes in a function
+
+exampleArray.forEach(
+	function exampleFunction(item) {
+		console.log(item);
+	}
+);
+
+foreach is too complicated for console - need to create a real file
+
+scripts go at bottom of HTML file in script tags
+
+use console.log() a lot in order to get feedback
+Takes as many arguments as you want to add
+good practice to add a label so you know the context
+
+for loop = 
+for(var i = 0; i < ?; i++) {
+	action;
+}
+setup, condition, increment
+
+exampleArray.length
+length is a property
+
+forEach is a built-in method
+exampleArray.forEach( 
+	function() {
+
+	};
+)
+You can put 3 items in the function - item, index #, full array
+just have to know this - it's a rule
+
+"The whole internet is just lists of shit."
+- Sheriff Derek
+
+
+
+### To dos
+
+- [] watch the video
+- [] finish the code for E4P 7-10
+- [] practice creating button and event listener
+- [] transcribe notes
+- [] clean up windows
+
 ## March 8, 2023
 
 ### Stand up
@@ -12,11 +70,32 @@ No blockers today.
 
 ### Today's lesson - 178:141 - User input with browser dialog boxes
 
+alert() = makes dialog box with alert text pop up on screen
+
+confirm() = dialog box with message and buttons for cancel and ok pops up. 
+clicking 'ok' returns true
+clicking 'cancel' returns false
+
+prompt() = box with empty text field pops up. User input is returned as a string.
+
+The browser itself is a JS object called window
+Entering window into console brings up a huge list of stuff
+everything is on the window object - everything is in the scope of window
+alert() is actually window.alert()
+
+alert, prompt, and confirm are methods that exist inside the browser
+
+addEventListener() = 1st listens for type of event (click, mouseover, etc.); 2nd does something when that event happens
+
+var startButton = document.createElement('button');
+startButton.addEventListener('click', welcome); [just refer to the function, don't run it yet]
+
+
 ### To dos
 
 - [x] watch the video
 - [x] write out pseudocode for first 10 E4P
-- [] write the code for first 10 E4P
+- [x] write the code for first 10 E4P
 
 ## March 7, 2023
 
@@ -29,6 +108,100 @@ Today's exercises sound like lots of fun and I am looking forward to getting int
 No blockers today.
 
 ### Today's lesson - 177:140 - The Document Object Model
+
+DOM = "Document Object Model" 
+When you make an HTTP request (visit a URL, click a link), the browser downloads a copy of that file - it then reads it over and constructs its own version of that HTML page.
+
+DOM is a programming API (application programming interface) for HTML & XML documents
+(An API is just a way to interact with something else)
+
+cross-platform and language-independent interface that treats an XML or HTML doc as a tree structure
+
+You can think about it as a JS object
+
+The browser reads the document and constructs the DOM tree out of it
+Also creates CSSOM, etc.
+
+The DOM can be changed
+
+In console, document is an object and has a bunch of associated key:value pairs
+document.title allows you to change the title on the fly (document.title = "something else")
+document.head
+document.body
+
+document.querySelector();
+- will look for a selector
+
+document.querySelector('h1');
+returns what the HTML looks like
+But it's not HTML - it's really an object
+
+var heading = document.querySelector("h1");
+
+heading.textContent
+heading.textContent.length
+heading.classList
+
+querySelector('p') - will only get the first p it finds
+
+use createElement() to create an element
+var headingTwo = document.createElement('h2');
+headingTwo.textContent = "My Heading";
+headingTwo.classList.add('my-heading');
+
+appendChild();
+
+#### bitsofco.de/what-exactly-is-the-dom/
+
+Critical Rendering Path = how a browser goes from a source HTML document to displaying a styled and interactive page in the viewport
+- can be roughly grouped into 2 stages - 1. the browser parsing the document; 2. the browser performing the render
+
+Result of the first stage is a "render tree" - a representation of the HTML elements that will be rendered on the page and their related styles
+Browser needs 2 things to build the tree:
+1. The CSSOM - representation of the styles associated with elements
+2. The DOM - representation of the elements
+
+Object structure of the DOM is represented by a "node tree"
+- can be thought of as a tree with a single parent stem (the html element) that branches out into several child branches (nested elements), each of which may have leaves (the content within the elements)
+
+additional nodes can be created in DOM using JS 
+var newParagraph = document.createElement('p');
+var paragraphContent = document.createTextNode("I'm new!");
+newParagraph.appendChild(paragraphContent);
+document.body.appendChild(newParagraph);
+
+The DOM is used by JS programs to modify the content, structure, or styling of the page
+
+#### PE lesson notes
+
+DOM shortcuts - 
+document.head
+document.charset
+document.title
+document.styleSheets
+document.body
+window.location
+window.document
+window.history
+
+can use querySelector() to look for a class. Will return first element within the doc/element that matches
+
+document.createElement() creates an official node
+
+headingOne.style.color = "red";
+
+#### Medium article - How the Browser Renders a Page
+
+DOM is a high-level web API provided by the browser to efficiently render a webpage and expose it publicly for the developer to dynamically manipulate DOM elements for various purposes.
+
+Using DOM API, developers can add or remove HTML elements, change its appearance, or bind event listeners. Using DOM API, HTML elements can be created or cloned in memory and manipulated without affecting the rendered DOM tree. This gives developers the ability to construct highly dynamic web page with rich user experience.
+
+When a web page is loaded, browser reads HTML first and constructs DOM tree. Then it processes the CSS and constructs CSSOM tree. 
+Then it constructs the render tree - and then it starts printing the individual elements on the screen.
+
+console.log() outputs a message to the web console
+useful for debugging
+not printed in browser
 
 ### To dos
 
@@ -50,6 +223,63 @@ I'm really excited to start on JavaScript. I have to say, it was nice to be back
 No blockers today. 
 
 ### Today's lesson - 176:139 - Intro to JavaScript and the browser console
+
+Client = name for an interface (hardware or software) that gives you access to a service provided by a 'server' (another computer somewhere else)
+- when you are using a web application, you are interacting with the client side of a client/server relationship
+
+The browser is the client
+- server-side code (scripts/programs) - like PHP
+- client-side scripting - JavaScript - runs in the browser itself
+
+Browser has its own "run time" - it can execute your JS on the fly in real time
+
+Little reminder about what PHP does - 
+- offloads some of the work to the server
+- instead of having to update 50 files with new links for the header, PHP takes care of it with one partial
+- allows a script to run to generate HTML for us
+- what you get back in your browser is HTML, not PHP
+- dynamically generating different content, but it's doing it on the server
+
+Many programming languages need a compiler - Python, Ruby
+
+With JS - you can just write it in the browser
+Originally designed to be run in the browser only (can be run outside of the browser now as well)
+
+In browser - open Dev tools/inspector - Console
+
+var = keyword indicating a variable
+creates a string of characters in memory assigned to variable name
+Same as $ in PHP
+
+Script doesn't have to be fully written
+User can even generate new script to be run once the page is loaded
+Without having to run the code all the time
+
+Once the var is assigned, don't need to use var anymore
+
+When you clear your console, the memory is still there
+It will remain until you refresh the browser
+
+camel case is JS style
+
+use plus signs instead of periods to concatenate
+
+array uses square brackets
+
+to clear the array - create empty array
+
+to add to the array - use push function
+
+JS objects use curly braces, colons instead of equals signs, no quotes around keys
+
+dot notation - use to drill down into an object to retrieve a value. Can also use square bracket notation to do this, but most people use dot notation.
+
+method = a function that belongs to an object
+
+console - includes a bunch of built in "methods"
+console.clear() - clears console
+console.log() - outputs message to console
+
 
 ### To dos
 
@@ -83,6 +313,19 @@ I started off the morning by drawing out the repeating elements in the new layou
 No blockers today.
 
 ### Today's lesson - 173:137 - Personal site PRO workday
+
+Alina's feedback - 
+Yellow is a very visually demanding color
+Do you want the header and footer to draw all of the attention?
+Yellow boundary around footer? And header?
+
+Are the lines too thick?
+
+Maybe the grid doesn't need to be fully boxed out
+
+She likes the space and flow of the About page
+
+Contact form - a little overwhelming
 
 ### To dos
 
