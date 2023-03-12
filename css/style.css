@@ -284,6 +284,19 @@
 	border: 2px dashed black;
 }
 
+@media (min-width: 770px) {
+	.styleguide-content {
+		grid-column: 2/24;
+		grid-row: 1/4;
+		padding-top: 20px;
+	}
+}
+
+@media (min-width: 1100px) {
+	.styleguide-content {
+		grid-column: 1/24;
+	}
+}
 /* SITE FOOTER */
 
 .site-footer {

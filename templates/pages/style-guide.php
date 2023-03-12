@@ -1,5 +1,5 @@
-<section class="style-guide">
-	<inner-column>
+
+<div class="styleguide-content">
 	
 			
 		<?php foreach ($pageData['sections'] as $section) { 
@@ -20,6 +20,4 @@
 		<?php } ?>
 
 				
-
-	</inner-column>
-</section>
+</div>
