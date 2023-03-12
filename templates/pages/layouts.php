@@ -1,8 +1,8 @@
-<section class="layout-garden">
-	<inner-column>
-	
+	<div class="page-heading">
 		<?php include('templates/modules/page-header/page-header.php'); ?>
-			
+	</div>
+
+	<div class="layouts-content">		
 		<?php foreach ($pageData['sections'] as $section) { 
 			$layout = $section['layout'];
 			if(isset($section['content'])) {
@@ -19,8 +19,4 @@
 			</div> 
 
 		<?php } ?>
-
-				
-
-	</inner-column>
-</section>
+	</div>
