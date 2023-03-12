@@ -3,6 +3,9 @@ generic-text {
 /*	margin-top: 40px;*/
 	display: block;
 	grid-row: 2/3;
+
+
+	padding-bottom: 40px;
 }
 
 generic-text p {

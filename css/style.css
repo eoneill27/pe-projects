@@ -183,6 +183,7 @@
 .projects {
 	grid-column: 2/25;
 	grid-row: 2/4;
+	padding-bottom: 40px;
 }
 
 /* CONTACT */
@@ -190,7 +191,7 @@
 .contact-text {
 	grid-column: 2/25;
 	grid-row: 2/4;
-	margin-top: 60px;
+	padding-bottom: 40px;
 }
 
 .contact address {
@@ -221,18 +222,11 @@
 	padding-left: 20px;
 }
 
-/*.text-content {
-	display: grid;
-	grid-template-columns: repeat(24, 1fr);
-	grid-column: 2/25;
-	grid-row: 2/4;
-}*/
-
-.education, .personal, .goals{
-	grid-column: 2/13;
+.personal, .goals {
+	padding-bottom: 40px;
 }
 
-.personal {
+.personal, .work {
 	margin-top: 30px;
 }
 
@@ -240,24 +234,29 @@
 	list-style-type: disc;
 }
 
-.work {
-	grid-column: 15/25;
-	grid-row: 2/4;
-}
-
 .goals li, .education li, .work li, .personal li {
 	line-height: 2;
 	max-width: 70ch;
-}
-
-.goals li + li, .education li + li, .work li + li, .personal li + li {
-/*	margin-top: 5px;*/
 }
 
 .education h3, .work h3, .personal h3 {
 	max-width: 50ch;
 	margin-top: 15px;
 }
+
+@media (min-width: 770px) {
+
+	.education, .personal, .goals {
+		grid-column: 2/13;
+	}
+
+	.work {
+		grid-column: 15/25;
+		grid-row: 2/4;
+		margin-top: 0;
+	}
+}
+
 
 /* STYLE GUIDE */
 
@@ -269,7 +268,6 @@
 	margin-bottom: 100px;
 	padding: 50px;
 	border: 2px dashed black;
-
 }
 
 /* SITE FOOTER */
