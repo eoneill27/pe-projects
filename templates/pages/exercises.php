@@ -4,23 +4,18 @@
 	$array = json_decode($json, true);
 ?>
 
-<header class="module-header">
-	<inner-column>
+	<div class="page-heading">
 		<?php include('templates/modules/page-header/page-header.php'); ?>
-	</inner-column>
-</header>
+	</div>
 
-<section class="exercises">
-	<inner-column>
-	
-	<?php 
 
-		include ('templates/modules/card-grid/card-grid.php'); 
-		
-	?>
+	<div class="exercises">
+		<?php 
 
-	</inner-column>
-</section>
+			include ('templates/modules/card-grid/card-grid.php'); 
+			
+		?>
+	</div>
 
 
 

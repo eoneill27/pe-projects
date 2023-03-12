@@ -68,7 +68,7 @@
 	}
 }
 @media (min-width: 770px) {
-	.page-heading, .page-text {
+	.page-heading, .page-content {
 		grid-column: 2/14;
 	}
 
@@ -83,7 +83,7 @@
 }
 
 @media (min-width: 1100px) {
-	.page-heading, .page-text {
+	.page-heading, .page-content {
 		grid-column: 1/13;
 	}
 }
@@ -178,19 +178,21 @@
 	}
 }*/
 
-/* PROJECTS */
+/* PROJECTS & EXERCISES */
 
-.projects {
+.projects, .exercises {
 	grid-column: 2/25;
 	grid-row: 2/4;
 	padding-bottom: 40px;
 }
 
+.exercises {
+	margin-top: 100px;
+}
+
 /* CONTACT */
 
 .contact-text {
-	grid-column: 2/25;
-	grid-row: 2/4;
 	padding-bottom: 40px;
 }
 
