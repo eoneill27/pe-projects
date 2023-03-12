@@ -17,7 +17,7 @@
 			<?php include('templates/modules/page-header/page-header.php'); ?>
 		</div>
 
-		<div class="goals">
+		<div class="goals page-content">
 			<?php 
 				foreach($pageData['sections'] as $section) {
 					echo "<h2 class='info-voice'>" . $section["heading"] . "</h2>

@@ -9,7 +9,7 @@
 	<!-- </inner-column> -->
 </header>
 
-<section class="projects">
+<section class="projects page-content">
 	<!-- <inner-column> -->
 	
 	<?php 
