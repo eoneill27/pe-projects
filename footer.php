@@ -1,14 +1,17 @@
+			</inner-column>
 		</main>
 
 		<footer class="site-footer">
 			<inner-column>
 
-				<address class="info-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address>
-
-				<nav class="footer-nav nav-voice">
+				<nav class="footer-nav small-voice">
+					<div class="resume-menu">
+						<a href="?page=resume">Resume</a>
+						<a href="?page=contact">Contact</a>
+					</div>
 					<div class="extras-menu">
 						<a href="?page=style-guide">Style guide</a>
-						<a href="?page=exercises">Exercises for Programmers</a>
+						<a href="?page=exercises">Exercises</a>
 						<a href="?page=layouts">Layout garden</a>
 					</div>	
 					<div class="social-menu">

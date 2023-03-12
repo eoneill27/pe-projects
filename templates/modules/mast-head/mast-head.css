@@ -1,9 +1,5 @@
 mast-head {
-	display: block;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+	display: grid;
 }
 
 
@@ -12,21 +8,17 @@ mast-head {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	gap: 15px;
-	margin-right: 20px;
+/*	margin-right: 20px;*/
 }
 
 .header-nav a {
 	margin-left: 10px;
 }
-
-.header-nav a {
-	margin-left: 10px;
-}
-
+/*
 @media (min-width: 600px) {
 	.header-nav {
 		width: 49%;
 		display: flex;
 		justify-content: space-between;
 	}
-}
+}*/

@@ -1,6 +1,8 @@
 generic-text {
-	display: block;
+/*	display: grid;*/
 /*	margin-top: 40px;*/
+	display: block;
+	grid-row: 2/3;
 }
 
 generic-text p {

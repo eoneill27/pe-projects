@@ -11,23 +11,27 @@
 ?>
 
 
-<section class="goals">
-	<inner-column>
-		<?php include('templates/modules/page-header/page-header.php'); ?>
+<!-- <section class="goals">
+	<inner-column> -->
+		<div class="page-heading">
+			<?php include('templates/modules/page-header/page-header.php'); ?>
+		</div>
 
+		<div class="goals">
+			<?php 
+				foreach($pageData['sections'] as $section) {
+					echo "<h2 class='info-voice'>" . $section["heading"] . "</h2>
+						<ul class='reading-voice'>";
 
-		<?php 
-			foreach($pageData['sections'] as $section) {
-				echo "<h2 class='info-voice'>" . $section["heading"] . "</h2>
-					<ul class='reading-voice'>";
-
-					foreach($section["items"] as $item) {
-						echo "<li class='reading-voice'>" . $item . "</li>";
-					};
-				echo "</ul>";
-			};
-		?>
-
+						foreach($section["items"] as $item) {
+							echo "<li class='reading-voice'>" . $item . "</li>";
+						};
+					echo "</ul>";
+				};
+			?>
+		</div>
+<!-- 
 	</inner-column>
 </section>
 
+ -->

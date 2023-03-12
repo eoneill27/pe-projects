@@ -12,47 +12,53 @@
 
 ?>
 
-<section class="resume">
-	<inner-column>
+<!-- <section class="resume">
+	<inner-column> -->
 		
-		<?php include('templates/modules/page-header/page-header.php'); ?>
+		<div class="page-heading">
+			<?php include('templates/modules/page-header/page-header.php'); ?>
+		</div>
 
-		<?php 
+		<!-- <div class="text-content"> -->
 
-		foreach($pageData['sections'] as $section) { ?>
+			<?php 
 
-		<h2 class="info-voice"><?=$section['heading'];?></h2>
-		<ul class="reading-voice">
+			foreach($pageData['sections'] as $section) { ?>
+			<div class="<?=$section['class']?>">
+				<h2 class="info-voice"><?=$section['heading'];?></h2>
+				<ul class="reading-voice">
 
-		<?php 
+			<?php 
 
-		foreach($section['experiences'] as $experience) { ?>
+			foreach($section['experiences'] as $experience) { ?>
 
-			<li class="reading-voice">
-				<?php if (isset($experience['title'])) { 
-					echo "<h3 class='strong-voice'>" . $experience['title'] . "</h3>";
-				} ?>
-				<?php if (isset($experience['time'])) { 
-					echo $experience['time'] . "<br/>";
-				} ?>
-				<?php if (isset($experience['organization'])) { 
-					echo $experience['organization'] . "<br/>";
-				} ?>
-				<?php if (isset($experience['location'])) { 
-					echo $experience['location'] . "<br/>";
-				} ?>
-				<?php if (isset($experience['description'])) { 
-					echo $experience['description'] . "<br/>";
-				} ?>
-			</li>
+				<li class="reading-voice">
+					<?php if (isset($experience['title'])) { 
+						echo "<h3 class='strong-voice'>" . $experience['title'] . "</h3>";
+					} ?>
+					<?php if (isset($experience['time'])) { 
+						echo $experience['time'] . "<br/>";
+					} ?>
+					<?php if (isset($experience['organization'])) { 
+						echo $experience['organization'] . "<br/>";
+					} ?>
+					<?php if (isset($experience['location'])) { 
+						echo $experience['location'] . "<br/>";
+					} ?>
+					<?php if (isset($experience['description'])) { 
+						echo $experience['description'] . "<br/>";
+					} ?>
+				</li>
+
+			<?php } ?>
+		
+
+				</ul>
+			</div>	
 
 		<?php } ?>
-	
-
-		</ul>
-
-	<?php } ?>
-	</inner-column>
-</section>
+	<!-- </div> -->
+<!-- 	</inner-column>
+</section> -->
 
 

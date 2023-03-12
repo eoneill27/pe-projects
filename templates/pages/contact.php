@@ -1,7 +1,9 @@
 
-<section class="contact" id="contact">
-	<inner-column>
-		<?php include('templates/modules/page-header/page-header.php'); ?>
+<!-- <section class="contact" id="contact"> -->
+	<!-- <inner-column> -->
+		<div class="page-heading">
+			<?php include('templates/modules/page-header/page-header.php'); ?>
+		</div>
 
 		<div class="contact-text">
 			<span class="reading-voice">You can always reach me at
@@ -35,8 +37,8 @@
 
 			<p class="reading-voice">I'll do my very best to get back to you within 24 hours. I'm looking forward to working with you!</p>
 		</div>
-	</inner-column>
-</section>
+	<!-- </inner-column> -->
+<!-- </section> -->
 
 
 

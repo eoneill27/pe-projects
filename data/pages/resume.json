@@ -6,6 +6,7 @@
 	"sections": [
 		{
 			"heading": "Education",
+			"class": "education",
 			"experiences": [
 				{
 					"title": "Design for the Web",
@@ -29,6 +30,7 @@
 		},
 		{
 			"heading": "Work Experience",
+			"class": "work",
 			"experiences": [
 				{
 					"title": "Information Specialist",
@@ -70,6 +72,7 @@
 		},
 		{
 			"heading": "Personal Activities and Interests",
+			"class": "personal",
 			"experiences": [
 				{
 					"description": "Coach for the Canadian Girls Baseball development league since 2020"

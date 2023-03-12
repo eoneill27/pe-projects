@@ -3,21 +3,21 @@
 	$array = json_decode($json, true);
 ?>
 
-<header class="module-header">
-	<inner-column>
+<header class="page-heading">
+	<!-- <inner-column> -->
 		<?php include('templates/modules/page-header/page-header.php'); ?>
-	</inner-column>
+	<!-- </inner-column> -->
 </header>
 
 <section class="projects">
-	<inner-column>
+	<!-- <inner-column> -->
 	
 	<?php 
 
 		include ('templates/modules/card-grid/card-grid.php'); 
 	?>
 
-	</inner-column>
+	<!-- </inner-column> -->
 </section>
 
 

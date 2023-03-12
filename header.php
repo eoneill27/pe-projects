@@ -46,3 +46,7 @@
 </header>
 
 <main class="page-content">
+	<inner-column>
+		<div class="last-column"></div>
+
+		
