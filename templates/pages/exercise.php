@@ -1,16 +1,18 @@
 
-<?php 
+<div class="exercise-form">
+	<?php 
 
-	$json = file_get_contents('data/exercises.json');
-	$array = json_decode($json, true);
+		$json = file_get_contents('data/exercises.json');
+		$array = json_decode($json, true);
 
-	foreach($array['cards'] as $card) {
-		if($card["slug"] == $_GET["slug"]) {
-			$slug = $card["slug"];
+		foreach($array['cards'] as $card) {
+			if($card["slug"] == $_GET["slug"]) {
+				$slug = $card["slug"];
+			}
 		}
-	}
 
-	include("projects/e4p/" . $slug . ".php"); 
+		include("projects/e4p/" . $slug . ".php"); 
 
-?>
+	?>
 
+</div>

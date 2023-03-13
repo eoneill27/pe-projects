@@ -1,6 +1,5 @@
 
 
-<inner-column>
 
 		<?php
 			$age = NULL;
@@ -60,5 +59,4 @@
 			</div>
 		</form>
 
-	</inner-column>
 

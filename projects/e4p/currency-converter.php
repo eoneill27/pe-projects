@@ -1,6 +1,6 @@
 
 
-<inner-column>
+
 
 <?php
 
@@ -48,12 +48,12 @@
 		<fieldset>
 			<legend><h2 class="info-voice">Choose your conversion</h2></legend>
 
-			<div>
+			<div class="radio">
 				<label for="usd">USD to CAD</label>
 		      <input type="radio" name="currency" id="usd" value="usd" checked>
     		</div>
 
-    		<div>
+    		<div class="radio">
     			<label for="cad">CAD to USD</label>
 		      <input type="radio" name="currency" id="cad" value="cad">
     		</div>
@@ -77,7 +77,6 @@
 
 </form>
 
-</inner-column>
 
 
 

@@ -1,6 +1,6 @@
 
 
-<inner-column>
+
 
 	<?php
 
@@ -133,5 +133,5 @@
 
 	</form>
 
-</inner-column>
+
 

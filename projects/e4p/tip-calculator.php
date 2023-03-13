@@ -1,5 +1,4 @@
 
-<inner-column>
 
 	<a href="?"><h1 class="attention-voice">Tip Calculator</h1></a>
 
@@ -83,5 +82,4 @@
 		</div>
 
 	</form>
-</inner-column>
 
