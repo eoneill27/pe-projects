@@ -233,7 +233,7 @@ button {
 
 /* GOALS & RESUME */
 
-.goals ul, .resume ul {
+.goals ul, .personal ul {
 	list-style-type: disc;
 	padding-left: 20px;
 }
@@ -244,10 +244,6 @@ button {
 
 .personal, .work {
 	margin-top: 30px;
-}
-
-.personal ul {
-	list-style-type: disc;
 }
 
 .goals li, .education li, .work li, .personal li {
@@ -270,6 +266,16 @@ button {
 		grid-column: 15/25;
 		grid-row: 2/4;
 		margin-top: 0;
+	}
+}
+
+@media (min-width: 1100px) {
+	.education, .personal, .goals {
+		grid-column: 1/12;
+	}
+
+	.work {
+		grid-column: 14/24;
 	}
 }
 
