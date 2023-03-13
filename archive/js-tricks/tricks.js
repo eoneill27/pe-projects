@@ -38,3 +38,17 @@ darkCheck.addEventListener("change", function() {
 		body.classList.remove('dark');
 	}
 });
+
+// function that changes the theme
+
+function changeTheme(chosenTheme) {
+	body.dataset.theme = chosenTheme;
+}
+
+document.addEventListener('click', function(click) {
+	if (click.target.matches('button')) {
+		changeTheme(click.target.dataset.change);
+	}
+})
+
+var defaultButton = document.querySelector('')

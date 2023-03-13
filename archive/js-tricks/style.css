@@ -1,5 +1,29 @@
-body {
+body.default {
 	background-color: pink;
+	color: white;
+	min-height: 100vh;
+}
+
+body[data-theme="default"] {
+	background-color: pink;
+	color: white;
+	min-height: 100vh;
+}
+
+body[data-theme="yellow"] {
+	background-color: #eebd52;
+	color: white;
+	min-height: 100vh;
+}
+
+body[data-theme="yellow"] p {
+	background-color: #fb9d5b;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+body[data-theme="blue"] {
+	background-color: #18a5d3;
 	color: white;
 	min-height: 100vh;
 }
