@@ -12,7 +12,9 @@ a h1 {
 	padding: 40px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin-bottom: 30px;
+	border: 2px solid var(--site-blue);
+/*	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
 }
 
 @media (min-width: 600px) {
@@ -29,9 +31,14 @@ a h1 {
 .form-fields label {
 	margin-top: 15px;
 }
-.form-fields input {
-	max-width: 20ch;
+.form-fields input, .form-fields textarea, .form-fields button{
+	width: 100%;
 	margin-top: 5px;
+	border: 2px solid var(--site-blue);
+}
+
+.form-fields button {
+	margin-top: 25px;
 }
 
 input::-webkit-inner-spin-button {

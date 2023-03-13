@@ -6,10 +6,10 @@
 		</div>
 
 		<div class="contact-text page-content">
-			<span class="reading-voice">You can always reach me at
-			<address class="reading-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address></span>
+			<!-- <span class="reading-voice">You can always reach me at
+			<address class="reading-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address></span> -->
 
-			<p class="reading-voice">Alternatively, you can fill in this form with a brief description of your project:</p>
+			<p class="reading-voice">If you would like to get in touch with me, please fill in this form with a brief description of your project:</p>
 
 			<div class="contact-form">
 				<form action="?page=contactSubmit" method="post">
@@ -18,15 +18,15 @@
 					
 				
 						<label for="name">Your name</label>
-						<input type="text" name="name" id="name" required class="reading-voice">
+						<input type="text" name="name" id="name" required class="input-name reading-voice">
 					
 						<label for="email">Your email address</label>
-						<input type="email" name="email" id="email" class="reading-voice" required>
+						<input type="email" name="email" id="email" class="input-email reading-voice" required>
 
 						<label for="message">What would you like to talk about?</label>
-						<textarea name="message" id="message" rows="5" cols="40" required class="reading-voice"></textarea>
+						<textarea name="message" id="message" rows="5" cols="40" required class="input-message reading-voice"></textarea>
 
-						<button name="submitted" class="reading-voice" type="submit">
+						<button name="submitted" class="fake-button heyyou-voice" type="submit">
 							Submit
 						</button>
 			
