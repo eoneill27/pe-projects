@@ -87,3 +87,11 @@ body .type::after {
 body.dark .type::after {
 	content: "switch to light mode";
 }
+
+output {
+	display: block;
+}
+
+output:empty {
+	display: none;
+}

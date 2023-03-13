@@ -51,4 +51,42 @@ document.addEventListener('click', function(click) {
 	}
 })
 
-var defaultButton = document.querySelector('')
+// form - what is your name?
+// user types name into box - this input becomes name variable
+// when the button is clicked, the output appears
+// the output is a string including the input
+
+const form = document.querySelector('form');
+const nameInput = form.querySelector('#name');
+const output = document.querySelector('output');
+
+const clearButton = document.querySelector('#clearName');
+
+form.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	if (nameInput.value) {
+		let message = `Hello ${nameInput.value}, it's nice to meet you!`;
+		output.innerHTML = `<p>${message}</p>`;
+	}	else {
+		ouput.innerHTML = `<p>Please enter a name</p>`;
+	}
+});
+
+// clear form
+
+clearButton.addEventListener('click', function(clear) {
+	nameInput.value = null;
+	output.style.display = "none";
+});
+
+
+
+
+
+
+
+
+
+
+
