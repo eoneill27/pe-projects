@@ -4,8 +4,8 @@
 		<?php include('templates/modules/page-header/page-header.php'); ?>
 	</div>
 
-	<div class="page-content">
-		<generic-text class="about-text">
+	<!-- <div class="page-content"> -->
+		<generic-text class="about-text page-content">
 			<p class="reading-voice">Born in San Francisco and raised in the wilds of Seattle suburbia, I've made Vancouver, BC my home since 2005.</p>
 
 			<p class="reading-voice">In my spare time, I love to walk long distances, swim in lakes, read in pubs, solve crossword puzzles, play with my friends' kids, and camp in my car.</p>
@@ -18,7 +18,7 @@
 
 			<p class="reading-voice">I bring a strong background in information retrieval and organization to my web development work, and I create accessible, responsive websites. I have a strong attention to detail, excellent communication skills, a doggedness when it comes to problem-solving, and a commitment to honest, up-front business dealings. I look forward to meeting you and learning about your project!</p>
 		</generic-text>
-	</div>
+	<!-- </div> -->
 	<div class="about-right">
 
 		<div class="about-photos">
