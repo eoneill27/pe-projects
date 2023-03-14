@@ -44,7 +44,7 @@
 			<label for="">Number 2</label>
 			<input class="reading-voice" name="number2" type="number" value="<?=$number2?>" step="0.0000001"/>
 
-			<button class="reading-voice name="submitted" type="submit">
+			<button class="reading-voice" name="submitted" type="submit">
 				Submit
 			</button>
 		</div>
@@ -64,7 +64,7 @@
 	</form>
 
 
-
+<!-- <scripts src="scripts/simple-math.js"></scripts> -->
 
 
 
