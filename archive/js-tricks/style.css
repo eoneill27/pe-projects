@@ -119,4 +119,11 @@ form-field {
 	margin-left: 0;
 }
 
+.outputInline {
+	display: flex;
+	align-items: center;
+}
 
+.outputHeading {
+	margin-right: 5px;
+}

@@ -124,6 +124,81 @@ clearMath.addEventListener('click', function(clear) {
 	mathOutput.style.display = "none";
 });
 
+// form - shopping cart
+// user enters item quantities and prices
+// multiply each quantity by price to get item subtotal
+// add item subtotals to get overall subtotal
+// multiply subtotal by tax rate to get tax amount
+// add subtotal to tax amount to get total
+
+const shoppingForm = document.querySelector('#shopping-cart');
+const item1PriceInput = shoppingForm.querySelector('#item1Price');
+const item1QuantInput = shoppingForm.querySelector('#item1Quant');
+const item2PriceInput = shoppingForm.querySelector('#item2Price');
+const item2QuantInput = shoppingForm.querySelector('#item2Quant');
+const item3PriceInput = shoppingForm.querySelector('#item3Price');
+const item3QuantInput = shoppingForm.querySelector('#item3Quant');
+
+const calculate = shoppingForm.querySelector('#calculate');
+
+const subOutput = shoppingForm.querySelector('#subtotalOutput');
+const taxOutput = shoppingForm.querySelector('#taxOutput');
+const totalOutput = shoppingForm.querySelector('#totalOutput');
+const receipt = shoppingForm.querySelector('#receipt');
+
+shoppingForm.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	if(item1QuantInput.value && item1PriceInput.value) {
+
+		const item1Price = Number(item1PriceInput.value);
+		const item1Quant = Number(item1QuantInput.value);
+		const item2Price = Number(item2PriceInput.value);
+		const item2Quant = Number(item2QuantInput.value);
+		const item3Price = Number(item3PriceInput.value);
+		const item3Quant = Number(item3QuantInput.value);
+
+		const item1Sub = item1Quant * item1Price;
+		const item2Sub = item2Quant * item2Price;
+		const item3Sub = item3Quant * item3Price;
+
+		const subtotal = item1Sub + item2Sub + item3Sub;
+		const tax = (subtotal * 0.075).toFixed(2);
+		const total = subtotal + tax;
+
+		subOutput.textContent = "$" + subtotal;
+		taxOutput.textContent = "$" + tax;
+		totalOutput.textContent = "$" + total;
+
+		receipt.style.display = "block";
+		receipt.style.color = "black";
+		receipt.innerHTML = `<p>Item 1: ${item1Quant} at $${item1Price} each</p>
+		<p>Item 2: ${item2Quant} at $${item2Price} each</p>
+		<p>Item 3: ${item3Quant} at $${item3Price} each</p>`;
 
 
+	} else {
+		let message = "Please enter the item quantity and price.";
+		receipt.style.display = "block";
+		receipt.innerHTML = "<p>" + message + "</p>";
+		receipt.style.color = "red";
+
+	}
+});
+
+const clearShopping = document.querySelector("#clear-shopping");
+
+clearShopping.addEventListener('click', function(clear) {
+	subOutput.textContent = "";
+	taxOutput.textContent = "";
+	totalOutput.textContent = "";
+	receipt.style.display = "none";
+	item1PriceInput.value = "";
+	item1QuantInput.value = "";
+	item2PriceInput.value = "";
+	item2QuantInput.value = "";
+	item3PriceInput.value = "";
+	item3QuantInput.value = "";
+
+});
 
