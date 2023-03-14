@@ -163,7 +163,7 @@ shoppingForm.addEventListener('submit', function(event) {
 		const item3Sub = item3Quant * item3Price;
 
 		const subtotal = item1Sub + item2Sub + item3Sub;
-		const tax = (subtotal * 0.075).toFixed(2);
+		const tax = Number((subtotal * 0.075).toFixed(2));
 		const total = subtotal + tax;
 
 		subOutput.textContent = "$" + subtotal;
@@ -177,7 +177,7 @@ shoppingForm.addEventListener('submit', function(event) {
 		<p>Item 3: ${item3Quant} at $${item3Price} each</p>`;
 
 
-	} else {
+	} else if (item1QuantInput.value <= 0 && item1PriceInput <= 0) {
 		let message = "Please enter the item quantity and price.";
 		receipt.style.display = "block";
 		receipt.innerHTML = "<p>" + message + "</p>";
