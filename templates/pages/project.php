@@ -6,11 +6,13 @@
 
 ?>
 
-<section class="project-details">
-	<inner-column>
-	
-	<?php include('templates/modules/page-header/page-header.php'); ?>
+<!-- <section class="project-details">
+	<inner-column> -->
+	<div class="page-heading">
+		<?php include('templates/modules/page-header/page-header.php'); ?>
+	</div>
 
+	<div class="page-content">
 		<?php foreach($array['cards'] as $project) { 
 			if ($project['id'] == $_GET['id']) { 
 				$thisProject = $project; 
@@ -40,9 +42,9 @@
 			<?php } } }
 
 			?>
-
+	</div>
 	
 
-	</inner-column>
+<!-- 	</inner-column>
 </section>
-
+ -->
