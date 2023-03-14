@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>JavaScript Tricks</title>
-		
+
 		<link rel="stylesheet" href="style.css">
 
 
@@ -75,27 +75,30 @@
 		<div class="form">
 			<h2>Let's go shopping</h2>
 			<form id = "shopping-cart">
-				<form-field>
-					<label for="item1Quant">Item 1 quantity</label>
-					<input type="text" id="item1Quant">
 
-					<label for="item1Price">Price</label>
-					<input type="number" id="item1Price">
-				</form-field>
-				<form-field>
-					<label for="item2Quant">Item 2 quantity</label>
-					<input type="text" id="item2Quant">
+				<div class="form-fields">
+					<form-field>
+						<label for="item1Quant">Item 1 quantity</label>
+						<input type="text" id="item1Quant">
 
-					<label for="item2Price">Price</label>
-					<input type="number" id="item2Price">
-				</form-field>
-				<form-field>
-					<label for="item3Quant">Item 3 quantity</label>
-					<input type="text" id="item3Quant">
+						<label for="item1Price">Price</label>
+						<input type="number" id="item1Price">
+					</form-field>
+					<form-field>
+						<label for="item2Quant">Item 2 quantity</label>
+						<input type="text" id="item2Quant">
 
-					<label for="item3Price">Price</label>
-					<input type="number" id="item3Price">
-				</form-field>
+						<label for="item2Price">Price</label>
+						<input type="number" id="item2Price">
+					</form-field>
+					<form-field>
+						<label for="item3Quant">Item 3 quantity</label>
+						<input type="text" id="item3Quant">
+
+						<label for="item3Price">Price</label>
+						<input type="number" id="item3Price">
+					</form-field>
+				</div>
 
 				<output id="shoppingOutput">
 					<div class="outputInline">
@@ -113,13 +116,26 @@
 				</output>
 
 				<button id="calculate" type="submit" class="button">Calculate</button>
-				<button id="clear-shopping" class="button">Clear</button>
+
+				<button id="add-item" class="button" type="button">Add item</button>
+
+				<button id="clear-shopping" class="button" type="button">Clear</button>
 
 				<output id="receipt"></output>
 			</form>
 		</div>
 
+		<div class="form" id="shopping-form">
+			
+			<h2>Another shopping cart</h2>
+			<form id="shopping-take2">
+				
 
+				<button id="add-rows" class="button" type="button">Add row</button>
+
+				<button id="calculateTotal" class="button" type="submit">Calculate</button>
+			</form>
+		</div>
 
 
 

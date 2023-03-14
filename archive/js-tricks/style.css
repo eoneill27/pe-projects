@@ -106,10 +106,24 @@ output:empty {
 	align-items: flex-start;
 }
 
-form-field {
-	display: block;
-	margin-bottom: 10px;
+.form-fields {
+	display: flex;
+	flex-direction: column;
 }
+
+form-field {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-top: 5px;
+}
+@media(min-width: 550px) {
+	form-field {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
 
 .button {
 	border-radius: 20px;

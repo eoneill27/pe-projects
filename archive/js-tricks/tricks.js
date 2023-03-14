@@ -186,19 +186,62 @@ shoppingForm.addEventListener('submit', function(event) {
 	}
 });
 
+// add an item
+// on click - form-field added
+// form-field includes label & input for quantity, and label & input for price
+// label for quant needs to say "Item [#] quantity"
+// item number needs to start at 4 and count one for every row added
+// should these rows be an array???
+// should form start with only one row?
+
+const addItem = document.querySelector("#add-item");
+const formFields = document.querySelector(".form-fields");
+
+let formField = document.createElement("form-field");
+
+addItem.addEventListener('click', function(addItem) {
+
+	let label1 = document.createElement("label");
+	let input1 = document.createElement("input");
+	let label2 = document.createElement("label");
+	let input2 = document.createElement("input");
+
+	label1.htmlFor = "itemQuant";
+	label1.textContent = "Item quantity";
+	input1.type = "number";
+	input1.id = "itemQuant";
+	label2.htmlFor = "itemPrice";
+	label2.textContent = "Price";
+	input1.type = "number";
+	input2.id = "itemPrice";
+
+	formField.appendChild(label1);
+	formField.appendChild(input1);
+	formField.appendChild(label2);
+	formField.appendChild(input2);
+
+	formFields.appendChild(formField);
+
+	console.log('yay');
+	console.log(label1);
+	console.log(input1);
+});
+
+
 const clearShopping = document.querySelector("#clear-shopping");
 
 clearShopping.addEventListener('click', function(clear) {
+
+	let inputs = document.querySelectorAll('input');
+	inputs.forEach(function(input) {
+		input.value = "";
+	});
 	subOutput.textContent = "";
 	taxOutput.textContent = "";
 	totalOutput.textContent = "";
 	receipt.style.display = "none";
-	item1PriceInput.value = "";
-	item1QuantInput.value = "";
-	item2PriceInput.value = "";
-	item2QuantInput.value = "";
-	item3PriceInput.value = "";
-	item3QuantInput.value = "";
+	formFields.removeChild(formField);
+
 
 });
 
