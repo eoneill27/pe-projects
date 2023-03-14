@@ -1,8 +1,110 @@
 # Emily's Daily Journal
 
+## March 13, 2023
+
+### Stand up
+
+On Saturday I played with the common JavaScript interface tricks and made a practice page for that, which I realize I have not shared anywhere. I spent a while yesterday working on my website and have pushed the new version to the server, although it is not at all finished yet. Still working on the grid layout and getting everything converted. 
+
+This morning after looking at the example form in today's lesson I was looking into the value property, which sent me down a little bit of a rabbit hole in the MDN JavaScript guide. It seems like a solid resource, though - it felt good to go over the basics and to make sure that I've got a handle on syntax and the various assignment operators, comparison operators, string methods, and array methods. 
+
+Right now I'm going to go for a walk because I've been inside all day and my brain feels a little bit full, and it's beautiful outside and even though I kind of feel like I don't have time to go for a walk, I know that that is not actually true and that a walk will do me good. Plus I'm out of coffee so I need to buy coffee beans, because it is absolutely unthinkable for me to face tomorrow morning without coffee.
+
+But when I get back, I'm going to work on hijacking some of my PHP forms and getting them working with JavaScript.
+
+
+### Today's lesson - 183:145 - Exercises for Programmers with JavaScript
+
+There are only so many things you can do:
+- add things to the DOM
+- remove things
+- get elements
+- set elements
+- get values
+- set values
+- and set up events to then do all those things when users "do stuff"
+
+Let it be simple! 
+
+
+### To dos
+
+- [x] work on forms
+
+## March 11, 2023
+
+### Stand up
+
+Yesterday I worked through the video, read up on the different Array methods, and then ended up talking to my brother for a while, which cut my night of work short a little bit.
+
+This morning I am practicing with the Array methods and then I will move on to the cute little JavaScript tricks.
+
+I want to make good use of this weekend to catch up on some milestones and continue to work on my portfolio site.
+
+No blockers.
+
+### Today's lesson - 182:144 - Common JS interface tricks
+
+body.classList.toggle('gradient');
+toggle allows button to switch back and forth between this class and not this class
+
+#### Death by Hamburger - Fiona Foster
+Issues with hamburger menu
+- it can visually simplify a design, but it complicates the app structurally because it obscures information behind three little lines that provide no information scent
+- Do people understand what the 3 stacked lines mean?
+- navigation is a vital part of usability
+- Hidden navigation is often harmful to the user
+- Though any design choice must be considered within the overall context of the app's goals and users
+
+#### Obvious Always Wins - lukew.com
+In sight, in mind
+When critical parts of an application are made more visible, usage of them can increase
+- mobile requires us to make decisions. What's important enough to be visible on mobile?
+- answering that question requires an understanding of what matters to your users and business
+
+#### Why is JS event delegation better than attaching events to each element? gomakethings.com
+- every event listener you create uses memory in the browser
+- it's "cheaper" for the browser to track one event and fire it on every click than it is to manage multiple events
+- if you're listening for events on multiple elements, think about using event delegation
+
+exclamation mark before function - turns function into a function expression
+returns boolean
+
+### To dos
+
+
+## March 10, 2023
+
+### Stand up
+
+Yesterday I finished coding the Exercises for Programmers, practiced making buttons with event listeners, and practiced a forEach loop. 
+
+Today while watching the video I realized that I jumped ahead a little on the forEach loop - but I was pleased to see that I was on the right track. 
+
+For the record, it took me about an hour and 15 minutes to watch the video and follow along this morning. 
+
+Now I'm moving on to the second exercise, trying out all of the array properties and methods.
+
+No blockers today! I'm really enjoying this stuff so far.
+
+
+### Today's lesson - 180:143 - More forEach and filter
+
+
+### To dos
+
+- [x] watch the video
+- [] try out all of the array properties and methods
+
 ## March 9, 2023
 
 ### Stand up
+
+Yesterday I wrote a lot of pseudo-code and got a little more than halfway through coding the first 10 E4P in the console.
+
+Today I watched the video and got my head around the for loop, I think. I continue to be grateful for the PHP foundation that we are building on. I'm going to finish yesterday's code (right now, I hope), and will continue to practice with the for and foreach loops this evening.
+
+No blockers today.
 
 ### Today's lesson - 179:142 - For each what?
 
@@ -52,11 +154,11 @@ just have to know this - it's a rule
 
 ### To dos
 
-- [] watch the video
-- [] finish the code for E4P 7-10
-- [] practice creating button and event listener
-- [] transcribe notes
-- [] clean up windows
+- [x] watch the video
+- [x] finish the code for E4P 7-10
+- [x] practice creating button and event listener
+- [x] transcribe notes
+- [x] clean up windows
 
 ## March 8, 2023
 
