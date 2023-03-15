@@ -1,3 +1,5 @@
+/*@import 'meyer-setup.css';*/
+
 body.default {
 	background-color: pink;
 	color: white;
@@ -88,6 +90,16 @@ body.dark .type::after {
 	content: "switch to light mode";
 }
 
+/* forms */
+
+@media (min-width: 800px) {
+	.form-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 15px;
+	}
+}
+
 output {
 	display: block;
 }
@@ -117,7 +129,7 @@ form-field {
 	gap: 5px;
 	margin-top: 5px;
 }
-@media(min-width: 550px) {
+@media(min-width: 1100px) {
 	form-field {
 		display: block;
 		margin-bottom: 10px;
@@ -140,4 +152,10 @@ form-field {
 
 .outputHeading {
 	margin-right: 5px;
+}
+
+
+
+footer {
+	margin-top: 150px;
 }

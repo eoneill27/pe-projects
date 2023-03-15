@@ -194,37 +194,47 @@ shoppingForm.addEventListener('submit', function(event) {
 // should these rows be an array???
 // should form start with only one row?
 
+
+// let label1 = document.createElement("label");
+// let input1 = document.createElement("input");
+// let label2 = document.createElement("label");
+// let input2 = document.createElement("input");
+
+// console.log(formField);
+
+// label1.htmlFor = "itemQuant";
+// label1.textContent = "Item quantity";
+// input1.type = "number";
+// input1.id = "itemQuant";
+// label2.htmlFor = "itemPrice";
+// label2.textContent = "Price";
+// input1.type = "number";
+// input2.id = "itemPrice";
+
+
+// formField.appendChild(label1);
+// formField.appendChild(input1);
+// formField.appendChild(label2);
+// formField.appendChild(input2);
+
+// function createFormField() {
+// 	formField.appendChild(label1);
+// formField.appendChild(input1);
+// formField.appendChild(label2);
+// formField.appendChild(input2);
+// }
+
 const addItem = document.querySelector("#add-item");
 const formFields = document.querySelector(".form-fields");
-
 let formField = document.createElement("form-field");
 
 addItem.addEventListener('click', function(addItem) {
 
-	let label1 = document.createElement("label");
-	let input1 = document.createElement("input");
-	let label2 = document.createElement("label");
-	let input2 = document.createElement("input");
-
-	label1.htmlFor = "itemQuant";
-	label1.textContent = "Item quantity";
-	input1.type = "number";
-	input1.id = "itemQuant";
-	label2.htmlFor = "itemPrice";
-	label2.textContent = "Price";
-	input1.type = "number";
-	input2.id = "itemPrice";
-
-	formField.appendChild(label1);
-	formField.appendChild(input1);
-	formField.appendChild(label2);
-	formField.appendChild(input2);
-
 	formFields.appendChild(formField);
+	formField.innerHTML = "<label for='itemQuant'>Item quantity</label><input type='number' id='item-quant'><label for='itemPrice'>Price</label><input type='number' id='itemPrice'>";
 
-	console.log('yay');
-	console.log(label1);
-	console.log(input1);
+	console.log(formField);
+	console.log(formFields);
 });
 
 
@@ -240,8 +250,100 @@ clearShopping.addEventListener('click', function(clear) {
 	taxOutput.textContent = "";
 	totalOutput.textContent = "";
 	receipt.style.display = "none";
-	formFields.removeChild(formField);
-
-
+	formFields.innerHTML = "";
 });
+
+const priceArray = [5, 6, 10, 34, 2];
+
+function reducer(accumulator, currentValue, index) {
+	const returns = accumulator + currentValue;
+	// console.log(
+	// 	`accumlator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`,);
+	return returns;
+}
+
+let subtotal = priceArray.reduce(reducer);
+console.log(subtotal);
+
+// const elementArray = [
+// 	{
+// 		label: "Quantity",
+// 		for: "item1Quant",
+// 		inputType: "number",
+// 		inputID: "item1Quant",
+// 	},
+// 	{
+// 		label: "Price",
+// 		for: "item1Price",
+// 		inputType: "number",
+// 		inputID: "item1Price",
+// 	},
+// 	{
+// 		label: "Quantity",
+// 		for: "item2Quant",
+// 		inputType: "number",
+// 		inputID: "item2Quant",
+// 	},
+// 	{
+// 		label: "Price",
+// 		for: "item2Price",
+// 		inputType: "number",
+// 		inputID: "item2Price",
+// 	}
+// ];
+
+
+// ANOTHER SHOPPING CART
+
+const shoppingCart2 = document.querySelector('#shopping-take2');
+const shoppingOutlet = document.querySelector('#shopping-outlet');
+const cartAddButton = document.querySelector('#add-rows');
+const cartClearRow = document.querySelector('#clear-row');
+const cartClearAll = document.querySelector('#clear-all');
+const cartCalculate = document.querySelector('#calculate-total');
+
+function renderItem() {
+	return `
+	<li id="item">
+		<fieldset>
+			<field>
+				<label for="itemQuant">Item quantity</label>
+				<input type="number" id="itemQuant">
+
+				<label for="itemPrice">Price per item </label>
+				<input type="number" id="itemPrice">
+			</field>
+		</fieldset>
+	</li>
+	`;
+}
+
+cartAddButton.addEventListener('click', function(event) {
+	event.preventDefault();
+
+	shoppingOutlet.insertAdjacentHTML ('beforeend', renderItem());
+
+	console.log(shoppingOutlet);
+});
+
+function removeItem() {
+	let list = shoppingCart2.querySelector("#shopping-outlet");
+	let listItems = list.getElementsByTagName("li");
+	let last = listItems[listItems.length-1];
+	list.removeChild(last);
+}
+
+cartClearRow.addEventListener('click', removeItem);
+
+cartClearAll.addEventListener('click', function(event) {
+	event.preventDefault();
+
+	return shoppingOutlet.innerHTML = '';
+});
+
+
+
+
+
+
 
