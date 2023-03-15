@@ -306,13 +306,13 @@ function renderItem() {
 	return `
 	<li id="item">
 		<fieldset>
-			<field>
+			<form-field>
 				<label for="itemQuant">Item quantity</label>
 				<input type="number" id="itemQuant">
 
 				<label for="itemPrice">Price per item </label>
 				<input type="number" id="itemPrice">
-			</field>
+			</form-field>
 		</fieldset>
 	</li>
 	`;
@@ -329,8 +329,8 @@ cartAddButton.addEventListener('click', function(event) {
 function removeItem() {
 	let list = shoppingCart2.querySelector("#shopping-outlet");
 	let listItems = list.getElementsByTagName("li");
-	let last = listItems[listItems.length-1];
-	list.removeChild(last);
+	let lastItem = listItems[listItems.length-1];
+	list.removeChild(lastItem);
 }
 
 cartClearRow.addEventListener('click', removeItem);

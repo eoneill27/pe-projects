@@ -129,13 +129,6 @@ form-field {
 	gap: 5px;
 	margin-top: 5px;
 }
-@media(min-width: 1100px) {
-	form-field {
-		display: block;
-		margin-bottom: 10px;
-	}
-}
-
 
 .button {
 	border-radius: 20px;
@@ -154,6 +147,9 @@ form-field {
 	margin-right: 5px;
 }
 
+li {
+	margin-top: 15px;
+}
 
 
 footer {
