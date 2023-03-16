@@ -287,21 +287,21 @@ shoppingCart2.addEventListener('submit', function(event) {
 
 	var formFields = shoppingCart2.querySelectorAll('form-field');
 	var fieldArray = Array.from(formFields);
-	console.log(fieldArray);
+	// console.log(fieldArray);
 
 	var intSubtotalArray = [];
 
 	function getInputs() {
 		fieldArray.forEach(function(field) {
 			var fieldQuant = field.querySelector('#itemQuant');
-			console.log(fieldQuant);
+			// console.log(fieldQuant);
 
 			var fieldPrice = field.querySelector('#itemPrice');
 
 			var fieldSubtotal = (Number(fieldQuant.value)) * (Number(fieldPrice.value));
 
 			var newFieldArray = intSubtotalArray.push(fieldSubtotal);
-			console.log(intSubtotalArray);
+			// console.log(intSubtotalArray);
 
 		});
 	}
@@ -330,7 +330,7 @@ shoppingCart2.addEventListener('submit', function(event) {
 
 	// calculate subtotal
 
-	var subtotal = Number(intSubtotalArray.reduce(reducer));
+	var subtotal = Number(intSubtotalArray.reduce(reducer)).toFixed(2);
 	// console.log(subtotal);
 
 	// calculate tax 
