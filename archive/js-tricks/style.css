@@ -1,13 +1,17 @@
 /*@import 'meyer-setup.css';*/
 
+html {
+	--hue: 178;
+}
+
 body.default {
-	background-color: pink;
+	background-color: hsl(var(--hue), 96%, 38%);
 	color: white;
 	min-height: 100vh;
 }
 
 body[data-theme="default"] {
-	background-color: pink;
+	background-color: hsl(var(--hue), 96%, 38%);
 	color: white;
 	min-height: 100vh;
 }
@@ -18,7 +22,7 @@ body[data-theme="yellow"] {
 	min-height: 100vh;
 }
 
-body[data-theme="yellow"] p {
+body[data-theme="yellow"] h1 {
 	background-color: #fb9d5b;
 	padding: 30px;
 	border-radius: 20px;
@@ -52,6 +56,7 @@ a {
 .attention-voice {
 	font-family: "Courier";
 	font-size: 40px;
+	font-weight: 300;
 }
 
 .outputHeading {
@@ -65,8 +70,25 @@ a {
 	color: darkblue;
 }
 
+section + h2 {
+	margin-top: 100px;
+}
+
+.interface-tricks {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .menu {
 	display: none;
+}
+
+#check-dark, #color-change {
+	margin-top: 40px;
+}
+
+#color-change {
+	margin-left: 40px;
 }
 
 body.menu-open .menu {

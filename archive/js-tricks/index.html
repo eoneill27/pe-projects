@@ -14,30 +14,43 @@
 
 	<body class="default">
 		
-		<button>Change the background!</button>
+		<h1 class="attention-voice">Just practicing some JavaScript stuff here!</h1>
 
-		<button rel="toggle" class="menu-button">Menu</button>
+		<section class="interface-tricks">
 
-		<nav class="menu">
-			<a href="#">Thing one</a>
-			<a href="#">Thing two</a>
-			<a href="#">Thing three</a>
+			<button>Change the background!</button>
 
-			<button rel="toggle" class="close-menu">Close menu</button>
-		</nav>
+			<button rel="toggle" class="menu-button">Menu</button>
 
-		<input type="checkbox" id="check-toggle" class="check-toggle">
-		<label for="check-toggle"><span class="type"></span></label>
+			<nav class="menu">
+				<a href="#">Thing one</a>
+				<a href="#">Thing two</a>
+				<a href="#">Thing three</a>
 
-		<p class="attention-voice">Just practicing some JavaScript stuff here!</p>
+				<button rel="toggle" class="close-menu">Close menu</button>
+			</nav>
 
-		<button data-change='default'>Default</button>
-		<button data-change='yellow'>Yellow</button>
-		<button data-change='blue'>Blue</button>
+			<form id="check-dark">
+				<input type="checkbox" id="check-toggle" class="check-toggle">
+				<label for="check-toggle"><span class="type"></span></label>
+			</form>
 
+			<form id="color-change">
+				<input type="range" id="color-slider" min="0" max="100">
+				<label for="color-slider">Change the color!</label>
+			</form>
+
+			<div class="theme-buttons">
+				<button data-change='default'>Default</button>
+				<button data-change='yellow'>Yellow</button>
+				<button data-change='blue'>Blue</button>
+			</div>
+
+		</section>
+
+		<h2 class="attention-voice">Some forms</h2>
 		<section class="form-grid">
-			<h2 class="attention-voice">Some forms</h2>
-
+			
 			<div class="form">
 				<form id="hello">
 					<field class="text">

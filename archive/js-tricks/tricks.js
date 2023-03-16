@@ -7,6 +7,7 @@ function toggleTheme() {
 
 toggle.addEventListener('click', toggleTheme);
 
+// open full screen menu
 
 var menuButton = document.querySelector('.menu-button');
 var closeButton = document.querySelector('.close-menu');
@@ -22,6 +23,8 @@ function menuClose() {
 menuButton.addEventListener('click', menuOpen);
 
 closeButton.addEventListener('click', menuClose);
+
+// check box
 
 var darkCheck = document.querySelector('.check-toggle');
 
@@ -39,7 +42,22 @@ darkCheck.addEventListener("change", function() {
 	}
 });
 
-// function that changes the theme
+// color change slider
+
+var html = document.querySelector('html');
+var colorSlider = document.querySelector('#color-slider');
+
+function changeColor(input) {
+	console.clear();
+	console.log(input);
+	html.style.setProperty('--hue', this.value);
+}
+
+colorSlider.addEventListener('input', changeColor);
+
+
+
+// change theme by clicking button
 
 function changeTheme(chosenTheme) {
 	body.dataset.theme = chosenTheme;
@@ -331,9 +349,6 @@ shoppingCart2.addEventListener('submit', function(event) {
 	// calculate subtotal
 
 	var subtotal = Number(intSubtotalArray.reduce(reducer).toFixed(2));
-
-	// var sub = Number(subtotal.toFixed(2));
-	// console.log(subtotal);
 
 	// calculate tax 
 
