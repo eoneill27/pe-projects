@@ -3,7 +3,7 @@
 	$subtitle = $pageData['subtitle'] ?? "This is a default page-header subtitle";
 ?>
 
-<page-header>
+<page-header class="page-heading">
 	
 	<h1 class="heyyou-voice"><?=$title;?></h1>
 

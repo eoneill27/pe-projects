@@ -10,7 +10,7 @@
 	// $text2 = $text2 ?? "And more generic text, so you can get a feel for what this looks like. Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Qui distinctio saepe temporibus quisquam ullam necessitatibus voluptatum, rerum minima, quod quae inventore, quis eum officia commodi quo, sequi architecto dolores deserunt?";
 ?>
 
-<generic-text>
+<generic-text class="page-content">
 
 	<?=$content?>
 
