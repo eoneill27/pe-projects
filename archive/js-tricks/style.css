@@ -49,10 +49,22 @@ a {
 	font-size: 60px;
 }
 
-.reading-voice {
+.attention-voice {
 	font-family: "Courier";
 	font-size: 40px;
 }
+
+.outputHeading {
+	font-family: serif;
+	font-size: 22px;
+}
+
+.reading-voice {
+	font-family: "Courier";
+	font-size: 22px;
+	color: darkblue;
+}
+
 .menu {
 	display: none;
 }

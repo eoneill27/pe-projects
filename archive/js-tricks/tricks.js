@@ -253,17 +253,17 @@ clearShopping.addEventListener('click', function(clear) {
 	formFields.innerHTML = "";
 });
 
-const priceArray = [5, 6, 10, 34, 2];
+// const priceArray = [5, 6, 10, 34, 2];
 
-function reducer(accumulator, currentValue, index) {
-	const returns = accumulator + currentValue;
-	// console.log(
-	// 	`accumlator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`,);
-	return returns;
-}
+// function reducer(accumulator, currentValue, index) {
+// 	const returns = accumulator + currentValue;
+// 	// console.log(
+// 	// 	`accumlator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`,);
+// 	return returns;
+// }
 
-let subtotal = priceArray.reduce(reducer);
-console.log(subtotal);
+// let subtotal = priceArray.reduce(reducer);
+// console.log(subtotal);
 
 // const elementArray = [
 // 	{
@@ -300,7 +300,9 @@ const shoppingOutlet = document.querySelector('#shopping-outlet');
 const cartAddButton = document.querySelector('#add-rows');
 const cartClearRow = document.querySelector('#clear-row');
 const cartClearAll = document.querySelector('#clear-all');
-const cartCalculate = document.querySelector('#calculate-total');
+
+
+// create new item - blank inputs
 
 function renderItem() {
 	return `
@@ -311,7 +313,7 @@ function renderItem() {
 				<input type="number" id="itemQuant">
 
 				<label for="itemPrice">Price per item </label>
-				<input type="number" id="itemPrice">
+				<input type="number" step=".01" id="itemPrice">
 			</form-field>
 		</fieldset>
 	</li>
@@ -325,6 +327,109 @@ cartAddButton.addEventListener('click', function(event) {
 
 	console.log(shoppingOutlet);
 });
+
+// user submits data - need to add submitted data to array
+
+function reducer(accumulator, currentValue, index) {
+	const returns = accumulator + currentValue;
+	// console.log(
+	// 	`accumlator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`,);
+	return returns;
+}
+
+shoppingCart2.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	// total number of items
+
+	var quantities = shoppingCart2.querySelectorAll('#itemQuant');
+	var quantArray = Array.from(quantities);
+
+	var intQuantArray = [];
+
+	function getQuantities() {
+		quantArray.forEach(function(quantity) {
+			intQuant = (Number(quantity.value));
+			newQuantArray = intQuantArray.push(intQuant);
+		});
+	}
+
+	getQuantities();
+	var totalQuantities = Number(intQuantArray.reduce(reducer));
+
+	// deal with input prices
+
+	var itemPrice = shoppingCart2.querySelector('#itemPrice');
+	var prices = shoppingCart2.querySelectorAll('#itemPrice');
+	var priceArray = Array.from(prices);
+
+	var intPriceArray = [];
+
+ 	function getPrices() {
+		priceArray.forEach(function(price) {
+			intPrice = (Number(price.value));
+			newPriceArray = intPriceArray.push(intPrice);
+			// console.log(intPrice);
+			console.log(intPriceArray);
+		});
+	}
+
+	getPrices();
+
+	// calculate subtotal
+
+	var subtotal = Number(intPriceArray.reduce(reducer));
+	console.log(subtotal);
+
+	// calculate tax 
+
+	var tax = Number((subtotal * 0.075).toFixed(2));
+
+	// calculate total
+
+	var total = (subtotal + tax).toFixed(2);
+
+	// populate output
+
+	var quantOutput = shoppingCart2.querySelector('#quantityOutput');
+	quantOutput.textContent = `${totalQuantities}`;
+
+	var subOutput = shoppingCart2.querySelector('#subtotalOutput');
+	subOutput.textContent = `$${subtotal}`;
+
+	var taxOutput = shoppingCart2.querySelector('#taxOutput');
+	taxOutput.textContent = `$${tax}`;
+
+	var totalOutput = shoppingCart2.querySelector('#totalOutput');
+	totalOutput.textContent = `$${total}`;
+
+});
+
+
+
+
+
+
+
+
+// function renderItems(itemsList) {
+// 	var template = "";
+// 	itemsList.forEach(function(theItem) {
+// 		template += renderItem(theItem);
+// 	});
+
+// 	shoppingOutlet.innerHTML = template;
+// }
+
+// cartCalculate.addEventListener('submit', function(event) {
+// 	event.preventDefault();
+
+// 	productsData.push({
+
+// 	renderItems(productsData);
+// });
+
+
 
 function removeItem() {
 	let list = shoppingCart2.querySelector("#shopping-outlet");

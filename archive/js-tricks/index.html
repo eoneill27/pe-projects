@@ -29,14 +29,14 @@
 		<input type="checkbox" id="check-toggle" class="check-toggle">
 		<label for="check-toggle"><span class="type"></span></label>
 
-		<p class="reading-voice">Just practicing some JavaScript stuff here!</p>
+		<p class="attention-voice">Just practicing some JavaScript stuff here!</p>
 
 		<button data-change='default'>Default</button>
 		<button data-change='yellow'>Yellow</button>
 		<button data-change='blue'>Blue</button>
 
 		<section class="form-grid">
-			<h2 class="reading-voice">Some forms</h2>
+			<h2 class="attention-voice">Some forms</h2>
 
 			<div class="form">
 				<form id="hello">
@@ -129,12 +129,31 @@
 
 			<div class="form" id="shopping-form">
 				
-				<h2>Another shopping cart</h2>
+				<h2>Let's go shopping - Take 2</h2>
 				<form id="shopping-take2">
 
 					<ol id="shopping-outlet">
 
 					</ol>
+
+					<output id="shoppingOutput">
+						<div class="outputInline">
+							<h3 class="outputHeading">Number of items:</h3>
+							<p id="quantityOutput" class="reading-voice"></p>
+						</div>
+						<div class="outputInline">
+							<h3 class="outputHeading">Subtotal:</h3>
+							<p id="subtotalOutput" class="reading-voice"></p>
+						</div>
+						<div class="outputInline">
+							<h3 class="outputHeading">Tax (7.5%):</h3>
+							<p id="taxOutput" class="reading-voice"></p>
+						</div>
+						<div class="outputInline">
+							<h3 class="outputHeading">Total:</h3>
+							<p id="totalOutput" class="reading-voice"></p>
+						</div>
+					</output>
 
 					<button id="add-rows" class="button" type="button">Add a row</button>
 
@@ -152,7 +171,7 @@
 		<footer>
 			
 		</footer>
-		
+
 		<script src="tricks.js"></script>
 	</body>
 
