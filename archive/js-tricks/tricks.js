@@ -124,173 +124,108 @@ clearMath.addEventListener('click', function(clear) {
 	mathOutput.style.display = "none";
 });
 
-// form - shopping cart
-// user enters item quantities and prices
-// multiply each quantity by price to get item subtotal
-// add item subtotals to get overall subtotal
-// multiply subtotal by tax rate to get tax amount
-// add subtotal to tax amount to get total
+// // form - shopping cart
+// // user enters item quantities and prices
+// // multiply each quantity by price to get item subtotal
+// // add item subtotals to get overall subtotal
+// // multiply subtotal by tax rate to get tax amount
+// // add subtotal to tax amount to get total
 
-const shoppingForm = document.querySelector('#shopping-cart');
-const item1PriceInput = shoppingForm.querySelector('#item1Price');
-const item1QuantInput = shoppingForm.querySelector('#item1Quant');
-const item2PriceInput = shoppingForm.querySelector('#item2Price');
-const item2QuantInput = shoppingForm.querySelector('#item2Quant');
-const item3PriceInput = shoppingForm.querySelector('#item3Price');
-const item3QuantInput = shoppingForm.querySelector('#item3Quant');
+// const shoppingForm = document.querySelector('#shopping-cart');
+// const item1PriceInput = shoppingForm.querySelector('#item1Price');
+// const item1QuantInput = shoppingForm.querySelector('#item1Quant');
+// const item2PriceInput = shoppingForm.querySelector('#item2Price');
+// const item2QuantInput = shoppingForm.querySelector('#item2Quant');
+// const item3PriceInput = shoppingForm.querySelector('#item3Price');
+// const item3QuantInput = shoppingForm.querySelector('#item3Quant');
 
-const calculate = shoppingForm.querySelector('#calculate');
+// const calculate = shoppingForm.querySelector('#calculate');
 
-const subOutput = shoppingForm.querySelector('#subtotalOutput');
-const taxOutput = shoppingForm.querySelector('#taxOutput');
-const totalOutput = shoppingForm.querySelector('#totalOutput');
-const receipt = shoppingForm.querySelector('#receipt');
+// const subOutput = shoppingForm.querySelector('#subtotalOutput');
+// const taxOutput = shoppingForm.querySelector('#taxOutput');
+// const totalOutput = shoppingForm.querySelector('#totalOutput');
+// const receipt = shoppingForm.querySelector('#receipt');
 
-shoppingForm.addEventListener('submit', function(event) {
-	event.preventDefault();
+// shoppingForm.addEventListener('submit', function(event) {
+// 	event.preventDefault();
 
-	if(item1QuantInput.value && item1PriceInput.value) {
+// 	if(item1QuantInput.value && item1PriceInput.value) {
 
-		const item1Price = Number(item1PriceInput.value);
-		const item1Quant = Number(item1QuantInput.value);
-		const item2Price = Number(item2PriceInput.value);
-		const item2Quant = Number(item2QuantInput.value);
-		const item3Price = Number(item3PriceInput.value);
-		const item3Quant = Number(item3QuantInput.value);
+// 		const item1Price = Number(item1PriceInput.value);
+// 		const item1Quant = Number(item1QuantInput.value);
+// 		const item2Price = Number(item2PriceInput.value);
+// 		const item2Quant = Number(item2QuantInput.value);
+// 		const item3Price = Number(item3PriceInput.value);
+// 		const item3Quant = Number(item3QuantInput.value);
 
-		const item1Sub = item1Quant * item1Price;
-		const item2Sub = item2Quant * item2Price;
-		const item3Sub = item3Quant * item3Price;
+// 		const item1Sub = item1Quant * item1Price;
+// 		const item2Sub = item2Quant * item2Price;
+// 		const item3Sub = item3Quant * item3Price;
 
-		const subtotal = item1Sub + item2Sub + item3Sub;
-		const tax = Number((subtotal * 0.075).toFixed(2));
-		const total = subtotal + tax;
+// 		const subtotal = item1Sub + item2Sub + item3Sub;
+// 		const tax = Number((subtotal * 0.075).toFixed(2));
+// 		const total = subtotal + tax;
 
-		subOutput.textContent = "$" + subtotal;
-		taxOutput.textContent = "$" + tax;
-		totalOutput.textContent = "$" + total;
+// 		subOutput.textContent = "$" + subtotal;
+// 		taxOutput.textContent = "$" + tax;
+// 		totalOutput.textContent = "$" + total;
 
-		receipt.style.display = "block";
-		receipt.style.color = "black";
-		receipt.innerHTML = `<p>Item 1: ${item1Quant} at $${item1Price} each</p>
-		<p>Item 2: ${item2Quant} at $${item2Price} each</p>
-		<p>Item 3: ${item3Quant} at $${item3Price} each</p>`;
-
-
-	} else if (item1QuantInput.value <= 0 && item1PriceInput <= 0) {
-		let message = "Please enter the item quantity and price.";
-		receipt.style.display = "block";
-		receipt.innerHTML = "<p>" + message + "</p>";
-		receipt.style.color = "red";
-
-	}
-});
-
-// add an item
-// on click - form-field added
-// form-field includes label & input for quantity, and label & input for price
-// label for quant needs to say "Item [#] quantity"
-// item number needs to start at 4 and count one for every row added
-// should these rows be an array???
-// should form start with only one row?
+// 		receipt.style.display = "block";
+// 		receipt.style.color = "black";
+// 		receipt.innerHTML = `<p>Item 1: ${item1Quant} at $${item1Price} each</p>
+// 		<p>Item 2: ${item2Quant} at $${item2Price} each</p>
+// 		<p>Item 3: ${item3Quant} at $${item3Price} each</p>`;
 
 
-// let label1 = document.createElement("label");
-// let input1 = document.createElement("input");
-// let label2 = document.createElement("label");
-// let input2 = document.createElement("input");
+// 	} else if (item1QuantInput.value <= 0 && item1PriceInput <= 0) {
+// 		let message = "Please enter the item quantity and price.";
+// 		receipt.style.display = "block";
+// 		receipt.innerHTML = "<p>" + message + "</p>";
+// 		receipt.style.color = "red";
 
-// console.log(formField);
-
-// label1.htmlFor = "itemQuant";
-// label1.textContent = "Item quantity";
-// input1.type = "number";
-// input1.id = "itemQuant";
-// label2.htmlFor = "itemPrice";
-// label2.textContent = "Price";
-// input1.type = "number";
-// input2.id = "itemPrice";
-
-
-// formField.appendChild(label1);
-// formField.appendChild(input1);
-// formField.appendChild(label2);
-// formField.appendChild(input2);
-
-// function createFormField() {
-// 	formField.appendChild(label1);
-// formField.appendChild(input1);
-// formField.appendChild(label2);
-// formField.appendChild(input2);
-// }
-
-const addItem = document.querySelector("#add-item");
-const formFields = document.querySelector(".form-fields");
-let formField = document.createElement("form-field");
-
-addItem.addEventListener('click', function(addItem) {
-
-	formFields.appendChild(formField);
-	formField.innerHTML = "<label for='itemQuant'>Item quantity</label><input type='number' id='item-quant'><label for='itemPrice'>Price</label><input type='number' id='itemPrice'>";
-
-	console.log(formField);
-	console.log(formFields);
-});
-
-
-const clearShopping = document.querySelector("#clear-shopping");
-
-clearShopping.addEventListener('click', function(clear) {
-
-	let inputs = document.querySelectorAll('input');
-	inputs.forEach(function(input) {
-		input.value = "";
-	});
-	subOutput.textContent = "";
-	taxOutput.textContent = "";
-	totalOutput.textContent = "";
-	receipt.style.display = "none";
-	formFields.innerHTML = "";
-});
-
-// const priceArray = [5, 6, 10, 34, 2];
-
-// function reducer(accumulator, currentValue, index) {
-// 	const returns = accumulator + currentValue;
-// 	// console.log(
-// 	// 	`accumlator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`,);
-// 	return returns;
-// }
-
-// let subtotal = priceArray.reduce(reducer);
-// console.log(subtotal);
-
-// const elementArray = [
-// 	{
-// 		label: "Quantity",
-// 		for: "item1Quant",
-// 		inputType: "number",
-// 		inputID: "item1Quant",
-// 	},
-// 	{
-// 		label: "Price",
-// 		for: "item1Price",
-// 		inputType: "number",
-// 		inputID: "item1Price",
-// 	},
-// 	{
-// 		label: "Quantity",
-// 		for: "item2Quant",
-// 		inputType: "number",
-// 		inputID: "item2Quant",
-// 	},
-// 	{
-// 		label: "Price",
-// 		for: "item2Price",
-// 		inputType: "number",
-// 		inputID: "item2Price",
 // 	}
-// ];
+// });
+
+// // add an item
+// // on click - form-field added
+// // form-field includes label & input for quantity, and label & input for price
+// // label for quant needs to say "Item [#] quantity"
+// // item number needs to start at 4 and count one for every row added
+// // should these rows be an array???
+// // should form start with only one row?
+
+
+
+
+// const addItem = document.querySelector("#add-item");
+// const formFields = document.querySelector(".form-fields");
+// let formField = document.createElement("form-field");
+
+// addItem.addEventListener('click', function(addItem) {
+
+// 	formFields.appendChild(formField);
+// 	formField.innerHTML = "<label for='itemQuant'>Item quantity</label><input type='number' id='item-quant'><label for='itemPrice'>Price</label><input type='number' id='itemPrice'>";
+
+// 	console.log(formField);
+// 	console.log(formFields);
+// });
+
+
+// const clearShopping = document.querySelector("#clear-shopping");
+
+// clearShopping.addEventListener('click', function(clear) {
+
+// 	let inputs = document.querySelectorAll('input');
+// 	inputs.forEach(function(input) {
+// 		input.value = "";
+// 	});
+// 	subOutput.textContent = "";
+// 	taxOutput.textContent = "";
+// 	totalOutput.textContent = "";
+// 	receipt.style.display = "none";
+// 	formFields.innerHTML = "";
+// });
+
 
 
 // ANOTHER SHOPPING CART
@@ -336,6 +271,11 @@ function reducer(accumulator, currentValue, index) {
 	// 	`accumlator: ${accumulator}, currentValue: ${currentValue}, index: ${index}, returns: ${returns}`,);
 	return returns;
 }
+
+var quantOutput = shoppingCart2.querySelector('#quantityOutput');
+var subOutput = shoppingCart2.querySelector('#subtotalOutput');
+var taxOutput = shoppingCart2.querySelector('#taxOutput');
+var totalOutput = shoppingCart2.querySelector('#totalOutput');
 
 shoppingCart2.addEventListener('submit', function(event) {
 	event.preventDefault();
@@ -391,45 +331,14 @@ shoppingCart2.addEventListener('submit', function(event) {
 
 	// populate output
 
-	var quantOutput = shoppingCart2.querySelector('#quantityOutput');
 	quantOutput.textContent = `${totalQuantities}`;
-
-	var subOutput = shoppingCart2.querySelector('#subtotalOutput');
 	subOutput.textContent = `$${subtotal}`;
-
-	var taxOutput = shoppingCart2.querySelector('#taxOutput');
 	taxOutput.textContent = `$${tax}`;
-
-	var totalOutput = shoppingCart2.querySelector('#totalOutput');
 	totalOutput.textContent = `$${total}`;
-
+	console.log(quantOutput);
 });
 
-
-
-
-
-
-
-
-// function renderItems(itemsList) {
-// 	var template = "";
-// 	itemsList.forEach(function(theItem) {
-// 		template += renderItem(theItem);
-// 	});
-
-// 	shoppingOutlet.innerHTML = template;
-// }
-
-// cartCalculate.addEventListener('submit', function(event) {
-// 	event.preventDefault();
-
-// 	productsData.push({
-
-// 	renderItems(productsData);
-// });
-
-
+// remove one row
 
 function removeItem() {
 	let list = shoppingCart2.querySelector("#shopping-outlet");
@@ -440,10 +349,16 @@ function removeItem() {
 
 cartClearRow.addEventListener('click', removeItem);
 
+// clear entire cart
+
 cartClearAll.addEventListener('click', function(event) {
 	event.preventDefault();
 
-	return shoppingOutlet.innerHTML = '';
+	shoppingOutlet.innerHTML = '';
+	quantOutput.textContent = '';
+	subOutput.textContent = '';
+	taxOutput.textContent = '';
+	totalOutput.textContent = '';
 });
 
 
