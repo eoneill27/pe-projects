@@ -230,12 +230,17 @@ clearMath.addEventListener('click', function(clear) {
 
 // ANOTHER SHOPPING CART
 
+// variables 
+
 const shoppingCart2 = document.querySelector('#shopping-take2');
 const shoppingOutlet = document.querySelector('#shopping-outlet');
 const cartAddButton = document.querySelector('#add-rows');
 const cartClearRow = document.querySelector('#clear-row');
 const cartClearAll = document.querySelector('#clear-all');
-
+var quantOutput = shoppingCart2.querySelector('#quantityOutput');
+var subOutput = shoppingCart2.querySelector('#subtotalOutput');
+var taxOutput = shoppingCart2.querySelector('#taxOutput');
+var totalOutput = shoppingCart2.querySelector('#totalOutput');
 
 // create new item - blank inputs
 
@@ -255,15 +260,16 @@ function renderItem() {
 	`;
 }
 
+// click button to add item inputs
+
 cartAddButton.addEventListener('click', function(event) {
 	event.preventDefault();
 
 	shoppingOutlet.insertAdjacentHTML ('beforeend', renderItem());
-
-	console.log(shoppingOutlet);
+	// console.log(shoppingOutlet);
 });
 
-// user submits data - need to add submitted data to array
+// reducer function for later 
 
 function reducer(accumulator, currentValue, index) {
 	const returns = accumulator + currentValue;
@@ -272,54 +278,60 @@ function reducer(accumulator, currentValue, index) {
 	return returns;
 }
 
-var quantOutput = shoppingCart2.querySelector('#quantityOutput');
-var subOutput = shoppingCart2.querySelector('#subtotalOutput');
-var taxOutput = shoppingCart2.querySelector('#taxOutput');
-var totalOutput = shoppingCart2.querySelector('#totalOutput');
+// click calculate to submit form 
 
 shoppingCart2.addEventListener('submit', function(event) {
 	event.preventDefault();
 
-	// total number of items
+	// get inputs
+
+	var formFields = shoppingCart2.querySelectorAll('form-field');
+	var fieldArray = Array.from(formFields);
+	console.log(fieldArray);
+
+	var intSubtotalArray = [];
+
+	function getInputs() {
+		fieldArray.forEach(function(field) {
+			var fieldQuant = field.querySelector('#itemQuant');
+			console.log(fieldQuant);
+
+			var fieldPrice = field.querySelector('#itemPrice');
+
+			var fieldSubtotal = (Number(fieldQuant.value)) * (Number(fieldPrice.value));
+
+			var newFieldArray = intSubtotalArray.push(fieldSubtotal);
+			console.log(intSubtotalArray);
+
+		});
+	}
+
+	getInputs();
+
+	// get quantities
 
 	var quantities = shoppingCart2.querySelectorAll('#itemQuant');
 	var quantArray = Array.from(quantities);
+
+	// total number of items
 
 	var intQuantArray = [];
 
 	function getQuantities() {
 		quantArray.forEach(function(quantity) {
-			intQuant = (Number(quantity.value));
-			newQuantArray = intQuantArray.push(intQuant);
+			var intQuant = (Number(quantity.value));
+			var newQuantArray = intQuantArray.push(intQuant);
 		});
 	}
 
 	getQuantities();
+
 	var totalQuantities = Number(intQuantArray.reduce(reducer));
-
-	// deal with input prices
-
-	var itemPrice = shoppingCart2.querySelector('#itemPrice');
-	var prices = shoppingCart2.querySelectorAll('#itemPrice');
-	var priceArray = Array.from(prices);
-
-	var intPriceArray = [];
-
- 	function getPrices() {
-		priceArray.forEach(function(price) {
-			intPrice = (Number(price.value));
-			newPriceArray = intPriceArray.push(intPrice);
-			// console.log(intPrice);
-			console.log(intPriceArray);
-		});
-	}
-
-	getPrices();
 
 	// calculate subtotal
 
-	var subtotal = Number(intPriceArray.reduce(reducer));
-	console.log(subtotal);
+	var subtotal = Number(intSubtotalArray.reduce(reducer));
+	// console.log(subtotal);
 
 	// calculate tax 
 
@@ -335,7 +347,7 @@ shoppingCart2.addEventListener('submit', function(event) {
 	subOutput.textContent = `$${subtotal}`;
 	taxOutput.textContent = `$${tax}`;
 	totalOutput.textContent = `$${total}`;
-	console.log(quantOutput);
+	// console.log(quantOutput);
 });
 
 // remove one row
@@ -367,3 +379,23 @@ cartClearAll.addEventListener('click', function(event) {
 
 
 
+
+
+	// deal with input prices
+
+	// var itemPrice = shoppingCart2.querySelector('#itemPrice');
+	// var prices = shoppingCart2.querySelectorAll('#itemPrice');
+	// var priceArray = Array.from(prices);
+
+	// var intPriceArray = [];
+
+ 	// function getPrices() {
+	// 	priceArray.forEach(function(price) {
+	// 		var intPrice = (Number(price.value));
+	// 		var newPriceArray = intPriceArray.push(intPrice);
+	// 		// console.log(intPrice);
+	// 		// console.log(intPriceArray);
+	// 	});
+	// }
+
+	// getPrices();
