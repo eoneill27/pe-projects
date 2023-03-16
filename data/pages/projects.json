@@ -58,7 +58,7 @@
 			"id": "garden",
 			"img": "images/garden-tile.jpg",
 			"imgOver": "images/garden-tile-over.jpg",
-			"url": "?page=project&id=garden",
+			"url": "?page=layouts",
 			"outUrl": "https://peprojects.dev/alpha-6/emily/projects/layout-garden/",
 			"alt": "Screenshot of the responsive layout garden project.",
 			"title": "Responsive Layout Garden",
