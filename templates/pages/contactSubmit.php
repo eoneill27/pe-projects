@@ -18,8 +18,34 @@ mail($to, $subject, $message);
 
 ?>
 
-<inner-column>
+<?php 
 
-	<p class="reading-voice">Thanks for submitting the contact form! I'll get back to you as soon as I can.</p>
+	$json = file_get_contents('data/pages/contactSubmit.json');
+	$pageData = json_decode($json, true);
 
-</inner-column>
+	foreach ($pageData['sections'] as $section) {
+		$module = $section['module'];
+
+		if(isset($section['class'])) {
+			$class = $section['class'];
+		}
+
+		if(isset($section['title'])) {
+			$title = $section['title'];
+		}
+
+		if(isset($section['content'])) {
+			$content = $section['content'];
+		}
+
+
+	?>
+
+
+			<?php include("templates/modules/$module/$module.php"); ?>
+
+
+<?php } ?>
+
+
+

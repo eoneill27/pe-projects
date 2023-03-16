@@ -6,8 +6,6 @@
 		</div>
 
 		<div class="contact-text page-content">
-			<!-- <span class="reading-voice">You can always reach me at
-			<address class="reading-voice"><a href="mailto:oneill.emily@gmail.com">oneill.emily@gmail.com</a></address></span> -->
 
 			<p class="reading-voice">If you would like to get in touch with me, please fill in this form with a brief description of your project:</p>
 

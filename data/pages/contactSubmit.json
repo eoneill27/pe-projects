@@ -1,0 +1,15 @@
+{
+	"slug": "contactSubmit",
+	"template": "contactSubmit",
+	"title": "Success!",
+
+	"sections": [
+		{
+			"module": "page-header"
+		},
+		{
+			"module": "generic-text",
+			"content": "<p class='reading-voice'>Thanks for submitting the contact form! I'll get back to you as soon as I can.</p>"
+		}
+	]
+}
