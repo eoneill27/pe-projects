@@ -330,7 +330,9 @@ shoppingCart2.addEventListener('submit', function(event) {
 
 	// calculate subtotal
 
-	var subtotal = Number(intSubtotalArray.reduce(reducer));
+	var subtotal = Number(intSubtotalArray.reduce(reducer).toFixed(2));
+
+	// var sub = Number(subtotal.toFixed(2));
 	// console.log(subtotal);
 
 	// calculate tax 
@@ -339,7 +341,7 @@ shoppingCart2.addEventListener('submit', function(event) {
 
 	// calculate total
 
-	var total = (subtotal + tax).toFixed(2);
+	var total = Number((subtotal + tax).toFixed(2));
 
 	// populate output
 
