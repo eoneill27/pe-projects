@@ -34,9 +34,8 @@
 
 		<a href="?" class="heading-link"><h1 class="attention-voice">How many years until retirement?</h1></a>
 		
-		<form action="" method="POST" id="retirement-form">
-			<div class="form-fields reading-voice">
-		
+		<div class="reading-voice">
+			<form action="" method="POST" id="retirement-form" class="form-fields">
 				<label for="age">How old are you?</label>
 				<input id="current-age" name="age" class="reading-voice" type="number" required>
 
@@ -46,9 +45,12 @@
 				<button class="reading-voice" type="submit" name="submitted" id="submit">
 					Do the math
 				</button>
-
-			</div>
-		</form>
+				<button class="reading-voice" type="button" name="reset" id="reset">
+					Reset
+				</button>
+			</form>	
+		</div>
+		
 
 <!-- JS output -->
 		<output id="js-output" style="display: none"></output>

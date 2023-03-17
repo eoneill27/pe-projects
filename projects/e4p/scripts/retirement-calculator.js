@@ -34,5 +34,13 @@ submitButton.addEventListener('click', function(event) {
 		output.style.display = "block";
 	}
 
+});
+
+const reset = document.querySelector('#reset');
+
+reset.addEventListener('click', function(reset) {
+	currentAge.value = '';
+	retireAge.value = '';
+	output.innerHTML = '';
 
 });
