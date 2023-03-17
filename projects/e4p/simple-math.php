@@ -39,32 +39,40 @@
 	<form method="POST" action="">
 		<div class="form-fields reading-voice">
 			<label for="">Number 1</label>
-			<input class="reading-voice" name="number1" type="number" value="<?=$number1?>" step="0.0000001"/>
+			<input class="reading-voice" name="number1" id="num1" type="number" value="<?=$number1?>" step="0.0000001"/>
 
 			<label for="">Number 2</label>
-			<input class="reading-voice" name="number2" type="number" value="<?=$number2?>" step="0.0000001"/>
+			<input class="reading-voice" name="number2" id="num2" type="number" value="<?=$number2?>" step="0.0000001"/>
 
-			<button class="reading-voice" name="submitted" type="submit">
+			<button class="form-button reading-voice" name="submitted" type="submit">
 				Submit
 			</button>
-		</div>
+			<button id="reset-button" class="form-button reading-voice" type="button">Reset</button>
 
-		<div class="form-output reading-voice">
-			<h2 class="info-voice">RESULTS:</h2>
-			<p>Number 1 + Number 2 = <?=$add?></p>
-			<p>Number 1 - Number 2 = <?=$subtract?></p>
-			<p>Number 1 * Number 2 = <?=$multiply?></p>
-			<p>Number 1 / Number 2 = <?=$divide?></p>
-			<p><?=$validateDivide?></p>
 
 		</div>
-
-
-
 	</form>
 
+<!-- JS output -->
 
-<!-- <scripts src="scripts/simple-math.js"></scripts> -->
+	<output class="form-fields reading-voice" style="display: none">
+
+	</output>
+
+
+<!-- php output  -->
+
+	<div class="form-output php-output reading-voice" style="display: none">
+		<h2 class="info-voice">RESULTS:</h2> 
+		<p>Number 1 + Number 2 = <?=$add?></p>
+		<p>Number 1 - Number 2 = <?=$subtract?></p> 
+		<p>Number 1 * Number 2 = <?=$multiply?></p> 
+		 <p>Number 1 / Number 2 = <?=$divide?></p>
+		 <p><?=$validateDivide?></p>
+
+ 	</div>
+
+<script src="projects/e4p/scripts/simple-math.js"></script>
 
 
 
