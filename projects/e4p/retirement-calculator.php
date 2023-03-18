@@ -34,15 +34,28 @@
 
 		<a href="?" class="heading-link"><h1 class="attention-voice">How many years until retirement?</h1></a>
 		
-		<div class="reading-voice">
-			<form action="" method="POST" id="retirement-form" class="form-fields">
+		<div class="reading-voice form-fields">
+			<h2 id="test" style="display: none; color: red"></h2>
+
+			<fieldset class="code-toggles">
+				<label for="php-toggle" >PHP</label>
+				<input type="radio" id="php-toggle" name="code-toggle" checked>
+
+				<label for="js-toggle" >JavaScript</label>
+				<input type="radio" id="js-toggle" name="code-toggle">
+			</fieldset>
+
+			<form action="" method="POST" id="retirement-form">
 				<label for="age">How old are you?</label>
 				<input id="current-age" name="age" class="reading-voice" type="number" required>
 
 				<label for="retirementAge">How old do you want to be when you retire?</label>
 				<input id="retire-age" name="retirementAge" class="reading-voice" type="number" required>
 
-				<button class="reading-voice" type="submit" name="submitted" id="submit">
+				<button class="reading-voice" type="submit" name="submitted" id="submit" style="display: none">
+					Do the math
+				</button>
+				<button class="reading-voice" type="button" id="js-submit" style="display: none">
 					Do the math
 				</button>
 				<button class="reading-voice" type="button" name="reset" id="reset">
@@ -53,14 +66,14 @@
 		
 
 <!-- JS output -->
-		<output id="js-output" style="display: none"></output>
+		<output id="js-output" class="form-output" style="display: none"></output>
 
 <!-- PHP output  -->
-		<div class="form-output" style="display: none">
+		<output id="php-output" class="form-output" style="display: none">
 			<p class="reading-voice">You are <?=$age?> years old.</p>
 			<p class="reading-voice">You want to retire at age <?=$retirementAge?></p>
 			<p class="reading-voice">You can retire in <?=$retirementYear?>.</p>
 			<p class="reading-voice"><?=$message?></p>
-		</div>
+		</output>
 
 <script src="projects/e4p/scripts/retirement-calculator.js"></script>
