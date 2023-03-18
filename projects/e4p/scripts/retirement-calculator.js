@@ -1,6 +1,7 @@
 
 const retirementForm = document.querySelector('#retirement-form');
 const submitButton = document.querySelector('#js-submit');
+const phpSubmitButton = document.querySelector('#submit');
 const currentAge = document.querySelector('#current-age');
 const retireAge = document.querySelector('#retire-age');
 const output = document.querySelector('#js-output');
@@ -12,27 +13,24 @@ const jsRadio = document.querySelector('#js-toggle');
 
 const reset = document.querySelector('#reset');
 
-const phpSubmitButton = document.querySelector('#submit');
-
 if (phpRadio.checked === true) {
-		console.log('yes');
+	// console.log('yes');
 
-		output.style.display = "none";
-		reset.style.display = "none";
-		phpOutput.style.display = "block";
-		phpSubmitButton.style.display = "block";
-		submitButton.style.display = "none";
+	output.style.display = "none";
+	reset.style.display = "none";
+	phpOutput.style.display = "block";
+	phpSubmitButton.style.display = "block";
+	submitButton.style.display = "none";
 }
 
 phpRadio.addEventListener('click', function(event) {
+	// console.log('switch');
 
-		console.log('switch');
-
-		output.style.display = "none";
-		reset.style.display = "none";
-		phpOutput.style.display = "block";
-		phpSubmitButton.style.display = "block";
-		submitButton.style.display = "none";
+	output.style.display = "none";
+	reset.style.display = "none";
+	phpOutput.style.display = "block";
+	phpSubmitButton.style.display = "block";
+	submitButton.style.display = "none";
 });
 
 if (jsRadio.checked === true) {
@@ -51,16 +49,9 @@ jsRadio.addEventListener('click', function(event) {
 	phpOutput.style.display = "none";
 });
 
-
 submitButton.addEventListener('click', function(event) {
 
-	// if php radio is checked - want to ignore js form 
-	// and run php form instead
-	// two separate submit buttons? 
-	// display none depending on which radio is checked
-
 	if (jsRadio.checked === true) {
-
 
 		event.preventDefault();
 
@@ -79,8 +70,6 @@ submitButton.addEventListener('click', function(event) {
 				<p class="reading-voice">You want to retire at age ${retireInput}</p>
 				<p class="reading-voice">You can retire in ${retireYear}.</p>
 				<p class="reading-voice">You have ${yearsLeft} before you can retire.</p>`;
-
-			
 
 		} else {
 			output.innerHTML = `<div class="form-output"><p class="reading-voice">Please fill in the form</p></div>`;

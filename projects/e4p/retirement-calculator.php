@@ -35,7 +35,6 @@
 		<a href="?" class="heading-link"><h1 class="attention-voice">How many years until retirement?</h1></a>
 		
 		<div class="reading-voice form-fields">
-			<h2 id="test" style="display: none; color: red"></h2>
 
 			<fieldset class="code-toggles">
 				<label for="php-toggle" >PHP</label>
