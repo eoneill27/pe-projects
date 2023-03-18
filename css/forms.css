@@ -4,6 +4,11 @@
 a h1 {
 	text-align: center;
 }
+
+fieldset {
+	display: flex;
+}
+
 .form-fields, .form-output {
 	background-color: white;
 	display: flex;
@@ -12,6 +17,7 @@ a h1 {
 	padding: 40px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	border: 2px solid var(--site-blue);
 /*	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;*/
@@ -24,6 +30,7 @@ a h1 {
 .form-fields label {
 	margin-top: 15px;
 }
+
 .form-fields input, .form-fields textarea, .form-fields button{
 	width: 100%;
 	margin-top: 5px;
@@ -39,8 +46,14 @@ input::-webkit-inner-spin-button {
 	margin: 0; 
 }
 
+.code-toggles {
+	flex-direction: row;
+	align-items: center;
+}
+
 .radio {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 
 }
