@@ -42,7 +42,7 @@ submitButton.addEventListener('click', function(event) {
 			output.innerHTML = `<p class="reading-voice">You are ${ageInput} years old.</p>
 				<p class="reading-voice">You want to retire at age ${retireInput}</p>
 				<p class="reading-voice">You can retire in ${retireYear}.</p>
-				<p class="reading-voice">You have ${yearsLeft} before you can retire.</p>`;
+				<p class="reading-voice">You have ${yearsLeft} years before you can retire.</p>`;
 
 		} else {
 			output.innerHTML = `<div class="form-output"><p class="reading-voice">Please fill in the form</p></div>`;
