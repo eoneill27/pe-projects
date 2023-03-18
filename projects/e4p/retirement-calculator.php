@@ -33,16 +33,22 @@
 		?>
 
 		<a href="?" class="heading-link"><h1 class="attention-voice">How many years until retirement?</h1></a>
-		
-		<div class="reading-voice form-fields">
 
-			<fieldset class="code-toggles">
+		<fieldset class="code-toggles">
+			<input type="checkbox" id="switch" class="checkbox">
+			<label for="switch" class="toggle"></label>
+			<p class="reading-voice">PHP | JS</p>
+		</fieldset>
+		
+		<div id="form-fields" class="reading-voice form-fields">
+
+			<!-- <fieldset class="code-toggles">
 				<label for="php-toggle" >PHP</label>
 				<input type="radio" id="php-toggle" name="code-toggle" checked>
 
 				<label for="js-toggle" >JavaScript</label>
 				<input type="radio" id="js-toggle" name="code-toggle">
-			</fieldset>
+			</fieldset> -->
 
 			<form action="" method="POST" id="retirement-form">
 				<label for="age">How old are you?</label>
@@ -51,28 +57,27 @@
 				<label for="retirementAge">How old do you want to be when you retire?</label>
 				<input id="retire-age" name="retirementAge" class="reading-voice" type="number" required>
 
-				<button class="reading-voice" type="submit" name="submitted" id="submit" style="display: none">
+				<button id="submit" class="reading-voice" type="submit" name="submitted">
 					Do the math
 				</button>
-				<button class="reading-voice" type="button" id="js-submit" style="display: none">
+				<button id="js-submit" class="reading-voice" type="button">
 					Do the math
 				</button>
 				<button class="reading-voice" type="button" name="reset" id="reset">
 					Reset
 				</button>
 			</form>	
-		</div>
 		
+	<!-- JS output -->
+			<output id="js-output" class="form-output"></output>
 
-<!-- JS output -->
-		<output id="js-output" class="form-output" style="display: none"></output>
-
-<!-- PHP output  -->
-		<output id="php-output" class="form-output" style="display: none">
-			<p class="reading-voice">You are <?=$age?> years old.</p>
-			<p class="reading-voice">You want to retire at age <?=$retirementAge?></p>
-			<p class="reading-voice">You can retire in <?=$retirementYear?>.</p>
-			<p class="reading-voice"><?=$message?></p>
-		</output>
+	<!-- PHP output  -->
+			<output id="php-output" class="form-output">
+				<p class="reading-voice">You are <?=$age?> years old.</p>
+				<p class="reading-voice">You want to retire at age <?=$retirementAge?></p>
+				<p class="reading-voice">You can retire in <?=$retirementYear?>.</p>
+				<p class="reading-voice"><?=$message?></p>
+			</output>
+		</div>
 
 <script src="projects/e4p/scripts/retirement-calculator.js"></script>

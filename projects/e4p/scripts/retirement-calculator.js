@@ -13,45 +13,18 @@ const jsRadio = document.querySelector('#js-toggle');
 
 const reset = document.querySelector('#reset');
 
-if (phpRadio.checked === true) {
-	// console.log('yes');
+var formSection = document.querySelector('#form-fields');
 
-	output.style.display = "none";
-	reset.style.display = "none";
-	phpOutput.style.display = "block";
-	phpSubmitButton.style.display = "block";
-	submitButton.style.display = "none";
+var toggle = document.querySelector('#switch');
+
+function toggleJS() {
+	formSection.classList.toggle('using-js');
 }
-
-phpRadio.addEventListener('click', function(event) {
-	// console.log('switch');
-
-	output.style.display = "none";
-	reset.style.display = "none";
-	phpOutput.style.display = "block";
-	phpSubmitButton.style.display = "block";
-	submitButton.style.display = "none";
-});
-
-if (jsRadio.checked === true) {
-
-	submitButton.style.display = "block";
-	reset.style.display = "block";
-	phpSubmitButton.style.display = "none";
-	phpOutput.style.display = "none";
-}
-
-jsRadio.addEventListener('click', function(event) {
-
-	submitButton.style.display = "block";
-	reset.style.display = "block";
-	phpSubmitButton.style.display = "none";
-	phpOutput.style.display = "none";
-});
+toggle.addEventListener('click', toggleJS);
 
 submitButton.addEventListener('click', function(event) {
 
-	if (jsRadio.checked === true) {
+	if (toggle.checked === true) {
 
 		event.preventDefault();
 
