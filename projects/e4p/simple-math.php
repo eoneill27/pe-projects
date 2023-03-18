@@ -36,41 +36,51 @@
 
 	<a href="?"><h1 class="attention-voice">Simple calculator</h1></a>
 
-	<form method="POST" action="">
-		<div class="form-fields reading-voice">
+	<div class="form-fields reading-voice">
+
+		<fieldset class="code-toggles">
+			<label for="php-toggle" >PHP</label>
+			<input type="radio" id="php-toggle" name="code-toggle" checked>
+
+			<label for="js-toggle" >JavaScript</label>
+			<input type="radio" id="js-toggle" name="code-toggle">
+		</fieldset>
+
+		<form method="POST" action="" id="simple-math">
+
 			<label for="">Number 1</label>
 			<input class="reading-voice" name="number1" id="num1" type="number" value="<?=$number1?>" step="0.0000001"/>
 
 			<label for="">Number 2</label>
 			<input class="reading-voice" name="number2" id="num2" type="number" value="<?=$number2?>" step="0.0000001"/>
 
-			<button class="form-button reading-voice" name="submitted" type="submit">
+			<button id="submit" class="form-button reading-voice" name="submitted" type="submit">
 				Submit
 			</button>
-			<button id="reset-button" class="form-button reading-voice" type="button">Reset</button>
-
-
-		</div>
-	</form>
+			<button id="js-submit" class="form-button reading-voice" name="submitted" type="submit">
+				Submit
+			</button>
+			<button id="reset" class="form-button reading-voice" type="button">Reset</button>
+		</form>
+	</div>
 
 <!-- JS output -->
 
-	<output class="form-fields reading-voice" style="display: none">
+	<output id="js-output" class="form-output reading-voice" style="display: none">
 
 	</output>
 
 
 <!-- php output  -->
 
-	<div class="form-output php-output reading-voice" style="display: none">
+	<output id="php-output" class="form-output reading-voice" style="display: none">
 		<h2 class="info-voice">RESULTS:</h2> 
 		<p>Number 1 + Number 2 = <?=$add?></p>
 		<p>Number 1 - Number 2 = <?=$subtract?></p> 
 		<p>Number 1 * Number 2 = <?=$multiply?></p> 
-		 <p>Number 1 / Number 2 = <?=$divide?></p>
-		 <p><?=$validateDivide?></p>
-
- 	</div>
+		<p>Number 1 / Number 2 = <?=$divide?></p>
+		<p><?=$validateDivide?></p>
+	</output>
 
 <script src="projects/e4p/scripts/simple-math.js"></script>
 

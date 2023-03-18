@@ -3,7 +3,16 @@ const form = document.querySelector('form');
 const input1 = document.querySelector('#num1');
 const input2 = document.querySelector('#num2');
 
-const output = document.querySelector('output');
+const submitButton = document.querySelector('#js-submit');
+const phpSubmitButton = document.querySelector('#submit');
+
+const jsOutput = document.querySelector('#js-output');
+const phpOutput = document.querySelector('#php-output');
+
+const phpRadio = document.querySelector('#php-toggle');
+const jsRadio = document.querySelector('#js-toggle');
+
+const reset = document.querySelector('#reset');
 
 
 //create a simple calculator
@@ -11,9 +20,43 @@ const output = document.querySelector('output');
 //use those numbers to perform 4 mathematical operations
 //output the results
 
+if (phpRadio.checked === true) {
+	// console.log('yes');
 
+	jsOutput.style.display = "none";
+	reset.style.display = "none";
+	phpOutput.style.display = "block";
+	phpSubmitButton.style.display = "block";
+	submitButton.style.display = "none";
+}
 
-form.addEventListener('submit', function(event) {
+phpRadio.addEventListener('click', function(event) {
+	// console.log('switch');
+
+	jsOutput.style.display = "none";
+	reset.style.display = "none";
+	phpOutput.style.display = "block";
+	phpSubmitButton.style.display = "block";
+	submitButton.style.display = "none";
+});
+
+if (jsRadio.checked === true) {
+
+	submitButton.style.display = "block";
+	reset.style.display = "block";
+	phpSubmitButton.style.display = "none";
+	phpOutput.style.display = "none";
+}
+
+jsRadio.addEventListener('click', function(event) {
+
+	submitButton.style.display = "block";
+	reset.style.display = "block";
+	phpSubmitButton.style.display = "none";
+	phpOutput.style.display = "none";
+});
+
+submitButton.addEventListener('click', function(event) {
 
 	event.preventDefault();
 
@@ -25,7 +68,7 @@ form.addEventListener('submit', function(event) {
  	const multiply = (num1 * num2);
  	const divide = (Number(num1 / num2));
 
-	output.innerHTML = 
+	jsOutput.innerHTML = 
  	`<h2 class='info-voice'>RESULTS:</h2>
  	<p>Number 1 + Number 2 = ${add}</p>
  	<p>Number 1 - Number 2 = ${subtract}</p>
@@ -34,15 +77,13 @@ form.addEventListener('submit', function(event) {
 
 	console.log("you did it");
 
-	output.style.display = 'block';
+	jsOutput.style.display = 'block';
 
 });
-
-const reset = document.querySelector('#reset-button');
 
 reset.addEventListener('click', function(reset) {
 		input1.value = '';
 		input2.value = '';
-		output.innerHTML = '';
-		output.style.display = 'none';
+		jsOutput.innerHTML = '';
+		jsOutput.style.display = 'none';
 	});
