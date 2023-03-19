@@ -9,6 +9,10 @@ fieldset {
 	display: flex;
 }
 
+.form-content {
+	
+}
+
 .form-fields, .form-output {
 	background-color: white;
 	display: flex;
@@ -73,8 +77,8 @@ input::-webkit-inner-spin-button {
 .toggle {
 	position: relative;
 	display: inline-block;
-	width: 50px;
-	height: 20px;
+	width: 53px;
+	height: 30px;
 	background-color: var(--site-blue);
 	border-radius: 30px;
 	border: 2px solid black;
@@ -83,12 +87,13 @@ input::-webkit-inner-spin-button {
 .toggle:after {
 	content: '';
 	position: absolute;
-	width: 20px;
-	height: 14px;
+	width: 22px;
+	height: 22px;
 	border-radius: 50%;
 	background-color: var(--site-pink);
-	top: 1px;
+	top: 2px;
 	left: 1px;
+
 	transition: all 0.5s;
 }
 

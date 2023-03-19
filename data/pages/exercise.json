@@ -1,4 +1,32 @@
 {
+	"slug": "exercise",
 	"template": "exercise",
-	"title": "Case study"
+	"sections":
+	[
+		{
+			"slug": "currency-converter",
+			"template": "exercise",
+			"title": "Currency Converter"
+		},
+		{
+			"slug": "retirement-calculator",
+			"template": "exercise",
+			"title": "Retirement Calculator"
+		},
+		{
+			"slug": "simple-math",
+			"template": "exercise",
+			"title": "Simple Math"
+		},
+		{
+			"slug": "tip-calculator",
+			"template": "exercise",
+			"title": "Tip Calculator"
+		},
+		{
+			"slug": "mad-lib",
+			"template": "exercise",
+			"title": "Mad Lib"
+		}
+	]
 }

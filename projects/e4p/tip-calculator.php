@@ -53,10 +53,10 @@
 		
 		<!-- <fieldset class="code-toggles">
 			<label for="php-toggle" >PHP</label>
-			<input type="radio" id="php-toggle" name="code-toggle" checked>
+			<input type="radio" id="php-toggle" name="code-toggle" value="php" checked>
 
 			<label for="js-toggle" >JavaScript</label>
-			<input type="radio" id="js-toggle" name="code-toggle">
+			<input type="radio" id="js-toggle" name="code-toggle" value="js">
 		</fieldset> -->
 	
 		<form method="POST" id="tip-form">

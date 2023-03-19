@@ -1,5 +1,5 @@
 <?php
-	$title = $pageData['title'] ?? "This is a default page-header title";
+	$title = $title ?? $pageData['title'] ?? "This is a default page-header title";
 	$subtitle = $pageData['subtitle'] ?? "This is a default page-header subtitle";
 ?>
 
