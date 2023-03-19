@@ -1,89 +1,69 @@
-const form = document.querySelector('form');
+const form = document.querySelector('#simple-math');
+const submitButton = document.querySelector('#submit');
 
 const input1 = document.querySelector('#num1');
 const input2 = document.querySelector('#num2');
 
-const submitButton = document.querySelector('#js-submit');
-const phpSubmitButton = document.querySelector('#submit');
-
 const jsOutput = document.querySelector('#js-output');
 const phpOutput = document.querySelector('#php-output');
 
-const phpRadio = document.querySelector('#php-toggle');
-const jsRadio = document.querySelector('#js-toggle');
-
 const reset = document.querySelector('#reset');
 
+var formSection = document.querySelector('.form-fields');
+var toggle = document.querySelector('#switch');
 
-//create a simple calculator
-//ask user to input two numbers
-//use those numbers to perform 4 mathematical operations
-//output the results
-
-if (phpRadio.checked === true) {
-	// console.log('yes');
-
-	jsOutput.style.display = "none";
-	reset.style.display = "none";
-	phpOutput.style.display = "block";
-	phpSubmitButton.style.display = "block";
-	submitButton.style.display = "none";
+function toggleJS() {
+	formSection.classList.toggle('using-js');
 }
+toggle.addEventListener('click', toggleJS);
 
-phpRadio.addEventListener('click', function(event) {
-	// console.log('switch');
+form.addEventListener('submit', function(event) {
 
-	jsOutput.style.display = "none";
-	reset.style.display = "none";
-	phpOutput.style.display = "block";
-	phpSubmitButton.style.display = "block";
-	submitButton.style.display = "none";
+	if (toggle.checked === true) {
+
+		event.preventDefault();
+
+		if(input1.value && input2.value) {
+
+			const num1 = Number(input1.value);
+			const num2 = Number(input2.value);
+
+		 	const add = (num1 + num2);
+		 	const subtract = (num1 - num2);
+		 	const multiply = (num1 * num2);
+		 	const divide = (Number(num1 / num2));
+
+			jsOutput.innerHTML = 
+		 	`<h2 class='info-voice'>RESULTS:</h2>
+		 	<p>Number 1 + Number 2 = ${add}</p>
+		 	<p>Number 1 - Number 2 = ${subtract}</p>
+		 	<p>Number 1 * Number 2 = ${multiply}</p>
+		 	<p>Number 1 / Number 2 = ${divide}</p>`
+
+			console.log("you did it");
+
+			jsOutput.style.display = 'block';
+
+		} else {
+			jsOutput.innerHTML = `<div class="form-output"><p class="reading-voice">Please enter some numbers.</p></div>`;
+			jsOutput.style.display = "block";
+		}
+	}
 });
 
-if (jsRadio.checked === true) {
-
-	submitButton.style.display = "block";
-	reset.style.display = "block";
-	phpSubmitButton.style.display = "none";
-	phpOutput.style.display = "none";
-}
-
-jsRadio.addEventListener('click', function(event) {
-
-	submitButton.style.display = "block";
-	reset.style.display = "block";
-	phpSubmitButton.style.display = "none";
-	phpOutput.style.display = "none";
-});
-
-submitButton.addEventListener('click', function(event) {
-
-	event.preventDefault();
-
-	const num1 = Number(input1.value);
-	const num2 = Number(input2.value);
-
- 	const add = (num1 + num2);
- 	const subtract = (num1 - num2);
- 	const multiply = (num1 * num2);
- 	const divide = (Number(num1 / num2));
-
-	jsOutput.innerHTML = 
- 	`<h2 class='info-voice'>RESULTS:</h2>
- 	<p>Number 1 + Number 2 = ${add}</p>
- 	<p>Number 1 - Number 2 = ${subtract}</p>
- 	<p>Number 1 * Number 2 = ${multiply}</p>
- 	<p>Number 1 / Number 2 = ${divide}</p>`
-
-	console.log("you did it");
-
-	jsOutput.style.display = 'block';
-
+form.addEventListener ('input', function(clear) {
+	jsOutput.innerHTML = '';
+	// phpOutput.innerHTML = '';
+	jsOutput.style.display = 'none';
 });
 
 reset.addEventListener('click', function(reset) {
-		input1.value = '';
-		input2.value = '';
-		jsOutput.innerHTML = '';
-		jsOutput.style.display = 'none';
-	});
+	input1.value = '';
+	input2.value = '';
+	jsOutput.innerHTML = '';
+	jsOutput.style.display = 'none';
+});
+
+
+
+

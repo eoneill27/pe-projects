@@ -43,64 +43,42 @@
 
 	<a href="?"><h1 class="attention-voice">Tip Calculator</h1></a>
 
-		<fieldset class="code-toggles">
-			<input type="checkbox" id="switch" class="checkbox">
-			<label for="switch" class="toggle"></label>
-			<p class="reading-voice">PHP | JS</p>
-		</fieldset>
-
-	<div id="form-fields" class="form-fields reading-voice">
-		
-		<!-- <fieldset class="code-toggles">
-			<label for="php-toggle" >PHP</label>
-			<input type="radio" id="php-toggle" name="code-toggle" value="php" checked>
-
-			<label for="js-toggle" >JavaScript</label>
-			<input type="radio" id="js-toggle" name="code-toggle" value="js">
-		</fieldset> -->
+	<div class="form-fields reading-voice">
 	
 		<form method="POST" id="tip-form">
-			<div class="sub-fields">
-				<label for="">Enter the subtotal of your bill:</label>
+			<fieldset>
+				<label for="subtotal">Enter the subtotal of your bill:</label>
 				<div class="input-fields">
 					<span>$</span>
-					<input id="subtotal" class="reading-voice" name = "subtotal" type="number" step="0.01" value="<?=$subtotal?>" />
+					<input id="subtotal" class="reading-voice" name="subtotal" type="number" step="0.01" value="<?=$subtotal?>" />
 					<p><?=$validateSub?></p>
 				</div>
-			</div>
 
-			<div class="tip-fields">
-				<label for="">Enter the tip percentage you'd like to leave:</label>
-				<div class="input-fields">
-					<input id="tip" class="reading-voice" name = "tipRate" type="number" step="0.01" value="<?=$tipRate?>" />
-					<span>%</span>
-					<p><?=$validateTip?></p>
+				<div class="tip-fields">
+					<label for="tipRate">Enter the tip percentage you'd like to leave:</label>
+					<div class="input-fields">
+						<input id="tipRate" class="reading-voice" name = "tipRate" type="number" step="0.01" value="<?=$tipRate?>" />
+						<span>%</span>
+						<p><?=$validateTip?></p>
 				</div>
-			</div>
+			</fieldset>
 
 			<button id="submit" name="entered" type="submit" class="reading-voice">
 				Enter
 			</button>
-			<button id="js-submit" class="reading-voice" type="button">
-				Enter
-			</button>
+
 			<button class="reading-voice" type="button" name="reset" id="reset">
 				Reset
 			</button>
 		
 		</form>
 
-			<!-- JS output -->
-			<output id="js-output" class="form-output"></output>
-
-			<!-- PHP output  -->
-			<output id="php-output" class="form-output reading-voice">
-				<p>Your subtotal was <span class="result">$<?=$subtotal?></span>.</p>
-				<p>You left a <span class="result"><?=$tipRate?>%</span> tip.</span></p>
-				<p>Your tip is <span class="result">$<?=$tip?></span>.</p>
-				<p>Your total, incuding the tip, is <span class="result">$<?=$total?></span>.</p>
-			</output>
-
+		<output id="output" class="form-output reading-voice">
+			<p>Your subtotal was <span class="result">$<?=$subtotal?></span>.</p>
+			<p>You left a <span class="result"><?=$tipRate?>%</span> tip.</span></p>
+			<p>Your tip is <span class="result">$<?=$tip?></span>.</p>
+			<p>Your total, incuding the tip, is <span class="result">$<?=$total?></span>.</p>
+		</output>
 		
 	</div>
 

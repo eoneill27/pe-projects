@@ -34,21 +34,23 @@
 
 <h2 class="attention-voice">How many years until retirement?</h2>
 
-<div id="form-fields" class="reading-voice form-fields">
+<div class="reading-voice form-fields">
 
 	<form action="" method="POST" id="retirement-form">
-		<label for="age">How old are you?</label>
-		<input id="current-age" name="age" class="reading-voice" type="number" required>
+		<fieldset>
 
-		<label for="retirementAge">How old do you want to be when you retire?</label>
-		<input id="retire-age" name="retirementAge" class="reading-voice" type="number" required>
+			<label for="age">How old are you?</label>
+			<input id="current-age" name="age" class="reading-voice" type="number" required>
+
+			<label for="retirementAge">How old do you want to be when you retire?</label>
+			<input id="retire-age" name="retirementAge" class="reading-voice" type="number" required>
+
+		</fieldset>
 
 		<button id="submit" class="reading-voice" type="submit" name="submitted">
 			Do the math
 		</button>
-		<button id="js-submit" class="reading-voice" type="button">
-			Do the math
-		</button>
+
 		<button class="reading-voice" type="button" name="reset" id="reset">
 			Reset
 		</button>

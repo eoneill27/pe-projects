@@ -7,17 +7,25 @@ a h1 {
 
 fieldset {
 	display: flex;
+	flex-direction: column;
+}
+
+.form-fields {
+/*	display: flex;
+	flex-direction: column;
+	align-items: center;
+*/
 }
 
 .form-content {
-	
+
 }
 
-.form-fields, .form-output {
+form, .form-output {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	max-width: 300px;
+	max-width: 600px;
 	padding: 40px;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,6 +36,7 @@ fieldset {
 }
 
 .form-output {
+	max-width: 600px;
 	margin-top: 30px;
 }
 
@@ -81,7 +90,7 @@ input::-webkit-inner-spin-button {
 	height: 30px;
 	background-color: var(--site-blue);
 	border-radius: 30px;
-	border: 2px solid black;
+	border: 2px solid grey;
 }
 
 .toggle:after {
@@ -109,22 +118,6 @@ input::-webkit-inner-spin-button {
 	background-color: var(--site-yellow);
 }
 
-#js-output, #reset, #js-submit {
-	display: none;
-}
-
-#php-output, #submit {
-	display: block;
-}
-
-:is(.using-js) :is(#reset, #js-submit) {
-	display: block;
-}
-
-:is(.using-js) :is(#js-output, #php-output, #submit) {
-	display: none;
-}
-
 @media (min-width: 500px) {
 
 	.form-fields, .form-output {
@@ -144,6 +137,11 @@ input::-webkit-inner-spin-button {
 }
 
 @media (min-width: 770px) {
+
+/*	.form-fields {
+		flex-direction: row;
+	}*/
+
 	.exercise-form {
 		grid-column: 2/25;
 		grid-row: 1/4;
