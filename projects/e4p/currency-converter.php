@@ -1,7 +1,4 @@
 
-
-
-
 <?php
 
 	$startAmount = 0;
@@ -41,12 +38,11 @@
 
 <a href="?"><h1 class="attention-voice">Currency Converter</h1></a>
 
-<form action="" method="POST">
+<div class="form-fields reading-voice">
+	<form action="" method="POST" id="currency-converter">
 	
-	<div class="form-fields reading-voice ">
-		
 		<fieldset>
-			<legend><h2 class="info-voice">Choose your conversion</h2></legend>
+			<p class="reading-voice">Choose your conversion:</p>
 
 			<div class="radio">
 				<label for="usd">USD to CAD</label>
@@ -57,26 +53,30 @@
     			<label for="cad">CAD to USD</label>
 		      <input type="radio" name="currency" id="cad" value="cad">
     		</div>
+
+			<label id="startAmountLabel" for="startAmount">How much money do you have in <?=$message?>?</label>
+			<input name="startAmount" id = "startAmount" class="reading-voice" type="number" step=".01" value="<?=$startAmount?>" required />
+
+			<label for="rate">What is the exchange rate?</label>
+			<input name="rate" id="rate" class="reading-voice" type="number" step=".00001" value="<?=$rate?>" required />
 		</fieldset>
-		<label for="startAmount">How much money do you have in <?=$message?>?</label>
-		<input name="startAmount" class="reading-voice" type="number" step=".01" value="<?=$startAmount?>" required />
 
-		<label for="rate">What is the exchange rate?</label>
-		<input name="rate" class="reading-voice" type="number" step=".00001" value="<?=$rate?>" required />
-
-		<button name="submitted" class="reading-voice" type="submit">
+		<button id="submit" name="submitted" class="reading-voice" type="submit">
 			Convert your money
 		</button>
-	</div>
 
-	<div class="form-output">
+		<button id="reset" class="form-button reading-voice" type="button">Reset</button>
+	</form>
+
+
+	<output id="output" class="form-output reading-voice">
 		<p class="reading-voice">You started with $<?=$startAmount?> <?=$message?></p>
 		<p class="reading-voice">The exchange rate is <?=$rate?></p>
-		<p class="reading-voice"><?=$startAmount?> <?=$message?> at a rate of <?=$rate?> is <?=$endAmount?> <?=$oppoMessage?>.</p>
-	</div>
+		<p class="reading-voice">$<?=$startAmount?> <?=$message?> at a rate of <?=$rate?> is $<?=$endAmount?> <?=$oppoMessage?>.</p>
+	</output>
 
-</form>
+</div>
 
-
+<script src="projects/e4p/scripts/currency-converter.js"></script>
 
 

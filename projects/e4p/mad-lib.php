@@ -1,84 +1,81 @@
+<?php
 
+	$adjective1 = NULL;
+	$verb1 = NULL;
+	$adjective2 = NULL;
+	$noun1 = NULL;
+	$verb2 = NULL;
+	$adjective3 = NULL;
+	$noun2 = NULL;
+	$adjective4 = NULL;
+	$adjective5 = NULL;
+	$noun3 = NULL;
+	$noun4 = NULL;
 
+	if (isset($_POST["submitted"])) {
 
-
-	<?php
-
-		$adjective1 = NULL;
-		$verb1 = NULL;
-		$adjective2 = NULL;
-		$noun1 = NULL;
-		$verb2 = NULL;
-		$adjective3 = NULL;
-		$noun2 = NULL;
-		$adjective4 = NULL;
-		$adjective5 = NULL;
-		$noun3 = NULL;
-		$noun4 = NULL;
-
-		if (isset($_POST["submitted"])) {
-
-			if (isset($_POST["adjective1"])) {
-				$adjective1 = strtolower($_POST["adjective1"]);
-			}
-
-			if (isset($_POST["verb1"])) {
-				$verb1 = strtolower($_POST["verb1"]);
-			}
-
-			if (isset($_POST["adjective2"])) {
-				$adjective2 = strtolower($_POST["adjective2"]);
-			}
-
-			if (isset($_POST["noun1"])) {
-				$noun1 = strtolower($_POST["noun1"]);
-			}
-
-			if (isset($_POST["verb2"])) {
-				$verb2 = strtolower($_POST["verb2"]);
-			}
-
-			if (isset($_POST["adjective3"])) {
-				$adjective3 = strtolower($_POST["adjective3"]);
-			}
-
-			if (isset($_POST["noun2"])) {
-				$noun2 = strtolower($_POST["noun2"]);
-			}
-
-			if (isset($_POST["adjective4"])) {
-				$adjective4 = strtolower($_POST["adjective4"]);
-			}
-
-			if (isset($_POST["adjective5"])) {
-				$adjective5 = strtolower($_POST["adjective5"]);
-			}
-
-			if (isset($_POST["noun3"])) {
-				$noun3 = strtolower($_POST["noun3"]);
-			}
-
-			if (isset($_POST["noun4"])) {
-				$noun4 = strtolower($_POST["noun4"]);
-			}
-
-				$message = "Our school cafeteria has really <span style='color: red';>" . $adjective1 . "</span> food. Just thinking about it makes my stomach <span style='color: red';>" . $verb1 . "</span>. The spaghetti is <span style='color: red';>" . $adjective2 . "</span> and tastes like <span style='color: red';>" . $noun1 . "</span>. One day, I swear one of my meatballs started to <span style='color: red';>" . $verb2 . "</span>! The turkey tacos are totally <span style='color: red';>" . $adjective3 . "</span> and look kind of like old <span style='color: red';>" . $noun2 . "</span>. My friend Dana actually likes the meatloaf, even though it's <span style='color: red';>" . $adjective4 . "</span> and <span style='color: red';>" . $adjective5 . "</span>. I call it 'mystery meatloaf' and think it's really made out of <span style='color: red';>" . $noun3 . "</span>. My dad said he'd make my lunches, but the first day, he made me a sandwich out of <span style='color: red';>" . $noun4 . "</span> and peanut butter! I think I'd rather take my chances with the cafeteria!";
-			} else {
-				$message = NULL;
+		if (isset($_POST["adjective1"])) {
+			$adjective1 = strtolower($_POST["adjective1"]);
 		}
 
-		if (isset($_POST["reset"])) {
-			$_POST["input"] = NULL;
+		if (isset($_POST["verb1"])) {
+			$verb1 = strtolower($_POST["verb1"]);
 		}
 
-	?>
+		if (isset($_POST["adjective2"])) {
+			$adjective2 = strtolower($_POST["adjective2"]);
+		}
 
-	<a class="form-title" href="?"><h1 class="attention-voice">Mad Lib</h1></a>
+		if (isset($_POST["noun1"])) {
+			$noun1 = strtolower($_POST["noun1"]);
+		}
 
-	<form action="" method="post">
+		if (isset($_POST["verb2"])) {
+			$verb2 = strtolower($_POST["verb2"]);
+		}
+
+		if (isset($_POST["adjective3"])) {
+			$adjective3 = strtolower($_POST["adjective3"]);
+		}
+
+		if (isset($_POST["noun2"])) {
+			$noun2 = strtolower($_POST["noun2"]);
+		}
+
+		if (isset($_POST["adjective4"])) {
+			$adjective4 = strtolower($_POST["adjective4"]);
+		}
+
+		if (isset($_POST["adjective5"])) {
+			$adjective5 = strtolower($_POST["adjective5"]);
+		}
+
+		if (isset($_POST["noun3"])) {
+			$noun3 = strtolower($_POST["noun3"]);
+		}
+
+		if (isset($_POST["noun4"])) {
+			$noun4 = strtolower($_POST["noun4"]);
+		}
+
+			$message = "Our school cafeteria has really <span style='color: red';>" . $adjective1 . "</span> food. Just thinking about it makes my stomach <span style='color: red';>" . $verb1 . "</span>. The spaghetti is <span style='color: red';>" . $adjective2 . "</span> and tastes like <span style='color: red';>" . $noun1 . "</span>. One day, I swear one of my meatballs started to <span style='color: red';>" . $verb2 . "</span>! The turkey tacos are totally <span style='color: red';>" . $adjective3 . "</span> and look kind of like old <span style='color: red';>" . $noun2 . "</span>. My friend Dana actually likes the meatloaf, even though it's <span style='color: red';>" . $adjective4 . "</span> and <span style='color: red';>" . $adjective5 . "</span>. I call it 'mystery meatloaf' and think it's really made out of <span style='color: red';>" . $noun3 . "</span>. My dad said he'd make my lunches, but the first day, he made me a sandwich out of <span style='color: red';>" . $noun4 . "</span> and peanut butter! I think I'd rather take my chances with the cafeteria!";
+		} else {
+			$message = NULL;
+	}
+
+	if (isset($_POST["reset"])) {
+		$_POST["input"] = NULL;
+	}
+
+?>
+
+<a class="form-title" href="?"><h1 class="attention-voice">Mad Lib</h1></a>
+
+<div class="form-fields reading-voice">
+	<form action="" method="post" id="madlib-form">
 		
-		<div class="form-fields reading-voice">
-			
+		<fieldset>
+
 			<label for="adjective1">Enter an adjective</label>
 			<input class="reading-voice" type="text" name="adjective1" id="adjective1" value="<?=$adjective1?>" required>
 
@@ -111,27 +108,25 @@
 
 			<label for="noun4">Almost done. One more noun.</label>
 			<input class="reading-voice" type="text" name="noun4" id="noun4" value="<?=$noun4?>" required>
+		</fieldset>
 
-			<div class="buttons">
-				<button class="reading-voice" type="submit" name="submitted">
-					Make the Mad Lib
-				</button>
+		<button id="submit" class="reading-voice" type="submit" name="submitted">
+			Make the Mad Lib
+		</button>
 
-				<button class="reading-voice" type="submit" name="reset">
-					Reset
-				</button>
-			</div>
-
-		</div>
-
-		<div class="form-output">
-			
-			<p class="reading-voice">
-				<?=$message?>
-			</p>
-		</div>
-
+		<button id="formReset" class="reading-voice" type="button" name="reset">
+			Reset
+		</button>
 	</form>
 
+	<output class="form-output">
+		<p class="reading-voice">
+			<?=$message?>
+		</p>
+	</output>
+
+</div>
 
 
+
+<script src="projects/e4p/scripts/mad-lib.js"></script>
