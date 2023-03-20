@@ -27,7 +27,8 @@ card-grid {
 }
 
 .card-tile:hover {
-	background-color: var(--site-blue);
+	background-color: var(--site-pink);
+	color: white;
 }
 
 .card-tile h3 {
