@@ -32,7 +32,7 @@
 
 ?>
 
-<h2 class="attention-voice">How many years until retirement?</h2>
+<h2 class="form-subtitle attention-voice">How many years until retirement?</h2>
 
 <div class="reading-voice form-fields">
 

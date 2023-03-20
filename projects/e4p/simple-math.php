@@ -34,7 +34,7 @@
 
 	?>
 
-	<a href="?"><h1 class="attention-voice">Simple calculator</h1></a>
+	<h2 class="form-subtitle attention-voice">Simple calculator</h2>
 
 	<div class="form-fields reading-voice">
 

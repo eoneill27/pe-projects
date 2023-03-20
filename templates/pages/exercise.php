@@ -20,7 +20,7 @@
 
 <div class="page-content">
 
-	<fieldset class="code-toggles">
+	<fieldset class="code-toggle">
 		<input type="checkbox" id="switch" class="checkbox">
 		<label for="switch" class="toggle"></label>
 		<p class="reading-voice">PHP | JS</p>

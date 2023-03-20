@@ -69,7 +69,7 @@
 
 ?>
 
-<a class="form-title" href="?"><h1 class="attention-voice">Mad Lib</h1></a>
+<h2 class="form-subtitle attention-voice">Mad Lib</h2>
 
 <div class="form-fields reading-voice">
 	<form action="" method="post" id="madlib-form">

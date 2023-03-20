@@ -13,8 +13,24 @@ fieldset {
 .form-fields {
 /*	display: flex;
 	flex-direction: column;
-	align-items: center;
-*/
+	align-items: center;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-subtitle {
+	text-align: center;
+}
+
+@media (min-width: 770px) {
+	.form-fields {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.form-subtitle {
+		text-align: left;
+	}
 }
 
 .form-content {
@@ -59,11 +75,6 @@ input::-webkit-inner-spin-button {
 	margin: 0; 
 }
 
-.code-toggles {
-	flex-direction: row;
-	align-items: center;
-}
-
 .radio {
 	display: flex;
 	justify-content: center;
@@ -78,11 +89,10 @@ input::-webkit-inner-spin-button {
 
 /*JS/PHP toggle*/
 
-.code-toggles {
-	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
+.code-toggle {
+
 }
+
 .toggle {
 	position: relative;
 	display: inline-block;

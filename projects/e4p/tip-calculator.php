@@ -41,7 +41,7 @@
 
 	?>
 
-	<a href="?"><h1 class="attention-voice">Tip Calculator</h1></a>
+<h2 class="form-subtitle attention-voice">Tip Calculator</h2>
 
 	<div class="form-fields reading-voice">
 	
