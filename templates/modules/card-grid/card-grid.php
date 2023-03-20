@@ -12,7 +12,7 @@
 
 	<div class="card-grid">
 
-		<ul>
+		<ul class="card-list">
 
 		<?php foreach($array['cards'] as $card) { ?>
 
