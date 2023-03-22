@@ -32,4 +32,6 @@ module files need to include if statements & php variables in place of content
 
 
 
-<?php include('footer.php'); ?>
+<?php if ($page !== 'home') {
+	include('footer.php'); 
+}?>
