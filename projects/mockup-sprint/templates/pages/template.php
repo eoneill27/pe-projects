@@ -1,3 +1,4 @@
+<inner-column>
 
 <?php
 	// if slug name matches template name
@@ -27,10 +28,7 @@
 			include("templates/modules/$moduleName/$moduleName.php");
 		}
 	}
-	
 
-
-
-
-	
 ?>
+
+</inner-column>
