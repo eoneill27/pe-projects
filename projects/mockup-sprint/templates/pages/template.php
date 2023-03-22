@@ -24,11 +24,14 @@
 
 	if($pageData) {		
 		foreach($pageData['modules'] as $module) {
-			$moduleName = $module['module'];
-			include("templates/modules/$moduleName/$moduleName.php");
-		}
-	}
+			$moduleName = $module['module']; ?>
 
+			<section id="<?=$module['section']?>">
+			<?php include("templates/modules/$moduleName/$moduleName.php"); ?>
+			</section>
+	<?php
+		} 
+	}
 ?>
 
 </inner-column>

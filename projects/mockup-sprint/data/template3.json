@@ -3,6 +3,7 @@
 	"title": "Template 3",
 	"modules": [
 		{
+			"section": "navigation",
 			"module": "mast-head",
 			"moduleClass": "masthead3",
 			"logoSrc": "",
@@ -46,6 +47,7 @@
 			"button2Class": ""
 		},
 		{
+			"section": "hero",
 			"module": "hero-section",
 			"moduleClass": "hero3",
 			"heading1": "Arcu suscipit massa aliquam proin amet",
@@ -63,6 +65,7 @@
 			"formButtonTitle": "Sign up"
 		},
 		{
+			"section": "center-content",
 			"module": "card-grid",
 			"moduleClass": "cardgrid3a",
 			"topSubClass": "reading-voice",
@@ -94,6 +97,7 @@
 			]
 		},
 		{
+			"section": "feature",
 			"module": "card-grid",
 			"moduleClass": "cardgrid3b",
 			"topSubClass": "reading-voice",
@@ -154,6 +158,7 @@
 			]
 		},
 		{
+			"section": "clients",
 			"module": "client-slider",
 			"moduleClass": "client3",
 			"heading": "What our clients says",
@@ -189,6 +194,7 @@
 			]
 		},
 		{
+			"section": "call-to-action",
 			"module": "details-list",
 			"moduleClass": "details2",
 			"heading": "Frequent Ask Questions",
@@ -230,6 +236,7 @@
 			]
 		},
 		{
+			"section": "faqs",
 			"module": "graphic-diptych",
 			"moduleClass": "graph-dip3",
 			"heading": "Etiam nulla lectus amet nunc",
