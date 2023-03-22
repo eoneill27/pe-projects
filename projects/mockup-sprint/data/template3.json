@@ -1,0 +1,253 @@
+{
+	"slug": "template3",
+	"title": "Template 3",
+	"modules": [
+		{
+			"module": "mast-head",
+			"moduleClass": "masthead3",
+			"logoSrc": "",
+			"logoClass": "logo",
+			"logoAlt": "",
+			"navClass": "site-nav",
+			"navLinkClass": "nav-voice",
+			"navLinks": [
+				{
+					"navTitle": "Home",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Updates",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Services",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Features",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "About Us",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				}
+			],
+			"divRightClass": "mast-login",
+			"button1Title": "SignUp",
+			"button1Url": "",
+			"button1Class": "",
+			"button2Title": "Login",
+			"button2Url": "",
+			"button2Class": ""
+		},
+		{
+			"module": "hero-section",
+			"moduleClass": "hero3",
+			"heading1": "Arcu suscipit massa aliquam proin amet",
+			"heading1Class": "heyyou-voice all-caps",
+			"paragraph": "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.",
+			"paragraphClass": "reading-voice",
+			"formClass": "",
+			"formID": "",
+			"formMethod": "",
+			"formAction": "",
+			"inputType": "email",
+			"inputPlaceholder": "Email address",
+			"formButtonType": null,
+			"formButtonID": null,
+			"formButtonTitle": "Sign up"
+		},
+		{
+			"module": "card-grid",
+			"moduleClass": "cardgrid3a",
+			"topSubClass": "reading-voice",
+			"topSub": "Rhoncus, accumsan dictum",
+			"heading2Class": "attention-voice",
+			"heading2": "Etiam nulla lectus amet nunc ",
+			"bottomLinkUrl": "",
+			"bottomLinkClass": "",
+			"bottomLink": "See all",
+			"listItems": [
+				{
+					"liHeading": "Nibh mattis gravida",
+					"liHeadingClass": "",
+					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
+					"liTextClass": ""
+				},
+				{
+					"liHeading": "Nisl, in consectetur",
+					"liHeadingClass": "",
+					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
+					"liTextClass": ""
+				},
+				{
+					"liHeading": "Aenean condimentum ",
+					"liHeadingClass": "",
+					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
+					"liTextClass": ""
+				}
+			]
+		},
+		{
+			"module": "card-grid",
+			"moduleClass": "cardgrid3b",
+			"topSubClass": "reading-voice",
+			"topSub": "Rhoncus, accumsan dictum",
+			"heading2Class": "attention-voice",
+			"heading2": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"bottomSubClass": "reading-voice",
+			"bottomSub": "Neque, pulvinar vestibulum non aliquam.",
+			"listItems": [
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Massa leo scelerisque",
+					"liHeadingClass": "",
+					"liText": "Velit nulla eu tortor elit sed. Volutpat ornare mi tempor, hac morbi faucibus. ",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Phasellus non sit",
+					"liHeadingClass": "",
+					"liText": "Lobortis adipiscing sit senectus id. Rhoncus lacus mi aliquam tortor nibh.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Enim scelerisque dictum",
+					"liHeadingClass": "",
+					"liText": "Turpis eget ut sed vitae in sapien egestas ultrices feugiat. Elementum platea.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Vulputate et enim",
+					"liHeadingClass": "",
+					"liText": "Amet, eros nisl vestibulum tincidunt pellentesque. Congue id sapien dictum a.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Faucibus eget blandit",
+					"liHeadingClass": "",
+					"liText": "Tristique viverra lorem nibh eget tellus eget morbi porttitor. Faucibus sit.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				}
+			]
+		},
+		{
+			"module": "client-slider",
+			"moduleClass": "client3",
+			"heading": "What our clients says",
+			"headingClass": "attention-voice",
+			"text": "Neque, pulvinar vestibulum non aliquam.",
+			"textClass": "",
+			"reviews": [
+				{
+					"blurb": "'Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.'",
+					"blurbClass": "",
+					"clientName": "Courtney Henry",
+					"clientNameClass": "",
+					"clientRole": "Marketing Coordinator",
+					"clientRoleClass": "",
+					"pictureClass": "",
+					"imgSrc": "images/landscape.jpg",
+					"imgAlt": "A grey landscape"
+				},
+				{
+					"blurb": "'Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.'",
+					"blurbClass": "",
+					"clientName": "Courtney Henry",
+					"clientNameClass": "",
+					"clientRole": "Marketing Coordinator",
+					"clientRoleClass": "",
+					"pictureClass": "",
+					"imgSrc": "images/landscape.jpg",
+					"imgAlt": "A grey landscape",
+					"iconClass": "",
+					"iconSrc": "",
+					"iconAlt": ""
+				}
+			]
+		},
+		{
+			"module": "details-list",
+			"moduleClass": "details2",
+			"heading": "Frequent Ask Questions",
+			"headingClass": "",
+			"paraText": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+			"paraClass": "",
+			"detailsClass": "",
+			"detailsItems": [
+				{
+					"summary": "How soon will my order ship?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Is there any warranty exclusions?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Are there any return exclusions?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Will I be charged for a replacement item?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "How can I track my orders and payment?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				}
+			]
+		},
+		{
+			"module": "graphic-diptych",
+			"moduleClass": "graph-dip3",
+			"heading": "Etiam nulla lectus amet nunc",
+			"headingClass": "",
+			"text": "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
+			"textClass": "",
+			"formClass": "",
+			"formID": "",
+			"formMethod": "",
+			"formAction": "",
+			"inputType": "email",
+			"inputPlaceholder": "Email address",
+			"formButtonType": null,
+			"formButtonID": null,
+			"formButtonTitle": "Sign up",
+			"pictureClass": "",
+			"imgSrc": "images/landscape.jpg",
+			"imgAlt": "A grey landscape"
+		}
+	]
+}

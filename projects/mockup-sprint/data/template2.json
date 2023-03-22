@@ -1,0 +1,220 @@
+{
+	"slug": "template2",
+	"title": "Template 2",
+	"modules": [
+		{
+			"module": "mast-head",
+			"moduleClass": "masthead2",
+			"logoSrc": "",
+			"logoClass": "logo",
+			"logoAlt": "",
+			"navClass": "site-nav",
+			"navLinks": [
+				{
+					"navTitle": "Home",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Updates",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Services",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Features",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "About Us",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				}
+			],
+			"divRightClass": "mast-login",
+			"iconSrc": "",
+			"iconClass": "",
+			"iconLabel": "",
+			"iconLabelClass": "",
+			"button1Title": "Login",
+			"button1Url": "",
+			"button1Class": ""
+		},
+		{
+			"module": "hero-section",
+			"moduleClass": "hero2",
+			"heading1": "Arcu suscipit massa aliquam proin amet",
+			"heading1Class": "heyyou-voice",
+			"paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+			"paragraphClass": "reading-voice",
+			"link1Title": "Get started",
+			"link1Url": "",
+			"link1Class": ""
+		},
+		{
+			"module": "call-action",
+			"moduleClass": "cta-noback",
+			"subTop": "Rhoncus, accumsan dictum",
+			"subTopClass": "",
+			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"headingClass": "",
+			"subBottom": "Neque, pulvinar vestibulum non aliquam.",
+			"subBottomClass": "",
+			"links": [
+				{
+					"link": "Learn more",
+					"linkClass": "",
+					"linkUrl": "#"
+				}
+			]
+		},
+		{
+			"module": "card-grid",
+			"moduleClass": "cardgrid2",
+			"topSubClass": "",
+			"topSub": "",
+			"heading2Class": "attention-voice",
+			"heading2": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"bottomSubClass": "reading-voice",
+			"bottomSub": "Neque, pulvinar vestibulum non aliquam.",
+			"listClass": "",
+			"listItems": [
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				},
+				{
+					"liHeading": "Et, odio elementum",
+					"liHeadingClass": "",
+					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
+					"liTextClass": "",
+					"liIconClass": "",
+					"liIconSrc": ""
+				}
+			]
+		},
+		{
+			"module": "client-slider",
+			"moduleClass": "client2",
+			"heading": "What our clients says",
+			"headingClass": "attention-voice",
+			"text": "Neque, pulvinar vestibulum non aliquam.",
+			"textClass": "",
+			"reviews": [
+				{
+					"blurb": "'Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.'",
+					"blurbClass": "",
+					"clientName": "Courtney Henry",
+					"clientNameClass": "",
+					"clientRole": "Marketing Coordinator",
+					"clientRoleClass": "",
+					"iconClass": "",
+					"iconSrc": "",
+					"iconAlt": ""
+				}
+			]
+		},
+		{
+			"module": "call-action",
+			"moduleClass": "cta2",
+			"subTop": "Rhoncus, accumsan dictum",
+			"subTopClass": "",
+			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"headingClass": "",
+			"links": [
+				{
+					"link": "Get Free Quotes",
+					"linkClass": "",
+					"linkUrl": "#"
+				},
+				{
+					"link": "Free SignUp",
+					"linkClass": "",
+					"linkUrl": "#"
+				}
+			]
+		},
+		{
+			"module": "details-list",
+			"moduleClass": "details2",
+			"heading": "Frequent Ask Questions",
+			"headingClass": "",
+			"paraText": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+			"paraClass": "",
+			"detailsClass": "",
+			"detailsItems": [
+				{
+					"summary": "How soon will my order ship?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Is there any warranty exclusions?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Are there any return exclusions?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Will I be charged for a replacement item?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "How can I track my orders and payment?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				}
+			]
+		}
+	]
+}

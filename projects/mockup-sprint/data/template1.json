@@ -1,0 +1,216 @@
+{
+	"slug": "template1",
+	"title": "Template 1",
+	"modules": [
+		{
+			"module": "mast-head",
+			"moduleClass": "masthead1",
+			"logoSrc": "",
+			"logoAlt": "",
+			"logoClass": "logo",
+			"navClass": "site-nav",
+			"navLinkClass": "nav-voice",
+			"navLinks": [
+				{
+					"navTitle": "Home",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Updates",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Services",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "Features",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				},
+				{
+					"navTitle": "About Us",
+					"navLinkClass": "nav-voice",
+					"navUrl": "#"
+				}
+			],
+			"divRightClass": "mast-login",
+			"iconSrc": "",
+			"iconClass": "",
+			"iconLabel": "",
+			"iconLabelClass": "",
+			"button1Title": "Login",
+			"button1Url": "",
+			"button1Class": ""
+		},
+		{
+			"module": "hero-section",
+			"moduleClass": "hero1",
+			"heading1": "Arcu suscipit massa aliquam proin amet",
+			"heading1Class": "heyyou-voice",
+			"paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+			"paragraphClass": "reading-voice",
+			"link1Title": "Get started",
+			"link1Url": "#",
+			"link1Class": "",
+			"link2Title": "Start free trial",
+			"link2Url": "#",
+			"link2Class": ""
+		},
+		{
+			"module": "video-content",
+			"moduleClass": "video1",
+			"subTop": "Rhoncus, accumsan dictum",
+			"subTopClass": "",
+			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"headingClass": "",
+			"subBottom": "Neque, pulvinar vestibulum non aliquam.",
+			"subBottomClass": "",
+			"videoClass": "",
+			"videoSrc": "",
+			"videoWidth": "500px",
+			"videoPoster": "images/landscape.jpg"
+		},
+		{
+			"module": "featured-stuff",
+			"moduleClass": "featured1",
+			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"headingClass": "",
+			"subBottom": "Neque, pulvinar vestibulum non aliquam.",
+			"subBottomClass": "",
+			"pictureClass": "",
+			"imgSrc": "images/landscape.jpg",
+			"imgAlt": "A grey landscape",
+			"listClass": "",
+			"listItems": [
+				{
+					"listItemClass": "",
+					"heading": "Sit quam gravida",
+					"headingClass": "",
+					"text": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.",
+					"textClass": ""
+				},
+				{
+					"listItemClass": "",
+					"heading": "Elementum enim tempus",
+					"headingClass": "",
+					"text": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit.",
+					"textClass": ""
+				},
+				{
+					"listItemClass": "",
+					"heading": "Tempor egestas augue",
+					"headingClass": "",
+					"text": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio.",
+					"textClass": ""
+				},
+				{
+					"listItemClass": "",
+					"heading": "Nulla ac lacinia",
+					"headingClass": "",
+					"text": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non.",
+					"textClass": ""
+				},
+				{
+					"listItemClass": "",
+					"heading": "Velit nibh a",
+					"headingClass": "",
+					"text": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis.",
+					"textClass": ""
+				}
+			]
+		},
+		{
+			"module": "client-slider",
+			"moduleClass": "client1",
+			"heading": "What our clients says",
+			"headingClass": "attention-voice",
+			"text": "Neque, pulvinar vestibulum non aliquam.",
+			"textClass": "",
+			"reviews": [
+				{
+					"blurb": "'Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.'",
+					"blurbClass": "",
+					"clientName": "Courtney Henry",
+					"clientNameClass": "",
+					"clientRole": "Marketing Coordinator",
+					"clientRoleClass": "",
+					"iconClass": "",
+					"iconSrc": "",
+					"iconAlt": ""
+				},
+				{
+					"blurb": "'Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.'",
+					"blurbClass": "",
+					"clientName": "Courtney Henry",
+					"clientNameClass": "",
+					"clientRole": "Marketing Coordinator",
+					"clientRoleClass": "",
+					"iconClass": "",
+					"iconSrc": "",
+					"iconAlt": ""
+				}
+			]
+			
+		},
+		{
+			"module": "call-action",
+			"moduleClass": "cta1",
+			"subTop": "Rhoncus, accumsan dictum",
+			"subTopClass": "",
+			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"headingClass": "",
+			"links": [
+				{
+					"link": "Get Free Quotes",
+					"linkClass": "",
+					"linkUrl": ""
+				}
+			]
+		},
+		{
+			"module": "details-list",
+			"moduleClass": "details1",
+			"heading": "Frequent Ask Questions",
+			"headingClass": "",
+			"paraText": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+			"paraClass": "",
+			"detailsClass": "",
+			"detailsItems": [
+				{
+					"summary": "How soon will my order ship?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Is there any warranty exclusions?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Are there any return exclusions?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "Will I be charged for a replacement item?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				},
+				{
+					"summary": "How can I track my orders and payment?",
+					"summaryClass": "",
+					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+					"textClass": ""
+				}
+			]
+		}
+	]
+}

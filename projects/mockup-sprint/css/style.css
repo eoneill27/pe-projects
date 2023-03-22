@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer inner-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-section1, .footer-section2 {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
