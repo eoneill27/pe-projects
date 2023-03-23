@@ -29,7 +29,7 @@
 			$imgSrc = $module['imgSrc'];
 			$imgAlt = $module['imgAlt']; ?>
 
-		<picture class="<?=$pictureClass?>">
+		<picture class="feature-img <?=$pictureClass?>">
 			<img src="<?=$imgSrc?>" alt="<?=$imgAlt?>">
 		</picture>
 		<?php }?>

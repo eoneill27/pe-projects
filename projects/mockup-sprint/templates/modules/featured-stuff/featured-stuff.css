@@ -1,1 +1,15 @@
-featured-stuff.css
+featured-stuff {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	featured-stuff {
+		flex-direction: row;
+		gap: 66px;
+	}
+}
+
+.feature-img {
+	max-width: 500px;
+}
