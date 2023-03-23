@@ -83,13 +83,21 @@
 	padding: 100px 0;
 }
 
-.footer-1 .loud-voice, .footer-1 .quiet-voice {
+.footer-2 .loud-voice, .footer-2 .quiet-voice {
 	color: var(--black);
 }
 
 .footer-2 .reading-voice {
 	color: var(--black);
 	opacity: 0.5;
+}
+
+.footer-1 .footer-section1 {
+	border-bottom: 1px solid #416de9;
+}
+
+.footer-2 .footer-section1 {
+	border-bottom: 1px solid #f2f2f2;
 }
 
 
