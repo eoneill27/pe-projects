@@ -1,4 +1,7 @@
-<site-map>
+<?php
+	
+?>
+<site-map class="<?=$module['moduleClass']?>">
 	<inner-column>
 
 		<div class="footer-section1">
@@ -37,9 +40,9 @@
 		</div>
 
 		<div class="footer-section2">
-			<a href="index.php">Logo
+			<a href="index.php">
 				<picture class="logo">
-					<img src="#" alt="">
+					<img src="<?=$module['logoSrc']?>" alt="">
 				</picture>
 			</a>
 
@@ -53,17 +56,17 @@
 
 			<div class="socials">
 				<a href="index.php">Logo
-					<picture class="logo">
+					<picture class="social-logo">
 						<img src="#" alt="">
 					</picture>
 				</a>
 				<a href="index.php">Logo
-					<picture class="logo">
+					<picture class="social-logo">
 						<img src="#" alt="">
 					</picture>
 				</a>
 				<a href="index.php">Logo
-					<picture class="logo">
+					<picture class="social-logo">
 						<img src="#" alt="">
 					</picture>
 				</a>

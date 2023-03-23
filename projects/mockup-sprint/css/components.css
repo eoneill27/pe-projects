@@ -4,6 +4,15 @@
 
 @import 'forms.css';
 
+/* site logo */
+
+mast-head .logo {
+	width: 135px;
+}
+
+site-map .logo {
+	width: 211px;
+}
 
 /* buttons */
 

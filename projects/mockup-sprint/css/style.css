@@ -66,12 +66,31 @@
 
 /* FOOTER */
 
+.footer-1 {
+	background-color: var(--primary);
+}
 
+.footer-1 .loud-voice, .footer-1 .quiet-voice {
+	color: var(--white);
+}
 
+.footer-1 .reading-voice {
+	color: var(--footer-color);
+	opacity: 0.7;
+}
 
+.footer-1, .footer-2 {
+	padding: 100px 0;
+}
 
+.footer-1 .loud-voice, .footer-1 .quiet-voice {
+	color: var(--black);
+}
 
-
+.footer-2 .reading-voice {
+	color: var(--black);
+	opacity: 0.5;
+}
 
 
 

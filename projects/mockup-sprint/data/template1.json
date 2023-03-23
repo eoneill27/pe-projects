@@ -210,6 +210,12 @@
 					"textClass": "reading-voice"
 				}
 			]
+		},
+		{
+			"section": "footer-1",
+			"module": "site-map",
+			"moduleClass": "sitemap1",
+			"logoSrc": "images/logo-white.svg"
 		}
 	]
 }

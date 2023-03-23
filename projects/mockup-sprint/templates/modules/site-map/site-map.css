@@ -7,3 +7,36 @@ site-map inner-column {
 	display: flex;
 	flex-direction: row;
 }
+
+.footer-section1 {
+	display: flex;
+	align-items: flex-start;
+	gap: 138px;
+	padding: 0 61px 47px 61px;
+	border-bottom: 1px solid #416de9;
+}
+
+.footer-section1 h5 {
+	margin-bottom: 19px;
+}
+.footer-section1 li {
+	margin-top: 3px;
+}
+
+.footer-section2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 36px;
+	margin-top: 47px;
+}
+
+.legal-nav ul {
+	display: flex;
+	gap: 36px;
+}
+
+.socials {
+	display: flex;
+	gap: 15px;
+}

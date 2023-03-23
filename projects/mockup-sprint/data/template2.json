@@ -218,6 +218,12 @@
 					"textClass": "reading-voice"
 				}
 			]
+		},
+		{
+			"section": "footer-2",
+			"module": "site-map",
+			"moduleClass": "sitemap2",
+			"logoSrc": "images/logo.svg"
 		}
 	]
 }

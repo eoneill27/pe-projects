@@ -254,6 +254,12 @@
 			"pictureClass": "",
 			"imgSrc": "images/landscape.jpg",
 			"imgAlt": "A grey landscape"
+		},
+		{
+			"section": "footer-1",
+			"module": "site-map",
+			"moduleClass": "sitemap3",
+			"logoSrc": "images/logo-white.svg"
 		}
 	]
 }
