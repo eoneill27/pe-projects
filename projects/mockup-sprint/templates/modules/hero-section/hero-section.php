@@ -21,21 +21,22 @@
 		$paragraphClass = $module['paragraphClass'];?>
 		<p class="<?=$paragraphClass?>"><?=$paragraph?></p>
 	<?php } ?>
+	<div class="hero-links">
+		<?php if (isset($module['link1Title'])) { 
+			$link1Title = $module['link1Title'];
+			$link1Class = $module['link1Class'];
+			$link1Url = $module['link1Url']; 
+			?> 
+			<a href="<?=$link1Url?>" class="<?=$link1Class?>"><?=$link1Title?></a>
+		<?php } ?>
 
-	<?php if (isset($module['link1Title'])) { 
-		$link1Title = $module['link1Title'];
-		$link1Class = $module['link1Class'];
-		$link1Url = $module['link1Url']; 
-		?> 
-		<a href="<?=$link1Url?>" class="<?=$link1Class?>"><?=$link1Title?></a>
-	<?php } ?>
-
-	<?php if (isset($module['link2Title'])) { 
-		$link2Title = $module['link2Title'];
-		$link2Class = $module['link2Class'];
-		$link2Url = $module['link2Url']; ?> 
-		<a href="<?=$link2Url?>"class="<?=$link2Class?>"><?=$link2Title?></a>
-	<?php } ?>
+		<?php if (isset($module['link2Title'])) { 
+			$link2Title = $module['link2Title'];
+			$link2Class = $module['link2Class'];
+			$link2Url = $module['link2Url']; ?> 
+			<a href="<?=$link2Url?>"class="<?=$link2Class?>"><?=$link2Title?></a>
+		<?php } ?>
+	</div>
 
 
 	<?php if(isset($module['formID'])) { 
