@@ -3,8 +3,8 @@
 
 		<div class="footer-section1">
 			<nav class="product-nav">
-				<h5>Product</h5>
-				<ul>
+				<h5 class="loud-voice">Product</h5>
+				<ul class="reading-voice">
 					<li>Diam orci</li>
 					<li>Mi feugiat</li>
 					<li>Netus fermentum</li>
@@ -14,16 +14,16 @@
 				</ul>
 			</nav>
 			<nav class="information-nav">
-				<h5>Information</h5>
-				<ul>
+				<h5 class="loud-voice">Information</h5>
+				<ul class="reading-voice">
 					<li>Nibh</li>
 					<li>Egestas</li>
 					<li>Dictum</li>
 				</ul>
 			</nav>
 			<nav class="company-nav">
-				<h5>Company</h5>
-				<ul>
+				<h5 class="loud-voice">Company</h5>
+				<ul class="reading-voice">
 					<li>Id maecenas</li>
 					<li>Id orci</li>
 					<li>Magna ultricies</li>
@@ -32,7 +32,7 @@
 			</nav>
 
 			<div class="subscribe-box">
-				<h5>Subscribe</h5>
+				<h5 class="loud-voice">Subscribe</h5>
 			</div>
 		</div>
 
@@ -44,7 +44,7 @@
 			</a>
 
 			<nav class="legal-nav">
-				<ul>
+				<ul class="quiet-voice">
 					<li>Terms</li>
 					<li>Privacy</li>
 					<li>Cookies</li>
