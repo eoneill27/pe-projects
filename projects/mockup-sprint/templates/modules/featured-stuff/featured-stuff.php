@@ -40,7 +40,7 @@
 			$listClass = $module['listClass'];
 			$listItems = $module['listItems']; ?>
 
-		<ul class="<?=$listClass?>">
+		<ol class="list-counter <?=$listClass?>">
 
 		<?php foreach($listItems as $item) { 
 			$listItemClass = $item['listItemClass'];
@@ -50,12 +50,14 @@
 			$textClass = $item['textClass'];?>
 					
 				<li class="<?=$listItemClass?>">
-					<h4 class="<?=$headingClass?>"><?=$heading?></h4>
-					<p class="<?=$textClass?>"><?=$text?></p>
-					</li>
+					<div class="li-text">
+						<h4 class="<?=$headingClass?>"><?=$heading?></h4>
+						<p class="<?=$textClass?>"><?=$text?></p>
+					</div>	
+				</li>
 		<?php } ?>
 
-		</ul>
+		</ol>
 		
 		<?php } ?>
 
