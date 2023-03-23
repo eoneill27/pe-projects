@@ -6,7 +6,7 @@
 
 /* S setings */
 @import 'settings.css';
-@import 'developer-styles.css';
+/*@import 'developer-styles.css';*/
 
 /* S tructure */
 @import 'structure.css';
@@ -23,13 +23,27 @@
 /* S ections and more stuff */
 @import 'style.css';
 
+#navigation2 {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
 /* then other contextual styles */
 
 body {
 	background-color: var(--paper);
 	color: var(--ink);
-
-	
 }
 
+#hero, #center-content, #feature, #clients, #call-to-action, #faqs {
+	padding: var(--section-padding);
+}
+
+header {
+	padding: var(--header-padding);
+}
+
+footer {
+	padding: var(--footer-padding);
+}
 
