@@ -103,7 +103,7 @@ h1, h2 {
 	margin-top: var(--heading-top);
 }
 
-h1 + p, h2 + p {
+:is(h1, h2, h3, h4) + p {
 	margin-top: var(--heading-over-para);
 }
 
