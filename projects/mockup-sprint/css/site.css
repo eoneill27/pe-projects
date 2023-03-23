@@ -23,10 +23,6 @@
 /* S ections and more stuff */
 @import 'style.css';
 
-#navigation2 {
-	background-color: var(--primary);
-	color: var(--white);
-}
 
 /* then other contextual styles */
 
@@ -35,7 +31,7 @@ body {
 	color: var(--ink);
 }
 
-#hero, #center-content, #feature, #clients, #call-to-action, #faqs {
+.center-content, .feature, .clients, .call-to-action, .faqs {
 	padding: var(--section-padding);
 }
 
@@ -46,4 +42,6 @@ header {
 footer {
 	padding: var(--footer-padding);
 }
+
+
 

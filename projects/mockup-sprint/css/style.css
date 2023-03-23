@@ -1,5 +1,70 @@
+/* NAVIGATION */
+
+.navigation {
+	box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navigation2 {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+/* HERO */
+
+.hero-sec1, .hero-sec2, .hero-sec3 {
+		padding: var(--section-padding);
+	}
+
+@media (min-width: 1040px) {
+	.hero-sec1, .hero-sec2, .hero-sec3 {
+		padding: 196px 233px;
+	}
+}
+
+.hero-sec3 {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.hero-sec1 h1, .hero-sec2 h1 {
+	text-transform: capitalize;
+}
+
+.hero-sec2 h1 {
+	font-size: 56px;
+}
+
+.hero-sec3 h1 {
+	text-transform: uppercase;
+}
+
+.hero-sec1 p {
+	max-width: 50ch;
+}
+.hero-sec3 p {
+	max-width: 60ch;
+} 
 
 
+/* CENTER-CONTENT */
+
+.center-content h2 {
+	text-transform: capitalize;
+}
+
+/* FEATURE */
+
+
+/* CLIENTS */
+
+
+/* CALL-TO-ACTION */
+
+
+/* FAQS */
+
+
+/* FOOTER */
 
 
 
