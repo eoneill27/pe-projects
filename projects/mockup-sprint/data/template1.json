@@ -6,9 +6,9 @@
 			"section": "navigation",
 			"module": "mast-head",
 			"moduleClass": "masthead1",
-			"logoSrc": "",
-			"logoAlt": "",
+			"logoSrc": "images/logo.svg",
 			"logoClass": "logo",
+			"logoAlt": "",
 			"navClass": "site-nav",
 			"navLinks": [
 				{
@@ -38,13 +38,11 @@
 				}
 			],
 			"divRightClass": "mast-login",
-			"iconSrc": "",
-			"iconClass": "",
-			"iconLabel": "",
-			"iconLabelClass": "",
+			"iconSrc": "images/language.svg",
+			"iconClass": "lang-icon",
 			"button1Title": "Login",
 			"button1Url": "",
-			"button1Class": "reading-voice"
+			"button1Class": "navlog-fill reading-voice"
 		},
 		{
 			"section": "hero",

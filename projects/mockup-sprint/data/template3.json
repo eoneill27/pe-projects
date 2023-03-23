@@ -6,45 +6,44 @@
 			"section": "navigation",
 			"module": "mast-head",
 			"moduleClass": "masthead3",
-			"logoSrc": "",
+			"logoSrc": "images/logo.svg",
 			"logoClass": "logo",
 			"logoAlt": "",
 			"navClass": "site-nav",
-			"navLinkClass": "nav-voice",
 			"navLinks": [
 				{
 					"navTitle": "Home",
-					"navLinkClass": "nav-voice",
+					"navLinkClass": "quiet-voice",
 					"navUrl": "#"
 				},
 				{
 					"navTitle": "Updates",
-					"navLinkClass": "nav-voice",
+					"navLinkClass": "quiet-voice",
 					"navUrl": "#"
 				},
 				{
 					"navTitle": "Services",
-					"navLinkClass": "nav-voice",
+					"navLinkClass": "quiet-voice",
 					"navUrl": "#"
 				},
 				{
 					"navTitle": "Features",
-					"navLinkClass": "nav-voice",
+					"navLinkClass": "quiet-voice",
 					"navUrl": "#"
 				},
 				{
 					"navTitle": "About Us",
-					"navLinkClass": "nav-voice",
+					"navLinkClass": "quiet-voice",
 					"navUrl": "#"
 				}
 			],
 			"divRightClass": "mast-login",
 			"button1Title": "SignUp",
 			"button1Url": "",
-			"button1Class": "",
+			"button1Class": "navlog reading-voice",
 			"button2Title": "Login",
 			"button2Url": "",
-			"button2Class": ""
+			"button2Class": "navlog-fill reading-voice"
 		},
 		{
 			"section": "hero",
@@ -53,7 +52,7 @@
 			"heading1": "Arcu suscipit massa aliquam proin amet",
 			"heading1Class": "heyyou-voice all-caps",
 			"paragraph": "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.",
-			"paragraphClass": "reading-voice",
+			"paragraphClass": "subtitle-voice",
 			"formClass": "",
 			"formID": "",
 			"formMethod": "",
@@ -68,31 +67,31 @@
 			"section": "center-content",
 			"module": "card-grid",
 			"moduleClass": "cardgrid3a",
-			"topSubClass": "reading-voice",
+			"topSubClass": "subtitle-voice",
 			"topSub": "Rhoncus, accumsan dictum",
 			"heading2Class": "attention-voice",
 			"heading2": "Etiam nulla lectus amet nunc ",
 			"bottomLinkUrl": "",
-			"bottomLinkClass": "",
+			"bottomLinkClass": "subtitle-voice",
 			"bottomLink": "See all",
 			"listItems": [
 				{
 					"liHeading": "Nibh mattis gravida",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
-					"liTextClass": ""
+					"liTextClass": "reading-voice"
 				},
 				{
 					"liHeading": "Nisl, in consectetur",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
-					"liTextClass": ""
+					"liTextClass": "reading-voice"
 				},
 				{
 					"liHeading": "Aenean condimentum ",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
-					"liTextClass": ""
+					"liTextClass": "reading-voice"
 				}
 			]
 		},
@@ -100,58 +99,58 @@
 			"section": "feature",
 			"module": "card-grid",
 			"moduleClass": "cardgrid3b",
-			"topSubClass": "reading-voice",
+			"topSubClass": "subtitle-voice",
 			"topSub": "Rhoncus, accumsan dictum",
 			"heading2Class": "attention-voice",
 			"heading2": "Etiam nulla lectus amet nunc molestie at vulputate.",
-			"bottomSubClass": "reading-voice",
+			"bottomSubClass": "subtitle-voice",
 			"bottomSub": "Neque, pulvinar vestibulum non aliquam.",
 			"listItems": [
 				{
 					"liHeading": "Et, odio elementum",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
-					"liTextClass": "",
+					"liTextClass": "reading-voice",
 					"liIconClass": "",
 					"liIconSrc": ""
 				},
 				{
 					"liHeading": "Massa leo scelerisque",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "Velit nulla eu tortor elit sed. Volutpat ornare mi tempor, hac morbi faucibus. ",
-					"liTextClass": "",
+					"liTextClass": "reading-voice",
 					"liIconClass": "",
 					"liIconSrc": ""
 				},
 				{
 					"liHeading": "Phasellus non sit",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "Lobortis adipiscing sit senectus id. Rhoncus lacus mi aliquam tortor nibh.",
-					"liTextClass": "",
+					"liTextClass": "reading-voice",
 					"liIconClass": "",
 					"liIconSrc": ""
 				},
 				{
 					"liHeading": "Enim scelerisque dictum",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "Turpis eget ut sed vitae in sapien egestas ultrices feugiat. Elementum platea.",
-					"liTextClass": "",
+					"liTextClass": "reading-voice",
 					"liIconClass": "",
 					"liIconSrc": ""
 				},
 				{
 					"liHeading": "Vulputate et enim",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "Amet, eros nisl vestibulum tincidunt pellentesque. Congue id sapien dictum a.",
-					"liTextClass": "",
+					"liTextClass": "reading-voice",
 					"liIconClass": "",
 					"liIconSrc": ""
 				},
 				{
 					"liHeading": "Faucibus eget blandit",
-					"liHeadingClass": "",
+					"liHeadingClass": "info-voice",
 					"liText": "Tristique viverra lorem nibh eget tellus eget morbi porttitor. Faucibus sit.",
-					"liTextClass": "",
+					"liTextClass": "reading-voice",
 					"liIconClass": "",
 					"liIconSrc": ""
 				}
@@ -164,15 +163,15 @@
 			"heading": "What our clients says",
 			"headingClass": "attention-voice",
 			"text": "Neque, pulvinar vestibulum non aliquam.",
-			"textClass": "",
+			"textClass": "subtitle-voice",
 			"reviews": [
 				{
 					"blurb": "'Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.'",
 					"blurbClass": "",
 					"clientName": "Courtney Henry",
-					"clientNameClass": "",
+					"clientNameClass": "subtitle-voice",
 					"clientRole": "Marketing Coordinator",
-					"clientRoleClass": "",
+					"clientRoleClass": "subtitle-light",
 					"pictureClass": "",
 					"imgSrc": "images/landscape.jpg",
 					"imgAlt": "A grey landscape"
@@ -181,9 +180,9 @@
 					"blurb": "'Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.'",
 					"blurbClass": "",
 					"clientName": "Courtney Henry",
-					"clientNameClass": "",
+					"clientNameClass": "subtitle-voice",
 					"clientRole": "Marketing Coordinator",
-					"clientRoleClass": "",
+					"clientRoleClass": "subtitle-light",
 					"pictureClass": "",
 					"imgSrc": "images/landscape.jpg",
 					"imgAlt": "A grey landscape",
@@ -198,40 +197,40 @@
 			"module": "details-list",
 			"moduleClass": "details2",
 			"heading": "Frequent Ask Questions",
-			"headingClass": "",
+			"headingClass": "attention-voice",
 			"paraText": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-			"paraClass": "",
+			"paraClass": "subtitle-voice",
 			"detailsClass": "",
 			"detailsItems": [
 				{
 					"summary": "How soon will my order ship?",
-					"summaryClass": "",
+					"summaryClass": "info-voice",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-					"textClass": ""
+					"textClass": "reading-voice"
 				},
 				{
 					"summary": "Is there any warranty exclusions?",
-					"summaryClass": "",
+					"summaryClass": "info-voice",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-					"textClass": ""
+					"textClass": "reading-voice"
 				},
 				{
 					"summary": "Are there any return exclusions?",
-					"summaryClass": "",
+					"summaryClass": "info-voice",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-					"textClass": ""
+					"textClass": "reading-voice"
 				},
 				{
 					"summary": "Will I be charged for a replacement item?",
-					"summaryClass": "",
+					"summaryClass": "info-voice",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-					"textClass": ""
+					"textClass": "reading-voice"
 				},
 				{
 					"summary": "How can I track my orders and payment?",
-					"summaryClass": "",
+					"summaryClass": "info-voice",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-					"textClass": ""
+					"textClass": "reading-voice"
 				}
 			]
 		},
@@ -240,9 +239,9 @@
 			"module": "graphic-diptych",
 			"moduleClass": "graph-dip3",
 			"heading": "Etiam nulla lectus amet nunc",
-			"headingClass": "",
+			"headingClass": "attention-voice",
 			"text": "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
-			"textClass": "",
+			"textClass": "subtitle-voice",
 			"formClass": "",
 			"formID": "",
 			"formMethod": "",
