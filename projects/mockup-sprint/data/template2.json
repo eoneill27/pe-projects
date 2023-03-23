@@ -135,7 +135,7 @@
 			]
 		},
 		{
-			"section": "clients",
+			"section": "clients2",
 			"module": "client-slider",
 			"moduleClass": "client2",
 			"heading": "What our clients says",
@@ -149,10 +149,7 @@
 					"clientName": "Courtney Henry",
 					"clientNameClass": "",
 					"clientRole": "Marketing Coordinator",
-					"clientRoleClass": "",
-					"iconClass": "",
-					"iconSrc": "",
-					"iconAlt": ""
+					"clientRoleClass": ""
 				}
 			]
 		},

@@ -76,6 +76,32 @@
 
 /* CLIENTS */
 
+.client2 .blurb {
+	font-family: 'Inter', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 54px;
+}
+
+.client2 .client-name {
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+}
+
+.client2 .client-role {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+.client2 .client-info::before {
+	content: url("../images/icons/person-icon.svg");
+	margin-right: 10px;
+}
+
 
 /* CALL-TO-ACTION */
 

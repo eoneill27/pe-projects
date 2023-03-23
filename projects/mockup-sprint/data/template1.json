@@ -134,21 +134,27 @@
 			"textClass": "subtitle-voice",
 			"reviews": [
 				{
+					"imgSrc": "images/icons/5-stars.svg",
+					"pictureClass": "stars",
+					"imgAlt": "",
 					"blurb": "'Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.'",
 					"blurbClass": "subtitle-voice",
 					"clientName": "Courtney Henry",
 					"clientNameClass": "quiet-voice",
-					"iconClass": "",
-					"iconSrc": "",
+					"iconClass": "client-image",
+					"iconSrc": "images/client-photo.svg",
 					"iconAlt": ""
 				},
 				{
+					"imgSrc": "images/icons/5-stars.svg",
+					"pictureClass": "stars",
+					"imgAlt": "",
 					"blurb": "'Tincidunt risus, blandit proin semper. Tellus ac pellentesque convallis vitae. Lorem enim cursus et consequat viverra id justo ullamcorper. Vel.'",
 					"blurbClass": "subtitle-voice",
 					"clientName": "Courtney Henry",
 					"clientNameClass": "quiet-voice",
-					"iconClass": "",
-					"iconSrc": "",
+					"iconClass": "client-image",
+					"iconSrc": "images/client-photo.svg",
 					"iconAlt": ""
 				}
 			]
