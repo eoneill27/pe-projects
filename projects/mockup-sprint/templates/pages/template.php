@@ -1,4 +1,4 @@
-<inner-column>
+
 
 <?php
 	// if slug name matches template name
@@ -27,11 +27,11 @@
 			$moduleName = $module['module']; ?>
 
 			<section id="<?=$module['section']?>">
+				<inner-column>
 			<?php include("templates/modules/$moduleName/$moduleName.php"); ?>
+				</inner-column>
 			</section>
 	<?php
 		} 
 	}
 ?>
-
-</inner-column>
