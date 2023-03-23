@@ -1,10 +1,17 @@
 hero-section {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+
 
 }
 
-hero-section h1, hero-section p {
-	text-align: center;
+@media (min-width: 600px) {
+
+	hero-section {
+		align-items: center;
+	}
+	hero-section h1, hero-section p {
+		text-align: center;
+	}
 }
+

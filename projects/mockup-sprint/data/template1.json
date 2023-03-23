@@ -54,10 +54,10 @@
 			"paragraphClass": "subtitle-voice",
 			"link1Title": "Get started",
 			"link1Url": "#",
-			"link1Class": "reading-voice",
+			"link1Class": "button-rectFill reading-voice",
 			"link2Title": "Start free trial",
 			"link2Url": "#",
-			"link2Class": "reading-voice"
+			"link2Class": "button-rectWhite reading-voice"
 		},
 		{
 			"section": "center-content",
@@ -164,7 +164,7 @@
 			"links": [
 				{
 					"link": "Get Free Quotes",
-					"linkClass": "reading-voice",
+					"linkClass": "button-rectFill reading-voice",
 					"linkUrl": "#"
 				}
 			]

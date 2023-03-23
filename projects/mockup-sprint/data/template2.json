@@ -54,7 +54,7 @@
 			"paragraphClass": "subtitle-voice",
 			"link1Title": "Get started",
 			"link1Url": "",
-			"link1Class": "reading-voice"
+			"link1Class": "button-rectFill reading-voice"
 		},
 		{
 			"section": "center-content",
@@ -172,7 +172,7 @@
 				},
 				{
 					"link": "Free SignUp",
-					"linkClass": "button-rect reading-voice",
+					"linkClass": "button-rectTrans reading-voice",
 					"linkUrl": "#"
 				}
 			]

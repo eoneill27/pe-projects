@@ -3,3 +3,42 @@
 
 
 @import 'forms.css';
+
+
+/* buttons */
+
+.navlog, .navlog-fill {
+	padding: 8px 22px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+.navlog {
+	background-color: var(--white);
+	color: var(--primary);
+}
+
+.navlog-fill {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.button-rectWhite {
+	padding: 10px 22px;
+	background-color: var(--white);
+	color: var(--primary);
+	border: 1px solid var(--primary);
+}
+
+.button-rectFill {
+	padding: 10px 22px;
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.button-rectTrans{
+	padding: 10px 22px;
+	background-color: transparent;
+	color: var(--primary);
+	border: 1px solid var(--primary);
+}

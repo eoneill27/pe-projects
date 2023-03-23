@@ -44,22 +44,6 @@ mast-head nav a:nth-of-type(5) {
 	display: none;
 }
 
-.navlog, .navlog-fill {
-	padding: 8px 22px;
-	border-radius: 5px;
-	margin-left: 20px;
-}
-
-.navlog {
-	background-color: var(--white);
-	color: var(--primary);
-}
-
-.navlog-fill {
-	background-color: var(--primary);
-	color: var(--white);
-}
-
 @media (min-width: 350px) {
 	mast-head nav a:nth-of-type(5) {
 		display: inline-block;
