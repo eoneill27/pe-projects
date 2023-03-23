@@ -26,7 +26,7 @@
 		foreach($pageData['modules'] as $module) {
 			$moduleName = $module['module']; ?>
 
-			<section id="<?=$module['section']?>">
+			<section class="<?=$module['section']?>">
 				<inner-column>
 			<?php include("templates/modules/$moduleName/$moduleName.php"); ?>
 				</inner-column>
