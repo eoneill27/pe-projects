@@ -9,11 +9,6 @@ mast-head {
 	grid-column: 1/2;
 }
 
-.logo {
-/*	min-width: 100px;*/
-	width: 135px;
-}
-
 .lang-icon {
 	min-width: 53px;
 	padding-top: 8px;
@@ -40,6 +35,10 @@ mast-head nav {
 
 mast-head nav a {
 	margin-right: 10px;
+}
+
+mast-head nav a:nth-of-type(1) {
+	font-weight: 700;
 }
 
 mast-head nav a:nth-of-type(5) {
