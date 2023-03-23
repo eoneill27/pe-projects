@@ -1,9 +1,90 @@
 mast-head {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 40px 20px;
+}
+
+.logo-area {
+	grid-row: 1/2;
+	grid-column: 1/2;
+}
+
+.logo {
+	min-width: 100px;
+	width: 135px;
+}
+
+.lang-icon {
+	min-width: 53px;
+	padding-top: 8px;
+}
+
+mast-head nav {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	grid-row: 2/3;
+	grid-column: 1/4;
+	margin-top: 8px;
+	justify-self: center;
+}
+
+.login-area {
+	grid-column: 3/4;
+	grid-row: 1/2;
 }
 
 .mast-login {
 	display: flex;
+}
+
+mast-head nav a {
+	margin-right: 10px;
+}
+
+mast-head nav a:nth-of-type(5) {
+	display: none;
+}
+
+.navlog, .navlog-fill {
+	padding: 8px 22px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+.navlog {
+	background-color: var(--white);
+	color: var(--primary);
+}
+
+.navlog-fill {
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+@media (min-width: 350px) {
+	mast-head nav a:nth-of-type(5) {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 800px) {
+	mast-head {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	mast-head nav a {
+		margin-left: 30px;
+	}
+
+	.login-area {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.lang-icon {
+		padding-top: 0;
+	}
 }

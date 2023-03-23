@@ -12,11 +12,14 @@
 		$logoSrc = $module['logoSrc'];
 		$logoClass = $module['logoClass'];
 		$logoAlt = $module['logoAlt']; ?>
-	<a href="index.php">Logo
-		<picture class="<?=$logoClass?>">
-			<img src="<?=$logoSrc?>" alt="<?=$logoAlt?>">
-		</picture>
-	</a>
+
+	<div class="logo-area">
+		<a href="index.php">
+			<picture class="<?=$logoClass?>">
+				<img src="<?=$logoSrc?>" alt="<?=$logoAlt?>">
+			</picture>
+		</a>
+	</div>
 	<?php }?>
 
 	<?php if(isset($module['navClass'])) {
@@ -40,13 +43,11 @@
 	<?php if(isset($module['divRightClass'])) {
 		$divRightClass = $module['divRightClass']; ?>
 
-	<div class="<?=$divRightClass?>">
+	<div class="login-area <?=$divRightClass?>">
 		<?php if(isset($module['iconSrc'])) { 
 			$iconClass = $module['iconClass'];
-			$iconSrc = $module['iconSrc'];
-			$iconLabel = $module['iconLabel'];
-			$iconLabelClass = $module['iconLabelClass'];?> 
-		<a href="#">Lang
+			$iconSrc = $module['iconSrc'];?> 
+		<a href="#">
 			<picture class="<?=$iconClass?>">
 				<img src="<?=$iconSrc?>" alt="">
 			</picture>
