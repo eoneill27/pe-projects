@@ -45,13 +45,13 @@
 			"button1Class": "navlog reading-voice"
 		},
 		{
-			"section": "hero",
+			"section": "hero-sec2",
 			"module": "hero-section",
 			"moduleClass": "hero2",
 			"heading1": "Arcu suscipit massa aliquam proin amet",
 			"heading1Class": "heyyou-voice",
 			"paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
-			"paragraphClass": "subtitle-voice",
+			"paragraphClass": "reading-voice",
 			"link1Title": "Get started",
 			"link1Url": "",
 			"link1Class": "button-rectFill reading-voice"

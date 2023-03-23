@@ -45,7 +45,7 @@
 			"button1Class": "navlog-fill reading-voice"
 		},
 		{
-			"section": "hero",
+			"section": "hero-sec1",
 			"module": "hero-section",
 			"moduleClass": "hero1",
 			"heading1": "Arcu suscipit massa aliquam proin amet",
@@ -65,7 +65,7 @@
 			"moduleClass": "video1",
 			"subTop": "Rhoncus, accumsan dictum",
 			"subTopClass": "subtitle-voice",
-			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
+			"heading": "Etiam nulla lfulputate.",
 			"headingClass": "attention-voice",
 			"subBottom": "Neque, pulvinar vestibulum non aliquam.",
 			"subBottomClass": "subtitle-voice",

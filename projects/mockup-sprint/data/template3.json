@@ -46,7 +46,7 @@
 			"button2Class": "navlog-fill reading-voice"
 		},
 		{
-			"section": "hero",
+			"section": "hero-sec3",
 			"module": "hero-section",
 			"moduleClass": "hero3",
 			"heading1": "Arcu suscipit massa aliquam proin amet",
