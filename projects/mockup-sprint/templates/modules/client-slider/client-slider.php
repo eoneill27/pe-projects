@@ -65,7 +65,7 @@
 				<?php if(isset($review['clientRole'])) {
 					$clientRole = $review['clientRole'];
 					$clientRoleClass = $review['clientRoleClass']; ?>
-				<p class="<?=$clientNameRole?>"><?=$clientRole?></p>
+				<p class="<?=$clientRoleClass?>"><?=$clientRole?></p>
 				<?php } }}?>
 
 		</div>
