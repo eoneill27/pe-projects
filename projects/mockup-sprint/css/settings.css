@@ -6,8 +6,14 @@ html {
 	--black: #212121;
 	--white: #ffffff;
 
-	--neutral: #eef3fd;
-	--gray: #d9d9d9;
+	--primary: #3563e9; /* royal blue */
+	--secondary: #2951e3; /* palatinate blue */
+	--neutral: #eef3fd; /* zumthor; backgrounds, img standins */
+	--lightgray: #757575; /* subheadings */
+	--darkgray: #424242; 
+	--lightgray2: #616161;
+	--footer-color: #c2d0f8; /* lavender blue */
+
 
 	--color: #3563e9;
 	--highlight: #2951e3;
@@ -16,11 +22,33 @@ html {
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: #fdfbef;
+	--paper: #ffffff;
 /*	--paper: hsla(209, 90%, 50%, 1.00); /*shadier dodgerblue*/
 	--ink: #212121;
 /*	--ink: white;*/
+
+/* spacing */
+
+	--section-padding: 50px 0;
+	--header-padding: 20px 0;
+	--footer-padding: 70px 0;
+
+	--heading-top: 24px;
+	--heading-bottom: 32px;
+	--subtitle-over-button: 50px;
+	--heading-over-button: 60px;
+	--heading-over-para: 16px;
 }
+
+@media(min-width: 600px) {
+	html {
+		--section-padding: 80px 0;
+		--header-padding: 22px 0;
+		--footer-padding: 100px 0;
+	}
+}
+
+
 
 @media (prefers-color-scheme: dark) {
 	html {
