@@ -41,7 +41,6 @@ featured-stuff {
 	width: 60px;
 	height: 60px;
 	padding: 25px;
-	margin-top: 25px;
 }
 
 .li-text {
@@ -49,15 +48,15 @@ featured-stuff {
 	flex-direction: column;
 }
 
-featured-stuff li h4 {
-	margin-top: 20px;
+featured-stuff li {
+	margin-bottom: 20px;
 	padding: 10px;
 	max-width: 60ch;
 }
 
-featured-stuff li:nth-of-type(1) {
+/*.list-counter li:nth-of-type(1) {
 	margin-top: 0;
-}
+}*/
 
 @media (min-width: 800px) {
 	featured-stuff {
