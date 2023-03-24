@@ -14,13 +14,13 @@
 		<?php if(isset($module['heading'])) {
 			$heading = $module['heading'];
 			$headingClass = $module['headingClass']; ?>
-		<h3 class="<?=$headingClass?>"><?=$heading?></h3>
+		<h2 class="<?=$headingClass?>"><?=$heading?></h2>
 		<?php }?>
 
 		<?php if(isset($module['text'])) {
 			$text = $module['text'];
 			$textClass = $module['textClass']; ?>
-		<p class="<?=$textClass?>"><?=$text?></p>
+		<h3 class="<?=$textClass?>"><?=$text?></h3>
 		<?php }?>
 
 
@@ -46,7 +46,7 @@
 			$imgSrc = $module['imgSrc'];
 			$imgAlt = $module['imgAlt']; ?>
 
-		<picture class="<?=$pictureClass?>">
+		<picture class="dip-img <?=$pictureClass?>">
 			<img src="<?=$imgSrc?>" alt="<?=$imgAlt?>">
 		</picture>
 		<?php }?>
