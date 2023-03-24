@@ -9,29 +9,31 @@
 
 <card-grid class="<?=$moduleClass?>">
 
-	<?php if(isset($module['topSub'])) { 
-		$topSub = $module['topSub'];
-		$topSubClass = $module['topSubClass'];
-		?>
-	<p class="<?=$topSubClass?>"><?=$topSub?></p>
-	<?php } ?>
+	<div class="cardgrid-headings">
+		<?php if(isset($module['topSub'])) { 
+			$topSub = $module['topSub'];
+			$topSubClass = $module['topSubClass'];
+			?>
+		<h2 class="<?=$topSubClass?>"><?=$topSub?></h2>
+		<?php } ?>
 
-	<?php if(isset($module['heading2'])) { 
-		$heading2 = $module['heading2'];
-		$heading2Class = $module['heading2Class']; ?>
-	<h2 class="<?=$heading2Class?>"><?=$heading2?></h2>
-	<?php }?>
+		<?php if(isset($module['heading2'])) { 
+			$heading2 = $module['heading2'];
+			$heading2Class = $module['heading2Class']; ?>
+		<h2 class="<?=$heading2Class?>"><?=$heading2?></h2>
+		<?php }?>
 
-	<?php if(isset($module['bottomSub'])) { 
-		$bottomSub = $module['bottomSub'];
-		$bottomSubClass = $module['bottomSubClass']; ?>
-	<p class="<?=$bottomSubClass?>"><?=$bottomSub?></p>
-	<?php } ?>
+		<?php if(isset($module['bottomSub'])) { 
+			$bottomSub = $module['bottomSub'];
+			$bottomSubClass = $module['bottomSubClass']; ?>
+		<h3 class="<?=$bottomSubClass?>"><?=$bottomSub?></h3>
+		<?php } ?>
+	</div>
 
 	<?php if(isset($module['listClass'])) { ?>
-	<div class="card-grid <?=$listClass?>">
+	<div class="">
 	<?php } ?>
-		<ul>
+		<ul class="card-grid">
 			<?php if(isset($module['listItems'])) {
 				$listItems = $module['listItems'];
 				foreach($listItems as $item) { 
