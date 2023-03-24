@@ -59,6 +59,7 @@
 						</picture>
 				<?php }?>
 
+					<div class="name-role">
 				<?php if(isset($review['clientName'])) {
 					$clientName = $review['clientName'];
 					$clientNameClass = $review['clientNameClass']; ?>
@@ -69,6 +70,7 @@
 					$clientRole = $review['clientRole'];
 					$clientRoleClass = $review['clientRoleClass']; ?>
 						<p class="client-role <?=$clientRoleClass?>"><?=$clientRole?></p>
+					</div>
 				<?php } ?>
 					</div>
 				</div>

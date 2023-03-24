@@ -85,6 +85,7 @@
 	font-size: 40px;
 	font-weight: 500;
 	line-height: 54px;
+	text-transform: capitalize;
 }
 
 .client2 .client-name {
@@ -103,7 +104,18 @@
 
 .client2 .client-info::before {
 	content: url("../images/icons/person-icon.svg");
-	margin-right: 10px;
+	margin-right: 20px;
+}
+
+.client2 .client-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.client2 .client-role {
+	text-align: left;
 }
 
 
