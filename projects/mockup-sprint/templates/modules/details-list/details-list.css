@@ -1,6 +1,8 @@
 details-list {
 	display: flex;
 	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .details {
@@ -14,8 +16,12 @@ details-list {
 	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
 }
 
-.details1 details p, .details3 details p {
-	padding-left: 0;
+.details1 details p, .details2 details p {
+	padding-left: 15px;
+	max-width: 65ch;
+}
+
+.details3 details p {
 	max-width: 45ch;
 }
 
@@ -50,25 +56,21 @@ details-list {
 
 @media(min-width: 600px) {
 
-	.details3 {
-		flex-direction: row;
+	.details-headings{
 		align-items: center;
-		gap: 70px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	.details3 .details-headings {
-		display: flex;
-		flex-direction: column;;
-		padding: 127px 0;
-	}
-
-	.details3 .details-headings :is(h2, p) {
-		text-align: left;
+	:is(.details1, .details2) .details-headings p {
+		max-width: 60ch;
+		text-align: center;
 	}
 
 	.details3 .details-headings p {
 		max-width: 45ch;
 	}
+
 	details-list h2, details-list .subtitle-voice {
 		max-width: 850px;
 		text-align: center;
@@ -93,8 +95,39 @@ details-list {
 		padding: 20px 15px;
 	}
 
-	.details1 details p, .details3 details p {
+	.details1 details p, .details2 details p {
 		padding-left: 15px;
-		max-width: 55ch;
+		max-width: 65ch;
 	}
+
+}
+
+@media(min-width: 900px) {
+
+	.details3 {
+		flex-direction: row;
+		align-items: center;
+		gap: 70px;
+	}
+
+	.details3 .details-headings {
+		display: flex;
+		flex-direction: column;;
+		padding: 127px 0;
+	}
+
+	.details3 .details-headings :is(h2, p) {
+		text-align: left;
+	}
+	.details3 details p {
+		padding-left: 16px;
+		max-width: 30ch;
+	}
+}
+
+@media (min-width: 1000px) {
+	.details1 .details, .details2 .details {
+		padding-left: 175px;
+	}
+
 }
