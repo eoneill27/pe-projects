@@ -1,1 +1,33 @@
-call-action.css
+call-action {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: var(--lightneutral);
+	padding: 30px 10px;
+
+}
+
+.call-to-action inner-column {
+	padding: 0;
+}
+
+call-action.cta-noback {
+	background-color: transparent; 
+}
+
+.cta-links {
+	display: flex;
+	gap: 32px;
+	margin-top: 48px;
+}
+
+@media(min-width: 600px) {
+	call-action {
+		padding: 60px 91px;
+	}
+
+	.call-to-action inner-column {
+		padding: 30px 14px;
+	}
+}

@@ -15,7 +15,7 @@ inner-column {
 	max-width: 1200px; /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-	padding: 30px 14px; /* a loose default */
+	padding: 30px 8px; /* a loose default */
 }
 
 /*.site-header {
@@ -23,3 +23,9 @@ inner-column {
 	top: 0;
 	z-index: 5;
 }*/
+
+@media(min-width: 600px) {
+	inner-column {
+		padding: 30px 14px;
+	}
+}

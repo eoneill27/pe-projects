@@ -9,23 +9,25 @@
 
 <details-list class="<?=$moduleClass?>">
 	
-	<?php if(isset($module['heading'])) { 
-		$heading = $module['heading'];
-		$headingClass = $module['headingClass']; ?>
-	
-	<h2 class="<?=$headingClass?>"><?=$heading?></h2>
+	<div class="details-headings">
+		<?php if(isset($module['heading'])) { 
+			$heading = $module['heading'];
+			$headingClass = $module['headingClass']; ?>
+		
+		<h2 class="<?=$headingClass?>"><?=$heading?></h2>
 
-	<?php } ?>
+		<?php } ?>
 
-	<?php if(isset($module['paraText'])) { 
-		$paraText = $module['paraText'];
-		$paraClass = $module['paraClass']; ?>
+		<?php if(isset($module['paraText'])) { 
+			$paraText = $module['paraText'];
+			$paraClass = $module['paraClass']; ?>
 
-	<p class="<?=$paraClass?>"><?=$paraText?></p>
+		<p class="<?=$paraClass?>"><?=$paraText?></p>
 
-	<?php } ?>
+		<?php } ?>
+	</div>
 
-	<section class="details">
+	<div class="details">
 
 	<?php if(isset($module['detailsItems'])) { 
 		$detailsClass = $module['detailsClass'];
@@ -44,6 +46,6 @@
 
 	<?php }} ?>
 
-	</section>
+	</div>
 </details-list>
 

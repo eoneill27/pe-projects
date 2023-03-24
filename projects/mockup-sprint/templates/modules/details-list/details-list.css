@@ -1,1 +1,100 @@
-details-list.css
+details-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.details {
+	margin-top: 30px;
+}
+
+.details summary {
+	max-width: 850px;
+	padding: 20px 0; 
+	list-style-type: none;
+	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.details1 details p, .details3 details p {
+	padding-left: 0;
+	max-width: 45ch;
+}
+
+.details1 summary::after, .details3 summary::after {
+	content: url("../../../images/icons/grayChev-right.svg");
+	padding-top: 5px;
+	margin-left: 40px;
+}
+
+.details2 summary::before {
+	content: url("../../../images/icons/blue-plus.svg");
+	margin-right: 16px;
+	padding-top: 5px;
+}
+
+.details1 summary, .details3 summary {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24;
+}
+
+.details2 summary {
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.details2 details p {
+	padding-left: 57px;
+}
+
+@media(min-width: 600px) {
+
+	.details3 {
+		flex-direction: row;
+		align-items: center;
+		gap: 70px;
+	}
+
+	.details3 .details-headings {
+		display: flex;
+		flex-direction: column;;
+		padding: 127px 0;
+	}
+
+	.details3 .details-headings :is(h2, p) {
+		text-align: left;
+	}
+
+	.details3 .details-headings p {
+		max-width: 45ch;
+	}
+	details-list h2, details-list .subtitle-voice {
+		max-width: 850px;
+		text-align: center;
+	}
+
+/*	.details2 {
+		align-items: left;
+		text-align: left;
+	}*/
+
+	.subtitle-voice {
+		text-align: center;
+		max-width: 70ch;
+		text-transform: capitalize;
+	}
+
+	.details {
+		margin-top: 70px;
+	}
+
+	.details summary {
+		padding: 20px 15px;
+	}
+
+	.details1 details p, .details3 details p {
+		padding-left: 15px;
+		max-width: 55ch;
+	}
+}

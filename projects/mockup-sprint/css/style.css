@@ -45,6 +45,10 @@
 	color: var(--white);
 }
 
+.hero-sec3 .subtitle-voice {
+	color: var(--white);
+}
+
 .hero-sec1 h1, .hero-sec2 h1 {
 	text-transform: capitalize;
 }
@@ -104,6 +108,7 @@
 
 
 /* CALL-TO-ACTION */
+
 
 
 /* FAQS */

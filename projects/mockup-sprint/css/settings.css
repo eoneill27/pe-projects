@@ -8,7 +8,8 @@ html {
 
 	--primary: #3563e9; /* royal blue */
 	--secondary: #2951e3; /* palatinate blue */
-	--neutral: #eef3fd; /* zumthor; backgrounds, img standins */
+	--neutral: #eef3fd; /* zumthor; img standins */
+	--lightneutral: #f7f9fe; /* ghost white - div backgrounds */
 	--lightgray: #757575; /* subheadings */
 	--darkgray: #424242; 
 	--lightgray2: #616161;
