@@ -34,7 +34,7 @@
 				$imgSrc = $review['imgSrc'];
 				$imgAlt = $review['imgAlt']; ?>
 
-				<picture class="<?=$pictureClass?>">
+				<picture class="client-picture <?=$pictureClass?>">
 					<img src="<?=$imgSrc?>" alt="<?=$imgAlt?>">
 				</picture>
 			<?php }?>

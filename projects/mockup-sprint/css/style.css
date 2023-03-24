@@ -118,6 +118,59 @@
 	text-align: left;
 }
 
+.client3 .client-info {
+	margin-top: 32px;
+}
+
+.client3 .name-role {
+	display: flex;
+	align-items: center;
+}
+
+.client3 .client-role::before {
+	content: "-";
+	padding-left: 3px;
+}
+
+.client3 .blurb {
+	font-family: 'Inter', sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 48px;
+	text-transform: capitalize;
+	text-align: left;
+	max-width: 40ch;
+}
+
+@media (min-width: 900px) {
+	.client3 .review-card {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.client3 .blurb {
+		font-family: 'Inter', sans-serif;
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 48px;
+		text-transform: capitalize;
+		text-align: left;
+		margin-left: 38px;
+		max-width: 25ch;
+	}
+
+	.client3 .name-role {
+		display: flex;
+		align-items: center;
+		margin-left: 38px;
+	}
+
+	.client3 .client-picture {
+		width: 650px;
+	}
+}
+
 
 /* CALL-TO-ACTION */
 
