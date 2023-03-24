@@ -21,7 +21,7 @@
 			$subBottomClass = $module['subBottomClass'];
 			$subBottom = $module['subBottom'];
 		?>
-		<p class="<?=$subBottomClass?>"><?=$subBottom?></p>
+		<h3 class="<?=$subBottomClass?>"><?=$subBottom?></h3>
 		<?php } ?>
 
 		<?php if(isset($module['imgSrc'])) {
