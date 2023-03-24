@@ -112,7 +112,7 @@
 					"liText": "Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.",
 					"liTextClass": "reading-voice",
 					"liIconClass": "",
-					"liIconSrc": ""
+					"liIconSrc": "images/icons/arrow-cloud.svg"
 				},
 				{
 					"liHeading": "Massa leo scelerisque",
@@ -120,7 +120,7 @@
 					"liText": "Velit nulla eu tortor elit sed. Volutpat ornare mi tempor, hac morbi faucibus. ",
 					"liTextClass": "reading-voice",
 					"liIconClass": "",
-					"liIconSrc": ""
+					"liIconSrc": "images/icons/watch-icon.svg"
 				},
 				{
 					"liHeading": "Phasellus non sit",
@@ -128,7 +128,7 @@
 					"liText": "Lobortis adipiscing sit senectus id. Rhoncus lacus mi aliquam tortor nibh.",
 					"liTextClass": "reading-voice",
 					"liIconClass": "",
-					"liIconSrc": ""
+					"liIconSrc": "images/icons/play-icon.svg"
 				},
 				{
 					"liHeading": "Enim scelerisque dictum",
@@ -136,7 +136,7 @@
 					"liText": "Turpis eget ut sed vitae in sapien egestas ultrices feugiat. Elementum platea.",
 					"liTextClass": "reading-voice",
 					"liIconClass": "",
-					"liIconSrc": ""
+					"liIconSrc": "images/icons/therm-icon.svg"
 				},
 				{
 					"liHeading": "Vulputate et enim",
@@ -144,7 +144,7 @@
 					"liText": "Amet, eros nisl vestibulum tincidunt pellentesque. Congue id sapien dictum a.",
 					"liTextClass": "reading-voice",
 					"liIconClass": "",
-					"liIconSrc": ""
+					"liIconSrc": "images/icons/wind-icon.svg"
 				},
 				{
 					"liHeading": "Faucibus eget blandit",
@@ -152,7 +152,7 @@
 					"liText": "Tristique viverra lorem nibh eget tellus eget morbi porttitor. Faucibus sit.",
 					"liTextClass": "reading-voice",
 					"liIconClass": "",
-					"liIconSrc": ""
+					"liIconSrc": "images/icons/magnifying-icon.svg"
 				}
 			]
 		},

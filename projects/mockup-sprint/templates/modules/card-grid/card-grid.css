@@ -1,6 +1,7 @@
 card-grid {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 card-grid li {
@@ -15,6 +16,10 @@ card-grid li {
 	margin-bottom: 22px;
 }
 
+.card-grid li {
+	margin-bottom: 22px;
+}
+
 .cardgrid2 li {
 	display: flex;
 	flex-direction: column;
@@ -23,6 +28,24 @@ card-grid li {
 	padding: 25px;
 	border: 1px solid var(--lightgray2);
 	border-radius: 10px;
+}
+
+.cardgrid3a li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 16px;
+
+}
+
+.cardgrid3b li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 }
 
 
@@ -36,15 +59,26 @@ card-grid li {
 		grid-gap: 22px;
 	}
 
-	.cardgrid2 .cardgrid-headings {
+	.cardgrid3a .card-grid {
+		grid-gap: 32px;
+		margin-bottom: 60px;
+	}
+
+	.cardgrid3a li, .cardgrid3b li {
+		max-width: 40;
+		text-align: center;
+	}
+
+	.cardgrid-headings {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		text-align: center;
 	}
 
-	.cardgrid2 h2, .cardgrid2 h3 {
-		text-align: center;
+	.card-grid li {
+		margin-bottom: 0;
 	}
 }
 
