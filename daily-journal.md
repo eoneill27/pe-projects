@@ -1,5 +1,201 @@
 # Emily's Daily Journal
 
+## March 25, 2023
+
+### Stand up
+
+### Today's lesson - 194:156 - Mockup to code challenge SPRINT
+
+Yesterday I continued with styling. This is where things are at so far:
+https://peprojects.dev/alpha-6/emily/projects/mockup-sprint/index.php
+
+There are quite a few little details to fix up and fine-tune. The details disclosure element is something I need to work on - formatting, spacing, eliminating the content jump that happens when you open one, etc.
+
+I am flying to New York City today - I'll be on the east coast all week, flying home on Monday, April 3. I should have lots of time to work in airports and on planes today, and I'll be keeping up with the lessons next week, just in a different time zone. I will definitely be booking a meeting with Derek in the next few days for a code review.
+No blockers today.
+
+### To dos
+
+- [] fine-tuning CSS
+
+## March 24, 2023
+
+### Stand up
+
+Yesterday I continued to work on styling my pages, and that's the plan for today, too. I think I'm on track to be finished tomorrow. I meant to work longer last night, but I hit 8pm or so and was totally spent. I made good progress this morning and will keep at it tonight! 
+
+Looking forward to seeing how everyone else approached this one. 
+
+No blockers today.
+
+### Today's lesson - 193:155 - Mockup to code challenge SPRINT
+
+### To dos
+
+- [x] CSS work
+
+## March 23, 2023
+
+### Stand up
+
+Yesterday I got into the styling of my pages and started to notice some things about my data structure that I might want to revisit. 
+
+I've been working more on the styling today and I'm feeling generally pretty good about where I'm at in terms of my progress. I'll be back at it this evening. I know I've got to work on getting background images to do what I want them to do, and I'm going to have some fine-tuning to do with font colors and line heights. 
+
+No blockers.
+
+### Today's lesson - 192:154 - Mockup to code challenge SPRINT
+
+### To dos
+
+- [x] CSS work
+
+## March 22, 2023
+
+### Stand up
+
+Yesterday I went hard on the site architecture and got the skeleton constructed.
+
+Today I'm going to go hard on the styling! This morning I've been writing out some custom properties and figuring out my font types. I need to sketch out the mobile versions before I do much else.
+
+No blockers today.
+
+### Today's lesson - 192:153 - Mockup to code challenge SPRINT
+
+### To dos
+
+- [x] custom variables
+- [x] font types
+- [x] CSS work
+
+## March 21, 2023
+
+### Stand up
+
+Yesterday I started on the sprint challenge - made notes, noticed shared content and modules, and started to build out the file structure.
+
+Today I've continued on the architecture path. I've got a JSON-backed site - 3 data files, one for each template. I'm working on getting the modules built out and the content in before I start to attack the CSS. I feel pretty good about the system so far.
+
+I had a few moments this morning when I couldn't figure out why things were not working - it was trailing commas in the JSON files every time! Now when something doesn't work, my first move is to validate the data file :)
+
+### Today's lesson - 191:152 - Mockup to code challenge SPRINT
+
+### To dos 
+
+- [x] build site architecture
+
+## March 20, 2023
+
+### Stand up
+
+Over the weekend I got the forms on my website all enhanced with JavaScript, and I added PHP/JS toggles and got those working. I want to carve out some time this week to continue with the exercises and keep practicing JavaScript. I also still really need to work on the layout and design of my forms - they're functional, but I'm not super happy with how they look at the moment. 
+
+Yesterday I worked all morning, but then I had a nice afternoon where I walked to the curling club where I used to curl - about 5 miles each way - and "babysat" my friends' kids while they curled. I say "babysat" very loosely because these boys are 10 and 8 and they're my buds, so I really felt like I was just having a nice time hanging out with my friends. We played catch for about an hour and then finished a couple of jigsaw puzzles and I really felt like I was living my happiest, most contented life. 
+
+Today I'm excited to get going on this week's challenge. I want to spend some time making lots of notes and really planning things out on paper before I start coding. 
+
+No blockers today! 
+
+### Today's lesson - 190:151 - Mockup to code challenge SPRINT
+
+### To dos
+
+- []
+
+## March 18, 2023
+
+### Stand up
+
+Yesterday I worked through some more forms and figured out a solution to toggling between PHP and JS. It was a clunky solution, and I'm very grateful for Derek's feedback and video! 
+
+So far today I've cleaned up my code to get rid of the duplication and move the element display instructions to the CSS. I'd like to continue by getting rid of my extra buttons and outputs a la Derek's video.
+
+I'm heading out soonish - taking some kids to a play this afternoon - but I should be back late-afternoon for more work!
+
+No blockers today.
+
+### Today's lesson - 188:150 - Exercises for Programmers with JavaScript (Work Day)
+
+### To dos
+
+- [x] figure out Derek's toggle method
+- [x] work on forms
+
+## March 17, 2023
+
+### Stand up
+
+Yesterday I had a nice chat with Alina, and Jess and I spent some time looking at web site inspo last night. I got some things cleaned up on my computer and took some good notes.
+
+Today I've got the simple math calculator and the retirement calculator converted to JS on my website. Lunch break is over, I've got to get back to work, but I'll keep working on forms tonight.
+
+### Today's lesson - 187:149 - Exercises for Programmers with JavaScript (Work Day)
+
+### To dos
+
+- [] practice interface tricks
+- [x] work on website forms
+
+## March 16, 2023
+
+### Stand up
+
+Yesterday I made a few little tweaks to my website. My contact form wasn't working because it didn't have an associated JSON file, so the whole routing system was bypassing it. I fixed that and it seems to be working now. I also made some adjustments to the contact submission success form and the 404 page so that they fit into the new grid layout.
+
+I also (finally) got my shopping cart form working, which was a huge personal win for me last night. I love solving these little coding mysteries - I think it is so fun. 
+
+This morning I've been cleaning up my 4,000 open tabs and taking notes on some resources that I had opened while I was working on the shopping cart problem. I also added a color slider to my JS scrap paper page. Today I would like to practice more with interface tricks and tackle some of the forms on my website to convert them to JavaScript.
+
+No blockers today.
+
+### Today's lesson - 186:148 - Exercises for Programmers with JavaScript (Work Day)
+
+### To dos
+
+- [] practice interface tricks
+- [] work on website forms - PHP/JS toggle?
+
+## March 15, 2023
+
+### Stand up
+
+Yesterday I worked on some form issues and did a little bit of cleanup on my portfolio site before I met with Derek and Ivy in the afternoon. I took a break after that and then realized that my shopping cart form was not working properly when I got back to things last night.
+
+Today, I've been continuing to work on the shopping cart issues. I think I'm getting there!
+
+Heading to work in a minute - I'll be back in the evening.
+
+No blockers today.
+
+### Today's lesson - 185:147 - Exercises for Programmers with JavaScript (Work Day)
+
+### To dos
+
+- [x] continue with shopping form
+- [x] fix up website
+
+## March 14, 2023
+
+### Stand up
+
+Yesterday I spent a while going over JavaScript basics and then adding some forms to my "scrap paper" practice page.
+
+This morning I have managed to create a button that adds rows to the shopping list form - now I'm trying to work out how to tie those fields to the calculation - and how to remove those fields when the form clears - and thinking maybe it's best to start with a form that doesn't have any rows, and each one that gets added by the user is added to an array. I'm puzzling it out.
+
+Today I'm meeting with Derek and Ivy at 3. I'd like to tackle a couple more E4Ps today and maybe carve out some time to work on my website design.
+
+No blockers today. 
+
+### Today's lesson - 184:146 - Exercises for Programmers with JavaScript (Work Day)
+
+### To dos
+
+- [x] clean up desktop
+- [x] get ready for consolidation meeting
+- [] figure out how to add rows to shopping form
+- [x] fix case study pages on website
+
+
 ## March 13, 2023
 
 ### Stand up
