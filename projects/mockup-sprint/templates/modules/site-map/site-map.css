@@ -39,3 +39,80 @@ site-map inner-column {
 	display: flex;
 	gap: 15px;
 }
+
+.subscribe-box {
+	padding: 30px 42px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 18px;
+}
+
+.subscribe-box h5 {
+	line-height: 28px;
+	padding: 0;
+	margin: 0;
+}
+
+.subscribe-box form {
+	display: flex;
+}
+
+.subscribe-box input {
+	border-radius: 6px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+
+}
+
+.subscribe-box input {
+	border: 1px solid #D6D6D6;
+	padding: 16px 56px 16px 15px;
+}
+
+.subscribe-box button {
+	background-image: url("../../../images/icons/whiteChev-right.svg");
+	background-size: 12px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 16px 25px;
+	border: none;
+	background-color: var(--primary);
+	position: relative;
+	right: 50px;
+	border: 1px solid var(--primary);
+	border-radius: 6px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+::placeholder {
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	color: var(--darkgray);
+	opacity: 0.6;
+	line-height: 17px;
+}
+
+:is(.sitemap1, .sitemap3) .subscribe-box {
+	background-color: var(--secondary);
+}
+
+:is(.sitemap1, .sitemap3) p {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: var(--white);
+	opacity: 0.7;
+}
+
+.sitemap2 .subscribe-box {
+	background-color: var(--neutral);
+}
+
+.sitemap2 .subscribe-box p {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: var(--systemgray);
+}

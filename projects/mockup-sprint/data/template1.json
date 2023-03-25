@@ -221,7 +221,10 @@
 			"section": "footer-1",
 			"module": "site-map",
 			"moduleClass": "sitemap1",
-			"logoSrc": "images/logo-white.svg"
+			"logoSrc": "images/logo-white.svg",
+			"socialIcon1": "images/icons/social1-white.svg",
+			"socialIcon2": "images/icons/social2-white.svg",
+			"socialIcon3": "images/icons/social3-white.svg"
 		}
 	]
 }

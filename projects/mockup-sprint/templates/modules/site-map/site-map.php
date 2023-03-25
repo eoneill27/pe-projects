@@ -36,6 +36,13 @@
 
 			<div class="subscribe-box">
 				<h5 class="loud-voice">Subscribe</h5>
+
+				<form id="short-signup" class="" action="" method="post">
+					<input type="email" placeholder="Email address">
+					<button type="submit"></button>
+				</form>
+
+				<p>Gravida sed justo, justo, id est et. Amet tristique convallis sed porttitor nullam eu ut. Duis et odio aliquam bibendum. Metus et lectus id viverra fringilla magna morbi. </p>
 			</div>
 		</div>
 
@@ -55,19 +62,19 @@
 			</nav>
 
 			<div class="socials">
-				<a href="index.php">Logo
+				<a href="index.php">
 					<picture class="social-logo">
-						<img src="#" alt="">
+						<img src="<?=$module['socialIcon1']?>" alt="">
 					</picture>
 				</a>
-				<a href="index.php">Logo
+				<a href="index.php">
 					<picture class="social-logo">
-						<img src="#" alt="">
+						<img src="<?=$module['socialIcon2']?>" alt="">
 					</picture>
 				</a>
-				<a href="index.php">Logo
+				<a href="index.php">
 					<picture class="social-logo">
-						<img src="#" alt="">
+						<img src="<?=$module['socialIcon3']?>" alt="">
 					</picture>
 				</a>
 			</div>

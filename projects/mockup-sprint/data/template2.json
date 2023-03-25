@@ -220,7 +220,10 @@
 			"section": "footer-2",
 			"module": "site-map",
 			"moduleClass": "sitemap2",
-			"logoSrc": "images/logo.svg"
+			"logoSrc": "images/logo.svg",
+			"socialIcon1": "images/icons/social1-gray.svg",
+			"socialIcon2": "images/icons/social2-gray.svg",
+			"socialIcon3": "images/icons/social3-gray.svg"
 		}
 	]
 }
