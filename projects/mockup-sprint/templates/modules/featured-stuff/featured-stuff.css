@@ -3,6 +3,21 @@ featured-stuff {
 	flex-direction: column;
 }
 
+.featured1 .attention-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+.featured1 .info-voice {
+	color: var(--black);
+	text-transform: capitalize
+}
+
+.featured1 .reading-voice {
+	color: var(--systemgray);
+	text-transform: capitalize;
+}
+
 .feature-img {
 	max-width: 600px;
 	margin-top: var(--heading-bottom);

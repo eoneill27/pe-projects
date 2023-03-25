@@ -3,6 +3,26 @@ client-slider {
 	flex-direction: column;
 }
 
+.client1 .attention-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+.client1 .subtitle-voice {
+	color: var(--lightgray);
+	text-transform: capitalize;
+}
+
+.client1 .subtitle-strong {
+	color: var(--darkgray);
+	text-transform: capitalize;
+}
+
+.client1 .quietStrong-voice {
+	color: var(--lightgray);
+	text-transform: capitalize;
+}
+
 .reviews {
 	margin-top: 30px;
 	display: flex;

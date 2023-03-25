@@ -13,7 +13,7 @@ details-list {
 	max-width: 850px;
 	padding: 20px 0; 
 	list-style-type: none;
-	box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.15);
 }
 
 .details1 details p, .details2 details p {
@@ -23,6 +23,25 @@ details-list {
 
 .details3 details p {
 	max-width: 45ch;
+}
+
+.details1 .attention-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+.details1 .subtitle-voice {
+	color: var(--lightgray);
+	text-transform: capitalize;
+}
+
+.details1 .subtitle-strong {
+	color: var(--darkgray);
+	text-transform: capitalize;
+}
+
+.details1 .reading-voice {
+	color: var(--lightgray);
 }
 
 .details1 summary::after, .details3 summary::after {

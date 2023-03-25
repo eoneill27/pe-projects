@@ -1,4 +1,12 @@
+.video1 .hey-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
 
+.video1 .subtitle-voice {
+	color: var(--lightgray);
+	text-transform: capitalize;
+}
 
 
 

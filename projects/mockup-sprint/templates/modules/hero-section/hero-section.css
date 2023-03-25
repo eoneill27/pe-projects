@@ -13,6 +13,15 @@ hero-section {
 
 }
 
+.hero1 .heyyou-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+.hero1 .subtitle-voice {
+	color: var(--darkgray);
+}
+
 @media (min-width: 320px) {
 	.hero-links {
 		flex-direction: row;

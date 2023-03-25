@@ -17,6 +17,14 @@
 	}
 }
 
+.hey-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: 56px;
+	font-weight: 600;
+	line-height: 68px;
+	letter-spacing: 0.2px;
+}
+
 .attention-voice	{
 	font-family: 'Inter', sans-serif;
 	font-size: clamp(30px, 4vw, 48px);
@@ -26,6 +34,8 @@
 	.attention-voice {
 		font-size: 48px;
 		font-weight: 600; 
+		line-height: 58px;
+		letter-spacing: 0.2px;
 	}
 }
 
@@ -33,19 +43,20 @@
 	font-family: 'Inter', sans-serif;
 	font-size: 22px;
 	font-weight: 600;
+	line-height: 27px;
 }
 
 .subtitle-voice {
 	font-family: 'Inter', sans-serif;
 	font-size: 20px;
-	line-height: 1.3;
-	color: var(--lightgray);
+	line-height: 24px;
 }
 
 .subtitle-strong {
 	font-family: 'Inter', sans-serif;
 	font-size: 20px;
 	font-weight: 500;
+	line-height: 32px;
 }
 
 .subtitle-light {
@@ -57,7 +68,7 @@
 .reading-voice {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
-	line-height: 1.4;
+	line-height: 24px;
 }
 
 :is(.reading-voice, p) em {
@@ -79,6 +90,13 @@
 	font-family: 'Inter', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
+}
+
+.quietStrong-voice {
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 17px;
 }
 
 /* these would be scoped to section or to an article element */

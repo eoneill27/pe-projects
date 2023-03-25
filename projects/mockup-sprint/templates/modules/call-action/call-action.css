@@ -16,6 +16,16 @@ call-action.cta-noback {
 	background-color: transparent; 
 }
 
+.cta1 .attention-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+.cta1 .subtitle-voice {
+	color: var(--lightgray);
+	text-transform: capitalize;
+}
+
 .cta-links {
 	display: flex;
 	gap: 32px;
