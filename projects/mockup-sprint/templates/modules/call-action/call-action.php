@@ -8,6 +8,14 @@
 
 <call-action class="<?=$moduleClass?>">
 
+	<?php if(isset($module['ctaImgSrc'])) {
+		$ctaImgSrc = $module['ctaImgSrc']; ?>
+
+	<picture class="cta-img">
+		<img src="<?=$ctaImgSrc?>" alt="">
+	</picture>
+	<?php } ?>
+
 	<?php if(isset($module['subTop'])) {
 		$subTopClass = $module['subTopClass'];
 		$subTop = $module['subTop'];

@@ -64,7 +64,7 @@
 		$bottomLink = $module['bottomLink'];
 		$bottomLinkUrl = $module['bottomLinkUrl'];
 		$bottomLinkClass = $module['bottomLinkClass']; ?>
-	<a href="<?=$bottomLinkUrl?>" class="<?=$bottomLinkClass?>"><?=$bottomLink?></a>
+	<a href="<?=$bottomLinkUrl?>" class="bottom-link <?=$bottomLinkClass?>"><?=$bottomLink?></a>
 	<?php } ?>
 
 </card-grid>

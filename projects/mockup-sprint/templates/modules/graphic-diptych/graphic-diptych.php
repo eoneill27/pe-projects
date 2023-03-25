@@ -8,7 +8,7 @@
 
 ?>
 
-<graphic-diptych>
+<graphic-diptych class="<?=$moduleClass?>">
 	
 	<div class="diptych-side1">
 		<?php if(isset($module['heading'])) {

@@ -36,6 +36,10 @@ call-action.cta-noback {
 	text-transform: capitalize;
 }
 
+.cta-noback .cta-img {
+	margin-bottom: 24px;
+}
+
 .cta-links {
 	display: flex;
 	gap: 32px;

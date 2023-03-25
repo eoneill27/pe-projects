@@ -47,6 +47,11 @@ hero-section {
 	color: var(--white);
 }
 
+/*.signup-blue ::placeholder::before {
+	content: "../../../images/icons/envelope-light.svg";
+}*/
+
+
 @media (min-width: 320px) {
 	.hero-links {
 		flex-direction: row;

@@ -60,6 +60,7 @@
 			"section": "center-content",
 			"module": "call-action",
 			"moduleClass": "cta-noback",
+			"ctaImgSrc": "images/icons/arrow-cloud.svg",
 			"subTop": "Rhoncus, accumsan dictum",
 			"subTopClass": "subtitle-voice",
 			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",

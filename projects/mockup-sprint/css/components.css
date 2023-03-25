@@ -53,3 +53,79 @@ site-map .logo {
 	color: var(--primary);
 	border: 1px solid var(--primary);
 }
+
+/* signup input */
+
+.signup-form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+}
+
+.signup-form input {
+	background-repeat: no-repeat;
+	background-position: left 22px top 12px;
+	text-indent: 38px;
+	border: none;
+	width: 370px;
+	padding: 17.5px;
+	border-radius: 5px;
+}
+
+.signup-form ::placeholder {
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	opacity: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup-form button {
+	padding: 15px 20px;
+	border-radius: 5px;
+	border: none;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+#signup-blue input {
+	background-image: url("../images/icons/envelope-light.svg");
+	background-color: var(--secondary);
+}
+
+#signup-blue ::placeholder {
+	color: #e0e0e0;
+}
+
+#signup-blue button {
+	background-color: var(--white);
+	color: var(--primary);
+}
+
+#signup-white input {
+	background-image: url("../images/icons/envelope-dark.svg");
+	background-color: var(--white);
+	background-position: left 15px top 5px;
+	border: 1px solid #9E9E9E;
+	color: #bdbdbd;
+	padding: 10px 15px;
+}
+
+#signup-white ::placeholder {
+	color: #bdbdbd;
+	opacity: 1;
+}
+
+#signup-white button {
+	background-color: var(--primary);
+	color: var(--white);
+	font-size: 16px;
+	padding: 10px 22px;
+}

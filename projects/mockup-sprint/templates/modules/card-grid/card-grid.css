@@ -64,6 +64,20 @@ card-grid li {
 	color: var(--black);
 }
 
+.cardgrid3a .bottom-link {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.cardgrid3a .bottom-link::after {
+	content: url("../../../images/icons/arrow-box-blue.svg");
+	margin-top: 5px;
+
+}
+
 .cardgrid2 li {
 	display: flex;
 	flex-direction: column;
