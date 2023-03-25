@@ -22,6 +22,31 @@ hero-section {
 	color: var(--darkgray);
 }
 
+.hero2 .hey-voice {
+	font-weight: 700;
+	letter-spacing: 1.2px;
+	text-transform: capitalize;
+	color: var(--black);
+}
+
+.hero2 p .reading-voice {
+	color: var(--darkgray);
+}
+
+.hero2 a .button-rectFill {
+	color: var(--white);
+}
+
+.hero3 .heyyou-voice {
+	color: var(--white);
+	letter-spacing: 3.2px;
+}
+
+.hero3 .subtitle-strong {
+	line-height: 30px;
+	color: var(--white);
+}
+
 @media (min-width: 320px) {
 	.hero-links {
 		flex-direction: row;

@@ -20,6 +20,50 @@ card-grid li {
 	margin-bottom: 22px;
 }
 
+:is(.cardgrid2, .cardgrid3b) .attention-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+:is(.cardgrid2, .cardgrid3a, .cardgrid3b) .subtitle-voice {
+	color: var(--lightgray);
+	text-transform: capitalize;
+}
+
+:is(.cardgrid2, .cardgrid3b) .info-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+:is(.cardgrid2, .cardgrid3b) .reading-voice {
+	color: var(--systemgray);
+	text-transform: capitalize;
+}
+
+.cardgrid3a .hey-voice {
+	color: var(--black);
+	text-transform: capitalize;
+	margin-top: 16px;
+}
+
+.cardgrid3a .reading-voice {
+	color: var(--lightgray);
+}
+
+.cardgrid3a .subtitle-strong {
+	color: var(--primary);
+	text-transform: capitalize;
+}
+
+.cardgrid3a .summary-heading {
+	font-family: 'Inter', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 29px;
+	letter-spacing: 0.46px;
+	color: var(--black);
+}
+
 .cardgrid2 li {
 	display: flex;
 	flex-direction: column;

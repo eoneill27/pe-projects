@@ -25,12 +25,12 @@ details-list {
 	max-width: 45ch;
 }
 
-.details1 .attention-voice {
+:is(.details1, .details2, .details3) .attention-voice {
 	color: var(--black);
 	text-transform: capitalize;
 }
 
-.details1 .subtitle-voice {
+:is(.details1, .details2, .details3) .subtitle-voice {
 	color: var(--lightgray);
 	text-transform: capitalize;
 }
@@ -40,7 +40,12 @@ details-list {
 	text-transform: capitalize;
 }
 
-.details1 .reading-voice {
+:is(.details2, .details3) .subtitle-strong {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+:is(.details1, .details2, .details3) .reading-voice {
 	color: var(--lightgray);
 }
 

@@ -86,6 +86,7 @@
 	font-weight: 500;
 	line-height: 54px;
 	text-transform: capitalize;
+	color: var(--darkgray);
 }
 
 .client2 .client-name {
@@ -93,6 +94,8 @@
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 32px;
+	text-transform: capitalize;
+	color: var(--darkgray);
 }
 
 .client2 .client-role {
@@ -100,6 +103,8 @@
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 32px;
+	text-transform: capitalize;
+	color: var(--lightgray);
 }
 
 .client2 .client-info::before {
@@ -140,6 +145,16 @@
 	text-transform: capitalize;
 	text-align: left;
 	max-width: 40ch;
+}
+
+.client3 .client-name {
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.client3 .client-role {
+	color: var(--lightgray);
+	text-transform: capitalize;
 }
 
 @media (min-width: 900px) {

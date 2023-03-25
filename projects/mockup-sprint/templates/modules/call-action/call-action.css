@@ -21,8 +21,18 @@ call-action.cta-noback {
 	text-transform: capitalize;
 }
 
-.cta1 .subtitle-voice {
+:is(.cta1, .cta2, .cta-noback) .subtitle-voice {
 	color: var(--lightgray);
+	text-transform: capitalize;
+}
+
+.cta-noback .hey-voice {
+	color: var(--black);
+	text-transform: capitalize;
+}
+
+.cta-noback .subtitle-strong {
+	color: var(--primary);
 	text-transform: capitalize;
 }
 

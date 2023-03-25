@@ -49,7 +49,7 @@
 			"module": "hero-section",
 			"moduleClass": "hero2",
 			"heading1": "Arcu suscipit massa aliquam proin amet",
-			"heading1Class": "heyyou-voice",
+			"heading1Class": "hey-voice",
 			"paragraph": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
 			"paragraphClass": "reading-voice",
 			"link1Title": "Get started",
@@ -63,13 +63,13 @@
 			"subTop": "Rhoncus, accumsan dictum",
 			"subTopClass": "subtitle-voice",
 			"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-			"headingClass": "attention-voice",
+			"headingClass": "hey-voice",
 			"subBottom": "Neque, pulvinar vestibulum non aliquam.",
 			"subBottomClass": "subtitle-voice",
 			"links": [
 				{
 					"link": "Learn more",
-					"linkClass": "reading-voice",
+					"linkClass": "subtitle-strong",
 					"linkUrl": "#"
 				}
 			]
@@ -181,7 +181,7 @@
 			"heading": "Frequent Ask Questions",
 			"headingClass": "attention-voice",
 			"paraText": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
-			"paraClass": "reading-voice",
+			"paraClass": "subtitle-voice",
 			"detailsClass": "",
 			"detailsItems": [
 				{

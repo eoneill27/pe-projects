@@ -28,7 +28,7 @@
 
 body {
 	background-color: var(--paper);
-	color: var(--ink);
+/*	color: var(--ink);*/
 }
 
 .center-content, .feature, .clients, .call-to-action, .faqs {

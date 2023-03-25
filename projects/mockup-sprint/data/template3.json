@@ -52,7 +52,7 @@
 			"heading1": "Arcu suscipit massa aliquam proin amet",
 			"heading1Class": "heyyou-voice all-caps",
 			"paragraph": "At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.",
-			"paragraphClass": "subtitle-voice",
+			"paragraphClass": "subtitle-strong",
 			"formClass": "",
 			"formID": "",
 			"formMethod": "",
@@ -69,27 +69,27 @@
 			"moduleClass": "cardgrid3a",
 			"topSubClass": "subtitle-voice",
 			"topSub": "Rhoncus, accumsan dictum",
-			"heading2Class": "attention-voice",
+			"heading2Class": "hey-voice",
 			"heading2": "Etiam nulla lectus amet nunc ",
 			"bottomLinkUrl": "",
-			"bottomLinkClass": "subtitle-voice",
+			"bottomLinkClass": "subtitle-strong",
 			"bottomLink": "See all",
 			"listItems": [
 				{
 					"liHeading": "Nibh mattis gravida",
-					"liHeadingClass": "info-voice",
+					"liHeadingClass": "summary-heading",
 					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
 					"liTextClass": "reading-voice"
 				},
 				{
 					"liHeading": "Nisl, in consectetur",
-					"liHeadingClass": "info-voice",
+					"liHeadingClass": "summary-heading",
 					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
 					"liTextClass": "reading-voice"
 				},
 				{
 					"liHeading": "Aenean condimentum ",
-					"liHeadingClass": "info-voice",
+					"liHeadingClass": "summary-heading",
 					"liText": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu",
 					"liTextClass": "reading-voice"
 				}
@@ -171,7 +171,7 @@
 					"clientName": "Courtney Henry",
 					"clientNameClass": "subtitle-voice",
 					"clientRole": "Marketing Coordinator",
-					"clientRoleClass": "subtitle-light",
+					"clientRoleClass": "subtitle-voice",
 					"pictureClass": "",
 					"imgSrc": "images/place-img.svg",
 					"imgAlt": "A grey landscape"
@@ -190,31 +190,31 @@
 			"detailsItems": [
 				{
 					"summary": "How soon will my order ship?",
-					"summaryClass": "info-voice",
+					"summaryClass": "subtitle-strong",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
 					"textClass": "reading-voice"
 				},
 				{
 					"summary": "Is there any warranty exclusions?",
-					"summaryClass": "info-voice",
+					"summaryClass": "subtitle-strong",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
 					"textClass": "reading-voice"
 				},
 				{
 					"summary": "Are there any return exclusions?",
-					"summaryClass": "info-voice",
+					"summaryClass": "subtitle-strong",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
 					"textClass": "reading-voice"
 				},
 				{
 					"summary": "Will I be charged for a replacement item?",
-					"summaryClass": "info-voice",
+					"summaryClass": "subtitle-strong",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
 					"textClass": "reading-voice"
 				},
 				{
 					"summary": "How can I track my orders and payment?",
-					"summaryClass": "info-voice",
+					"summaryClass": "subtitle-strong",
 					"text": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
 					"textClass": "reading-voice"
 				}
@@ -227,7 +227,7 @@
 			"heading": "Etiam nulla lectus amet nunc",
 			"headingClass": "attention-voice",
 			"text": "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
-			"textClass": "subtitle-voice",
+			"textClass": "reading-voice",
 			"formClass": "",
 			"formID": "",
 			"formMethod": "",
