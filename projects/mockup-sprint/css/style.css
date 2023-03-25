@@ -195,7 +195,13 @@
 }
 
 .footer-1, .footer-2 {
-	padding: 100px 0;
+	padding: 20px 0;
+}
+
+@media (min-width: 1210px) {
+	.footer-1, .footer-2 {
+		padding: 100px 0;
+	}
 }
 
 .footer-2 .loud-voice, .footer-2 .quiet-voice {
