@@ -14,7 +14,7 @@
 			$topSub = $module['topSub'];
 			$topSubClass = $module['topSubClass'];
 			?>
-		<h2 class="<?=$topSubClass?>"><?=$topSub?></h2>
+		<h3 class="<?=$topSubClass?>"><?=$topSub?></h3>
 		<?php } ?>
 
 		<?php if(isset($module['heading2'])) { 
@@ -52,7 +52,7 @@
 
 				<?php } ?>
 
-				<h3 class="<?=$liHeadingClass?>"><?=$liHeading?></h3>
+				<h4 class="<?=$liHeadingClass?>"><?=$liHeading?></h4>
 				<p class="<?=$liTextClass?>"><?=$liText?></p>
 			</li>
 

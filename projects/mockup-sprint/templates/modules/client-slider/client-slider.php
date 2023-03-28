@@ -17,7 +17,7 @@
 	<?php if(isset($module['text'])) {
 		$text = $module['text'];
 		$textClass = $module['textClass']; ?>
-	<p class="<?=$textClass?>"><?=$text?></p>
+	<h3 class="<?=$textClass?>"><?=$text?></h3>
 	<?php } ?>
 
 	<div class="reviews">

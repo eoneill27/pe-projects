@@ -6,12 +6,6 @@
 
 	$slug = currentSlug();
 
-	// if (isset($_GET['page'])) {
-	// 	return $_GET['page'];
-	// } else {
-	// 	return 'home';
-	// }
-
 	// if there is a data file for a particular page
 	// Get the page data
 	$pageDataFilePath = "data/$slug.json";
@@ -28,7 +22,7 @@
 
 			<section class="<?=$module['section']?>">
 				<inner-column>
-			<?php include("templates/modules/$moduleName/$moduleName.php"); ?>
+					<?php include("templates/modules/$moduleName/$moduleName.php"); ?>
 				</inner-column>
 			</section>
 	<?php

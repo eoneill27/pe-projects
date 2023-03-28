@@ -14,13 +14,16 @@
 	<picture class="cta-img">
 		<img src="<?=$ctaImgSrc?>" alt="">
 	</picture>
+
 	<?php } ?>
 
 	<?php if(isset($module['subTop'])) {
 		$subTopClass = $module['subTopClass'];
 		$subTop = $module['subTop'];
 	?>
-	<p class="<?=$subTopClass?>"><?=$subTop?></p>
+
+	<h3 class="<?=$subTopClass?>"><?=$subTop?></h3>
+
 	<?php } ?>
 
 	<?php if(isset($module['heading'])) {
@@ -28,13 +31,16 @@
 		$headingClass = $module['headingClass']; ?>
 
 	<h2 class="<?=$headingClass?>"><?=$heading?></h2>
+
 	<?php } ?>
 
 	<?php if(isset($module['subBottom'])) {
 		$subBottomClass = $module['subBottomClass'];
 		$subBottom = $module['subBottom'];
 	?>
-	<p class="<?=$subBottomClass?>"><?=$subBottom?></p>
+
+	<h3 class="<?=$subBottomClass?>"><?=$subBottom?></h3>
+	
 	<?php } ?>
 
 	<div class="cta-links">

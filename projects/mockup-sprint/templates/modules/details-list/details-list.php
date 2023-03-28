@@ -22,7 +22,7 @@
 			$paraText = $module['paraText'];
 			$paraClass = $module['paraClass']; ?>
 
-		<p class="<?=$paraClass?>"><?=$paraText?></p>
+		<h3 class="<?=$paraClass?>"><?=$paraText?></h3>
 
 		<?php } ?>
 	</div>
