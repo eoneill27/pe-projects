@@ -1,10 +1,23 @@
 # Emily's Daily Journal
 
+## March 27, 2023
+
+### Stand up
+
+### Today's lesson: 197:157 - So many things to do
+
+### To dos
+
+- [] get a working todo list put together
+- [] do it again
+- [] do it again
+- [] go through "storing data" resource
+
 ## March 25, 2023
 
 ### Stand up
 
-### Today's lesson - 194:156 - Mockup to code challenge SPRINT
+### Today's lesson - 195:156 - Mockup to code challenge SPRINT
 
 Yesterday I continued with styling. This is where things are at so far:
 https://peprojects.dev/alpha-6/emily/projects/mockup-sprint/index.php
@@ -16,7 +29,7 @@ No blockers today.
 
 ### To dos
 
-- [] fine-tuning CSS
+- [x] fine-tuning CSS
 
 ## March 24, 2023
 
@@ -28,7 +41,7 @@ Looking forward to seeing how everyone else approached this one.
 
 No blockers today.
 
-### Today's lesson - 193:155 - Mockup to code challenge SPRINT
+### Today's lesson - 194:155 - Mockup to code challenge SPRINT
 
 ### To dos
 
@@ -44,7 +57,7 @@ I've been working more on the styling today and I'm feeling generally pretty goo
 
 No blockers.
 
-### Today's lesson - 192:154 - Mockup to code challenge SPRINT
+### Today's lesson - 193:154 - Mockup to code challenge SPRINT
 
 ### To dos
 
