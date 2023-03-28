@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+}
+
+inner-column {
+	display: block;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section {
+	margin-top: 60px;
+}
+
+input {
+	margin-top: 8px;
+}
+
+button {
+	margin-top: 8px;
+}
+
+form {
+	margin-top: 40px;
+}
+
+ol, .list {
+	border: 2px solid black;
+	padding: 20px;
+	max-width: 800px;
+}
+
+.list {
+	margin-top: 40px;
+}

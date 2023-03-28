@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>To Do App</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<inner-column>
+
+			<section class="list1">
+
+				<h1>To Do List (1)</h1>
+
+				<form action="" id="add-form">
+					<label for="item-add">Add a to do:</label>
+					<input type="text" id="item-add">
+					<button id="submit-item" type="submit">Submit</button>
+				</form>
+
+				<div class="list">
+					<h2>To Do List</h2>
+					<ol id="todo-list">
+						
+					</ol>
+				</div>
+
+				<form action="" id="remove-form">
+					<label for="item-remove">Remove item #:</label>
+					<input type="text" id="item-remove">
+					<button id="submit-remove" type="submit">Remove</button>
+				</form>
+
+				<form action="" id="edit-form">
+					<label for="item-editNumber">Edit item #:</label>
+					<input type="text" id="item-editNumber">
+					<label for="item-editContent">New content:</label>
+					<input type="text" id="item-editContent">
+					<button id="submit-edit" type="submit">Make your changes</button>
+				</form>
+			</section>
+
+			<section class="list2">
+				<h2>Check off list</h2>
+
+				<form action="" id="checkoff-add">
+					<label for="check-add">Add a to do:</label>
+					<input type="text" id="check-add">
+					<button id="submit-check" type="submit">Submit</button>
+				</form>
+
+				<ol id="checkoff-list">
+		
+
+				</ol>
+
+				<form action="" id="checkoff-remove">
+					<label for="check-removeNo">Remove item number:</label>
+					<input type="text" id="check-removeNo">
+					<button id = "submit-checkRemove" type="submit">Remove</button>
+				</form>
+
+			</section>
+		</inner-column>
+
+		<script src="app.js"></script>
+	</body>
+
+</html>
