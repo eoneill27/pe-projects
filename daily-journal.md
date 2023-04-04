@@ -1,14 +1,173 @@
 # Emily's Daily Journal
 
+## April 4, 2023
+
+### Stand up
+
+Yesterday I spent my flight from Toronto to Vancouver revisiting some WordPress concepts and getting a new install and development environment set up. I need to go over a few more things today to get back into a WordPress state of mind. 
+
+I'm meeting with Ivy this afternoon to discuss the Gold Collective project, and I'll continue working on it all tonight! I've got a WP boilerplate started, and I'd like to continue to flesh that out as I get this new project set up.
+
+No blockers today.
+
+### 205:164 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [] meet with Ivy
+- [] refresh WordPress
+- [] WP boilerplate work
+
+## April 3, 2023
+
+### Stand up
+
+### 204:163 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [x] info architecture audit
+- [x] refresh WordPress
+
+## April 1, 2023
+
+### Stand up
+
+### Today's lesson: 202:162 - 
+
+### To dos
+
+- [] fully working to do app using classes - working form, rendering todos, add, remove, toggle
+
+## March 31, 2023
+
+### Stand up
+
+### Today's lesson: 201:161 - Rendering data
+
+
+### To dos
+
+- [x] lesson
+
+
+## March 30, 2023
+
+### Stand up
+
+Yesterday I worked on the constructor function and used it to make a "Books to Read" list maker. The day got a little away from me, though, so I'd like to spend more time with constructor functions today.
+
+This morning I've been working on local storage stuff - I think I've got some functions worked out for saving and retrieving. I'm on a train to Connecticut right now, staying with my aunt and uncle tonight. While I was in New York I was working on PE every time I took a break from my walking - but there's nowhere to walk at my aunt and uncle's place, so I should have some more dedicated time to work!
+
+No blockers today.
+
+### Today's lesson: 200:160 - Exploring local storage
+
+### To dos
+
+- [x] practice setting, getting, resetting and clearing basic values with localStorage
+- [x] employ stringify and parse
+- [x] build a library
+- [] apply it
+- [] catch up on Slack messages
+- [] storing data resource
+- [] continue working on constructor functions
+
+## March 29, 2023
+
+### Stand up
+
+Yesterday I worked on encapsulation and started on a book list app. 
+
+Today I've "constructorified" my to-do list app and have created an edit method using the prototype. I want to keep playing around with all of this tonight. One question I have - when we add a method to the constructor function using the prototype - why exactly are we doing this? Why not just put it directly in the constructor function? (It may be that I just haven't taken the time yet today to think this through hard enough.)
+
+No blockers! 
+
+### Today's lesson: 199:159 - Constructor functions and debugger
+
+### To dos 
+
+- [x] "constructorify" your todo app
+- [] catch up on slack messages 
+- [] storing data resource
+
+## March 28, 2023
+
+### Stand up
+
+Yesterday I worked on the to do app and then realized this morning that I got a little ahead of myself.
+
+Today I've watched the encapsulation video and will keep practicing with the basic to do app functions and encapsulating those. I haven't put much thought into what my specific project will be - so I will do that, too! 
+
+No blockers today.
+
+### Today's lesson: 198:158 - Exploring encapsulation
+
+
+### To dos 
+
+- [x] practice turning to-do app into object
+- [x] think about a specific project - make it unique to you
+- [] storing data resource
+
 ## March 27, 2023
 
 ### Stand up
 
 ### Today's lesson: 197:157 - So many things to do
 
+Todo MVC - shows code in all different frameworks
+
+Making a to do list
+Need to be able to add a todo
+And remove a todo 
+and render the todo on the screen
+
+Arrays
+Objects
+JS also has new faetures - Sets and Maps (and some variations of these)
+
+An array is perfect for a to-do list
+const todos = [];
+
+const = constant - not going to change
+
+list, to dos - nouns
+add - verb
+when you think of a verb - think function
+
+function add (todo) {
+	todos.push(todo);
+}
+
+can use push method on todos array
+
+function remove(id) {
+	todos.splice(id, 1);
+}
+
+If you want to describe something, an object is the way to go
+
+function add(content) {
+	var todo = {
+		content: content
+	}
+	todos.push(todo);
+}
+
+function complete(id) {
+	todos[id].complete = true;
+}
+
+variables created inside functions are only available inside the function (scope)
+
+Spread syntax - used as an alternate to array.push(item)
+var cars = ["Toyota", "Honda", "Ford"];
+cars = [...cars, "VW"];
+
 ### To dos
 
-- [] get a working todo list put together
+- [x] get a working todo list put together
 - [] do it again
 - [] do it again
 - [] go through "storing data" resource
@@ -1670,7 +1829,7 @@ wpbeginner.com - Beginner's Guide to WP database management -
 
 WP written using PHP as its scripting language and MySQL as its database management system
 
-During installation, WP uses the informatino you provide about the DB to create tables and store default installation data inside those tables
+During installation, WP uses the information you provide about the DB to create tables and store default installation data inside those tables
 
 After the installation, WP runs queries to this DB to dynamically generate HTML pages for your website
 You don't have to create a new .html file for every page - WP handles everything dynamically
