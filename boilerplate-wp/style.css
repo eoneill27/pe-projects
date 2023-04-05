@@ -1,0 +1,51 @@
+
+/*
+Theme Name: [name here]
+Author: Emily O'Neill
+Author URI: https://emilyoneill.dev
+Description: Theme for [description]
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 0.1
+Requires at least: 5.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: [text domain]
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "css/meyer-setup.css";
+@import "css/settings.css";
+
+/* COMPONENTS */
+@import "css/site-menu.css";
+@import "css/cards.css";
+
+/* PAGES */
+
+
+/* TYPOGRAPY */
+
+/* log in */
+
+/* 404 */
+
+
+/* SITE-NAV */
+
+.site-header {
+	background-color: transparent;
+	color: var(--ink);
+	position: sticky;
+	z-index: 5;
+}
+
+/* FOOTER */
+
+.site-footer {
+	background-color: var(--gray);
+	color: var(--myrtle);
+}
+
+
+

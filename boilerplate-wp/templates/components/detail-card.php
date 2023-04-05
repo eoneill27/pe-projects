@@ -1,0 +1,1 @@
+detail-card.php

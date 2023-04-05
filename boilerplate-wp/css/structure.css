@@ -1,0 +1,31 @@
+/* SITE STRUCTURE */
+
+body * {
+/*	border: 3px solid red;*/
+}
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+inner-column {
+	display: block;
+	max-width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+}
+
+.page-content {
+	flex-grow: 1;
+}
