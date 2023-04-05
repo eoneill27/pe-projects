@@ -1,5 +1,18 @@
 # Emily's Daily Journal
 
+## April 5, 2023
+
+### Stand up
+
+### 206:165 - No lesson - Gold Collective side challenge
+
+### To dos
+
+- [] meet with Ivy
+- [] refine WP boilerplate
+- [] look at Derek's codepens
+- [] create 2 grid layouts 
+
 ## April 4, 2023
 
 ### Stand up
@@ -14,9 +27,8 @@ No blockers today.
 
 ### To dos 
 
-- [] meet with Ivy
-- [] refresh WordPress
-- [] WP boilerplate work
+- [x] refresh WordPress
+- [x] WP boilerplate work
 
 ## April 3, 2023
 
