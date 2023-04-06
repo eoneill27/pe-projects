@@ -416,3 +416,49 @@ cartClearAll.addEventListener('click', function(event) {
 	// }
 
 	// getPrices();
+
+// pizza party
+
+// form - simple calculator
+
+const pizzaForm = document.querySelector('#pizza-party');
+const peopleInput = pizzaForm.querySelector('#people');
+const pizzasInput = pizzaForm.querySelector('#pizzas');
+const slicesInput = pizzaForm.querySelector('#slices');
+const pizzaOutput = document.querySelector('#pizza-output');
+
+pizzaForm.addEventListener('submit', function(event) {
+	event.preventDefault();
+
+	if (peopleInput.value && pizzaInput.value && slicesInput.value) {
+
+		const people = Number(peopleInput.value);
+		const pizzas Number(pizzaInput.value);
+		const slices Number(slicesInput.value);
+
+		const totalSlices = pizzas * slices;
+		const slicesPerPerson = Math.floor(totalSlices/people);
+
+		const slicesAssigned = people * slicesPerPerson;
+
+		const leftovers = totalSlices - slicesAssigned;
+		
+		let message = "You are having a pizza party with " + people + " people. You have ordered " + pizzas + " pizzas. Each pizza has " + slices + " slices. Each guest will get " + slicesPerPerson + " , and you will have " + leftovers + " leftover slices.";
+
+		pizzaOutput.style.display = "block";
+		pizzaOutput.innerHTML = message;
+
+	} else {
+		pizzaOutput.innerHTML = "<p>Please enter some numbers</p>";
+	}
+});
+
+const clearPizza = document.querySelector("#clear-pizza");
+
+clearPizza.addEventListener('click', function(clear) {
+	people.value = "";
+	pizzas.value = "";
+	slices.value = "";
+	pizzaOutput.style.display = "none";
+});
+
