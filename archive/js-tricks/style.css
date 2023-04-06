@@ -136,6 +136,7 @@ body.dark .type::after {
 
 output {
 	display: block;
+	margin-top: 10px;
 }
 
 output:empty {
