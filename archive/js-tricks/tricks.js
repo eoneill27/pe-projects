@@ -430,11 +430,11 @@ const pizzaOutput = document.querySelector('#pizza-output');
 pizzaForm.addEventListener('submit', function(event) {
 	event.preventDefault();
 
-	if (peopleInput.value && pizzaInput.value && slicesInput.value) {
+	if (peopleInput.value && pizzasInput.value && slicesInput.value) {
 
 		const people = Number(peopleInput.value);
-		const pizzas Number(pizzaInput.value);
-		const slices Number(slicesInput.value);
+		const pizzas = Number(pizzasInput.value);
+		const slices = Number(slicesInput.value);
 
 		const totalSlices = pizzas * slices;
 		const slicesPerPerson = Math.floor(totalSlices/people);
@@ -443,7 +443,9 @@ pizzaForm.addEventListener('submit', function(event) {
 
 		const leftovers = totalSlices - slicesAssigned;
 		
-		let message = "You are having a pizza party with " + people + " people. You have ordered " + pizzas + " pizzas. Each pizza has " + slices + " slices. Each guest will get " + slicesPerPerson + " , and you will have " + leftovers + " leftover slices.";
+		let message = "You are having a pizza party with " + people + " people. You have ordered " + pizzas + " pizzas. Each pizza has " + slices + " slices. Each guest will get " + slicesPerPerson + " slices, and you will have " + leftovers + " leftover slices.";
+
+		console.log(message);
 
 		pizzaOutput.style.display = "block";
 		pizzaOutput.innerHTML = message;
