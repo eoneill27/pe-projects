@@ -1,16 +1,57 @@
 # Emily's Daily Journal
 
+## April 7, 2023
+
+### Stand up
+
+I once again forgot to do the Thursday video standup - so now I've got a reminder in my calendar every Thursday to help me get into the habit.
+
+Yesterday I worked in the morning and at lunch, but put things aside in the evening, knowing that I've got an incredible 5-day weekend ahead of me and very few plans. I intend to spend the next five days really digging into the Gold Collective project. 
+
+### 208:167 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [] create 2 grid layouts
+- [] refine boilerplate
+- [] look into SASS
+- [] 
+
+## April 6, 2023
+
+### Stand up
+
+Today is very much a continuation of yesterday. I spent some time last night going through the files that Derek and Ivy sent over. I have the website structure in place - now it's a matter of building modules and forms and adding styling, and making it easy for a user (Ivy) to navigate the admin panel and add content. 
+
+My swim class starts up again tonight, so I'll be a bit interrupted in my work this evening - but I have a long weekend starting tomorrow, so I'll be able to devote a lot of time to this project in the next few days.
+
+No blockers today.
+
+### 207:166 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [x] create page heading module
+- [] create 1 grid layout
+- [] continue to work on boilerplate
+
 ## April 5, 2023
 
 ### Stand up
+
+Yesterday and this morning I continued to work on my WordPress boilerplate and general refresher. I've also continued to work on getting the skeleton for Ivy's site set up.
+
+I met with Ivy this afternoon to discuss the project, and I have some project files to look at this evening.
+
+No blockers today!
 
 ### 206:165 - No lesson - Gold Collective side challenge
 
 ### To dos
 
-- [] meet with Ivy
+- [x] meet with Ivy
 - [] refine WP boilerplate
-- [] look at Derek's codepens
+- [x] look at Derek's codepens
 - [] create 2 grid layouts 
 
 ## April 4, 2023
