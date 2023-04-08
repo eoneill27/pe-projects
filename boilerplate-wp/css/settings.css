@@ -1,3 +1,7 @@
+html {
+	--column-width: 1300px;
+}
+
 body {
 
 	--paper: #fbf9f7;

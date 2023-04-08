@@ -20,7 +20,7 @@ main {
 
 inner-column {
 	display: block;
-	max-width: 1300px;
+	max-width: var(--column-width);
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 15px;
