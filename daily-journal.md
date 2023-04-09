@@ -1,5 +1,18 @@
 # Emily's Daily Journal
 
+## April 8, 2023
+
+### Stand up
+
+### 209:168 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [] figure out deployment issues
+- [] create 2 grid layouts
+- [] refine boilerplate
+- [] update daily journal notes
+
 ## April 7, 2023
 
 ### Stand up
@@ -14,8 +27,8 @@ Yesterday I worked in the morning and at lunch, but put things aside in the even
 
 - [] create 2 grid layouts
 - [] refine boilerplate
-- [] look into SASS
-- [] 
+- [x] look into SASS
+- [] update daily journal notes
 
 ## April 6, 2023
 
@@ -447,6 +460,236 @@ There are only so many things you can do:
 
 Let it be simple! 
 
+#### Concatenation
+1. Use + operator - const str = "Hello" + " " + "world";
+can use +=, where a += b is shorthand for a = a + b
+let str = 'hello';
+str += ' ';
+str += 'world';
+str; //"hello world";
+
+if the left side of the + operator is a string, JS will coerce the right hand side to a string - so you can concatenate objects, numbers, null and undefined
+
+2. Array.join()
+creates a new string by concatenating all elements in an array
+* this is the preferred choice if you find yourself repeating the same character over and over again as a separator
+
+3. string.concat()
+only works with strings
+rarely used - has more error cases than the + operator
+
+4. string interpolation
+use backtick
+`Hi, I'm ${name} and I'm from ${country}`;
+
+#### Escaping characters in strings
+quotes/apostrophes - easiest to just use double quotes when there are apostrophes/single quotes inside the string
+- but you can also use backslash to escape characters (harder to read) - 'I\'m happy';
+
+backtick - `use backtick \`\` to create a template string`;
+
+#### Template literals/template strings
+literals delimited with backtick characters allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates
+
+informally called template strings because they are used most commonly for string interpolation
+But a a tagged template literal may not result in a string. It can be used with a custom tag funtion to perform whatever operations you want on the different parts of the template literal
+
+#### 3 ways to declare a variable in JS
+scope determines the accessibility or visibility of variables to JS
+3 types of scope: 
+1. Global - declared outside a variable
+2. function (local)
+3. Block (new with ES6)
+
+global variables can be accessed and changed in any other scope
+
+Variables with the same name can be used in different functions because each function creates a new scope
+
+Block scope includes statements and loops, or any other code wrapped in {} 
+When invoked, they don't create a new scope
+Variables declared inside a block scope will remain in the scope they were already in
+
+var does not support block-level scope
+If a variable is defined in a loop or in an if statement it can be accessed outside the block and accidentally redefined, leading to a buggy program
+
+#### let
+like var, let allows you to reassign the value later on
+main difference is that let deals with a block scope and although it can be reassigned, it cannot be redeclared
+
+#### const
+Declaring a variable with the const keyword means that it cannot be redeclared or reassigned
+Use let when you know that the value of a variable will change
+Otherwise use const
+
+let myName; - declaring variable - the variable exists but has no value
+myName = "Emily"; - initializing the variable with a value
+let myName = "Emily" - doing both at the same time
+
+MDN recommends using let instead of var
+
+constants must be initialized when you declare them
+
+If const is pointing to an object, you can change the content of the object
+
+Const tells anyone looking at your code that this name will never be assigned to a different value. Any time they see this name, they will know what it refers to. 
+
+Use const when you can, and use let when you have to.
+
+#### double
+specific type of floating point number that has greater precision than standard floating point numbers (they are accurate to a greater number of decimal places)
+
+JS only has one data type for numbers - number
+
+#### typeof 
+operator that checks variable datatype
+
+#### useful number methods
+toFixed() = round to fixed # of decimal places 
+const twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+
+Number() = constructor that converts string value to number
+let myNumber = "74";
+myNumber = Number(myNumber); // 74
+
+% - remainder (sometimes called modulo)
+returns the remainder leftover after you've divided the left # into a number of integer portions equal to the right #
+8%3 - returns 2
+
+** - Exponent
+5**2 returns 25
+
+++ - increment operator
+cannot be applied directly to a number
+we are assigning a variable a new updated value, not operating on the value itself
+let num1 = 4;
+num1++; // 4
+num1; // 5
+
+-- decrement operator
+
+#### Assignment operators
+
+= 
++=   
+-=   // x -= 3; same as x = x-3
+*=	  // x *= 3; same as x = x*3
+/=   // x /= 3; same as x = x/3
+
+#### Comparison operators
+
+===   strict equality - tests whether left and right values are identical
+!==   strict non-equality - tests whether left and right values are not identical
+<     less than
+>     greater than
+<=    less than or equal to
+>=    greater than or equal to
+
+strict equality and strict non-equality test both values and datatypes, whereas == and != only test value, not datatypes
+MDN recommends using strict versions because they result in fewer erros
+
+You can include JS expressions inside template literals - results will be included in result
+
+template literals respect line breaks in source code, so you can write strings that span multiple lines
+
+in a normal string (not a template literal), use line break characters (\n) in the string.
+
+#### String methods
+.length()
+.includes()
+.startsWith()
+.endsWith()
+.indexOf()
+.slice() - use to extract a substring from a string - pass index at which to start and index at which to end
+.toLowerCase()
+.toUpperCase()
+.replace() - pass string you want to replace and string you want to replace it with; replace doesn't change the string it was called on - returns a new string
+.replaceAll() - changes all occurrences - .replace() only changes the first occurrence of the substring
+
+Array inside of an array = multidimensional array
+const random = ['tree', 795, [0, 1, 2]];
+access the #2 = random[2][2];
+
+use.indexOf() to find index of an item in an array - will return -1 if item is not in array
+
+if you know the index of an item, you can remove it from an array using splice();
+
+for loop to access every item in an array
+for (const bird of birds) {}
+
+#### map()
+use map() to do the same thing to each item in an array, resulting in an array containing the changed items
+function double(number) {
+	return number*2;
+}
+const numbers = [5, 2, 7, 6];
+const doubled = numbers.map(double);
+console.log(doubled); // [10, 4, 14, 12]
+
+map calls the function once for each item in the array, passing in the item
+It then adds the return value from each function call to a new array, and finally returns the new array
+
+#### filter()
+give a function to the filter() method
+filter() calls the function for every item in the array, passing in the item
+If the function returns true, then the item is added to a new array.
+Finally, it returns the new array.
+
+#### split()
+takes a single parameter - the character you want to separate the string at - and returns the substrings between the separator as items in an array
+
+#### join()
+does the opposite - converst array to string with passed-in separator
+
+#### toString() 
+simpler than join() because it doesn't take a parameter, but it is more limiting
+toString() always uses a comma
+
+$$ AND
+|| OR 
+!  NOT 
+
+if...else statements are mainly good for cases where you've got a couple of choices, and each one requires a reasonable amount of code to be run - and/or the conditions are complex (for example, multiple logical operators)
+
+For cases where you just want to set a variable to a certain choice of value or print out a particular statement depending on a condition, if...else syntax can be a bit cumbersome, especially if you have a large number of choices.
+
+#### switch statements
+take a single expression/value as an input, and then look through several choices until they find one that matches that value, executing the corresponding code that goes along with it
+
+const select = document.querySelector('select');
+const para = document.querySelector('p');
+select.addEventListener('change', setWeather);
+
+function setWeather() {
+	const choice = select.value;
+	switch(choice) {
+		case 'sunny': 
+			para.textContent = '...';
+			break;
+		case 'rainy': 
+			para.textContent = '...';
+			break;
+	}
+}
+
+#### ternary operator/conditional operator
+tests a condition and returns one value/expression if it is true, and another if it is false
+
+const greeting = isBirthday
+	? 'Happy birthday!'
+	: 'Good morning.';
+	
+If variable isBirthday is true, expression after ? will run - otherwise, expression after : will run
+
+ternary operator can also be used to run functions or lines of code
+
+#### hijacking PHP forms with JS
+
+let them still work without JS, but enhance them and make the user interaction more immediate by using JS
+
+hijack form by preventing default form behaviour
+Default behaviour is for it to submit the form to a server
+event.preventDefault();
+myEvent.preventDefault(); (whatever is in the event listener function)
 
 ### To dos
 
@@ -945,6 +1188,13 @@ No blockers, but it's snowing outside and I'm not super happy about that. My rac
 
 ### Today's lesson - 169:133 - Personal site "PRO" (layout)
 
+Affinity - view menu - guide manager
+allows you to set up grid on art board
+
+12 columns is a common choice for grid for tablets and larger
+good mix of 3 and 4
+might be a good default
+
 ### To dos
 
 - [x] fill out content & typography explorations
@@ -968,7 +1218,6 @@ No blockers today.
 - [x] write some case study content - blurbs at least
 - [] grid exercises
 
-
 ## February 24, 2023
 
 ### Stand up
@@ -980,6 +1229,10 @@ Today I'll be working on typography explorations, which I really enjoy. Might do
 No blockers today.
 
 ### Today's lesson - 166:131 - Working through type details
+
+16px is standard readable font size
+
+v-fonts.com - Variable fonts
 
 ### To dos
 
