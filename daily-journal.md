@@ -1,15 +1,75 @@
 # Emily's Daily Journal
 
+## April 12, 2023
+
+### Stand up
+
+### 213:171 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [] figure out ACF blocks
+- [] update Daily Journal with notes
+
+## April 11, 2023
+
+### Stand up
+
+Yesterday I continued to work on cleaning up some styles on the Gold Collective site. I was in touch with Ivy about it, and she wondered how she is supposed to know which layout modules are which when she's choosing them from the admin panel - in the classic editor, all of the layouts represented by straightforward form fields with no visual clues as to what they might look like when they're published to the page.
+
+This led to some information from Derek about custom ACF blocks and the Gutenberg editor. In theory, these will let the backend look like the front end so the user knows what the layout looks like before it's published.
+
+In practice, I have had a hard time getting this set up! I've gone through quite a few tests and can't figure out where I'm going wrong, so I'll be troubleshooting this with Derek today. 
+
+That's a blocker, but otherwise I'm really excited to be progressing with WordPress.
+
+### 212:170 - No lesson - Gold Collective side challenge
+
+### To dos 
+
+- [] figure out ACF blocks
+
+## April 10, 2023
+
+### Stand up
+
+This weekend I continued to work on the Gold Collective site. I built a couple of layout modules and also created a field group using flexible content fields for reusable modules 
+like a graphic diptych and a call to action. These should add a bit of additional flexibility when it comes to the client adding content to the pages.
+
+I also added the copy to the site, so that I can start to style the typography and spacing.
+
+Today I've been working on styling, but I want to get back to the weddings, FAQs and review pages - they all involve card-type components that need to be styled. I also need to add a basic photo field or module into all of the pages so single photos can be interspersed where needed.
+
+No blockers today.
+
+### 211:169 - No lesson - Gold Collective side challenge
+
+### To dos
+
+- [] phone nav - hamburger menu
+- [] footer content
+- [] weddings landing page
+- [] photo module for all pages
+
+
 ## April 8, 2023
 
 ### Stand up
+
+Yesterday I spent a lot of time watching a couple of videos that Derek made about the development "pipeline" - going through all of the things that you need and getting everything set up for a small web development shop. Part of this was also figuring out how to set up a staging area and a shared git repo for people collaborating on a project, which made theoretical sense when I watched the videos but which got a little confusing for me in real life.
+
+Today I met with Derek to walk through some of that stuff and it seems to be working now. I have my local WP install, which is a local repository, and that local repository is connected to the remote Gold Collective repository that Derek set up. We also have a staging site at gold.reputable.agency - a subdomain of reputable.agency - so that progress can be shared without using the real domain name until everything is ready to go.
+
+I didn't make any layout progress yesterday because the other stuff took up most of my time, but I would like to get started on at least one layout now. In the classic editor, I will be building out a custom form with flexible content fields, so multiple layouts will be available to choose from and move around into different configurations.
+
+No blockers now that all the repo stuff is cleared up!
 
 ### 209:168 - No lesson - Gold Collective side challenge
 
 ### To dos 
 
-- [] figure out deployment issues
-- [] create 2 grid layouts
+- [x] figure out deployment issues
+- [x] create 2 grid layouts
 - [] refine boilerplate
 - [] update daily journal notes
 
@@ -354,6 +414,31 @@ No blockers today.
 
 ### Today's lesson - 188:150 - Exercises for Programmers with JavaScript (Work Day)
 
+Put repeating code into a function - you don't want to have to write it out twice
+
+Derek's ideas on my form toggle - 
+- have a set of radio buttons or a check box that says "disable JS"
+- you'll get some boolean or value to check on the JS function
+- inside that function you can have an if(noJS) return
+- and then the function would never run
+- in theory, nothing needs to change about the template or the styles because you're just overriding them with JS stuff
+
+radiosArea.addEventListener('change', function(){
+	if(value) {
+		run or don't run JS
+	}
+});
+
+- streamlining hiding or showing things - could toggle a single class on the parent of the form
+``<section class = 'using-js'>
+lusing-js button.reset {
+	display: block;
+}
+- or could add and remove the reset button from the DOM on the fly vs hiding and showing
+
+- all of the if checked / radio event listener code could probably be one class getting changed
+
+
 ### To dos
 
 - [x] figure out Derek's toggle method
@@ -388,6 +473,98 @@ No blockers today.
 
 ### Today's lesson - 186:148 - Exercises for Programmers with JavaScript (Work Day)
 
+adding id, name, type to input
+var newInput = document.createElement('input');
+newInput.id = "text";
+newInput.name = "";
+newInput.type = "";
+label.htmlFor = "";
+
+or - 
+newLabel.setAttribute("for", "__");
+
+innerHTML property receives a string
+If you try to insert an object, you will get [object HTMLElement]
+
+"Type Error: splice is not a function"
+Occurs when the splice() method is called on a value that is not an array
+
+You can iterate over a Node list with forEach()
+
+for(let i = 0; i < myNodeList.length; i++) {
+	let item = myNodeList[i];
+}
+
+const list = document.querySelectorAll("input[type=checkbox");
+for(const checkbox of list) {
+	checkbox.checked = true;
+}
+
+#### Element.insertAdjacentHTML()
+parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position
+insertAdjacentHTML(position, text)
+
+position must be one of the following:
+"beforebegin" - only valid if element is in DOM tree and has a parent
+"afterbegin" - just inside the element, before its first child
+"beforeend" - just inside the element, after its last child
+"afterend" - after the element. Only valid if the element is in the DOM tree and has a parent element
+
+*Don't use when inserting plain text - instead use Node.textContent or Element.insertAdjacentText()
+
+#### Form elements
+
+fieldset - used to group several controls as well as labels within a web form
+nested legend provides a caption for the fieldset
+
+``<fieldset disabled>`` - disables all controls within the fieldset - won't be submitted - not editable
+
+fieldset can be associated with a form without being inside a form
+``<fieldset form="form-id" name="name of group">``
+
+can check which elements are associated with a form via JS using HTMLFormElement.elements
+
+output - container element into which a site or app can inject the results of a calculation or the outcome of a user action
+
+input types
+text
+number value= step=
+password placeholder=
+checkbox checked
+radio name=
+range min= max= step=
+``<select>
+		<option>	</option>
+  </select>`` - select menu
+
+#### Input event
+
+myCoolForm.addEventListener('input', function() {
+	output.innerHTML = range.value;
+})
+
+listening for change of value of input in general - on the whole form
+
+#### Change event
+
+myCoolForm.addEventListener('change', function() {
+	output.innerHTML = range.value;
+})
+
+only updates when you let go of the slider - and the value has officially changed
+
+#### Submit event
+
+$input.addEventListener('input', function(){
+	$outlet.innerHTML = '';
+});
+
+if user types again, output clears
+
+
+Hijacking the PHP form - they still work without JS - but you enhance them and make the user interaction more immediate by using JS
+Start by preventing the form from doing what it wants to do ('submit')
+
 ### To dos
 
 - [] practice interface tricks
@@ -407,6 +584,19 @@ No blockers today.
 
 ### Today's lesson - 185:147 - Exercises for Programmers with JavaScript (Work Day)
 
+Derek's shopping cart solution - 
+- create var for ordered list (outlet)
+- create var for button (button)
+- create "renderItem" function
+	return html (in backticks)
+- add event to button 
+	function includes adding adjacent HTML to the OL
+	outlet.insertAdjacentHTML('beforeend', renderItem());
+
+'createElement' creates a "node" - an official piece of the DOM - that is slightly different than a string template
+.append works with these nodes, but not with adding strings
+insertAdjacentHTML is a way to do that with string templates
+
 ### To dos
 
 - [x] continue with shopping form
@@ -425,6 +615,24 @@ Today I'm meeting with Derek and Ivy at 3. I'd like to tackle a couple more E4Ps
 No blockers today. 
 
 ### Today's lesson - 184:146 - Exercises for Programmers with JavaScript (Work Day)
+
+#### consolidation meeting with Derek and Ivy
+- get style guide nailed down
+- get layout garden nailed down
+
+lots of modules
+lots of custom properties
+scoped in a way that is thoughtful and consistent
+
+site-wide themes
+toggles?
+
+If you don't have lots of little pages and modules, it's hard to show that you understand the system
+
+get WordPress site live
+
+think about ideas for final project 
+(task management?)
 
 ### To dos
 
