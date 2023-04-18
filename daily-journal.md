@@ -1,14 +1,106 @@
 # Emily's Daily Journal
 
+## April 17, 2023 
+
+### Stand up 
+
+### 218:175 - Planning prototype week - Day 1
+
+Building an app prototype - planning it out all the way
+End of this week - have a full plan for a mini app
+
+What are the goals of your users?
+
+This is about mocking up a prototype that looks and feels like a real app to see if it's worth building the real thing
+Something you could show an investor and show them how it might work
+
+Ideally there are many screens that you'd switch between
+There will be lists of things and probably detailed pages of many items
+Use local storage to save the data in there so it feels real to the person using it
+Explore different form fields and possible animated interactions
+
+1. ideas - mood boards, loose layouts
+2. content - all of the content is created/discovered and collected for review
+	keep in mind the goals of the project and users should be able to clearly measure if the content will achieve those goals 
+3. layouts - drawings of the site map and the layouts at every break point where the content will go
+4. wireframes - HTML for all the pages that we can test in real devices
+5. style tiles - you've narrowed down afew visual language directions
+6. apply the visual langauge - take the practical outline of content and layer in the visual language in the winning style tile
+7. spend some time testing and working to get things all tuned up
+8. get it live - the site isn't done, it's just ready to be used. Will continue to change and improve.
+
+what the app should have:
+- landing screen
+- sign up - with email or not - create a user name
+- knows if you're logged in - only lets you see the stuff when you are
+- many different pages or "screens"
+- a way to add data
+- a way to list the data
+- a detail page for each piece of data
+- the ability to change things and delete them (if applicable)
+- a mobile menu
+- something "cool"
+- things stay there on page refresh
+
+## April 15, 2023
+
+### Stand up
+
+Just realized that I forgot to post and now I’m off to book club. Still working on the GC site! Lots of block modules made, lots of little details to attend to. I’ll be at it tomorrow, too.
+
+No blockers.
+
+### 216:174 - No lesson - Gold Collective side challenge
+
+### To dos
+
+- [] get GC site to some sort of completion
+
+
+## April 14, 2023
+
+### Stand up
+
+Yesterday I continued to work on building layouts for the Gold Collective website using ACF custom blocks.
+
+Today - more of that, but also some thinking about accessibility and how to tell a story on the page for a screen reader - even if the site is based around photography. I'm also working on a style guide.
+
+No blockers today. TGIF!
+
+### 215:173 - No lesson - Gold Collective side challenge
+
+### To dos
+
+## April 13, 2023
+
+### Stand up
+
+I had a pretty major blocker in WordPress on Tuesday and Wednesay, but fortunately Derek helped me work through it yesterday. He had to break a bunch of things down and rebuild them, which ended up working though we're not totally sure why the new build worked and the old one didn't. Last night he shared some code with me, I implemented it and found that I was still having the same problem as before - which was such an initial bummer. I had to get up and walk around and have a drink of water, but then I sat back down and literally just created a new folder, new files, and rebuilt the whole custom block - with the same code - and then it worked. Very weird! But the lesson I am taking from this is that sometimes you just need to start from scratch and rebuild something.
+
+This morning I was finally able to get back to building the layout modules, which felt really good to do. Now that I'm using the block editor in WordPress, I need to reconfigure some things to be blocks rather than classic forms, so I'll keep doing that tonight.
+
+No blockers anymore! 
+
+### 214:172 - No lesson - Gold Collective side challenge
+
+### To dos
+
+- [] layouts
+- [] rebuild modules as blocks
+
 ## April 12, 2023
 
 ### Stand up
+
+Yesterday and today, still working on figuring out the trouble I've been having with the ACF custom blocks in WordPress. Derek has made a little bit of progress on it today! I've at least got content translating to the page, now. 
+
+Feeling optimistic!
 
 ### 213:171 - No lesson - Gold Collective side challenge
 
 ### To dos 
 
-- [] figure out ACF blocks
+- [x] figure out ACF blocks
 - [] update Daily Journal with notes
 
 ## April 11, 2023
@@ -171,6 +263,95 @@ No blockers today.
 
 ### Today's lesson: 201:161 - Rendering data
 
+Needed for app:
+- list of to dos - an array
+- an add function 
+- a remove function
+- a complete function
+- show the todos on the screen
+
+function add(content) {
+	todo = {
+		id = `a-${count++}`,
+		content = content,
+		complete = false
+	};
+
+	todos = [...todos, todo];
+}
+
+function remove(id) {
+	const filtered = todos.filter(function(todo) {
+		return todo.id != id;
+		// this returns everything but the todo that matches the passed in ID
+	});
+
+	todos = [...filtered];
+}
+
+function complete(id) {
+	for (let i=0; i < todos.length; i++) {
+		if(todos[i].id == id) {
+			todos[i].complete = true;
+		}
+	}
+}
+
+const form = document.querySelector('form');
+const input = document.querySelector('input');
+const output = document.querySelector('output');
+
+form.addEventListener('submit', function(event) {
+	event.preventDefault();
+	add(input.value);
+	input.value = ''; // will clear form on submit
+})
+
+function render(todo) {
+	return `
+		<li>
+			<todo-card>
+				<h2>${todo.content}</h2>
+			</todo-card>
+		</li>
+	`;
+}
+
+function renderTodos(todos) {
+	var template = "<ul>";
+	todos.forEach(function(todo) {
+		template += render(todo);
+	});
+	template += "</ul>";
+
+	output.innerHTML = template;
+}
+
+inside todo card - 
+``<actions>
+		<button>remove</button>
+</actions>``
+
+output.addEventListener('click', function(event) {
+	if(event.target.textContent == 'remove') {
+		const id = event.target.closest('li').dataset.id;
+		remove(id);
+	}
+})
+
+.closest finds nearest specified element in the DOM tree
+.dataset allows you to access data properties
+
+* you can target anything you can think of
+
+var archive[];
+put completed items in here?
+
+``<todo-card class=`${todo.complete ? 'complete' : ''}`>
+								if true, say this.........otherwise, say nothing
+
+dataset - for storing data in HTML
+data-[whatever you want]
 
 ### To dos
 
@@ -188,6 +369,85 @@ This morning I've been working on local storage stuff - I think I've got some fu
 No blockers today.
 
 ### Today's lesson: 200:160 - Exploring local storage
+
+Emulate a database so we can build prototype and work on the UI without getting bogged down by database technicalities.
+
+window.localStorage
+
+Dev tools - Application
+shows local storage - being stored in the browser
+Key = name of property
+has value associated with it
+- also session storage
+- cookies
+
+window.localStorage.setItem("key", "value");
+window.localStorage.getItem
+
+don't need to write window because it's global - everything is in the window
+
+localStorage.setItem(key, value);
+localStorage.getItem(key)
+localStorage.removeItem(key)
+localStorage.clear();
+
+localStorage value is a string
+Can't store super-complicated programming language in there unless it's a string
+
+localStorage is a property on the window
+setItem, getItem, etc. are functions
+
+localStorage.setItem('favoriteColor', 'blue');
+
+const color = localStorage.getItem('favoriteColor');
+
+const message = `My favorite color is ${color}`;
+
+document.body.textContent = message;
+
+const data = localStorage; [this just makes it easier to type out]
+data.setItem('favoriteColor', 'green');
+
+typeof - lets you find the type of a given variable
+console.log(typeof storedData == 'string');
+
+all of the values stored in local storage are strings
+use JSON.stringify()
+var count = 0;
+count++;
+data.setItem('score', JSON.stringify({score: count}));
+const storedCount = data.getItem('score');
+console.log(storedCount);
+
+opposite of JSON.stringify - JSON.parse()
+
+stringify encodes it
+parse decodes it
+
+console.log(JSON.parse(storedCount).score);
+
+#### Initialize
+function initialize() {
+	if(data.getItem('game')) {
+		// local storage is set up - great
+	} else {
+		data.setItem('game', JSON.stringify({score: 0}));
+	}
+}
+checks to see if local storage is set up - if not, initializes local storage
+
+var person = {
+	name: "Emily",
+	age: 39,
+	alive: true
+};
+
+console.log(JSON.stringify(person));
+returns "{'name': 'Emily', 'age': 39, 'alive': true}"
+using JSON.parse turns it back into a JavaScript object
+
+
+
 
 ### To dos
 
@@ -211,6 +471,98 @@ No blockers!
 
 ### Today's lesson: 199:159 - Constructor functions and debugger
 
+hello: hello
+can be written as hello.
+new JS syntax
+
+can also remove function keywords from object
+instead of 
+add: function(content) {}
+can just write
+add(content) {}
+
+can use dev tools sources to see source code
+Can set a break point in the code - this will pause the code before it executes all the functions
+Can set as many break points as you want
+Can then step through the functions and see what's happening during each step of execution
+Useful for debugging
+
+Can include debugger; in code - will act as a breakpoint
+
+print(note='') {
+	console.log(`---${note`);
+	console.log( );
+	debugger;
+}
+
+#### Constructor function
+convention is to name constructor functions with a capital letter
+
+function Monster(name, age) {
+	this.name = name;
+	this.age = age;
+
+	this.roar = function() {
+		alert(`${this.name}!!!`);
+	}
+}
+
+const chunky = new Monster("Chunky", 15);
+
+chunky.roar();
+console.log(chunky.name);
+
+Constructor function is the blueprint
+
+Updating the prototype - 
+
+Monster.prototype.whisper = function() {
+	console.log(`Hi my name is ${this.name}`);
+}
+chunky.whisper();
+
+imagine var this = {};
+Constructor function basically returns this
+
+apply constructor function to your whole to do app
+Add one of the methods later
+
+Having constructor function will allow you to make many different to do apps that all have their own scope
+
+javascript.info/constructor-new
+
+Sometimes we need to make many similar objects, like multiple users or menu items
+This can be done with the constructor functions and the "new" operator
+
+Constructor functions are technically regular functions
+But they have two conventions - 
+- named with capital letter first
+- should be executed only with "new" operator
+
+When function is executed with "new", it does the following:
+- new empty object is created and assigned to "this"
+- the function body executes. Usually it modified "this", adds new properties to it
+- the value of "this" is returned
+
+function User(name) {
+	// this = {}; (implicitly)
+
+	// add properties to this
+
+	this.name = name;
+	this.isAdmin = false;
+
+	//return this; (implicitly)
+}
+
+let user = new User('Jack') gives same result as
+let user = {
+	name: "Jack",
+	isAdmin: false
+};
+
+*Main purpose of constructors is to implement reusable object creation code
+
 ### To dos 
 
 - [x] "constructorify" your todo app
@@ -229,6 +581,52 @@ No blockers today.
 
 ### Today's lesson: 198:158 - Exploring encapsulation
 
+Global scope - available to everything
+Function scope 
+Object scope
+
+var name = "Emily";
+console.log(name); = Emily
+{
+	var name = "Ann";
+	console.log(name); = Ann
+}
+console.log(name); = Ann - you would expect this to be Emily
+
+If you change var inside the object to 'let', the order will be Emily, Ann, Emily
+'let' allows you to scope the reference to its block
+
+Block scope - defining a variable inside curly braces - in an "if" statement, for example
+
+The whole to-do app can be an object
+
+Use 'this' to refer to the object
+
+const todoApp = {
+	todos: [],
+	id: 0,
+
+	print: function(note="") {
+		console.log(`---${note}`);
+		console.log(`todos: `, this.todos);
+	}
+};
+
+without including 'this', todos is undefined inside the print function
+Including 'this' refers to the todoApp object and grabs todos from that scope
+
+If the program is 10,000x bigger than this, encapsulation becomes very important 
+Keywords might need to be used over and over again in different contexts
+
+Instead of changing the todos array every time you add something, can create a new array and assign it to the todos variable using spread syntax
+
+add: function(content) {
+	const todo = {
+		id: `a${this.todoIdMaker++}`,
+		content: content
+	};
+	this.todos = [...this.todos, todo];
+}
 
 ### To dos 
 
@@ -251,7 +649,7 @@ and render the todo on the screen
 
 Arrays
 Objects
-JS also has new faetures - Sets and Maps (and some variations of these)
+JS also has new features - Sets and Maps (and some variations of these)
 
 An array is perfect for a to-do list
 const todos = [];
@@ -378,6 +776,13 @@ I had a few moments this morning when I couldn't figure out why things were not 
 
 ### Today's lesson - 191:152 - Mockup to code challenge SPRINT
 
+You will have to do a certain amount of normalization
+Be pixel perfect to a certain extent
+But it's your job to create a design system and normalize things
+Make decisions about font size, padding - round up or down
+
+You are responsible for working out the smaller screen
+
 ### To dos 
 
 - [x] build site architecture
@@ -395,6 +800,19 @@ Today I'm excited to get going on this week's challenge. I want to spend some ti
 No blockers today! 
 
 ### Today's lesson - 190:151 - Mockup to code challenge SPRINT
+
+Emulate three layouts as perfectly and succinctly as possible
+Use custom properties and modules
+Ensure the CSS design system is powerful and resilient
+What if the client changes the colors a few days later?
+
+Underlying architecture
+How does the system work?
+Which modules are mostly the same but just slightly different based on context?
+Which modules are definitely unique?
+Which modules use similar data?
+How should the data work?
+How can you make this as flexible as possible while maintaining solid control?
 
 ### To dos
 
