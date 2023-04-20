@@ -1,5 +1,42 @@
 # Emily's Daily Journal
 
+## April 19, 2023
+
+### Stand up
+
+Yesterday I worked on creating a prototype in Figma, and although it is pretty bare-bones, I do like being able to see and experience how a person might navigate the app. 
+
+Today I've been making a mood board and trying to think a bit more about the design. I'd like to try to get some layouts put together. This morning I took look at some similar apps - Libib and BookBuddy - to get some ideas.
+
+No blockers today.
+
+### 220:177 - Planning prototype week - Day 3
+
+### To dos
+
+- [] mood boards
+- [] content
+
+## April 18, 2023
+
+### Stand up
+
+Yesterday I had a chat with Ivy about the Gold Collective website and I spent a bit of time getting some things cleaned up in the admin panel so she can start trying to add content. I also spent some time refreshing my memory on JavaScript and then started to think about my plan for an app.
+
+This morning I started building a prototype in Figma - I really like being able to add interactions and create flows! It's very cool. That's what I'll be continuing to work on tonight.
+
+No blockers today.
+
+### 219:176 - Planning prototype week - Day 2
+
+Draw it
+
+Use a prototyping tool to make a fake app - POP or Figma - based on your output from yesterday
+
+### To dos 
+
+- [x] make prototype
+
 ## April 17, 2023 
 
 ### Stand up 
@@ -41,6 +78,10 @@ what the app should have:
 - a mobile menu
 - something "cool"
 - things stay there on page refresh
+
+### To dos 
+
+- [x] come up with app idea
 
 ## April 15, 2023
 
