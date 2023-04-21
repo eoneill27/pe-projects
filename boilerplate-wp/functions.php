@@ -31,6 +31,36 @@ function getPageTemplate($path) {
 }
 
 
+// register ACF blocks
+
+add_action( 'init', 'register_acf_blocks' );
+
+function register_acf_blocks() {
+	register_block_type( __DIR__ . '/blocks/sample-block' );
+}
+
+
+// Adding a new (custom) block category and show that category at the top
+
+// function add_structure_category( $categories, $post ) {
+// 	array_unshift( $categories, array(
+// 		'slug'	=> 'structure',
+// 		'title' => 'Page structure'
+// 	) );
+// 	return $categories;
+// }
+// add_filter( 'block_categories_all', 'add_structure_category', 15, 2);
+//                                                    priority ^ (meaning the order it displays)
+
+// function add_modules_category( $categories, $post ) {
+// 	array_unshift( $categories, array(
+// 		'slug'	=> 'modules',
+// 		'title' => 'Modules'
+// 	) );
+// 	return $categories;
+// }
+// add_filter( 'block_categories_all', 'add_modules_category', 10, 2);
+
 
 
 /**
