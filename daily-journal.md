@@ -1,5 +1,31 @@
 # Emily's Daily Journal
 
+## April 21, 2023
+
+### Stand up
+
+### 222:179 - Planning prototype week - Day 5
+
+### To dos 
+
+- [] finalize content
+
+## April 20, 2023
+
+### Stand up
+
+Yesterday I started thinking more about designs and moods, colors, etc. I also added some styling to my Figma prototype - but none of that has been finalized yet. I've been using the prototype more as a way to think through the interactions than as a way to think through the design.
+
+So today, tomorrow and Saturday I need to think more about content and design, get some style tiles made, and really hammer out what I want this to look like before I start coding. I've also got the Gold Collective still on the docket for Saturday and Sunday. 
+
+No blockers today.
+
+### 221:178 - Planning prototype week - Day 4
+
+### To dos
+
+- []
+
 ## April 19, 2023
 
 ### Stand up
@@ -14,8 +40,8 @@ No blockers today.
 
 ### To dos
 
-- [] mood boards
-- [] content
+- [x] mood boards
+- [x] content
 
 ## April 18, 2023
 
