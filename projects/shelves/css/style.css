@@ -1,0 +1,25 @@
+
+body {
+	width: 390px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 4px;
+}
+
+header, main, footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer-nav ul {
+	display: flex;
+	gap: 8px;
+	list-style-type: none;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
