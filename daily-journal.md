@@ -1,8 +1,139 @@
 # Emily's Daily Journal
 
+## April 24, 2023
+
+### Stand up
+
+### 225:181 - EcmaScript Modules
+
+Ecma Script - modules ability
+added to spec in 2015, but not supported well enough by browsers until 2020
+Style of modularizing code
+
+For the JS file to use these new tricks, you have to tell it it's special
+``<script src='app.js' type='module'></script>``
+
+To prepare the code to be imported in another file, you have to export it
+Many ways to do it
+
+library.js file
+``export default function double(number) {
+	return number * 2;
+}``
+- you are exporting it and specifically saying that when you import it - this function will be the default thing it imports
+
+app.js file
+``import myLibrary from '/library.js';
+  
+  const outlet = document.querySelector('output');
+
+  outlet.innerHTML = myLibrary(5); //should show 10 on the screen
+``
+
+import the file and give what you are importing a name (like a variable - need to be able to refer to it)
+
+to use modules in the browser, you need to tell the script to behave as a module and you'll need to have a server running - can use MAMP for this
+
+Instead of exporting one function as the default, you can use a code block to export it
+
+``function double(number) {
+	return number * 2;
+}
+
+  export default {
+  	double
+  } ``
+
+Helps you organize things - also allows you to export many things
+
+then when you import the library, you're making all the exports available as an object
+
+can skip default assignment and just clearly define what functions you want to export
+
+``export {
+	double,
+	triple,
+} ``
+
+app.js
+`` import {double, triple} from '/library.js';
+
+	const outlet = document.querySelector('output');
+
+	outlet.innerHTML = double(2) + triple(3); //4 + 9 = 13
+``
+
+#### Destructuring
+In example above, being used to unpack the object 
+Takes the exports out of their parent and assigns them to variables all in one go
+
+Destructuring example - 
+
+var myObject = {
+	name: "Emily",
+	age: 39
+};
+
+var {name, age} = myObject;
+//equivalent to
+//var name = myObject.name;
+//var age = myObject.age;
+
+console.log(name) // "Emily"
+
+
+There are lots of ways you can export code from one module and use it in another - but until you have a reason to get fancy, stick with this style
+
+#### Choosing what to expose
+
+JS files will have all sorts of values and functions that you won't want to expose
+
+You can choose to only export the things you expect to make available in other files and keep some things 'private'
+
+one convention - underscore before a function that's really only meant to be used within other functions
+
+another convention - all caps for a variable that will not change
+Dually noted by the const keyword and ALL_CAPS_SNAKE_CASE
+
+these are just conventions - no rules saying you have to do it like this
+
+#### RenderMania
+New JS package that allows you to render content on an HTML page
+Have to download it and include it in your project
+
+Not uncommon to have 3-10 imports at the top of a file
+And every library might import a bunch of libraries
+
+### To dos 
+
+- [] break JS project up into smaller pieces
+- [] see how many imports and exports you can use and have everything work properly
+
+## April 22, 2023
+
+### Stand up
+
+Yesterday I did not do any PE stuff after work, so my standup from yesterday is a pretty good summary of my progress!
+
+Today I've been working primarily on the Gold Collective site - I think I'll get back to the app tomorrow.
+
+No blockers today!
+
+### 223:180 - Planning prototype week - Day 6
+
+### To dos
+
+- []
+
 ## April 21, 2023
 
 ### Stand up
+
+Yesterday was a little abbreviated for me - I worked in the morning and at lunch, but took the evening off in favor of swim class and some much-needed vegging on the couch.
+
+This morning I worked on solidifying the content of my app's forms - mostly trying to think through how much detail I want on a book's details page. I'm also spending a bit of time today on the Gold Collective site, adding a couple more blocks for photos so that they are easy to intersperse throughout the site without having to use one of the layout modules.
+
+No blockers today. I'm going out for dinner after work with Ann, her husband John, and her Uncle Alan, and whether I get any PE work done after that will depend entirely on how many bottles of wine we drink. I'll definitely be around this weekend for huddles and chats, though!
 
 ### 222:179 - Planning prototype week - Day 5
 
@@ -318,7 +449,52 @@ No blockers today.
 
 ### Stand up
 
-### Today's lesson: 202:162 - 
+### Today's lesson: 202:162 - JavaScript classes
+
+another way to encapsulate code in JS - or just an alternate syntax for the way we already had
+
+So far we have - 
+
+#### Encapsulation
+
+const todoObject = {
+	todos: [],
+	count: 0,
+	
+	add: function(content) {
+		const todo = {
+			id: this.count++,
+			content: content
+		};
+
+	this.todos.push(todo);
+	}
+}
+
+todoObject.add("Go for a run");
+
+#### Constructor function
+
+function TodoConstructor() {
+	this.todos = [];
+	this.count = 0;
+
+	this.add = function(content) {
+		const todo = {
+			id: this.count++, 
+			content: content
+		};
+
+		this.todos = [...this.todos, todo];
+	}
+}
+
+var todoConstructor = new TodoConstructor();
+todoConstructor.add("Go for a run");
+
+#### Now - classes
+
+
 
 ### To dos
 
