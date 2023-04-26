@@ -79,6 +79,26 @@ window.addEventListener('submit', function(theEvent) {
 
 	if(theEvent.target.matches('#signup-form')) {
 		theEvent.preventDefault();
+		console.log(theEvent);
+
+		let signupForm = document.querySelector('#signup-form');
+		let userName = signupForm.querySelector('input[id="signup-name"]').value;
+		let userId = signupForm.querySelector('input[id="signup-id"]').value;
+		let userEmail = signupForm.querySelector('input[id="signup-email"]').value;
+		let userPassword = signupForm.querySelector('input[id="signup-password"]').value;
+		let repeatPassword = signupForm.querySelector('input[id="signup-password-again"]').value;
+
+		let user = {
+			userName,
+			userId,
+			userEmail,
+			userPassword,
+		};
+
+		console.log(user);
+		let count = 0;
+		localStorage.setItem(`user${count++}`, JSON.stringify(user));
+
 		screen.innerHTML = bookForm;
 		header.innerHTML = `<h1 class="heyyou-voice">Welcome!</h1><h2 class="attention-voice">Add your first book</h2>`;
 	}
@@ -104,6 +124,10 @@ window.addEventListener('submit', function(theEvent) {
 
 });
 
+function signUp() {
+	let name = document.getItemById('')
+
+}
 
 
 
