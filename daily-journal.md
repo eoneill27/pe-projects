@@ -1,5 +1,15 @@
 # Emily's Daily Journal
 
+## April 25, 2023
+
+### Stand up
+
+### 226:182 - Vanilla JS prototypes
+
+### To dos
+
+
+
 ## April 24, 2023
 
 ### Stand up
