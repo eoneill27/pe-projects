@@ -52,6 +52,10 @@ form {
 	gap: 10px;
 }
 
+input {
+	padding: 5px;
+}
+
 .flex-box-row {
 	display: flex;
 	gap: 20px;
