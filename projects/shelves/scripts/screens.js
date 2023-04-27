@@ -1,7 +1,12 @@
 export let splashScreen = `
 	<div id="splash">
+		<picture class="screen-img">
+		<img src="images/shelves.jpg" alt="">
+		</picture>
+		<div class="button-row">
 		<button class="reading-voice" data-route="loginScreen" id='login-button' type='button'>Log in</button>
 		<button class="reading-voice" data-route="signupScreen" id='signup-button' type='button'>Sign up</button>
+		</div>
 	</div>`
 
 export let loginScreen = `
@@ -75,8 +80,8 @@ export let bookForm = `
 
 		<button class="reading-voice" id="book-submit" type="submit">Submit</button>`
 
-export let homeScreen = `<p class="reading-voice">Book array goes here</p>
-	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button>`
+export let homeScreen = `<div class="standard-screen"><p class="reading-voice">Book array goes here</p>
+	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button></div>`
 
 export let bookDetails = `
 	<div class="flex-box-row">
@@ -98,7 +103,7 @@ export let searchResults = `
 	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button>`
 
 export let chooseScreen = `
-	<p class="reading-voice">Try your luck - press the button to randomly select an unread book from your collection!</p>
+	<p id="choose-text" class="reading-voice">Try your luck - press the button to randomly select an unread book from your collection!</p>
 	<button data-route="bookDetails" id="choose-button">Choose a book for me!</button>
 `
 

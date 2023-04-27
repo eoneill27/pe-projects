@@ -12,8 +12,8 @@ import {
 	chooseScreen, 
 	profileScreen
 } from '/alpha-6/emily/projects/shelves/scripts/screens.js';
-
 // from '/scripts/screens.js';
+
 
 
 let screen = document.getElementById('screen');
@@ -76,6 +76,69 @@ function signUp() {
 	console.log(userArray);
 }
 
+// if login email address input matches an email address in the user array - user exists
+// if no match - alert them - they need to sign up
+// take that user and match password in user array to password input
+// if it matches - they are logged in
+// if it doesn't - alert them
+
+function logIn() {
+	let loginForm = document.querySelector('#login-form');
+	let loginEmail = loginForm.querySelector('input[id="login-email"]').value;
+	let loginPassword = loginForm.querySelector('input[id="login-password"]').value;
+
+	for (let i = 0; i < userArray.length; i++) {
+		if (loginEmail === userArray[i].userEmail) {
+			let match = true;
+			console.log("match");
+			let password = userArray[i].userPassword;
+			console.log(password);
+
+			if(loginPassword === password) {
+				let login = true;
+				renderScreen("homeScreen");
+			} else {
+				alert("The password you have entered is incorrect");
+			}
+		} else {
+			let match = false;
+			console.log("no match");
+			alert("The user name you have entered is incorrect");
+		}
+	}
+}
+	// 	if (match === true) {
+	// 		for (let i = 0; i < userArray.length; i++) {
+	// 			if(loginPassword === userArray[i].userPassword) {
+	// 				let login = true;
+	// 				renderScreen(splashScreen);
+	// 			}
+	// 		}
+	// 	} else {
+	// 		alert("The password you have entered is incorrect");
+	// 	}
+	// }
+
+
+
+// function removeBook(id) {
+// 	// return all of the books with ids that do not match the submitted id
+// 	const filtered = bookList.filter(function(book) {
+// 		return book.id != id;
+// 	});
+
+// 	bookList = [...filtered];
+// 	renderBooks(bookList);
+
+// }
+
+// function completeBook(id) {
+// 	for (let i = 0; i < bookList.length; i++) {
+// 		if(bookList[i].id == id) {
+// 			bookList[i].complete = true;
+// 		}
+// 	};
+
 function addBook() {
 	let bookForm = document.querySelector('#book-form');
 	let title = bookForm.querySelector('input[id="title"]').value;
@@ -97,6 +160,7 @@ function addBook() {
 	console.log(bookArray);
 }
 
+
 window.addEventListener('submit', function(theEvent) {
 	theEvent.preventDefault();
 	let route = event.target.dataset.route;
@@ -113,13 +177,19 @@ window.addEventListener('submit', function(theEvent) {
 		renderScreen(route);
 	}
 
+	if(theEvent.target.matches("#login-form")) {
+		logIn();
+		console.log(userArray);
+	}
+
 	if(theEvent.target.matches("#book-form")) {
 		addBook();
 		renderScreen(route);
 	}
 });
 
-	// addBook(titleInput.value, authorInput.value, dateInput.value);
+
+
 
 // class UserClass {
 // 	constructor() {
