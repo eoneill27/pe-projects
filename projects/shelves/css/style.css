@@ -16,12 +16,13 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	overflow: hidden;
 }
 
 header, footer {
 	background-color: #ffe494;
-
 }
+
 header {
 	display: flex;
 	gap: 10px;
@@ -29,6 +30,8 @@ header {
 	height: 100px;
 	border-bottom: 2px solid black;
 	padding-left: 15px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
 }
 
 footer {
@@ -37,6 +40,8 @@ footer {
 	align-items: center;
 	height: 100px;
 	border-top: 2px solid black;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
 }
 
 main {
