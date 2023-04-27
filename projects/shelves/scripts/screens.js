@@ -15,7 +15,10 @@ export let loginScreen = `
 		<input id="login-email" type="email">
 
 		<label class="reading-voice" for="login-password">Password</label>
-		<input id="login-password" type="password">
+		<input class="password-input" id="login-password" type="password">
+
+		<label class="reading-voice" for="show-password">Show password</label>
+		<input class="show-password" type="checkbox">
 
 		<button class="reading-voice" id="login-submit" type="submit">
 			Submit
@@ -34,7 +37,9 @@ export let signupScreen = `
 		<input id="signup-email" type="email">
 
 		<label class="reading-voice" for="signup-password">Password</label>
-		<input id="signup-password" type="password">
+		<input class="password-input" id="signup-password" type="password">
+		<label class="reading-voice" for="show-password">Show password</label>
+		<input class="show-password" type="checkbox">
 
 		<label class="reading-voice" for="signup-password-again">Re-enter password</label>
 		<input id="signup-password-again" type="password">

@@ -10,8 +10,9 @@ import {
 	searchScreen, 
 	searchResults, 
 	chooseScreen, 
-	profileScreen
-} from '/alpha-6/emily/projects/shelves/scripts/screens.js';
+	profileScreen,
+} 
+from '/alpha-6/emily/projects/shelves/scripts/screens.js';
 // from '/scripts/screens.js';
 
 
@@ -26,6 +27,19 @@ function initialize() {
 
 initialize();
 
+
+
+
+// function showPassword() {
+// 	let check = document.getElementById('show-password');
+// 	let getPassword = document.getElementById('login-password');
+// 	if(check.checked === true) {
+// 		getPassword.type = "text";
+// 	} else {
+// 		getPassword.type = "password";
+// 	}
+// }
+
 function renderScreen(screenName) {
 	screen.innerHTML = screens[screenName];
 	header.innerHTML = `<h1 class="heyyou-voice">${headers[screenName]}</h1>`;
@@ -39,8 +53,17 @@ window.addEventListener('click', function(theEvent) {
 		let route = event.target.dataset.route;
 		renderScreen(route);
 	}
-});
 
+	if(theEvent.target.matches('.show-password')) {
+		let getPassword = document.querySelector('input[class="password-input"]');
+
+		if(getPassword.type === 'password') {
+			getPassword.type = "text";
+		} else {
+			getPassword.type = "password";
+		}
+	};
+});
 
 // window.addEventListener('submit', function(event) {
 // 	event.preventDefault();
@@ -187,7 +210,6 @@ window.addEventListener('submit', function(theEvent) {
 		renderScreen(route);
 	}
 });
-
 
 
 
