@@ -13,6 +13,9 @@ import {
 	profileScreen
 } from '/alpha-6/emily/projects/shelves/scripts/screens.js';
 
+// from '/scripts/screens.js';
+
+
 let screen = document.getElementById('screen');
 let header = document.querySelector('header');
 
@@ -38,50 +41,150 @@ window.addEventListener('click', function(theEvent) {
 	}
 });
 
-const userArray = [];
+
+// window.addEventListener('submit', function(event) {
+// 	event.preventDefault();
+
+// 	if(event.target.matches('#signup-form')) {
+// 		signUp();
+// 	}
+// });
+
+let userArray = [];
+let bookArray = [];
+let count = 0;
+
+function signUp() {
+
+	let signupForm = document.querySelector('#signup-form');
+	let userName = signupForm.querySelector('input[id="signup-name"]').value;
+	let userId = signupForm.querySelector('input[id="signup-id"]').value;
+	let userEmail = signupForm.querySelector('input[id="signup-email"]').value;
+	let userPassword = signupForm.querySelector('input[id="signup-password"]').value;
+	let repeatPassword = signupForm.querySelector('input[id="signup-password-again"]').value;
+
+	let user = {
+		userName,
+		userId,
+		userEmail,
+		userPassword,
+	};
+
+	console.log(user);
+	localStorage.setItem(`U-${count++}`, JSON.stringify(user));
+	userArray.push(user);
+	console.log(userArray);
+}
+
+function addBook() {
+	let bookForm = document.querySelector('#book-form');
+	let title = bookForm.querySelector('input[id="title"]').value;
+	let author = bookForm.querySelector('input[id="author"]').value;
+	// let read = bookForm.querySelector('input[id=""]').value;
+	// let rating = bookForm.querySelector('input[id=""]').value;
+	let notes = bookForm.querySelector('textarea[id="notes"]').value;
+
+	let book = {
+		title,
+		author,
+		notes
+	};
+
+	console.log(book);
+
+	localStorage.setItem(`B-${count++}`, JSON.stringify(book));
+	bookArray.push(book);
+	console.log(bookArray);
+}
 
 window.addEventListener('submit', function(theEvent) {
 	theEvent.preventDefault();
+	let route = event.target.dataset.route;
 
-	console.clear();
 	console.log('event', theEvent.target);
 	
-	if(theEvent.target.matches('form[data-route')) {
-		let route = event.target.dataset.route;
+	// if(theEvent.target.matches('form[data-route')) {
+	// 	let route = event.target.dataset.route;
+	// 	renderScreen(route);
+	// }
+
+	if(theEvent.target.matches("#signup-form")) {
+		signUp();
+		renderScreen(route);
+	}
+
+	if(theEvent.target.matches("#book-form")) {
+		addBook();
 		renderScreen(route);
 	}
 });
-		// console.log(theEvent);
 
-		// let signupForm = document.querySelector('#signup-form');
-		// let userName = signupForm.querySelector('input[id="signup-name"]').value;
-		// let userId = signupForm.querySelector('input[id="signup-id"]').value;
-		// let userEmail = signupForm.querySelector('input[id="signup-email"]').value;
-		// let userPassword = signupForm.querySelector('input[id="signup-password"]').value;
-		// let repeatPassword = signupForm.querySelector('input[id="signup-password-again"]').value;
+	// addBook(titleInput.value, authorInput.value, dateInput.value);
 
-		// let user = {
-		// 	userName,
-		// 	userId,
-		// 	userEmail,
-		// 	userPassword,
-		// };
+// class UserClass {
+// 	constructor() {
+// 		this.userArray = [];
+// 		this.count = 0;
+// 	}
 
-		// console.log(user);
-		// let count = 0;
-		// localStorage.setItem(`user${count++}`, JSON.stringify(user));
-		// userArray.push(user);
-		// console.log(userArray);
+// 	add(userName, userID, userEmail, userPassword) {
+// 		const user = {
+// 			id: this.count++,
+// 			userName,
+// 			userId,
+// 			userEmail,
+// 			userPassword,
+// 		};
+
+// 		this.userArray = [...userArray, user];
+// 	}
+// }
+
+// class bookList {
+
+// 	constructor() {
+// 		this.idStart = 0;
+// 		this.bookList = [];
+
+// 	}
+
+// 	add(title, author, whenRead) {
+// 		const book = {
+// 			id: this.idStart++,
+// 			title: title,
+// 			author: author,
+// 			whenRead: whenRead,
+// 			complete: false
+// 		};
+
+// 		this.bookList = [...bookList, book];
+// 	}
+
+// 	remove(id) {
+// 		const filtered = this.bookList.filter(function(book) {
+// 			return this.book.id != id;
+// 		});
+// 	}
+
+// 	complete(id) {
+// 		for (let i = 0; i < this.bookList.length; i++) {
+// 			if(this.bookList[i].id == id) {
+// 				this.bookList[i].complete = true;
+// 			}
+// 		};
+
+// 		renderBooks(this.bookList);
+// 	}
+
+
+
+
+
 
 		// screen.innerHTML = bookForm;
 		// header.innerHTML = `<h1 class="heyyou-voice">Welcome!</h1><h2 class="attention-voice">Add your first book</h2>`;
 	
 
-
-function signUp() {
-	let name = document.getItemById('')
-
-}
 
 
 

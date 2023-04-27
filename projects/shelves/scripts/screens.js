@@ -31,7 +31,7 @@ export let signupScreen = `
 		<label class="reading-voice" for="signup-password">Password</label>
 		<input id="signup-password" type="password">
 
-		<label class="reading-voice" for="signup-password-again">Reenter password</label>
+		<label class="reading-voice" for="signup-password-again">Re-enter password</label>
 		<input id="signup-password-again" type="password">
 
 		<button class="reading-voice" id="signup-submit" type="submit">
@@ -95,7 +95,7 @@ export let searchScreen = `
 
 export let searchResults = `
 	<p>List of results</p>
-	<p class="reading-voice" id="sample-book">Sample book</p>`
+	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button>`
 
 export let chooseScreen = `
 	<p class="reading-voice">Try your luck - press the button to randomly select an unread book from your collection!</p>
