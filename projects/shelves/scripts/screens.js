@@ -1,11 +1,11 @@
 export let splashScreen = `
 	<div id="splash">
-		<button class="reading-voice" id='login-button' type='button'>Log in</button>
-		<button class="reading-voice" id='signup-button' type='button'>Sign up</button>
+		<button class="reading-voice" data-route="loginScreen" id='login-button' type='button'>Log in</button>
+		<button class="reading-voice" data-route="signupScreen" id='signup-button' type='button'>Sign up</button>
 	</div>`
-	
+
 export let loginScreen = `
-	<form id="login-form" action="">
+	<form data-route="homeScreen" id="login-form" action="">
 		<label class="reading-voice" for="login-email">Email address</label>
 		<input id="login-email" type="email">
 
@@ -18,7 +18,7 @@ export let loginScreen = `
 	</form>`
 
 export let signupScreen = `
-	<form id="signup-form" action="">
+	<form data-route="bookForm" id="signup-form" action="">
 		<label class="reading-voice" for="signup-name">Name</label>
 		<input id="signup-name" type="text">
 
@@ -40,7 +40,7 @@ export let signupScreen = `
 	</form>`
 
 export let bookForm = `
-	<form id="book-form" action="">
+	<form data-route="homeScreen" id="book-form" action="">
 		<label class="reading-voice" for="title">Title</label>
 		<input id="title" type="text">
 
@@ -76,7 +76,7 @@ export let bookForm = `
 		<button class="reading-voice" id="book-submit" type="submit">Submit</button>`
 
 export let homeScreen = `<p class="reading-voice">Book array goes here</p>
-	<p class="reading-voice" id="sample-book">Sample book</p>`
+	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button>`
 
 export let bookDetails = `
 	<div class="flex-box-row">
@@ -88,7 +88,7 @@ export let bookDetails = `
 	</div>`
 
 export let searchScreen = `
-<form id="search" action="">
+<form data-route="searchResults" id="search" action="">
 	<input id="search-box" type="text">
 	<button class="reading-voice" id="search-submit" type="submit">Search</button>
 </form>`
@@ -99,11 +99,11 @@ export let searchResults = `
 
 export let chooseScreen = `
 	<p class="reading-voice">Try your luck - press the button to randomly select an unread book from your collection!</p>
-	<button id="choose-button">Choose a book for me!</button>
+	<button data-route="bookDetails" id="choose-button">Choose a book for me!</button>
 `
 
 export let profileScreen = `
-	<form id="profile-form" action="">
+	<form data-route="profileScreen" id="profile-form" action="">
 		<label class="reading-voice" class="reading-voice" for="profile-name">Name</label>
 		<input id="profile-name" type="text">
 
@@ -118,7 +118,31 @@ export let profileScreen = `
 
 		<button class="reading-voice" id="save-button" type="submit">Save changes</button>
 
-		<button class="reading-voice" id="log-out" type="button">Log out</button>
+		<button data-route="splashScreen" class="reading-voice" id="log-out" type="button">Log out</button>
 	</form>`
 
+export const screens = {
+	"splashScreen": splashScreen,
+	"loginScreen": loginScreen,
+	"signupScreen": signupScreen,
+	"bookForm": bookForm,
+	"homeScreen": homeScreen,
+	"bookDetails": bookDetails,
+	"searchScreen": searchScreen,
+	"searchResults": searchResults,
+	"chooseScreen": chooseScreen,
+	"profileScreen": profileScreen
+}
 
+export const headers = {
+	"splashScreen": "Shelves",
+	"loginScreen": "Log in",
+	"signupScreen": "Sign up",
+	"bookForm": "Add a book",
+	"homeScreen": "Your collection",
+	"bookDetails": "Book details",
+	"searchScreen": "Search",
+	"searchResults": "Search results",
+	"chooseScreen": "What to read?",
+	"profileScreen": "Your profile"
+}

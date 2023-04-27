@@ -1,4 +1,6 @@
 import {
+	screens,
+	headers,
 	splashScreen, 
 	loginScreen, 
 	signupScreen, 
@@ -13,7 +15,6 @@ import {
 
 let screen = document.getElementById('screen');
 let header = document.querySelector('header');
-let reset = document.getElementById('reset');
 
 function initialize() {
 	screen.innerHTML = splashScreen;
@@ -22,107 +23,60 @@ function initialize() {
 
 initialize();
 
+function renderScreen(screenName) {
+	screen.innerHTML = screens[screenName];
+	header.innerHTML = `<h1 class="heyyou-voice">${headers[screenName]}</h1>`;
+}
+
 window.addEventListener('click', function(theEvent) {
 	console.clear();
 	console.log('event', theEvent.target);
 
-	if(theEvent.target.matches('#login-button')) {
-		screen.innerHTML = loginScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Log in</h1>`;
-	}
-
-	if(theEvent.target.matches('#signup-button')) {
-		screen.innerHTML = signupScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Sign up</h1>`;
-	}
-
-	if(theEvent.target.matches('#reset') || theEvent.target.matches('#log-out')) {
-		screen.innerHTML = splashScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Shelves</h1>`;
-	}
-
-	if(theEvent.target.matches('#sample-book') || theEvent.target.matches('#choose-button')) {
-		screen.innerHTML = bookDetails;
-		header.innerHTML = `<h1 class="heyyou-voice">Book title</h1><p class="reading-voice" id="delete">Delete</p><p class="reading-voice" id="edit">Edit</p>`;
-	}
-
-	if(theEvent.target.matches('#nav-home')) {
-		screen.innerHTML = homeScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Home collection</h1>`;
-	}
-
-	if(theEvent.target.matches('#nav-search')) {
-		screen.innerHTML = searchScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Search</h1>`;
-	}
-
-	if(theEvent.target.matches('#nav-add')) {
-		screen.innerHTML = bookForm;
-		header.innerHTML = `<h1 class="heyyou-voice">Add a book</h1>`;
-	}
-
-	if(theEvent.target.matches('#nav-choose')) {
-		screen.innerHTML = chooseScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">What to read?</h1>`;
-	}
-
-	if(theEvent.target.matches('#nav-you')) {
-		screen.innerHTML = profileScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Your profile</h1>`;
+	if(theEvent.target.matches('button[data-route]')) {
+		let route = event.target.dataset.route;
+		renderScreen(route);
 	}
 });
 
+const userArray = [];
 
 window.addEventListener('submit', function(theEvent) {
+	theEvent.preventDefault();
+
 	console.clear();
 	console.log('event', theEvent.target);
-
-	if(theEvent.target.matches('#signup-form')) {
-		theEvent.preventDefault();
-		console.log(theEvent);
-
-		let signupForm = document.querySelector('#signup-form');
-		let userName = signupForm.querySelector('input[id="signup-name"]').value;
-		let userId = signupForm.querySelector('input[id="signup-id"]').value;
-		let userEmail = signupForm.querySelector('input[id="signup-email"]').value;
-		let userPassword = signupForm.querySelector('input[id="signup-password"]').value;
-		let repeatPassword = signupForm.querySelector('input[id="signup-password-again"]').value;
-
-		let user = {
-			userName,
-			userId,
-			userEmail,
-			userPassword,
-		};
-
-		console.log(user);
-		let count = 0;
-		localStorage.setItem(`user${count++}`, JSON.stringify(user));
-
-		screen.innerHTML = bookForm;
-		header.innerHTML = `<h1 class="heyyou-voice">Welcome!</h1><h2 class="attention-voice">Add your first book</h2>`;
+	
+	if(theEvent.target.matches('form[data-route')) {
+		let route = event.target.dataset.route;
+		renderScreen(route);
 	}
-
-	if(theEvent.target.matches('#book-form')) {
-		theEvent.preventDefault();
-		screen.innerHTML = homeScreen;
-		header.innerHTML = `<h1 class="heyyou-voice">Home collection</h1>`;
-	}
-
-	if(theEvent.target.matches('#search')) {
-		theEvent.preventDefault();
-		screen.innerHTML = searchResults;
-		header.innerHTML = `<h1 class="heyyou-voice">Search results</h1>`;
-	}
-
-	if(theEvent.target.matches('#profile-form')) {
-		theEvent.preventDefault();
-		screen.innerHTML = profileScreen;
-		// this will need to be changed - needs to save new data
-		header.innerHTML = `<h1 class="heyyou-voice">Your profile</h1>`;
-	}
-
 });
+		// console.log(theEvent);
+
+		// let signupForm = document.querySelector('#signup-form');
+		// let userName = signupForm.querySelector('input[id="signup-name"]').value;
+		// let userId = signupForm.querySelector('input[id="signup-id"]').value;
+		// let userEmail = signupForm.querySelector('input[id="signup-email"]').value;
+		// let userPassword = signupForm.querySelector('input[id="signup-password"]').value;
+		// let repeatPassword = signupForm.querySelector('input[id="signup-password-again"]').value;
+
+		// let user = {
+		// 	userName,
+		// 	userId,
+		// 	userEmail,
+		// 	userPassword,
+		// };
+
+		// console.log(user);
+		// let count = 0;
+		// localStorage.setItem(`user${count++}`, JSON.stringify(user));
+		// userArray.push(user);
+		// console.log(userArray);
+
+		// screen.innerHTML = bookForm;
+		// header.innerHTML = `<h1 class="heyyou-voice">Welcome!</h1><h2 class="attention-voice">Add your first book</h2>`;
+	
+
 
 function signUp() {
 	let name = document.getItemById('')
