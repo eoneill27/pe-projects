@@ -11,7 +11,7 @@ import {
 	searchResults, 
 	chooseScreen, 
 	profileScreen
-} from '/screens.js';
+} from '/alpha-6/emily/projects/shelves/scripts/screens.js';
 
 let screen = document.getElementById('screen');
 let header = document.querySelector('header');
