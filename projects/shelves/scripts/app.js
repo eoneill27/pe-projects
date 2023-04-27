@@ -11,7 +11,7 @@ import {
 	searchResults, 
 	chooseScreen, 
 	profileScreen
-} from '/scripts/screens.js';
+} from 'screens.js';
 
 let screen = document.getElementById('screen');
 let header = document.querySelector('header');
