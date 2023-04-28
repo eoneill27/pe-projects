@@ -131,6 +131,23 @@ button {
 	margin-top: 50px;
 }
 
+.book-list {
+	margin-left: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+book-card {
+	display: block;
+	width: 100px;
+	height: 150px;
+	background-color: lightpink;
+	padding: 10px;
+
+
+}
+
 .heyyou-voice {
 	font-family: Futura, sans-serif;
 	font-size: 30px;

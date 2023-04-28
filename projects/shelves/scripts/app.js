@@ -4,8 +4,9 @@ import {
 	splashScreen, 
 	loginScreen, 
 	signupScreen, 
+	firstBook,
 	bookForm, 
-	homeScreen, 
+	homeScreen,
 	bookDetails, 
 	searchScreen, 
 	searchResults, 
@@ -27,31 +28,25 @@ function initialize() {
 
 initialize();
 
-
-
-
-// function showPassword() {
-// 	let check = document.getElementById('show-password');
-// 	let getPassword = document.getElementById('login-password');
-// 	if(check.checked === true) {
-// 		getPassword.type = "text";
-// 	} else {
-// 		getPassword.type = "password";
-// 	}
-// }
-
 function renderScreen(screenName) {
 	screen.innerHTML = screens[screenName];
 	header.innerHTML = `<h1 class="heyyou-voice">${headers[screenName]}</h1>`;
 }
 
+// event listeners 
+
 window.addEventListener('click', function(theEvent) {
 	console.clear();
 	console.log('event', theEvent.target);
 
-	if(theEvent.target.matches('button[data-route]')) {
+	if(theEvent.target.matches('[data-route]')) {
 		let route = event.target.dataset.route;
-		renderScreen(route);
+
+		if (route == "homeScreen") {
+			renderBooks(bookArray);
+		} else {
+			renderScreen(route);
+		}
 	}
 
 	if(theEvent.target.matches('.show-password')) {
@@ -65,13 +60,34 @@ window.addEventListener('click', function(theEvent) {
 	};
 });
 
-// window.addEventListener('submit', function(event) {
-// 	event.preventDefault();
+window.addEventListener('submit', function(theEvent) {
+	theEvent.preventDefault();
+	let route = event.target.dataset.route;
 
-// 	if(event.target.matches('#signup-form')) {
-// 		signUp();
-// 	}
-// });
+	console.log('event', theEvent.target);
+	
+	// if(theEvent.target.matches('form[data-route')) {
+	// 	let route = event.target.dataset.route;
+	// 	renderScreen(route);
+	// }
+
+	if(theEvent.target.matches("#signup-form")) {
+		signUp();
+		renderScreen(route);
+	}
+
+	if(theEvent.target.matches("#login-form")) {
+		logIn();
+		console.log(userArray);
+	}
+
+	if(theEvent.target.matches("#book-form")) {
+		addBook();
+
+	}
+});
+
+// sign up & log in
 
 let userArray = [];
 let bookArray = [];
@@ -162,6 +178,9 @@ function logIn() {
 // 		}
 // 	};
 
+
+// add and render books
+
 function addBook() {
 	let bookForm = document.querySelector('#book-form');
 	let title = bookForm.querySelector('input[id="title"]').value;
@@ -181,36 +200,32 @@ function addBook() {
 	localStorage.setItem(`B-${count++}`, JSON.stringify(book));
 	bookArray.push(book);
 	console.log(bookArray);
+
+	renderBooks(bookArray);
 }
 
+function renderBook(book) {
+	return `
+		<li class='book-item' data-route="bookDetails">
+			<book-card data-route="bookDetails">
+				<h2 class="info-voice" data-route="bookDetails">${book.title}</h2>
+				<h3 class="reading-voice" data-route="bookDetails">${book.author}</h3>
+			</book-card>
+		</li>
+	`;
+}
 
-window.addEventListener('submit', function(theEvent) {
-	theEvent.preventDefault();
-	let route = event.target.dataset.route;
+function renderBooks(bookArray) {
+	var template = "<ul class='book-list'>";
+	bookArray.forEach(function(book) {
+		template += renderBook(book);
+	});
+	template += "</ul>";
 
-	console.log('event', theEvent.target);
-	
-	// if(theEvent.target.matches('form[data-route')) {
-	// 	let route = event.target.dataset.route;
-	// 	renderScreen(route);
-	// }
-
-	if(theEvent.target.matches("#signup-form")) {
-		signUp();
-		renderScreen(route);
-	}
-
-	if(theEvent.target.matches("#login-form")) {
-		logIn();
-		console.log(userArray);
-	}
-
-	if(theEvent.target.matches("#book-form")) {
-		addBook();
-		renderScreen(route);
-	}
-});
-
+	screen.innerHTML = template;
+	header.innerHTML = `<h1 class="heyyou-voice">${headers['homeScreen']}</h1>`
+	console.log('hi');
+}
 
 
 // class UserClass {

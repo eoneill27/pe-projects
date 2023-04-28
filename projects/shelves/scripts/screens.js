@@ -26,7 +26,7 @@ export let loginScreen = `
 	</form>`
 
 export let signupScreen = `
-	<form data-route="bookForm" id="signup-form" action="">
+	<form data-route="firstBook" id="signup-form" action="">
 		<label class="reading-voice" for="signup-name">Name</label>
 		<input id="signup-name" type="text">
 
@@ -48,6 +48,42 @@ export let signupScreen = `
 			Submit
 		</button>
 	</form>`
+
+export let firstBook = `
+	<form data-route="homeScreen" id="book-form" action="">
+		<label class="reading-voice" for="title">Title</label>
+		<input id="title" type="text">
+
+		<label class="reading-voice" for="author">Author</label>
+		<input id="author" type="text">
+
+		<fieldset>
+			<legend class="reading-voice">Read?</legend>
+				<div>
+					<label class="reading-voice" for="yes">Yes</label>
+					<input type="radio" id="yes" name="yes">
+				</div>
+				<div>
+					<label class="reading-voice" for="no">No</label>
+					<input type="radio" id="no" name="no">
+				</div>
+		</fieldset>
+
+		<fieldset>
+			<legend class="reading-voice">Rating</legend>
+			<div>
+				<input type="checkbox" id="star1" name="star1">
+				<input type="checkbox" id="star2" name="star2">
+				<input type="checkbox" id="star3" name="star3">
+				<input type="checkbox" id="star4" name="star4">
+				<input type="checkbox" id="star5" name="star5">
+			</div>		
+		</fieldset>
+
+		<label class="reading-voice" for="notes">Notes:</label>
+		<textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+
+		<button class="reading-voice" id="book-submit" type="submit">Submit</button>`
 
 export let bookForm = `
 	<form data-route="homeScreen" id="book-form" action="">
@@ -85,11 +121,13 @@ export let bookForm = `
 
 		<button class="reading-voice" id="book-submit" type="submit">Submit</button>`
 
-export let homeScreen = `<div class="standard-screen"><p class="reading-voice">Book array goes here</p>
-	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button></div>`
+// export let homeScreen = `<div class="standard-screen"><p class="reading-voice">Book array goes here</p>
+// 	<button data-route="bookDetails" class="reading-voice" id="sample-book">Sample book</button></div>`
+
+export let homeScreen = ``
 
 export let bookDetails = `
-	<div class="flex-box-row">
+	<div class="flex-box-row standard-screen">
 		<div id="fake-cover"></div>
 		<div id="book-details">
 			<h2 class="attention-voice">Title</h2>
@@ -135,6 +173,7 @@ export const screens = {
 	"splashScreen": splashScreen,
 	"loginScreen": loginScreen,
 	"signupScreen": signupScreen,
+	"firstBook": firstBook,
 	"bookForm": bookForm,
 	"homeScreen": homeScreen,
 	"bookDetails": bookDetails,
@@ -148,6 +187,7 @@ export const headers = {
 	"splashScreen": "Shelves",
 	"loginScreen": "Log in",
 	"signupScreen": "Sign up",
+	"firstBook": `Welcome [user name]! Add your first book`,
 	"bookForm": "Add a book",
 	"homeScreen": "Your collection",
 	"bookDetails": "Book details",
