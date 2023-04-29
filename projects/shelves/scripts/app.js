@@ -44,7 +44,10 @@ window.addEventListener('click', function(theEvent) {
 
 		if (route == "homeScreen") {
 			renderBooks(bookArray);
-		} else {
+		} else if (route == "bookDetails") {
+
+		} 
+		else {
 			renderScreen(route);
 		}
 	}
@@ -188,8 +191,10 @@ function addBook() {
 	// let read = bookForm.querySelector('input[id=""]').value;
 	// let rating = bookForm.querySelector('input[id=""]').value;
 	let notes = bookForm.querySelector('textarea[id="notes"]').value;
+	let id = `B-${count++}`;
 
 	let book = {
+		id,
 		title,
 		author,
 		notes
@@ -202,12 +207,14 @@ function addBook() {
 	console.log(bookArray);
 
 	renderBooks(bookArray);
+
+	// renderBookDetails(book);
 }
 
 function renderBook(book) {
 	return `
 		<li class='book-item' data-route="bookDetails">
-			<book-card data-route="bookDetails">
+			<book-card data-bookid='${book.id}' data-route="bookDetails">
 				<h2 class="info-voice" data-route="bookDetails">${book.title}</h2>
 				<h3 class="reading-voice" data-route="bookDetails">${book.author}</h3>
 			</book-card>
@@ -217,14 +224,44 @@ function renderBook(book) {
 
 function renderBooks(bookArray) {
 	var template = "<ul class='book-list'>";
+
 	bookArray.forEach(function(book) {
+
 		template += renderBook(book);
+
+		renderBookDetails(book);
+
 	});
+
 	template += "</ul>";
 
 	screen.innerHTML = template;
 	header.innerHTML = `<h1 class="heyyou-voice">${headers['homeScreen']}</h1>`
 	console.log('hi');
+}
+
+function renderBookDetails(book) {
+	window.addEventListener('click', function(event) {
+
+		if(event.target.matches('[data-route]')) {
+			let bookId = event.target.dataset.bookid;
+
+			if (bookId == book.id) {
+
+				screen.innerHTML = `
+				<div class="flex-box-row standard-screen">
+					<div id="fake-cover"></div>
+						<div id="book-details">
+							<h2 class="attention-voice">${book.title}</h2>
+							<h3 class="info-voice">${book.author}</h3>
+						</div>
+					</div>
+				</div>`
+
+				console.log('hello');
+			}
+		}
+	});
 }
 
 
