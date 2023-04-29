@@ -10,7 +10,7 @@ export let splashScreen = `
 	</div>`
 
 export let loginScreen = `
-	<form data-route="homeScreen" id="login-form" action="">
+	<form data-submit="homeScreen" id="login-form" action="">
 		<label class="reading-voice" for="login-email">Email address</label>
 		<input id="login-email" type="email">
 
@@ -26,7 +26,7 @@ export let loginScreen = `
 	</form>`
 
 export let signupScreen = `
-	<form data-route="firstBook" id="signup-form" action="">
+	<form id="signup-form" action="">
 		<label class="reading-voice" for="signup-name">Name</label>
 		<input id="signup-name" type="text">
 
@@ -50,7 +50,7 @@ export let signupScreen = `
 	</form>`
 
 export let firstBook = `
-	<form data-route="homeScreen" id="book-form" action="">
+	<form data-submit="homeScreen" id="book-form" action="">
 		<label class="reading-voice" for="title">Title</label>
 		<input id="title" type="text">
 
@@ -86,7 +86,7 @@ export let firstBook = `
 		<button class="reading-voice" id="book-submit" type="submit">Submit</button>`
 
 export let bookForm = `
-	<form data-route="homeScreen" id="book-form" action="">
+	<form data-submit="homeScreen" id="book-form" action="">
 		<label class="reading-voice" for="title">Title</label>
 		<input id="title" type="text">
 
@@ -136,7 +136,7 @@ export let bookDetails = `
 	</div>`
 
 export let searchScreen = `
-<form data-route="searchResults" id="search" action="">
+<form data-submit="searchResults" id="search" action="">
 	<input id="search-box" type="text">
 	<button class="reading-voice" id="search-submit" type="submit">Search</button>
 </form>`
