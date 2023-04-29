@@ -1,3 +1,12 @@
+// create log out function 
+// tie book arrays to particular users - make key user name?
+// figure out array overwrite problem
+// mark book as read
+// book chooser - randomly select among unread books
+// search
+// profile updating
+
+
 import {
 	screens,
 	headers,
@@ -7,7 +16,7 @@ import {
 	firstBook,
 	bookForm, 
 	homeScreen,
-	bookDetails, 
+	// bookDetails, 
 	searchScreen, 
 	searchResults, 
 	chooseScreen, 
@@ -30,7 +39,10 @@ initialize();
 
 function renderScreen(screenName) {
 	screen.innerHTML = screens[screenName];
-	header.innerHTML = `<h1 class="heyyou-voice">${headers[screenName]}</h1>`;
+}
+
+function renderHeader(headerName) {
+	header.innerHTML = `<h1 class="heyyou-voice">${headers[headerName]}</h1>`;
 }
 
 // event listeners 
@@ -43,11 +55,35 @@ window.addEventListener('click', function(theEvent) {
 		let route = event.target.dataset.route;
 
 		if (route == "homeScreen") {
-			renderBooks(bookArray);
+			if(localStorage.getItem('loggedIn') === 'true') {
+				let books = JSON.parse(localStorage.getItem('book array'));
+				renderBooks(books);
+			} else {
+				alert('Please log in or sign up');
+			}
+		} else if (route == "loginScreen") {
+			renderScreen('loginScreen');
+			renderHeader('loginScreen');
+		} else if (route == "signupScreen") {
+			renderScreen('signupScreen');
+			renderHeader('signupScreen');
+		} else if (route == "splashScreen") {
+			renderScreen('splashScreen');
+			renderHeader('splashScreen');
 		} else {
+			if(localStorage.getItem('loggedIn') === 'true') {
 			renderScreen(route);
+			} else {
+				alert('Please log in or sign up');
+			} 
 		}
 	}
+
+	if(theEvent.target.matches('#log-out')) {
+		localStorage.setItem('loggedIn', 'false');
+	}
+	// create log out function
+
 
 	if(theEvent.target.matches('.show-password')) {
 		let getPassword = document.querySelector('input[class="password-input"]');
@@ -84,11 +120,14 @@ window.addEventListener('submit', function(theEvent) {
 	if(theEvent.target.matches("#login-form")) {
 		logIn();
 		console.log(userArray);
+	
 	}
 
 	if(theEvent.target.matches("#book-form")) {
-		addBook();
 
+
+			addBook();
+		
 	}
 });
 
@@ -116,6 +155,10 @@ function signUp() {
 
 	console.log(user);
 	localStorage.setItem(`U-${count++}`, JSON.stringify(user));
+	localStorage.setItem('userEmail', userEmail);
+	localStorage.setItem('userPassword', userPassword);
+	localStorage.setItem('loggedIn', true)
+
 	userArray.push(user);
 	console.log(userArray);
 }
@@ -131,26 +174,57 @@ function logIn() {
 	let loginEmail = loginForm.querySelector('input[id="login-email"]').value;
 	let loginPassword = loginForm.querySelector('input[id="login-password"]').value;
 
-	for (let i = 0; i < userArray.length; i++) {
-		if (loginEmail === userArray[i].userEmail) {
-			let match = true;
-			console.log("match");
-			let password = userArray[i].userPassword;
-			console.log(password);
+	// for (let i = 0; i < userArray.length; i++) {
+	// 	if (loginEmail === userArray[i].userEmail) {
+	// 		let match = true;
+	// 		console.log("match");
+	// 		let password = userArray[i].userPassword;
+	// 		console.log(password);
+
+	// 		if(loginPassword === password) {
+	// 			let login = true;
+	// 			renderScreen("homeScreen");
+	// 		} else {
+	// 			alert("The password you have entered is incorrect");
+	// 		}
+
+	// 		localStorage.setItem('email', loginEmail);
+	// 		localStorage.setItem('password', loginPassword);
+	// 	} else {
+	// 		let match = false;
+	// 		console.log("no match");
+	// 		alert("The user name you have entered is incorrect");
+	// 	}
+	// }
+
+	// for (let i = 0; i < localStorage.length; i++) {
+		if (loginEmail === localStorage.getItem(`userEmail`)) {
+			let match = true; 
+			console.log('match');
+
+			let password = localStorage.getItem('userPassword');
 
 			if(loginPassword === password) {
-				let login = true;
-				renderScreen("homeScreen");
+				// renderScreen('homeScreen');
+				localStorage.setItem('loggedIn', true)
+
+				let books = JSON.parse(localStorage.getItem('book array'));
+				renderBooks(books);
 			} else {
-				alert("The password you have entered is incorrect");
+				alert('The password you have entered is incorrect');
 			}
 		} else {
 			let match = false;
-			console.log("no match");
-			alert("The user name you have entered is incorrect");
+			alert('The user name you have entered is incorrect');
 		}
-	}
+
+
+	// }
 }
+
+// on sign up - user name and password stored in local storage
+// need to retrieve that and match to log in input
+
 	// 	if (match === true) {
 	// 		for (let i = 0; i < userArray.length; i++) {
 	// 			if(loginPassword === userArray[i].userPassword) {
@@ -204,21 +278,24 @@ function addBook() {
 
 	console.log(book);
 
-	localStorage.setItem(`B-${count++}`, JSON.stringify(book));
-	bookArray.push(book);
-	console.log(bookArray);
+	if (localStorage.getItem('loggedIn') === 'true') {
+		localStorage.setItem(`B-${count++}`, JSON.stringify(book));
+		bookArray.push(book);
 
-	renderBooks(bookArray);
+		localStorage.setItem('book array', JSON.stringify(bookArray));
 
-	// renderBookDetails(book);
+		let books = JSON.parse(localStorage.getItem('book array'));
+		// localStorage.setItem('book array', JSON.stringify(books));
+		renderBooks(books);
+	}
 }
 
 function renderBook(book) {
 	return `
-		<li class='book-item' data-route="bookDetails">
-			<book-card data-bookid='${book.id}' data-route="bookDetails">
-				<h2 class="info-voice" data-route="bookDetails">${book.title}</h2>
-				<h3 class="reading-voice" data-route="bookDetails">${book.author}</h3>
+		<li class='book-item'>
+			<book-card data-bookid='${book.id}'> 
+				<h2 class="info-voice">${book.title}</h2>
+				<h3 class="reading-voice">${book.author}</h3>
 			</book-card>
 		</li>
 	`;
@@ -245,7 +322,9 @@ function renderBooks(bookArray) {
 function renderBookDetails(book) {
 	window.addEventListener('click', function(event) {
 
-		if(event.target.matches('[data-route]')) {
+		if(event.target.matches('[data-bookid]')) {
+			header.innerHTML = `<h1 class="heyyou-voice">${headers['bookDetails']}</h1>`;
+
 			let bookId = event.target.dataset.bookid;
 
 			if (bookId == book.id) {
