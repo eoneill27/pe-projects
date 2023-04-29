@@ -44,10 +44,7 @@ window.addEventListener('click', function(theEvent) {
 
 		if (route == "homeScreen") {
 			renderBooks(bookArray);
-		} else if (route == "bookDetails") {
-
-		} 
-		else {
+		} else {
 			renderScreen(route);
 		}
 	}
@@ -65,7 +62,7 @@ window.addEventListener('click', function(theEvent) {
 
 window.addEventListener('submit', function(theEvent) {
 	theEvent.preventDefault();
-	let route = event.target.dataset.route;
+	let submit = event.target.dataset.submit;
 
 	console.log('event', theEvent.target);
 	
@@ -76,7 +73,12 @@ window.addEventListener('submit', function(theEvent) {
 
 	if(theEvent.target.matches("#signup-form")) {
 		signUp();
-		renderScreen(route);
+		userArray.forEach(function(user) {
+			let userId = user.userName;
+			screen.innerHTML = firstBook;
+			header.innerHTML = `<h1 class="heyyou-voice">Welcome ${userId}! Add your first book</h1>`;
+		})
+
 	}
 
 	if(theEvent.target.matches("#login-form")) {
@@ -258,7 +260,6 @@ function renderBookDetails(book) {
 					</div>
 				</div>`
 
-				console.log('hello');
 			}
 		}
 	});
