@@ -1,18 +1,327 @@
 # Emily's Daily Journal
 
+## May 5, 2023
+
+### Stand up
+
+Yesterday I didn't do much after swimming and then I forgot to set my alarm clock - so I lost about 45 minutes this morning. But I have been plugging away at E4P and Vue today, currently working on a to-do list and figuring out how to remove and edit items. I'd like to work on a shopping cart next.
+
+No blockers at the moment!
+
+### 236:191 - E4P with Vue Options API
+
+### To dos
+
+- [] continue Vue & E4P
+
+## May 4, 2023
+
+### Stand up
+
+Yesterday I got through some more E4P exercises with Vue, but felt like I was getting into a bit of a rut with that - doing the same thing over and over again. I met with Derek and Alina last night, which was really helpful. Derek went over the basic functionality of the Options API and showed us some things that I have not been making use of yet. The plan for today is to practice with that stuff - I'd like to tackle the shopping cart exercise, because I expect that to pull in a lot of different things.
+
+As usual on Thursdays, I have my swim bootcamp tonight. It starts at 7:15 - my friend Dana and I meet at 6:42 on the dot so we can walk up to the pool and have about 10 minutes in the hot tub before we have to work our butts off. By the time I've had a post-workout dip in the hottub, showered and walked home, it's usually past nine, so I definitely have a shorter PE work window on Thursdays. I will do my best to put in a bit more work later tonight.
+
+No blockers today.
+
+### 235:190 - E4P with Vue options API
+
+### To dos
+
+- [] practice with Vue computed, watch, components
+- [] more E4P
+
+## May 3, 2023
+
+### Stand up
+
+Yesterday and today I've been working on the E4P with Vue - I've made it through 8 so far, and I think tonight I'd like to branch off into spending some more time with the documentation, and maybe get on a call with Derek and some other Alpha-6ers about it all, if people are available.
+
+No blockers. I'm finding the E4P repetition helpful, but I'm also excited to dig a little deeper into the Vue capabilities because I know I am only scratching the surface at this point.
+
+### 234:189 - E4P with Vue options API
+
+#### Meeting with Derek & Alina
+
+CodePen - debug mode - lets you see the source without all of the iFrame business
+
+new Something () 
+- this is a constructor function - generates an object
+- This is how Vue decided to set things up
+- send in an object - lets you put whatever you want in there
+
+common practice for a function is to take one thing and then a callback function or an object - lets you extend it
+function(thing, function())
+function(thing, { })
+
+one small part of your website can be Vue - doesn't have to be the whole thing
+it can just watch a certain part of your page
+
+new Vue ({
+	el: "#myApp",
+
+	data: {
+
+	}
+});
+- contains all of the options - this is why it's called Options API
+
+need to make data like a funtion
+data: funtion() {
+	return {
+		name: "Emily"
+	}
+}
+- it will work without being a function until it get more complicated - and then it won't
+- can sipmlify (this is not Vue-specific, it's a general JS thing):
+data() {
+	return {
+		name: 
+	}
+}
+
+standard names for things - must call them by these names or Vue won't know how to behave
+methods: { }
+computed: { }
+watch: { }
+- they can reference each other with the keyword 'this'
+
+computed: {
+	message() {
+		return `Hi, ${this.name}.`;
+	}
+}
+- message becomes a property - behaves like a function that runs any time its dependent changes (in this case, this.name is the dependent)
+
+renderMessage: function() { }
+is the same as 
+renderMessage() {}
+
+anything that needs to change without a explicit user action like a click - use Computed
+- automatically updates
+- don't have to check if any events have happened
+
+v-if = "name.length"
+- if the name has a length, do this
+
+v-show = "name.length"
+- will hide or show - adds or removes completely from the DOM - display: none
+
+Can make as many computed properties as you want
+
+hasInput() {
+	return this.name.length;
+}
+v-if="hasInput"
+
+v-if='name.length > 3'
+v-if='name.length > 3 && name == 'Emily'
+
+** computed property will always return a value
+It won't just rattle off a bunch of functionality
+its job is to produce a value
+** need to remember to include 'return' keyword in computed property 
+
+v-on: submit.prevent
+- a little helper
+- same as saying event.preventDefault();
+
+@submit.prevent
+is the same as
+v-on:submit.prevent
+
+maybe better to put event on `<form>` for sake of screen reader
+- people have kind of stopped using buttons properly
+
+v-if='messageReceived'
+data: {
+	messageReceived = false
+}
+renderMessage() {
+	this.messageReceived = true;
+}
+
+watch: { }
+- also kind of like a function that happens when something changes
+- doesn't return a property
+- just runs the code
+
+watch: {
+	name() {
+		this.messageReceived = false;
+	}
+}
+- this watches name - every time name changes, it runs this
+
+can create a template in Computed
+messageTemplate() {
+	return ` `;
+}
+
+methods: {
+	renderMessage() {
+		this.message = this.messageTemplate;
+	}
+}
+
+if you have 10 methods and 10 computeds, things start to get a little messy
+Composition API makes it so you can compose the things in more meaningful groups (Vue 3)
+
+##### adding items/making components
+
+data: {
+	items: [],
+}
+
+``<ul>
+	<li v-for='item in items'>
+		{{item}}
+	</li>
+</ul>``
+
+If you don't want button to submit form - use button type="button"
+
+make component
+``<item-card>``
+In Vue2, template has to be in a div - it needs a parent wrapper
+
+``<div class='parent'>``
+.parent {
+	display: contents;
+}
+- display: contents basically makes the div invisible - so adding the div for the sake of Vue won't mess up your grid layout, for instance
+
+beware of reserved keywords - new, const, delete
+
+colon means HTML is expecting a dynamic piece of data
+v-bind:class="" is the same as :class=""
+
+components allow you to keep all of the logic associated with the component in one place
+
+in Vue 3, you build components in their own files and they behave a little differently
+### To dos
+
+- [x] more E4P in Vue
+
+## May 2, 2023
+
+### Stand up
+
+Yesterday I read through some Vue documentation, watched Derek's video, and started some Vue Codepens.
+
+This morning I knocked a couple of things off of the Gold Collective to-do list and I just had a lovely meeting with Jonya, who had some very helpful suggestions for the site.
+
+This evening my goal is to get through 3 E4P exercises in Vue. 
+
+No blockers today!
+
+### 233:188 - E4p with Vue options API
+
+### To dos 
+
+- [x] meet with Jonya
+- [x] 3 e4p in Vue
+
+## May 1, 2023
+
+### Stand up
+
+### 232:187 - E4P with Vue options API
+
+### To dos
+
+## April 29, 2023
+
+### Stand up
+
+Yesterday I went through some JS Codepens from Derek, figured out how to add and render my book objects in the collection, and had a very productive meeting with Ivy about the Gold Collective website. 
+
+This morning I figured out how to connect the individual book objects in the collection with their details pages - very satisfying for first thing in the morning! I still need to work on log-in functionality so that there is some indication that you are logged in and so that nothing is accessible if you are not logged in. The random book chooser is also something to work on - I haven't even begun to tackle that problem. First I need to make it possible to indicate whether a book has been read or not.
+
+No blockers today.
+
+### 230:186 - Vanilla JS prototypes
+
+### To dos 
+
+- [x] log in functionality
+
+## April 28, 2023
+
+### Stand up
+
+Yesterday I worked on my sign up and log in forms and added the password visibility toggle functionality.
+
+Today I've been working on rendering books - I've got the basic connection down, so that when you add a book using the form, it populates the main collection screen with a dummy book cover. Clicking on the book cover takes you to the book details, in theory, but I haven't connected individual books to their individual details pages yet.
+
+I'm meeting with Ivy at noon to talk about the Gold Collective. This evening I'm driving down to my parents' house in Washington. I haven't seen them since Christmas, which I have been feeling guilty about. I'll be there for a couple of nights, stopping in Blaine on the way home on Sunday for my Nexus card renewal interview. That is weirdly stressful, even though I haven't committed any crimes in the past five years, so it should go smoothly!
+
+No blockers today.
+
+### 229:185 - Vanilla JS prototypes
+
+### To dos
+
+- [] log in functionality
+- [x] render books in collection
+
+## April 27, 2023
+
+### Stand up
+
+Yesterday I was working on getting the forms in my app working with respect to saving data to local storage and pushing objects to arrays. I appreciated Alina's video last night because her router was so much tidier than my code - I've adopted her method now. I put a little effort into styling things, mostly for legibility, but I admit I don't have a strong sense of where I want to go with the styling at the moment. 
+
+Today I will continue to refine the code and work on these forms. I also want to tackle Derek's password visibility toggle challenge!
+
+No blockers today.
+
+### 228:184 - Vanilla JS prototypes
+
+### To dos
+
+- [x] password visibility toggle
+- [] give some indication that you're logged in
+- [] specific profile access if you're logged in
+- [] if you're not logged in - should only be able to access splash, login and signup - if you're not signed up, trying to log in should tell you that you don't have an account
+
+## April 26, 2023
+
+### Stand up
+
+Yesterday I got a handle on event.target and event.target.matches and got my app screens connected to each other.
+
+This morning I modularized my screen variables to clean up my code a bit, and also got the sign up form working in the sense that it saves a user to local storage. I have to do some more thinking about how to make this data accessible to and usable with the log in form.
+
+No blockers today.
+
+### 227:183 - Vanilla JS prototypes
+
+### To dos 
+
+- [x] figure out local storage
+- [x] make at least one working form
+- [] modularize JS
+
 ## April 25, 2023
 
 ### Stand up
+
+A late standup for me today!
+
+Yesterday I had a talk with Derek about the Gold Collective website, accessibility issues, and also the current app project. I spent a while last night and this morning trying to puzzle out how to make screen switching in the app happen on only one page - but I hit a major wall. Derek's notes in the 225 channel today helped me break through that and I'm excited to make some progress on it tonight.
+
+No more blockers at the moment!
 
 ### 226:182 - Vanilla JS prototypes
 
 ### To dos
 
-
+- [x] figure out app screen replacement
 
 ## April 24, 2023
 
 ### Stand up
+
 
 ### 225:181 - EcmaScript Modules
 
