@@ -1,5 +1,34 @@
 # Emily's Daily Journal
 
+## May 8, 2023
+
+### Stand up
+
+Saturday read through some more Vue documentation and worked on a shopping cart app. Sunday took a break.
+
+This morning I've been going over the Node.js lesson and went through the Javascripting NodeSchool exercises. I've just started on learnyounode. I need to look through Derek's notes on my E4P with Vue and continue to work on those. I also need to attend to some things with the Gold Collective website.  
+
+I think my goals for the week are to get 5 more exercises for programmers done and get my UI tuned up - to keep up with the Node lessons - and to get through Ivy's to-do list for the Gold Collective website. There's a lot to do!
+
+No blockers at the moment.
+
+
+### 239:193 - Node.js day 1
+
+### To dos
+
+- [] Node.js lesson
+- [] Gold Collective work
+
+## May 6, 2023
+
+### Stand up
+
+### 237:192 - E4P with Vue Options API
+
+### To dos
+
+
 ## May 5, 2023
 
 ### Stand up
