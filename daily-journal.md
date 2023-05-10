@@ -1,5 +1,32 @@
 # Emily's Daily Journal
 
+## May 10, 2023
+
+### Stand up
+
+### 241:195 - Node.js day 3
+
+### To dos 
+
+- [] Node lesson
+- [] meet with Jonya
+- [] list of 50-100 app ideas
+
+## May 9, 2023
+
+### Stand up
+
+Yesterday I finished the Javascripting NodeSchool module and made it through 4.5 of the Learnyounode exercises. Today I've been continuing with Learnyounode and have 5 to go - I'm hoping to finish them up before I watch today's video. It's definitely been a challenge - the instructions are just abstract enough to make things difficult. I'm always interested to see how much simpler the official solution is than what I come up with! 
+
+No blockers today - just enjoying the challenge.
+
+### 240:194 - Node.js day 2
+
+### To dos 
+
+- [x] finish Learnyounode
+- [] list of 50-100 app ideas
+
 ## May 8, 2023
 
 ### Stand up
@@ -17,7 +44,7 @@ No blockers at the moment.
 
 ### To dos
 
-- [] Node.js lesson
+- [x] Node.js lesson
 - [] Gold Collective work
 
 ## May 6, 2023
