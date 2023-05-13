@@ -1,8 +1,48 @@
 # Emily's Daily Journal
 
+## May 12, 2023
+
+### Stand up
+
+Yesterday and today, more Node. I will post some stuff tonight - I've got a __dirname and __filename function, and I'm hoping to get the CSS minified challenge done today. Some to-dos from earlier in the week are still on my list - brainstorming app ideas, watching some of the suggested Node videos, finshing the last exercise in count-to-6 and maybe moving on to some more NodeSchool. 
+
+### 243:197 - Node.js day 5
+
+### To dos
+
+- [] css concatenation challenge
+- [] find 5 useful node packages
+- [x] 50 app ideas
+- [] watch node loop video
+- [] try Learnyounode exercises in local file system
+- [x] finish count-to-6
+- [] more NodeSchool
+
+## May 11, 2023
+
+### Stand up
+
+Yesterday I finished watching Derek's learnyounode video and got through the count-to-6 exercises in NodeSchool. 
+
+Today I'm working on today's lesson - I've watched the video, and I'm also kind of combining yesterday with today, going through some of the resources from yesterday's lesson but also hoping to move on to today's exercises. 
+
+No blockers.
+
+### 242:196 - Node.js day 4
+
+### To dos
+
+- []
+
 ## May 10, 2023
 
 ### Stand up
+
+Yesterday I finished Learnyounode! It really took a while. 
+
+Today I read through the testing examples from yesterday and started Derek's video. I met with Jonya at lunch and walked through the Gold Collective site with her. Tonight I want to continue reviewing Learnyounode, move on to some more NodeSchool modules, and start brainstorming app ideas.
+
+No blockers today.
 
 ### 241:195 - Node.js day 3
 
