@@ -1,5 +1,52 @@
 # Emily's Daily Journal
 
+## May 15, 2023
+
+### Stand up 
+
+On Saturday I worked on Node, got a server running and figured out the router. 
+
+Yesterday I meant to put in a day of work, but I ended up going to the beach instead, had a nice little dip, then had a softball game late afternoon, which was very, very hot, and then a nice dinner with Ann and her family. I put her 5-year-old to bed, which involves laying down with her until she falls asleep, and I had to sing a few songs to get her to close her eyes and calm down, which made me feel very calm and peaceful, and it was all in all a really relaxing, lovely day.
+
+Today I'm getting into Express, which I'm excited about. I've got a framework for my Monster Adoption Agency and I just transferred the files from the original site over to my Express app. The styles are there and I've got partials for the header and the footer, but now I need to work on getting the data going.
+
+No blockers today.
+
+### 246:199 - Intro to Express
+
+### To dos
+
+- [] node day 6 REST stuff
+- [] find 5 useful node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+- [x] Express.js lesson
+- [x] try to recreate the monster adoption website with Express
+
+
+## May 13, 2023
+
+### Stand up
+
+Yesterday, I did not post anything - but I promise I will today! I watched the event loop video last night, which was great - really clear and helpful. I also got around to brainstorming 50 app ideas and finished count-to-6.
+
+This morning I've been reading up on helpful file system module methods in preparation for tackling the CSS concatenation challenge. I should be around for most of the day, working away at all of the Node stuff!
+
+No blockers.
+
+### 244:198 - Node.js day 6
+
+### To dos
+
+- [x] css concatenation challenge
+- [] find 5 useful node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+- [x] watch today's video
+- [x] get a working server up
+- [x] create a router
+- [] spend some time looking at your network responses and share screenshots
+
 ## May 12, 2023
 
 ### Stand up
@@ -13,7 +60,7 @@ Yesterday and today, more Node. I will post some stuff tonight - I've got a __di
 - [] css concatenation challenge
 - [] find 5 useful node packages
 - [x] 50 app ideas
-- [] watch node loop video
+- [x] watch event loop video
 - [] try Learnyounode exercises in local file system
 - [x] finish count-to-6
 - [] more NodeSchool
