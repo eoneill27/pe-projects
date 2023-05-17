@@ -1,5 +1,112 @@
 # Emily's Daily Journal
 
+## May 17, 2023
+
+### Stand up
+
+### 248:201 - Routing and detail pages
+
+### To dos 
+
+- [] get the dynamic detail routes working
+- [] practice your conditional logic 
+- [] node day 6 REST stuff
+- [] find 5 useful node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+
+## May 16, 2023
+
+### Stand up
+
+Yesterday I made my way through the Express.js lesson and converted my monster adoption site to Node/Express.
+
+Today it took me about an hour and 5 minutes to work through the video and rebuild the monster site from scratch. I went easy on the CSS, so it doesn't look like much, but the Express repetition is helpful. This evening I'll continue practicing and working on getting the dynamic detail routes working. 
+
+No blockers today.
+
+### 247:200 - Server setup and routing work-through
+
+You can have more than one app.use(express.static()) declaration
+So you could have one for CSS directory in route
+
+#### pulling in JSON data - 
+on index.js
+import monster from './monsters.json' assert {type: 'json'};
+(this is how you do it with ecmascript modules)
+
+app.get('/monsters', function(request, response) {
+	response.render('monsters', {monsters: monsterData})
+})
+this should make monsters an array that's available within the monsters view
+
+#### Express routing
+
+routing = how an applications endpoints (URIs) respond to client requests
+- how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, etc)
+- each route can have one or more handler functions, which are executed when the route is matched
+- route definition takes the following structure:
+app.METHOD(PATH, HANDLER)
+where app is an instance of Express, METHOD is an HTTP request method (in lowercase), PATH is a path on the server, HANDLER is the function excuted when the route is matched
+
+app.get('/', function(request, response) {
+	response.send("Hello world!");
+})
+respond with Hello World! on the home page
+
+app.post('/', function(request, response) {
+	response.send("Got a POST request");
+})
+respond to POST request on the root route (/)
+
+also put, delete
+
+you can use app.all() to handle all HTTP methods and app.use() to specify middleware as the callback function
+
+These routing methods specify a callback function (sometimes called 'handler functions') called when the application receives a request to the specified route (endpoint) and HTTP method. In other words, the application 'listens' for requests that match the specified route(s) and method(s), and when it detects a match, it calls the specified callback function.
+
+The routing methods can have more than one callback function as arguments. If you do this, it is important t provide next as an argument to the callback functino and then call next() within the body of the function to hand off control to the next callback.
+
+app.get('/example/b', function(req, res, next) {
+	console.log('the response will be set by the next function...');
+
+	next();
+}, function(req, res) {
+	response.send('hello from B!');
+}) 
+
+Route paths can be strings, string patterns, or regular expressions.
+
+Express Route Tester is a handy tool for testing basic Express routes, although it does not support pattern matching.
+
+an array of callback functions can handle a route
+a combination of independent functions and arrays of functions can handle a route
+you can create chainable route handlers for a route path by using app.route()
+
+##### Route parameters
+are named URL segments that are used to capture the values specified at their position in the URL. The captured values are populated in the req.params object, with the name of the route parameter specified in the path as their respective keys.
+
+Route path: /users/:userID/books/:bookID
+Request URL: http://localhost:3000/users/34/books/8989
+req.params: {"userID": "34", "bookID": "8989"}
+
+To define routes with route parameters, specify the route parameters in the path of the route - 
+app.get('/users/:userID/books/:bookID', function(request, response) {
+	response.send(request.parameters)
+})
+
+
+### To dos
+
+- [x] work through the video
+- [] get the dynamic detail routes working
+- [x] get some styles in place
+- [] practice your conditional logic
+- [] node day 6 REST stuff
+- [] find 5 useful node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+
 ## May 15, 2023
 
 ### Stand up 
@@ -13,6 +120,103 @@ Today I'm getting into Express, which I'm excited about. I've got a framework fo
 No blockers today.
 
 ### 246:199 - Intro to Express
+
+#### Express.js
+
+fast, unopinionated, minimalist web framework for Node.js
+- another layer on top of Node to help make writing server code more clear and fun
+
+Since it's so unopinionated, you can use a little of it or a lot of it
+But you're probably not going to mix the core http stuff with the Express stuff
+
+Express is in addition to Node - still need to intialize a Node project with npm init
+
+Quite a few frameworks for Node, including Hapi and Koa
+Express has been around the longest and is the most well-known
+
+Need to install Express
+npm install express
+
+You can explicitly designate something as a dev dependency rather than a regular dependency - this means it will only be used while you're developing the site - it won't be bundled into the final output for the app
+npm install --save-dev [package name]
+Then in package.json, it will show up under devDependencies
+
+If anything starts going wrong, you can always delete your node_modules folder
+then enter npm install
+That will reinstall anything in your dependencies list
+
+Import express from 'express';
+Express is a Node module
+
+const app = express();  [initialize app]
+
+app.get('/', function(request, response) {
+	response.send("SENDING");
+})
+combines response.write() and response.end() from Node
+
+you can send JSON
+app.get('/api', function(request, response) {
+	response.send({"name": "Emily"});
+})
+
+to serve static files such as images, CSS files, and JS files, use the express.static built-in middleware function
+express.static(root, [options])
+
+root argument specifies the root - the directory from which to serve the static assets
+
+app.use(express.static('public'))
+- use this to serve files in a directory named 'public'
+gives you access to files in that directory
+
+404 response 
+app.use(function(request, response) {
+	response.status(404).send("Page not found");
+})
+- order matters - don't put 404 response at the top
+- think of it like an if/else statement
+- put it after page routing
+
+sendFile 
+app.get('/about', function(request, response) {
+	response.sendFile('example.html', {root: __dirname})
+})
+
+if example.html file is in the public folder - go to /example.html to see it
+because it's in the public directory, it just gets released
+
+#### EJS templating engine
+
+With Node, we can choose between many different templating engines
+EJS - most commonly used
+can be used anywhere - not specific to Express
+npm install ejs
+app.set('view engine', 'ejs');
+
+by default, if you make a views folder, that's what it will use
+app.get('/', function(request, response) {
+	response.render('home');
+});
+- renders 'home' EJS file from views directory 
+
+once you set up the view method, you're getting the render engine - so you can render things to the response
+The render method is smart and it's going to look for the file name in the views folder
+
+You can send some data into the rendered file
+app.get('/', function(request, response) {
+	response.render('home', {pageName: "The home page"});
+});
+in HTML template - 
+`<h1>EJS <%= pageName %></h1>`
+
+In Sublime, install EJS package for specific syntax highlighting
+
+EJS templates are treated like HTML pages but have .ejs extensions
+
+*see written notes for delimiters
+
+*see written notes for Express response methods
+
 
 ### To dos
 
@@ -35,6 +239,14 @@ This morning I've been reading up on helpful file system module methods in prepa
 No blockers.
 
 ### 244:198 - Node.js day 6
+
+#### What's so great about Node.js?
+- you can run JS outside of the browser
+- you can break up your code into modules (and compose those modules)
+- you can leverage over a million public NPM packages to use in your work
+- you can interact with the local computer's file system
+- you can create build tools that might have previously been written in Ruby or another (not JS) language
+- you can create a server that can accept requests and responses
 
 ### To dos
 
