@@ -1,15 +1,87 @@
 # Emily's Daily Journal
 
+## May 18, 2023
+
+### Stand up
+
+### 249:202 - 
+
+### To dos 
+
+- [] get SASS set up
+- [] make the site look "pro"
+- [] node day 6 REST stuff
+- [] find 5 useful node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+
 ## May 17, 2023
 
 ### Stand up
 
+Yesterday I worked on routing to the monster detail pages and conditional logic. 
+
+So far today I've watched the video, got my code working along in line with the video, added conditional logic to my monster site, and added CSS files and images. The plan for the rest of the day is to work on the CSS and get things looking "pro," and also to get SASS set up.
+
+No blockers today - only perpetually feeling like I don't have nearly as much time as I would like to have to work on this stuff! As much as I truly appreciate being employed... sometimes it's a drag.
+
 ### 248:201 - Routing and detail pages
+
+To make CSS connect to all sub pages - need to have forward slash
+href='/style.css'
+instead of 
+href='style.css'
+
+concatenating CSS files
+want to only make one HTTP request for CSS
+you can build your own build tool
+but we can also use SASS
+
+if you break monster card out into a partial, you need to pass the monster data into it
+<%- include('monster-card.ejs', {monster}) %>
+{monster} is shorthand for {monster: monster}
+
+<% var styles = '';
+	if(monster.adopted) {
+		styles = 'adopted';
+	}
+%>
+`<monster-card class="<%= styles %>>`
+
+better to make a function out of this so the variable isn't just floating around in the global scope 
+
+function adoptedStyle() {
+	if (monster.adopted) {
+		return "adopted";
+	}
+}
+`<monster-card class="<%= adoptedStyle() %>`
+
+array.find - returrns first element in the provided array that satisfies the provided testing functions
+
+const inventory = [
+{name: 'apples', quantity: 2},
+{name: 'cherries', quantity, 5}
+]
+function isCherries(fruit) {
+	return fruit.name === 'cherries';
+}
+console.log(inventory.find(isCherries));
+// {name: 'cherries', quantity: 5}
+
+npm-run-all
+tool to run multiple npm scripts in parallel or sequential
+3 commands:
+- npm-run-all
+- run-s (shorthand for sequential)
+- run-p (shorthand for parallel)
 
 ### To dos 
 
-- [] get the dynamic detail routes working
-- [] practice your conditional logic 
+- [x] get the dynamic detail routes working
+- [x] practice your conditional logic 
+- [] get SASS set up
+- [] make the site look "pro"
 - [] node day 6 REST stuff
 - [] find 5 useful node packages
 - [] try learnyounode exercises in local file system
