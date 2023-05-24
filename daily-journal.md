@@ -1,15 +1,80 @@
 # Emily's Daily Journal
 
+## May 23, 2023
+
+### Stand up
+
+Yesterday I started on E4P with Vue 3. Yesterday and today I had to give myself a little refresher on Vue - so yesterday I reviewed some of my notes and the documentation, continued doing that this morning and then had things reinforced with Derek's video in today's lesson.
+
+I'm going to try to tackle some E4Ps that I've never done before - just did the Anagram Checker, which was fun. I've always tackled them in order, which means I've never gotten very deep into the book. I'll have 12 done by the end of the day.
+
+No blockers today.
+
+### 254:206 - E4P with Vue 3
+
+### To dos
+
+- [] go back to Derek's notes on Vue shopping cart
+- [x] e4p
+
+
+## May 22, 2023
+
+### Stand up
+
+### 253:205 - Single file components with Vue
+
+### To dos
+
+- [] finish Saturday's lesson
+- [] get both Prismic and Contentful working
+- [] make the site look "pro"
+- [] node day 6 REST stuff
+- [] find 5 useful Node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+- [] today's lesson
+
+
+## May 20, 2023
+
+### Stand up
+
+### 251:204 - Cloud CMS walk-through
+
+### To dos
+
+
+
+## May 19, 2023
+
+### Stand up
+
+### 250:203 - Getting your Node app live
+
+### To dos
+
+- [x] set up a cloud CMS
+- [x] hook up the cloud CMS to your express app
+- [] make the site look "pro"
+- [x] figure out how to get project live on website
+- [] node day 6 REST stuff
+- [] find 5 useful node packages
+- [] try learnyounode exercises in local file system
+- [] more node school
+
 ## May 18, 2023
 
 ### Stand up
 
-### 249:202 - 
+### 249:202 - Adding Sass
 
 ### To dos 
 
-- [] get SASS set up
+- [x] get SASS set up
 - [] make the site look "pro"
+- [x] read "jobs of JS build tools" article
+- [] figure out how to get project live on website
 - [] node day 6 REST stuff
 - [] find 5 useful node packages
 - [] try learnyounode exercises in local file system
@@ -85,7 +150,7 @@ tool to run multiple npm scripts in parallel or sequential
 - [] node day 6 REST stuff
 - [] find 5 useful node packages
 - [] try learnyounode exercises in local file system
-- [] more node school
+- [x] more node school
 
 ## May 16, 2023
 
