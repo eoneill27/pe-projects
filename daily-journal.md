@@ -1,5 +1,46 @@
 # Emily's Daily Journal
 
+## May 25, 2023
+
+### Stand up
+
+Yesterday I got a Vite project set up and online, and played around with that for a while.
+
+Today I am working on getting my Vue project set up with Vite - I think I have things configured, and now need to spend some time going through the files to make sure I understand them. 
+
+No blockers today.
+
+### 256:208 - Vite and friends overview: Part 1
+
+### To dos 
+
+- [x] go back to Derek's notes on Vue shopping cart
+- [x] get your site set up
+- [x] get it live
+- [x] try to understand how the example boilerplate code works
+
+## May 24, 2023
+
+### Stand up
+
+Yesterday I worked on E4P and didn't finish quite as many as I hoped to, but I was happy to work through some exercises that I hadn't done before.
+
+This morning I've gone through the Vite lesson and have my site up - https://shy-basset.surge.sh/
+
+This is pretty exciting stuff! I plan to build some more components today, and maybe work on some more E4P as well.
+
+No blockers.
+
+### 255:207 - Vite intro
+
+### To dos
+
+- [x] get a Vite setup in place
+- [x] give the files a thorough look through
+- [x] build a form (a component) and use it in the app
+- [x] get your site up on the internet so it's live
+- [] go back to Derek's notes on Vue shopping cart
+
 ## May 23, 2023
 
 ### Stand up
