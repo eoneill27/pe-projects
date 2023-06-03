@@ -1,5 +1,129 @@
 # Emily's Daily Journal
 
+## June 2, 2023
+
+### Stand up
+
+Yesterday I worked on planning out my food delivery app and started on a Figma prototype, but then I started to rethink the scope of the project after hearing from Derek. I went to swim class after work and decided to call it a night after that.
+
+Today I'm mocking up a new idea - Burger Joint! This random name that I chose finally comes in handy. I'm kind of modeling it on Smashburger - it's a chain, so you can select your location, but the menu is relatively limited. The basics are adding items to your cart and ordering - but I would like to work out a rewards program so you can collect rewards and then apply those to your order to reduce the price. Tonight I'm going to continue mocking things up an hope to have a prototype done tomorrow. Maybe I will start coding on Sunday.
+
+No blockers today.
+
+### 264:215 - Vue 3 app day
+
+### To dos
+
+- [] work on food app - rethink scope
+- [] put an hour into GV
+- [] transcribe notes
+
+## June 1, 2023
+
+### Stand up
+
+### 263:214 - Vue 3 app day
+
+### To dos 
+
+- [x] work on food app
+- [] put an hour into GV
+- [] transcribe notes
+
+## May 31, 2023
+
+### Stand up
+
+I can't believe tomorrow is June!
+
+Yesterday I read up on lifecycle hooks and watched the custom SVG sprites video. I also took a look at some food ordering/delivery sites, took some screen shots, and started writing out a list of the things my app will need. I got started on a style tile last night and continued to work on that this morning.
+
+My goal for the next little bit is to spend an hour a day on the Gold Collective site - I just used my lunch break to that end. Hoping to get into a consistent groove with it so I can get it done!
+
+This evening I'll continue to work on the food delivery app. It's a big project and I want to make sure I really have the structure hammered out before I start coding.
+
+No blockers today.
+
+### 262:213 - Vue 3 app day
+
+### To dos
+
+- [] work on food app
+- [x] put an hour into GC
+- [] transcribe notes
+
+## May 30, 2023
+
+### Stand up
+
+Almost forgot about stand up today!
+
+Yesterday I worked on detail pages in Vue and got my monsters saving to local storage.
+
+Today I went through the lesson and need to spend some time doing more exploration of food ordering/delivery sites. At first glance, I like both DoorDash and Uber Eats better than GrubHub.
+
+I want to get into Affinity and start saving some research and then start working on some mood boards and style tiles. 
+
+No blockers today.
+
+### 261:212 - Food order and delivery application exploration
+
+### To dos
+
+- [x] fill out detail pages
+- [x] save monsters in local storage
+- [] get an icon sprite in place
+- [x] food delivery app exploration
+- [] transcribe notes
+
+## May 29, 2023
+
+### Stand up
+
+### 260:211 - Vue detail routes
+
+### To dos
+
+- [x] make sure your CSS structure is solid
+- [x] get a mobile menu in place
+- [x] get unique ids and slugs in place for the monsters
+- [] save the monsters in local storage
+- [] get an icon sprite in place
+- []
+
+## May 27, 2023	
+
+### Stand up
+
+### 258:210 - Vite and friends overview: Part 3
+
+### To dos
+
+- [x] get something working with Pinia
+- [x] get your CSS set up
+- [x] work on subroutes
+
+## May 26, 2023
+
+### Stand up
+
+TGIF!
+
+Yesterday I set up a new project in Vue with Vite, went through the file structure and played around a little bit. I'm enjoying all of this so far - looking forward to the next few weeks!
+
+Today I've watched the videos and was gratified to see that the errors I was running across yesterday were exactly the same errors that Derek was dealing with in today's video. I changed the configuration file a little and got to the point where ESLint is not interfering with my build - but it is still not working as a linter, as far as I can tell. Not sure if I'm bothered by this or not, since the errors that are showing up in the console and in the browser are pretty helpful by themselves.
+
+I've started to get into the Pinia documentation, but will need to continue with that this evening.
+
+No blockers today.
+
+### 257:209 - Vite and friends overview: Part 2
+
+### To dos
+
+- [x] watch the videos
+- [x] investigate Pinia data store
+
 ## May 25, 2023
 
 ### Stand up
@@ -518,6 +642,307 @@ No blockers at the moment.
 
 
 ### 239:193 - Node.js day 1
+
+#### Node.js
+
+A cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS & more
+- back-end JS runtime environment
+- executes JS code outside a web browser
+- lets developers use JS to write command line tools and server-side scripting
+- often used to generate dynamic web page content before the page is sent to the user's web browser
+- represents a 'Javascript everywhere' paradigm, unifying web-application development around a single programming language as opposed to using different languages for the server versus client-side programming
+- primarily used to build network programs such as web servers
+- most significant difference between Node.js and PHP is that most functions in PHP block until completion - commands execute only after previous commands finish; while Node.js functions are non-blocking - commands execute concurrently or even in parallel and use callbacks to signal completion or failure
+- thousands of open-source libraries for Node.js
+- also many frameworks 
+- Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient
+- it can 
+	- generate dynamic page content
+	- create, open, read, write, delete, and close files on the server
+	- collect form data
+	- add, delete, modify data in your database
+- Node.js files contain tasks that will be executed on certain events
+	- typical event is someone trying to access a port on the server
+- Node.js files must be initiated on the server before having any effect
+
+#### NPM (Node Package Manager)
+- a package manager for Javascript
+- default package manager for Node.js
+- conists of a command line client (also called npm) and an online database of public and paid-for private packages, called the npm registry
+- available packages can be browsed and searched on the npm website
+- the command line client interacts with the remote registry. It allows users to consume and distribute JS modules that are available in the registry.
+
+#### NVM (Node Version Manager)
+- a tool used to download, install, manage and upgrade Node.js versions. Allows the user to maintain multiple versions of Node.js on their system and change the active version depending on their needs. 
+- different projects might use different versions of Node - using only one version might not give yoyu accurate execution results.
+- NVM helps you manage Node versions for each project
+- allows you to switch between versions depending on the project you're working on via the command line.
+*install NVM first
+- use NVM to install the latest LTS release of Node.js
+
+#### NPX (Node Package Execute)
+- NPM package runner
+- allows you to run and use packages without needing to locally or globally install them
+- Node packages can be sitting locally (local to the project) or installed globally (in the user environment)
+- sometimes instead of using either the local or global install method, you might want to just use the package and go
+- sometimes you might want to experiment with a list of packages as you may not know exactly what you need
+- in these cases, instead of installing locally or globally, you can go straight to running those packages with NPX
+
+#### Brew - package manager
+- lets you manage the things you can't see - like PHP (which doesn't have an icon)
+
+#### video
+
+initialize node project inside a directory - npm init
+
+package.json
+- gives a bunch of information about project
+- configuration file that will keep some information about your project and also some information about the packages you are using from the registry
+
+npm install uuid - creates unique ids
+will be added as a dependency to package.json
+
+can import and require modules into JavaScript files
+
+Arguments object in JavaScript functions
+- all functions have an 'arguments' object showing what arguments are passed in
+- this can be useful to check for optional parameters
+
+With Nodeschool exercises, you'll see something similar in the process.argv array
+
+#### Nodeschool - Javascripting
+
+Strings have built-in functionality that allows you to inspect and manipulate their contents
+Use replace() method
+let example = 'some string';
+example = example.replace('string', 'thing');
+
+Math object allows us to do more complex math
+Math.round() rounds either up or down to nearest integer
+
+convert number to string with .toString() method
+
+for loop 
+for(let i = 0; i < 10; i++) { }
+First part is run once at the beginning of the loop - variable - is used to track how many times the loop has run
+Second part is checked at the beginning of every loop iteration before running the code inside the loop. If the statement is true, the code is executed. If it is false, the loop is complete.
+The final part is executed at the end of every loop.
+
++=  is the accumulator
+
+Filtering arrays
+.filter() method
+const pets = ['dog', 'cat', 'elephant'];
+const filtered = pets.filter(function(pet) {
+	return (pet != 'elephant');
+});
+
+array elements accesed only through bracket notation - dot notation is invalid
+
+JavaScript provides a native way of listing all the available keys of an object
+Can be halpful for looping through all the prpperties of an object and manipulating their values accordingly
+Object.keys() prototype method
+
+const car = {
+	make: 'Toyota',
+	model: 'Camry',
+	year: 1992
+}
+const keys = Object.keys(car);
+console.log(keys) // will return ['make', 'model', 'year']
+
+scope = the set of variables, objects and functions you have access to
+
+functions defined inside of other functions (nested functions) have access to their parent function's scope
+
+IIFE - Immediately Invoked Function Expression - a common pattern for creating local scope
+
+#### Nodeschool - Learnyounode
+
+You can access command-line arguments via the global process object
+The process object has an argv property which is an array containing the complete command-line process.argv
+- first element of process.argv array is always Node
+- second element is always the path to your file
+all elements of process.argv array are strings
+
+process.argv.length
+
+To perform a filesystem operation, you will need the fs module from the Node core library. To load this kind of module or any other 'global' module, use the following incantation: 
+const fs = require('fs')
+
+Now you have the full fs module available in a module named fs
+
+All synchronous (or blocking) filesystem methods in the fs module end with 'sync'
+
+To read a file, you need to use fs.readFileSync('/path/to/file')
+This method will return a Buffer object containing the complete contents of the file
+
+Buffer objects are Node's way of efficiently representing arbitrary arrays of data
+Can be converted to strings by calling toString() method on them
+e.g. const str = buf.toString()
+
+JS string can be .split() into an array of substrings
+\n can be used as a delimiter
+
+const fs = require('fs');
+const contents = fs.readFileSync(process.argv[2]);
+const lines = contents.toString().split('\n').length - 1;
+console.log(lines);
+
+asynchronous - 
+fs.readFile()
+instead of using return value of this method you need to collect the value from a callback function that you pass in as the second argument
+
+idiomatic Node callbacks normally have the signature - 
+function callback (err, data) { }
+ 
+so you can check if an error occurred by checking whether the first argument is truthy
+If there is no error, you should have your Buffer object as the second argument
+
+As with readFile(), you can supply 'utf8' as the second argument and put the callback as the third argument and you will get a string instead of a Buffer.
+
+Callbacks allow you to express that executing one function depends on another one finishing.
+
+const fs = require('fs');
+const file = process.argv[2];
+fs.readFile(file, function(err, contents) {
+	if(err) {
+		return console.log(err)
+	}
+	const lines = contents.toString(().split('\n').length - 1);
+	console.log(lines);
+})
+
+fs.readdir() method takes a pathname as its first argument and a callback as its second
+
+const path = require('node: path');
+
+node:path module provides utilities for working with file and directory paths.
+Accessed using
+path.extname(path) 
+returns the extension of the path
+
+const fs = require('fs');
+const path = require('path');
+const folder = process.argv[2];
+const ext = '.' + process.argv[3];
+fs.readdir(folder, function(err, files) {
+	if(err) return console.error(err);
+	files.forEach(function(file) {
+		if(path.extname(file) === ext) {
+			console.log(file);
+		}
+		})
+})
+
+Modules
+To define a single function export, you assign your function to the module.exports object, overwriting what is already there
+
+module.exports = function(args) { } 
+
+Or you can use a named function and assign the name
+
+To use module in original program file, use the require() call 
+Local modules must be prefixed with './'
+const mymodule = require('./mymodule.js')
+[js is optional and you will often see it omitted]
+
+It is idiomatic to check for errors and do early-returns within callback functions
+
+function bar (callback) {
+	foo(function(err, data) {
+		if(err) { 
+			return callback (err)
+		} // early return
+		// if no error, contine doing things with 'data'
+		// all went well, call callback with 'null' for the error argument
+		callback(null, data)
+		})
+}
+
+#### HTTP GET request 
+
+http core module
+http.get() method is a shortcut for simple GET requests
+- first argument can be the URL you want to get
+- provide a callback as the second argument
+This one has the signature 
+function callback(response) { } 
+where the response object is a Node Stream object
+
+You can treat Node Streams as objects that emit events
+The 3 events that are of most interst are 'data', 'error', and 'end'
+You can listen to an event like so:
+response.on('data', function(data) {})
+
+The 'data' event is emitted when a chunk of data is avaialble and can be processed
+
+The response object/stream that you get from http.get() also has a setEncoding() method 
+If you call this method with 'utf8', the 'data' events will emit strings rather than the standard Node Buffer objects which you have to explicitly convert to strings.
+
+#### moving on
+
+To install a Node package, use npm
+Type $ npm install ____ (name of package)
+
+It will download and install latest version of the package into a subdirectory called node_modules
+Any package in this subdirectory under your main program file can be loaded with the require syntax wihtout being prefixed by './'
+const bl = require('bl');
+
+Counting callbacks is one of the fundamental ways of managing async in Node
+- Rather than doing it manually, you may find it more convenient to rely on ['async'] or ['run-parallel']
+
+Array.concat() - used to merge two or more arrays
+- does not change the existing array - returns a new array
+
+Net module from Node core has all the basic networking functions
+net.createServer() method - takes a function
+function that you need to pass to net.createServer() is a connection listener that is called more than once
+Every connection received by your server triggers another call to the listener
+Listener function has the signature: 
+function listener(socket) { }
+
+net.createServer() also returns an instance of your server. You must call server.listen(portNumber) to start listening on a particular port.
+
+Typical Node TCP server looks like this:
+const net = require('net');
+const server = net.createServer(function(socket) {
+	// socket handling logic
+})
+server.listen(8000);
+
+The socket object contains a lot of metadata regarding the connection, but it is also a node duplex stream, meaning it can be both read from and written to.
+
+Use socket.write(data) to write data to socket
+and socket.end() to close the socket
+- alternatively, the.end() method also takes a data object so you can simplify to just socket.end(data)
+
+to create an HTTP server - use http module
+
+http.createServer()
+takes a callback that is called once for each connection received by your server
+function callback(request, response) {}
+Where the two arguments are objects representing the HTTP request and the corresponding response for this request
+Request is used to fetch properties, such as the header and query-string, from the request
+Response is for sending data to the client, both headers and body
+
+Both request and response are also Node streams 
+Which means you can use the streaming abstractions to send and receive data if they suit your use case
+
+http.createServer() returns an instance of your server
+You must call server.listen(portnumber) to start listening to a particular port
+
+Typical Node HTTP server -
+const http = require('http');
+const server = http.createServer(function(req, res) {
+	// request handling logic
+})
+server.listen(8000);
+
+The fs core module also has some streaming APIs for files. You will need to use the fs.createReadStream() method to create a stream representing the file you are given as a command-line argument.
+The method returns a stream object which you can use src.pipe(dst) to pipe the data from the src stream to the dst stream. 
+In this way, you can connect a filesystem stream with an HTTP response stream
+
 
 ### To dos
 
