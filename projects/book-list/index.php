@@ -48,16 +48,16 @@ $bookArray = [$title, $author, $genre, $year, $recommend];
 		<div class="form-fields author-voice">
 
 			<label for="">Title</label>
-			<input name="title" type="text" size="40ch"/>
+			<input name="title" type="text" size="20ch"/>
 
 			<label for="">Author</label>
-			<input name="author" type="text" size="30ch" />
+			<input name="author" type="text" size="20ch" />
 
 			<label for="">Genre</label>
-			<input name="genre" type="text" size="30ch" />
+			<input name="genre" type="text" size="20ch" />
 
 			<label for="">Year read</label>
-			<input name="year" type="number" maxlength="4" />
+			<input name="year" type="number" size="10ch" />
 
 			<div class="recommend-check">
 				<legend>Do you recommend this book?</legend>
